@@ -1,0 +1,17 @@
+<Configuration>
+	<botname>HARDBOT</botname>
+	<command_prefix>#</command_prefix>
+	<owner>HARDSIX</owner>
+	<version>Java IRC Test Bot</version>
+	<sql_username>randall</sql_username>
+	<sql_password>iamabot</sql_password>
+	<sql_server_connection>jdbc:mysql://10.0.1.5/randall
+	</sql_server_connection>
+	<server>irc.us.libera.chat</server>
+	<channels>
+		<channel>#hardsix</channel>
+		<channel>#scanbc-data data!!</channel>
+	</channels>
+	<logging>false</logging>
+	<verbose>true</verbose>
+</Configuration>
