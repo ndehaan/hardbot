@@ -15,6 +15,8 @@ import util.FileDownload;
 import com.maxmind.geoip.Location;
 import com.maxmind.geoip.LookupService;
 
+import main.MyBot;
+
 public class LocationAction extends Action {
 
 	@Override
@@ -23,7 +25,7 @@ public class LocationAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 
 		// Source data - http://www.maxmind.com/app/geolitecity
 

@@ -8,6 +8,7 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
+import main.MyBot;
 import util.Configuration;
 import util.ForecastResult;
 import util.GoogleWeatherHandler;
@@ -19,7 +20,7 @@ public class WeatherAction extends Action {
 		return "weather";
 	}
 
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		WeatherResult result = this.getWeatherResult(request);
 		if (result == null)
 			return new String[] { "No results found." };

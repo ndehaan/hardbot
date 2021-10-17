@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.TreeMap;
 
+import main.MyBot;
 import util.Configuration;
 import util.FileDownload;
 
@@ -37,7 +38,7 @@ public class TideAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		ArrayList<String> results = new ArrayList<String>();
 		FileDownload
 				.download(

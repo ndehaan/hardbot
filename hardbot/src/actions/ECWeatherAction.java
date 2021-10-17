@@ -51,7 +51,7 @@ public class ECWeatherAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		String forecastURL = getECAddress(request);
 		if (forecastURL == null)
 			return null;
@@ -84,7 +84,7 @@ public class ECWeatherAction extends Action {
 		String result = "       ";
 		if (observation.getCondition() != null)
 			result += observation.getCondition() + ", ";
-		result += observation.getTemperature() + "ºC, Wind: "
+		result += observation.getTemperature() + "ï¿½C, Wind: "
 				+ observation.getWindDirection() + " at "
 				+ observation.getWindSpeed() + "km/h, Humidity: "
 				+ observation.getHumidity() + "%.";

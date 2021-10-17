@@ -10,6 +10,7 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import main.MyBot;
 import util.Configuration;
 import util.UBCWeatherResult;
 
@@ -30,7 +31,7 @@ public class UBCWeatherAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		downloadFile();
 		UBCWeatherResult weatherResult = null;
 		BufferedReader in;
@@ -88,7 +89,7 @@ public class UBCWeatherAction extends Action {
 		result[0] = "Weather observations from VE7UBC at "
 				+ outputFormatter.format(weatherResult.getDate());
 		result[1] = "Temperature: " + weatherResult.getOutsideTemp()
-				+ "ºC, Wind: " + weatherResult.getWindSpeed() + "km/h "
+				+ "ï¿½C, Wind: " + weatherResult.getWindSpeed() + "km/h "
 				+ weatherResult.getWindDir() + ", Barometer: "
 				+ myFormat.format(weatherResult.getBarometer() / 10) + "kPa, Humidity: "
 				+ weatherResult.getOutsideHumidity() + "%";
@@ -99,7 +100,7 @@ public class UBCWeatherAction extends Action {
 			insideString += "a balmy ";
 		else if (insideTemp != 999 && insideTemp < 19)
 			insideString += "a cool ";
-		insideString += insideTemp + "ºC inside the club room.";
+		insideString += insideTemp + "ï¿½C inside the club room.";
 		result[2] = insideString;
 		return result;
 	}

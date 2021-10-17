@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Date;
 
+import main.MyBot;
 import util.Configuration;
 import util.FileDownload;
 
@@ -19,16 +20,12 @@ public class AirportAction extends Action {
 	@Override
 	public String[] help() {
 		String command = Configuration.getConfig().getCommandPrefix();
-		return new String[] {
-				"Searches IATA for airport codes and locations ",
-				"Usage: Type \""
-						+ command
-						+ getName()
-						+ "\" followed by the city or code you are looking for." };
+		return new String[] { "Searches IATA for airport codes and locations ",
+				"Usage: Type \"" + command + getName() + "\" followed by the city or code you are looking for." };
 	}
 
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		if (request.trim().length() < 3) {
 			String[] result1 = { "No results found." };
 			return result1;

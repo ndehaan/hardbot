@@ -4,6 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import main.MyBot;
 import util.Configuration;
 
 public class DtvAction extends Action {
@@ -22,7 +23,7 @@ public class DtvAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		String[] result = new String[1];
 		SimpleDateFormat inFormatter = new SimpleDateFormat("MM/dd/yyyy");
 		SimpleDateFormat outFormatter = new SimpleDateFormat("MMMM dd, yyyy");

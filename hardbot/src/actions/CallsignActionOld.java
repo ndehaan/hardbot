@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 
+import main.MyBot;
 import util.ClientHttpRequest;
 import util.Configuration;
 
@@ -44,7 +45,7 @@ public class CallsignActionOld extends Action {
 
 	@SuppressWarnings("deprecation")
 	@Override
-	public String[] perform(String request, String sender) {
+	public String[] perform(String request, String sender, MyBot bot) {
 		String searchType = "name";
 		char c = request.charAt(2);
 		if (request.trim().startsWith("V") || request.trim().startsWith("v")
