@@ -1,9 +1,6 @@
 package actions;
 
-import java.io.DataInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -13,7 +10,6 @@ import java.util.ArrayList;
 
 import main.MyBot;
 import util.Callsign;
-import util.ClientHttpRequest;
 import util.Configuration;
 
 public class CallsignAction extends Action {
@@ -51,8 +47,7 @@ public class CallsignAction extends Action {
 	@Override
 	public String[] perform(String request, String sender, MyBot myBot) {
 		String searchType = "name";
-		char c = request.charAt(2);
-		if (request.trim().startsWith("V") || request.trim().startsWith("v") && Character.isDigit(c))
+		if (request.trim().startsWith("V") || request.trim().startsWith("v") && Character.isDigit(request.charAt(2)))
 			searchType = "call";
 		ArrayList<String> output = new ArrayList<String>();
 		Connection con = getConnection();
@@ -83,11 +78,9 @@ public class CallsignAction extends Action {
 					curr = new Callsign(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4),
 							rs.getString(5), rs.getString(6), rs.getString(7));
 				}
-				if (rs.getString("AdvancedD").equals("D"))
-				{
+				if (rs.getString("AdvancedD").equals("D")) {
 					curr.addQualification("Advanced");
-				}else
-				{
+				} else {
 					if (rs.getString("BasicA").equals("A"))
 						curr.addQualification("Basic");
 					if (rs.getString("HonoursE").equals("E"))
@@ -102,148 +95,44 @@ public class CallsignAction extends Action {
 		} catch (
 
 		SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if (output.size()>1)
-		{
+		if (output.size() > 1) {
 			if (output.size() > 12) {
 				ArrayList<String> temp = new ArrayList<String>();
 				temp.add("Output too large for IRC, printing the first 10 lines only.");
-				temp.add("Please refine your search or visit https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup");
+				temp.add(
+						"Please refine your search or visit https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup");
 				for (String s : output)
 					temp.add(s);
 				output = temp;
 			}
-			
+
 			int max = output.size();
 			if (max > 13)
 				max = 12;
 			String[] stringArray = new String[max];
 			for (int i = 0; i < max; i++)
 				stringArray[i] = output.get(i);
-			new Thread()
-			{
-			    public void run() {
-					for (String s: stringArray)
+			new Thread() {
+				public void run() {
+					for (String s : stringArray)
 						myBot.sendMessage(sender, s);
-			    }
+				}
 			}.start();
-			String[] results =  {"Results too large - responding via PM"};
+			String[] results = { "Results too large - responding via PM" };
 			return results;
 		}
 		if (output.isEmpty())
 			output.add("No results found for the search string: " + request);
-		
+
 		int max = output.size();
 		if (max > 13)
 			max = 12;
 		String[] stringArray = new String[max];
 		for (int i = 0; i < max; i++)
 			stringArray[i] = output.get(i);
-	
-		return stringArray;
-	}
 
-	@SuppressWarnings("deprecation")
-
-	public String[] perform2(String request, String sender) {
-		String searchType = "name";
-		char c = request.charAt(2);
-		if (request.trim().startsWith("V") || request.trim().startsWith("v") && Character.isDigit(c))
-			searchType = "call";
-		// String address = "http://www.rac.ca/callbook/search.php";
-		String address = "http://www.rac.ca/en/rac/services/callbook/search.php";
-		InputStream serverInput = null;
-		try {
-			URL url = new URL(address);
-			serverInput = ClientHttpRequest.post(url,
-					new Object[] { "QueryText", request, "QueryType", searchType, "submit" });
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		ArrayList<String> results = new ArrayList<String>();
-		ArrayList<String> output = new ArrayList<String>();
-		if (serverInput != null) {
-			DataInputStream dis = new DataInputStream(serverInput);
-			String currLine;
-			try {
-				while ((currLine = dis.readLine()) != null)
-					results.add(currLine);
-			} catch (IOException e) {
-			}
-		}
-
-		String callsign = "";
-		String name = "";
-		// String street = "";
-		String location = "";
-		String qualifications = "";
-		String club = "";
-		for (String s : results) {
-			// System.out.println(s);
-			if (s.contains("<td>Callsign")) {
-				String[] blah = s.split("</td><td>");
-				String chopped = blah[1].substring(0, 6);
-				if (chopped.charAt(chopped.length() - 1) == '<')
-					chopped = (String) chopped.subSequence(0, chopped.length() - 1);
-				callsign = chopped;
-			}
-			if (s.contains("<td>Name:")) {
-				String[] blah = s.split("</td><td>");
-				name = blah[1].substring(0, blah[1].length() - 10);
-			}
-			/*
-			 * if (s.contains("Address: ")) { String[] blah = s.split("</td><td>"); street =
-			 * blah[1].substring(0, blah[1].length() - 10).trim(); }
-			 */
-			if (s.contains("Club Name:")) {
-				String[] blah = s.split("</td><td>");
-				club = blah[1].substring(0, blah[1].length() - 10);
-			}
-			if (s.contains("Qualifications")) {
-				String[] blah = s.split("</td><td>");
-				qualifications = blah[1].substring(0, blah[1].length() - 10);
-			}
-
-			if (s.contains(", BC") || s.contains(", AB") || s.contains(", SK") || s.contains(", MB")
-					|| s.contains(", ON") || s.contains(", QC") || s.contains(", NL") || s.contains(", NB")
-					|| s.contains(", PE") || s.contains(", NS") || s.contains(", NU") || s.contains(", NT")
-					|| s.contains(", YT")) {
-				String[] blah = s.split("</td><td>");
-				location = blah[1].substring(0, blah[1].length() - 17);
-			}
-		}
-		String string1 = callsign + " - " + name + " - " + qualifications;
-		// String string2 = street.trim() + ", " + location.trim();
-		String string2 = location.trim();
-		if (!club.equals(""))
-			string2 += ", " + club;
-		if (string1.length() > 6) {
-			output.add(string1);
-			if (location.length() > 1) {
-				String margin = "        ";
-				if (callsign.length() > 5)
-					margin += " ";
-				output.add(margin + string2);
-			}
-		}
-		if (output.isEmpty())
-			output.add("No results found for the search string: " + request);
-		if (output.size() > 12) {
-			ArrayList<String> temp = new ArrayList<String>();
-			temp.add("Output too large for IRC, printing the first 12 lines only.");
-			temp.add("Please refine your search or visit " + address);
-			for (String s : output)
-				temp.add(s);
-			output = temp;
-		}
-		int max = output.size();
-		if (max > 13)
-			max = 12;
-		String[] stringArray = new String[max];
-		for (int i = 0; i < max; i++)
-			stringArray[i] = output.get(i);
 		return stringArray;
 	}
 

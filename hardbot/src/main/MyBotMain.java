@@ -17,7 +17,7 @@ public class MyBotMain {
 		// Connect to server
 		bot.connect(config.getServer());
 		// Join channels
-		bot.setMessageDelay(500);
+		bot.setMessageDelay(250);
 		for (String s : config.getChannels()) {
 			bot.joinChannel(s);
 		}
