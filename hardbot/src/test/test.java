@@ -23,7 +23,7 @@ import org.xml.sax.XMLReader;
 
 import actions.Action;
 import actions.UBCWeatherAction;
-
+import main.MyBot;
 import util.FileDownload;
 import util.ForecastResult;
 import util.GoogleWeatherHandler;
@@ -52,7 +52,7 @@ public class test {
 		// location("#wiredboy", "www.google.com", "www.yahoo.com");
 		// weather("#wiredboy", "Vancouver");
 		Action wx = new UBCWeatherAction();
-		for (String s : wx.perform("","wb"))
+		for (String s : wx.perform("","wb", new MyBot()))
 			System.out.println(s);
 
 	}

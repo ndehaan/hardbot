@@ -18,6 +18,7 @@ import actions.TimeAction;
 import actions.UBCWeatherAction;
 import actions.WeatherAction;
 import actions.WorkTempAction;
+import main.MyBot;
 
 public class DispatchTester {
 
@@ -56,13 +57,13 @@ public class DispatchTester {
 		// add Google search
 		actionMap.put(new GoogleAction().getName(), new GoogleAction());
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		initActions();
 		String command = "olympics";
 		String parameters = "";
 		
 		Action action = actionMap.get(command);
-		String[] results = action.perform(parameters,"wb");
+		String[] results = action.perform(parameters,"wb", new MyBot());
 		
 		for (String s : results)
 			System.out.println(s);
