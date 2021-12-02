@@ -1,7 +1,11 @@
 package main;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -9,7 +13,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
@@ -17,7 +20,10 @@ import java.util.regex.Pattern;
 import java.util.Map.Entry;
 
 import org.jibble.pircbot.PircBot;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import actions.*;
 
@@ -161,7 +167,7 @@ public class MyBot extends PircBot {
 			String title = "error";
 			try {
 				title = getTitle(videoUrl);
-			} catch (UnsupportedEncodingException e) {
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -179,53 +185,61 @@ public class MyBot extends PircBot {
 		}
 	}
 
-	private String getTitle(String videoUrl) throws UnsupportedEncodingException {
+	private String getTitle(String videoUrl) throws Exception {
 
-		String result = "I recognize " + videoUrl + " as a Youtube link, and not another type of link, and am working on understanding it.";
+		String result = "I recognize " + videoUrl
+				+ " as a Youtube link, and not another type of link, and am working on understanding it.";
 		String temp = "";
 		if (videoUrl.contains("www.youtube.com/watch?v=")) {
 			temp = videoUrl.split("=")[1];
-		}
-		else if (videoUrl.contains("youtu.be"))
+		} else if (videoUrl.contains("youtu.be"))
 			temp = videoUrl.split("/")[3];
-		
+
 		temp = temp.split("\\W+")[0];
-		
+
 		System.out.println(result + " ID found: " + temp);
-		
-		//https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=bZ9mIDfNbSo
-		
-		
-		//Map<String, List<String>> map = getUrlParameters("http://youtube.com/get_video_info?video_id="+temp);
-		//Map<String, List<String>> map = getUrlParameters("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
+
+		// https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=bZ9mIDfNbSo
+
+		// Map<String, List<String>> map =
+		// getUrlParameters("http://youtube.com/get_video_info?video_id="+temp);
+		// Map<String, List<String>> map =
+		// getUrlParameters("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
+		// URL url = new
+		// URL("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
+
 		JSONParser parser = new JSONParser();
-		
-		
-		return "fun!";
-	}
-	
-	public static Map<String, List<String>> getUrlParameters(String url)
-	        throws UnsupportedEncodingException {
-	    Map<String, List<String>> params = new HashMap<String, List<String>>();
-	    String[] urlParts = url.split("\\?");
-	    if (urlParts.length > 1) {
-	        String query = urlParts[1];
-	        for (String param : query.split("&")) {
-	            String pair[] = param.split("=", 2);
-	            String key = URLDecoder.decode(pair[0], "UTF-8");
-	            String value = "";
-	            if (pair.length > 1) {
-	                value = URLDecoder.decode(pair[1], "UTF-8");
-	            }
-	            List<String> values = params.get(key);
-	            if (values == null) {
-	                values = new ArrayList<String>();
-	                params.put(key, values);
-	            }
-	            values.add(value);
-	        }
-	    }
-	    return params;
+
+		String title = "error2";
+		try {
+			URL url = new URL("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=" + temp);
+			URLConnection yc = url.openConnection();
+			BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream()));
+
+			String inputLine;
+
+			while ((inputLine = in.readLine()) != null) {
+				System.out.println(inputLine);
+				JSONObject a = (JSONObject) parser.parse(inputLine);
+
+				JSONObject video = a;
+
+				title = (String) video.get("title");
+				System.out.println("Title ID : " + title);
+
+				System.out.println("\n");
+
+			}
+			in.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+
+		return "[YouTube] " + title;
 	}
 
 	private String findUrl(String message) {
