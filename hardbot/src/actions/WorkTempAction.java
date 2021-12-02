@@ -6,7 +6,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 
-import main.MyBot;
 import util.Configuration;
 import util.TempReading;
 
@@ -28,7 +27,7 @@ public class WorkTempAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		TempReading tr = new TempReading();
 		try {
 			Connection con = getConnection();
@@ -47,9 +46,9 @@ public class WorkTempAction extends Action {
 		}
 		((Double) tr.getServerRoomTemp()).toString();
 		return new String[] { outputFormatter.format(tr.getTimestamp()),
-				"Server Room: " + ((Double) tr.getServerRoomTemp()).toString()+"ï¿½C",
-				"Server Rack: " + ((Double) tr.getInternalTemp()).toString()+"ï¿½C",
-				"Main Office: " + ((Double) tr.getOfficeTemp()).toString()+"ï¿½C" };
+				"Server Room: " + ((Double) tr.getServerRoomTemp()).toString()+"°C",
+				"Server Rack: " + ((Double) tr.getInternalTemp()).toString()+"°C",
+				"Main Office: " + ((Double) tr.getOfficeTemp()).toString()+"°C" };
 	}
 
 	private Connection getConnection() throws Exception {

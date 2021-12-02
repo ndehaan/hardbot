@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import main.MyBot;
 import util.Configuration;
 
 public class GoogleAction extends Action {
@@ -31,7 +30,7 @@ public class GoogleAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		if (request.trim().equals(""))
 			return new String[] { "Please enter a query" };
 		ArrayList<String> resultList = new ArrayList<String>();

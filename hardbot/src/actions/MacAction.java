@@ -7,7 +7,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import main.MyBot;
 import util.Configuration;
 import util.FileDownload;
 
@@ -29,7 +28,7 @@ public class MacAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		String result = "No results found for " + request;
 		// Process the parameter
 		if (request.length() < 8) {

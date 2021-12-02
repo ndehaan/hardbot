@@ -10,7 +10,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-import main.MyBot;
 import util.FileDownload;
 
 public class AreaCodeAction extends Action {
@@ -27,7 +26,7 @@ public class AreaCodeAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		String[] result = new String[1];
 		String[] temp = request.split("-");
 		int areaCode = 0;

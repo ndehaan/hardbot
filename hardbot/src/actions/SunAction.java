@@ -19,7 +19,6 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
-import main.MyBot;
 import util.Configuration;
 import util.WeatherResult;
 import util.ECWeather.ECSitesHandler;
@@ -48,7 +47,7 @@ public class SunAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		ArrayList<String> resultList = new ArrayList<String>();
 		if (request.equalsIgnoreCase(""))
 			request = "Vancouver";

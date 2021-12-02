@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import main.MyBot;
 import util.Configuration;
 import util.FileDownload;
 
@@ -23,7 +22,7 @@ public class IPV4Action extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		String url = "http://www.potaroo.net/tools/ipv4/index.html";
 		String ianaSearch = "Projected IANA Unallocated";
 		String rirSearch = "Projected RIR Unallocated";

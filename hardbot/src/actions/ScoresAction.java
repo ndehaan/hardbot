@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import main.MyBot;
 import util.Configuration;
 import util.FileDownload;
 
@@ -31,7 +30,7 @@ public class ScoresAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		String url = null;
 		String title = null;
 		ArrayList<String> grep = null;

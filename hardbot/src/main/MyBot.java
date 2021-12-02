@@ -1,12 +1,19 @@
 package main;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.Map.Entry;
 
 import org.jibble.pircbot.PircBot;
@@ -38,8 +45,7 @@ public class MyBot extends PircBot {
 	private void initialize() {
 		Configuration config = Configuration.getConfig();
 		setName(config.getBotName());
-		if (config.isLogOn() && config.getSqlUserName() != null
-				&& config.getSqlPassword() != null
+		if (config.isLogOn() && config.getSqlUserName() != null && config.getSqlPassword() != null
 				&& config.getSqlUserName() != null) {
 			setLogging(true);
 			setSQLurl(config.getSqlServerConnection());
@@ -57,28 +63,28 @@ public class MyBot extends PircBot {
 
 	private void initActions() {
 		// Add weather action/formatter
-		//actionMap.put(new WeatherAction().getName(), new WeatherAction());
+		// actionMap.put(new WeatherAction().getName(), new WeatherAction());
 		// Add ecweather action/formatter
-		//actionMap.put(new ECWeatherAction().getName(), new ECWeatherAction(this));
+		// actionMap.put(new ECWeatherAction().getName(), new ECWeatherAction(this));
 		// Add location action/formatter
-		//actionMap.put(new LocationAction().getName(), new LocationAction());
+		// actionMap.put(new LocationAction().getName(), new LocationAction());
 		// Add ipv4 action/formatter
-		//actionMap.put(new IPV4Action().getName(), new IPV4Action());
+		// actionMap.put(new IPV4Action().getName(), new IPV4Action());
 		// add ubcweather stuff
-		//actionMap.put(new UBCWeatherAction().getName(), new UBCWeatherAction());
+		// actionMap.put(new UBCWeatherAction().getName(), new UBCWeatherAction());
 		// add time stuff
 		actionMap.put("time", new TimeAction());
 		// add scores stuff
-		//actionMap.put("scores", new ScoresAction());
+		// actionMap.put("scores", new ScoresAction());
 		// add MAC stuff
-		//actionMap.put("mac", new MacAction());
+		// actionMap.put("mac", new MacAction());
 		// add callsign stuff (and alias)
 		actionMap.put("c", new CallsignAction());
 		actionMap.put(new CallsignAction().getName(), new CallsignAction());
 		// add Morse stuff
 		actionMap.put(new MorseAction().getName(), new MorseAction());
 		// add tide stuff
-		//actionMap.put(new TideAction().getName(), new TideAction());
+		// actionMap.put(new TideAction().getName(), new TideAction());
 		// add DTV stuff
 		// actionMap.put(new DtvAction().getName(), new DtvAction());
 		// add Olympic countdown
@@ -90,14 +96,13 @@ public class MyBot extends PircBot {
 		// add area code search
 		// actionMap.put(new AreaCodeAction().getName(), new AreaCodeAction());
 		// add airport stuff
-		//actionMap.put(new AirportAction().getName(), new AirportAction());
+		// actionMap.put(new AirportAction().getName(), new AirportAction());
 		// add sunrise/set stuff
-		//actionMap.put(new SunAction().getName(), new SunAction());
-		//actionMap.put(new RxslAction().getName(), new RxslAction());
+		// actionMap.put(new SunAction().getName(), new SunAction());
+		// actionMap.put(new RxslAction().getName(), new RxslAction());
 	}
 
-	private void doAction(String action, String request, String channel,
-			String sender) {
+	private void doAction(String action, String request, String channel, String sender) {
 		// Retrieve the appropriate action and formatter
 		Action a = actionMap.get(action);
 		// Perform the action
@@ -110,8 +115,7 @@ public class MyBot extends PircBot {
 	private void doHelp(String action, String request, String channel) {
 		// Retrieve the appropriate action and formatter
 		if (request.equals("")) {
-			sendMessage(channel, "Hi, I'm " + getNick() + ", "
-					+ Configuration.getConfig().getOwner()
+			sendMessage(channel, "Hi, I'm " + getNick() + ", " + Configuration.getConfig().getOwner()
 					+ "'s information bot built on the PircBot platform.");
 			TreeSet<String> commands = getCommandList();
 			Object[] commandArray = commands.toArray();
@@ -121,8 +125,7 @@ public class MyBot extends PircBot {
 				if (i < commandArray.length - 1)
 					list += ", ";
 			}
-			sendMessage(channel, "The following commands are available: "
-					+ list);
+			sendMessage(channel, "The following commands are available: " + list);
 			return;
 		}
 		if (actionMap.containsKey(request)) {
@@ -144,8 +147,7 @@ public class MyBot extends PircBot {
 		return output;
 	}
 
-	public void onMessage(String channel, String sender, String login,
-			String hostname, String message) {
+	public void onMessage(String channel, String sender, String login, String hostname, String message) {
 		// normalise the input string
 		message = message.trim();
 		if (isLogging()) {
@@ -153,12 +155,22 @@ public class MyBot extends PircBot {
 		}
 		boolean op = isOwner(sender);
 
+		if (message.contains("http") && message.contains("youtu")) {
+			String videoUrl = findUrl(message);
+			String title = "error";
+			try {
+				title = getTitle(videoUrl);
+			} catch (UnsupportedEncodingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			this.sendMessage(channel, title);
+		}
+
 		if (message.startsWith(getCommandPrefix())) {
 			doCommand(op, channel, message.substring(1), hostname, sender);
-		} else if (message.length() == 4
-				&& message.endsWith("ing")
-				&& !(sender.equalsIgnoreCase("WifiFred") || sender
-						.equalsIgnoreCase("inhiding"))) {
+		} else if (message.length() == 4 && message.endsWith("ing")
+				&& !(sender.equalsIgnoreCase("WifiFred") || sender.equalsIgnoreCase("inhiding"))) {
 			message = message.charAt(0) + "ong";
 			sendMessage(channel, message);
 		} else if (message.startsWith("?")) {
@@ -166,45 +178,94 @@ public class MyBot extends PircBot {
 		}
 	}
 
+	private String getTitle(String videoUrl) throws UnsupportedEncodingException {
+
+		String result = "I recognize " + videoUrl + " as a Youtube link, and not another type of link, and am working on understanding it.";
+		String temp = "";
+		if (videoUrl.contains("www.youtube.com/watch?v=")) {
+			temp = videoUrl.split("=")[1];
+		}
+		else if (videoUrl.contains("youtu.be"))
+			temp = videoUrl.split("/")[3];
+		
+		temp = temp.split("\\W+")[0];
+		
+		System.out.println(result + " ID found: " + temp);
+		
+		//https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=bZ9mIDfNbSo
+		
+		
+		//Map<String, List<String>> map = getUrlParameters("http://youtube.com/get_video_info?video_id="+temp);
+		//Map<String, List<String>> map = getUrlParameters("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
+		//JSONParser parser  new JSONParser();
+		
+		
+		return "fun!";
+	}
+	
+	public static Map<String, List<String>> getUrlParameters(String url)
+	        throws UnsupportedEncodingException {
+	    Map<String, List<String>> params = new HashMap<String, List<String>>();
+	    String[] urlParts = url.split("\\?");
+	    if (urlParts.length > 1) {
+	        String query = urlParts[1];
+	        for (String param : query.split("&")) {
+	            String pair[] = param.split("=", 2);
+	            String key = URLDecoder.decode(pair[0], "UTF-8");
+	            String value = "";
+	            if (pair.length > 1) {
+	                value = URLDecoder.decode(pair[1], "UTF-8");
+	            }
+	            List<String> values = params.get(key);
+	            if (values == null) {
+	                values = new ArrayList<String>();
+	                params.put(key, values);
+	            }
+	            values.add(value);
+	        }
+	    }
+	    return params;
+	}
+
+	private String findUrl(String message) {
+		List<String> containedUrls = new ArrayList<String>();
+		String urlRegex = "((https?|ftp|gopher|telnet|file):((//)|(\\\\))+[\\w\\d:#@%/;$()~_?\\+-=\\\\\\.&]*)";
+		Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
+		Matcher urlMatcher = pattern.matcher(message);
+
+		while (urlMatcher.find()) {
+			containedUrls.add(message.substring(urlMatcher.start(0), urlMatcher.end(0)));
+		}
+
+		return containedUrls.get(0);
+	}
+
 	// method to support knowledge-base lookups
-	private void doLookup(boolean op, String channel, String substring,
-			String hostname) {
+	private void doLookup(boolean op, String channel, String substring, String hostname) {
 		// TODO Auto-generated method stub
 
 	}
 
-	public void onAction(String sender, String login, String hostname,
-			String target, String action) {
+	public void onAction(String sender, String login, String hostname, String target, String action) {
 		logMessage(target, sender, login, hostname, sender + " " + action);
 	}
 
-	public void onJoin(String channel, String sender, String login,
-			String hostname) {
-		if (channel.equalsIgnoreCase("#thecube")
-				&& sender.toLowerCase().startsWith("anon")) {
+	public void onJoin(String channel, String sender, String login, String hostname) {
+		if (channel.equalsIgnoreCase("#thecube") && sender.toLowerCase().startsWith("anon")) {
+			sendNotice(sender, "Hello and welcome! We're not always here, but do say hi!");
 			sendNotice(sender,
-					"Hello and welcome! We're not always here, but do say hi!");
-			sendNotice(
-					sender,
 					"If you have any general inquiries and no one's around, feel free to email csss@thecube.ca with your questions or concerns!");
 		}
 	}
 
-	private void logMessage(String channel, String sender, String login,
-			String hostname, String message) {
+	private void logMessage(String channel, String sender, String login, String hostname, String message) {
 		Statement st = null;
 		Connection con = getConnection();
 		try {
 			String sqlMessage = message.replace("'", "''");
 			st = con.createStatement();
-			st
-					.executeUpdate("INSERT INTO `randall`.`log` (`channel`,`sender`,`hostname`,`message`) VALUES ('"
-							+ channel
-							+ "', '"
-							+ sender
-							+ "', '"
-							+ hostname
-							+ "', '" + sqlMessage + "');");
+			st.executeUpdate("INSERT INTO `randall`.`log` (`channel`,`sender`,`hostname`,`message`) VALUES ('" + channel
+					+ "', '" + sender + "', '" + hostname + "', '" + sqlMessage + "');");
 			st.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -218,13 +279,11 @@ public class MyBot extends PircBot {
 
 	}
 
-	public void onPrivateMessage(String sender, String login, String hostname,
-			String message) {
+	public void onPrivateMessage(String sender, String login, String hostname, String message) {
 		onMessage(sender, sender, login, hostname, message);
 	}
 
-	private void doCommand(boolean op, String channel, String message,
-			String hostname, String sender) {
+	private void doCommand(boolean op, String channel, String message, String hostname, String sender) {
 		String command = "";
 		String parameter = "";
 		// take the first word as the command
@@ -246,8 +305,7 @@ public class MyBot extends PircBot {
 			}
 			if (command.equalsIgnoreCase("say")) {
 				channel = parameter.split(" ")[0];
-				sendMessage(channel, parameter.substring(channel.length())
-						.trim());
+				sendMessage(channel, parameter.substring(channel.length()).trim());
 				return;
 			}
 			if (command.equalsIgnoreCase("nick")) {
@@ -307,8 +365,7 @@ public class MyBot extends PircBot {
 	}
 
 	/**
-	 * @param luser
-	 *            the sQLuser to set
+	 * @param luser the sQLuser to set
 	 */
 	private void setSQLuser(String luser) {
 		SQLuser = luser;
@@ -322,8 +379,7 @@ public class MyBot extends PircBot {
 	}
 
 	/**
-	 * @param lpass
-	 *            the sQLpass to set
+	 * @param lpass the sQLpass to set
 	 */
 	private void setSQLpass(String lpass) {
 		SQLpass = lpass;
@@ -337,8 +393,7 @@ public class MyBot extends PircBot {
 	}
 
 	/**
-	 * @param lurl
-	 *            the sQLurl to set
+	 * @param lurl the sQLurl to set
 	 */
 	private void setSQLurl(String lurl) {
 		SQLurl = lurl;
@@ -348,8 +403,7 @@ public class MyBot extends PircBot {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection(this.getSQLurl(), getSQLuser(),
-					getSQLpass());
+			con = DriverManager.getConnection(this.getSQLurl(), getSQLuser(), getSQLpass());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -366,8 +420,7 @@ public class MyBot extends PircBot {
 				}
 				changeNick(config.getBotName());
 			} catch (Exception e) {
-				System.err
-						.println("Couldn't connect... pausing for 5 seconds.");
+				System.err.println("Couldn't connect... pausing for 5 seconds.");
 				try {
 					Thread.sleep(5000);
 				} catch (InterruptedException e1) {
@@ -380,15 +433,14 @@ public class MyBot extends PircBot {
 	/*
 	 * private void doLS(String channel, String parameter) { Runtime rt =
 	 * 
-	 * Runtime.getRuntime(); Process proc = null; try { proc =
-	 * rt.exec("ls -ahl"); } //proc = rt.exec("cmd.exe /C dir"); catch
-	 * (IOException e) { e.printStackTrace(); } InputStream in =
-	 * proc.getInputStream(); BufferedInputStream buf = new
-	 * BufferedInputStream(in); InputStreamReader ir = new
-	 * InputStreamReader(buf); BufferedReader br = new BufferedReader(ir);
-	 * String line; ArrayList<String> results = new ArrayList<String>(); try {
-	 * while ((line = br.readLine()) != null) { results.add(line); } } catch
-	 * (IOException e) { e.printStackTrace(); } for (String s : results)
+	 * Runtime.getRuntime(); Process proc = null; try { proc = rt.exec("ls -ahl"); }
+	 * //proc = rt.exec("cmd.exe /C dir"); catch (IOException e) {
+	 * e.printStackTrace(); } InputStream in = proc.getInputStream();
+	 * BufferedInputStream buf = new BufferedInputStream(in); InputStreamReader ir =
+	 * new InputStreamReader(buf); BufferedReader br = new BufferedReader(ir);
+	 * String line; ArrayList<String> results = new ArrayList<String>(); try { while
+	 * ((line = br.readLine()) != null) { results.add(line); } } catch (IOException
+	 * e) { e.printStackTrace(); } for (String s : results)
 	 * this.sendMessage(channel, s); }
 	 */
 }

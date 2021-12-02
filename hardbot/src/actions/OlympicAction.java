@@ -4,7 +4,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import main.MyBot;
 import util.Configuration;
 
 public class OlympicAction extends Action {
@@ -15,7 +14,7 @@ public class OlympicAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		String[] result = new String[1];
 		//SimpleDateFormat inFormatter = new SimpleDateFormat("MM/dd/yyyy");
 		SimpleDateFormat inDateTimeFormatter = new SimpleDateFormat("MM/dd/yyyy hh:mm z");

@@ -2,8 +2,6 @@ package actions;
 
 import java.util.ArrayList;
 
-import main.MyBot;
-
 public class RxslAction extends Action {
 
 	@Override
@@ -19,7 +17,7 @@ public class RxslAction extends Action {
 	}
 
 	@Override
-	public String[] perform(String request, String sender, MyBot bot) {
+	public String[] perform(String request, String sender) {
 		System.out.println(request);
 		String[] requestArray = request.split(" ");
 		if (requestArray.length < 3)
