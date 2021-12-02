@@ -17,6 +17,7 @@ import java.util.regex.Pattern;
 import java.util.Map.Entry;
 
 import org.jibble.pircbot.PircBot;
+import org.json.simple.parser.JSONParser;
 
 import actions.*;
 
@@ -197,7 +198,7 @@ public class MyBot extends PircBot {
 		
 		//Map<String, List<String>> map = getUrlParameters("http://youtube.com/get_video_info?video_id="+temp);
 		//Map<String, List<String>> map = getUrlParameters("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
-		//JSONParser parser  new JSONParser();
+		JSONParser parser = new JSONParser();
 		
 		
 		return "fun!";
