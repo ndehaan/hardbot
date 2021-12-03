@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.BufferedReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.sql.Connection;
@@ -183,7 +185,13 @@ public class MyBot extends PircBot {
 			message = message.charAt(0) + "ong";
 			sendMessage(channel, message);
 		} else if (message.startsWith("? ")) {
-			doLookup(op, channel, message.substring(2), hostname);
+			try {
+				doLookup(op, channel, message.substring(2), hostname);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
 		}
 	}
 
@@ -245,10 +253,26 @@ public class MyBot extends PircBot {
 	}
 
 	// method to support knowledge-base lookups
-	private void doLookup(boolean op, String channel, String substring, String hostname) {
+	private void doLookup(boolean op, String channel, String substring, String hostname) throws Exception {
 		String result = "";
-		File f = new File(".//data//faqdatabase");
+		File f = new File("data//faqdatabase");
 		System.out.println(f.getAbsolutePath());
+		FileReader fr = new FileReader(f);
+		BufferedReader br = new BufferedReader(fr);
+		String line = "";
+		while ((line = br.readLine()) != null) {
+			System.out.println(line);
+			line.indexOf(":");
+			String k = line.substring(0,line.indexOf(":"));
+			String v = line.substring(line.indexOf(":")+1);
+			if (k.equalsIgnoreCase(substring)) {
+				result = substring + ": " + v;
+				break;
+			}
+		}
+		if (result.length() == 0)
+			result = substring + ": not found";
+
 		sendMessage(channel, result);
 	}
 
