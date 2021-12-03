@@ -64,7 +64,7 @@ public class CallsignAction extends Action {
 			String line = "";
 			while ((line = br.readLine()) != null) {
 				if (line.toUpperCase().contains(request.toUpperCase()))
-					return line;
+					return line.trim();
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
