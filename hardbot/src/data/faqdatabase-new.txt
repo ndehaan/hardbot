@@ -1,0 +1,2823 @@
+ fstv:Fast-Scan TV. Same as commercial broadcast TV. aka "ATV"
+ ht:Handi-Talkie - a small hand held radio  
+ itu:International Telecommunications Union, the body which specifies worldwide guidelines concerning the use of the electromagnetic spectrum for communications purposes.
+!Skytrain!
+1 ALM:1 Alarm Fire
+10-0:Radio Check
+10-1:Signal Check
+10-10:Negative
+10-100:Unleashing the snake!
+10-11:Roadside Check
+10-12:Stand by (Stop)
+10-13:Existing Conditions
+10-14:Prepare to Copy
+10-15:Message Delivered
+10-16:Reply-To-Message
+10-17:Enroute
+10-18:Urgent
+10-19:(In) Contact
+10-2:Signal Good
+10-20:Location
+10-21:Call by landline
+10-22:Disregard
+10-23:Arrived at Scene
+10-24:Assignment Completed
+10-25:Report to...
+10-26:ETA
+10-27:Drivers License Info Needed
+10-28:Vehicle Registration Info
+10-29:Records Check
+10-3:Stop Transmitting
+10-30:Danger/Caution
+10-300:Igloo on Fire
+10-31:Pickup
+10-32:Units Needed (Number of Units needed at location)
+10-33:Officer in Trouble
+10-34:Time Check
+10-35:Off Duty
+10-36:On Duty
+10-37:Returning to Office
+10-38:Sorry no information for this 10 code
+10-39:Sorry no information for this 10 code
+10-4:Affirmative
+10-40:Possible computer hit on subject/serial/plate/warrant Info
+10-41:Warrant/Info Confirmed
+10-42:Person in Parole Cat.
+10-43:Person in Charged Cat.
+10-44:Person in Elope Cat
+10-45:Confirmed Fatality (BCFS)
+10-46 : prohibition
+10-46:prohibition
+10-5:Relay (To)
+10-50: M.V.A (RCMP) | Accident Scene [aircraft or otherwise] (BCFS)
+10-55:Restricted Information. Make sure no Unauthorized listeners present
+10-58:Drug Overdose
+10-59:Suicide/Homicide
+10-6:Busy
+10-60:Danger/Alarm
+10-61:Coffee Break (Need more doughnuts quick!)
+10-62:Meal Break
+10-63:RTO - Returing to office
+10-64:Ambulance
+10-65:Escorting Prisoner
+10-66:Prisoner Escort Required
+10-67:Unauthorized Listener
+10-68:Impaired Driver
+10-69:Check Vehicle/Person
+10-7:Out of Service
+10-70:Request Supervisor at Scene
+10-71:Sending to ROADS
+10-72:Alarm/Serious Crime
+10-73:Advise Situation Status
+10-74:False Alarm
+10-75:Change Frequencies
+10-76:On Portable
+10-77: Bait Car Activation / At Residence
+10-78:At Office
+10-79:Slow Computer Response (Needs an Upgrade!)
+10-8:In Service
+10-80:Record of Violence
+10-81:Record of Robbery
+10-82:Record of Weapons
+10-83:Record of B&E
+10-84:Record of Theft
+10-85:Record of Drugs
+10-86:Record of Sexual Offence
+10-87: Record of Other Offence (Sexual Assault)
+10-88: Record of Fraud
+10-89:Record of Arson
+10-9:Say Again
+10-96:Report of Homicide
+10-97:Report of Sudden Death
+10-98:Request Routine Cover
+10-99:Unit on Call
+101:198 Morison Ave PARKSVILLE (101D1, 101S1, 101S2, 101S3, 101S4) 
+102:102 ALERT BAY 315A Fir St
+103:103 SALT SPRING ISLAND 275 Park Drive (103E, 103F, 103K, 103CP1)
+104:104 MAYNE ISLAND 472 Felix Jack Rd
+105:105 CENTRAL SAANICH 2188 Mt Newton X Road (105E1, 105F1, 105K1)
+106:106 SIDNEY 9824 Third St (106B1, 106F1, 106K1)
+107:107 SOOKE 6742 West Coast Rd (107F1, 107K1, 107K2)
+108:CAMPELL RIVER 348 2nd Ave (108A, 108F, 108K)
+109:109 LANGFORD 2764 Leigh Rd (109A) - Vancouver Island Regional Dispatch
+112:VICTORIA 1440 Hillside Ave (112A1 (ALS), 112B1, 112C1)
+114:114 PENDER ISLAND 5715 Canal Rd (114K, 114CP1)
+115:115 PORT RENFREW 1 Klannanith Rd
+117:GALIANO ISLAND 660 Porlier Pass Rd (117K)
+118:118 VICTORIA (Fairfield) 412 Quebec St (118A1, 118B1)
+119:119 LAKE COWICHAN 3 North Shore Road (119ED, 119FN, 119CP1)
+120:120 NANAIMO SOUTH 231 Prideaux Street (120A, 120B, 120C, 120D)
+121:121 ROYAL OAK 4528 Viewmont Ave (121A1 (ALS), 121A2 (ALS), 121J1)
+122:122 NANAIMO NORTH 4415 Boban Dr (122A1, 122A2, 122A3, 122B, 122D)
+124:124 PORT ALBERNI 4760 Roger St (124A1, 124K1, 124K2)
+125:125 VICTORIA 3987 Shelbourne St (125A1, 125F1)
+126:PORT HARDY 9120 Granville (126E, 126K)
+127:127 ESQUIMALT 924 Ellery St (127A1)
+129:PORT MCNEILL 2415 Catala Place (129E, 129F, 129CP1)
+130:PARKSVILLE 493 Alberni Hwy (130B, 130E, 130F, 130K1)
+131:SAYWARD 630 Kelsey St (131k)
+132:132 SOINTULA 2nd St & 18th Ave
+133:133 TAHSIS 123 Harbourview Rd
+134:134 UCLUELET 2072 Peninsula Rd
+135:135 ZEBALLOS 500 Park Way Rd
+136:136 TOFINO 1009 Pacific Rim Hwy
+137:137 MILL BAY 955 Shawnigan-Mill Bay Rd (137E, 137F)
+138:138 QUALICUM BEACH 787 Jones St (138A)
+140:VICTORIA 3300 Douglas St (140A1, 140A2, 140A3, 140A4, 140A5, 140A6, 140B1, 140B2, 140C1, 140C2, 140E1, 140E2, 140E3, 140E4, 140E5)
+143.22:is cfseu
+149:149 CHEMAINUS 9911 Chemainus Road (149ED, 149FN, 149K, 149CP1)
+150:COURTENAY 1890 Cliffe Ave (150A, 150E, 150K)
+151:CUMBERLAND 2757 Dunsmuir Ave (151f)
+152:152 DUNCAN 2582 Lewis St (152A, 152F, 152K)
+153: 153 GABRIOLA ISLAND 725 Church St (153K1)
+155:GOLD RIVER 503 Muchalat Dr (155K)
+159:159 LADYSMITH 117 4th Avenue (159B, 159F, 159K)
+164:See 964
+169:169 CORTES ISLAND Beasley Road, Manson's Landing (169K, 169CP1)
+170:QUADRA ISLAND 844 Heriot Bay Rd (170K)
+171:171 DENMAN ISLAND 5501 Denman Rd
+172:PORT ALICE 1041 Marine Dr (172K)
+173: 173 Bowser 210 Lions Way (173E, 173F)
+180:Vancouver Island CCT 4415 Boban Dr Nanaimo (180v (CCT))
+185:185 VICTORIA OVERDOSE PREVENTION SPECIALIST (185J) - 941 Pandora Avenue
+1a:Aircraft crash on airport property
+1b:Aircraft crash off airport property
+1c:Aircraft malfunction in flight
+1d:Aircraft malfunction at airport
+1e:Bomb threat on board aircraft
+1f:Hijacking
+2 ALM:2 Alarm Fire
+202: 202 ABBOTSFORD 2000 Abbotsford Way (202A1 (ALS), 202A2, 202B, 202D1, 202D3)
+203: 203 AGASSIZ 7260 Pioneer Ave (203B, 203FN, 203K)
+204: 204 BOSTON BAR 48030 Larch Road (204K1, 204K2)
+205:205 ABBOTSFORD 2855 Mt Lehman Rd (205A1, 205D1, 205D3, 205E, 205Z)
+206:  CHILLIWACK 8530 Young Rd (206A1 (ALS), 206A2, 206B, 206C, 206F, 206D1)
+208:CULTUS LAKE (Closed)
+214: 214 HOPE 999 Water Ave (214B, 214F, 214KD)
+215 :  215 MISSION 7366 Hurd St (215A, 215F, 215J)
+219:219 PEMBERTON (219B, 219K)
+222:222 SQUAMISH 38929 Production Way (222F)
+224:224 WHISTLER (224B, 224C, 224K)
+225:225 BOWEN ISLAND (225K)
+226:BELLA BELLA (226k)
+227:227 BELLA COOLA
+228:228 TEXADA ISLAND
+229:POWELL RIVER 7057 Duncan St (229a,229K)
+233:233 LIONS BAY 400 Centre Rd (233B, 233K)
+235: 235 SECHELT 5494 Wharf Rd (235B, 235F, 235K, 235M)
+241: Closed. Now known as 261
+242:VANCOUVER 1317 Richards St (CLOSED)
+243:243 VANCOUVER 2940 Arbutus St (243A, 243B, 243C)
+244:VANCOUVER 559 W 59th Ave (244A, 244D1, 244X)
+245:VANCOUVER 1538 E King Edward Ave (245A1 (ALS), 245A2, 245B, 245P)
+246:VANCOUVER 5833 Battison St (246A1 (ALS), 246A2) Future home 6992 Buller Ave
+247:247 NEW WEST 444 Rousseau St (247A1 (ALS), 247A2, 291P2 (PRU))
+248:248 VANCOUVER 731 E Cordova St (248A1 (ALS), 248A2, 248A3, 248A4, 248B, 248C, 248J1, 248J2)
+249:249 Surrey 13750 96 Ave (249A1 (ALS), 249A2, 249A3, 249B, 249J1, 249J2)
+250:250 RICHMOND 9660 Cambie Rd (250A, 250B, 250C, 250D3, 250Z)
+251:251 DELTA 4641 Clarence Taylor Crescent (251A, 251B,251J)  
+252:   252 LANGLEY 22347 48 Ave (252A, 252B, 252D3. 280V (CCT))
+253:253 SURREY 5833 176 St (253A, 253B, 253D3, 253J)
+254: 254 SURREY 2359 156 St (254A1, 254A2, 254D1)
+255:255 WEST VANCOUVER 1542 Fulton Ave (255A)
+256:256 NORTH VAN 1304 St Andrews Ave (256A1 (ALS), 256A2, 256A3, 256B, 256Z (MCI Unit))
+257: 257 MAPLE RIDGE 22320 Selkirk Ave (257A1, 257A2, 257D1)
+258:258 BURNABY NORTH 925 Douglas Rd (258A1, 258A2 258B, 258C, 258D2 Fat Ambulance)
+259: 259 PORT MOODY 2601 Lougheed Hwy Coquitlam (259A, 259B, 259D1)
+260:NEW WESTMINSTER 5411 Kingsway St (260A) future home 6992 Buller Ave)
+261: 181 W 7th Ave (VGH) (261A1 (ALS), 261A2, 261B, 261C)
+262: 262 VANCOUVER 2333 Wesbrook Mall (262A)
+263:263 COQUITLAM 2601 Lougheed Hwy (263A, 263B, 263C, 291P3(PRU))
+264:See 964
+265:265 MADEIRA PARK 4990 Gonzales Rd (265K)
+266:266 DELTA NORTH 7893 Scott Rd (266A1, 266A2,266B1)
+267: 267 LANGLEY NORTH 20089 92 A Ave (267A1 (ALS), 267A2, 267D1, 267D3)
+268: 268 GIBSONS 746 North Rd (268E, 268F, 268K)
+269:269 RICHMOND SOUTH 3999 Williams Rd (269A1 (ALS), 269A2)
+270: 270 VANCOUVER INT'L AIRPORT 3880 N Service Rd (Terminal Bike Squad) (270A, 270J)
+280:280 RICHMOND (YVR) 4360 Agar Dr (Air Ambulance) (280A, 280B1, 280B2, 280C, 280H(CCT Transfer Car))
+283:283 VANCOUVER Childrens Hospital 4480 Oak St (Infant Transport Team) (283A, 283B, 283C)
+2a:Structure fire at airport
+2b:Bomb threat against airport building
+2c:Structural malfunction
+2d:Fuel spill
+2e:Hazmat spill
+2f:Natural disaster
+2z:Security Threat
+3 ALM:3 Alarm Fire
+302:302 ARMSTRONG 3800 Patten Drive (302E1, 302F1)
+303:303 ASHCROFT 600 Elm Street (303E1, 303F1, 303K1)
+304:304 SETON PORTAGE Seton Portage Road (304K1)
+306:306 BARRIERE 521 Barriere Town Road (306E1, 306F1)
+307:307 CHASE 833 Thompson Avenue (307E1, 307F1, 307K1)
+308:308 CLINTON 1616 Hwy 97 N (308K1)
+309:309 ANAHIM LAKE Martin Road (309K1)
+311:311 ENDERBY 715 . 3rd Avenue (311E1, 311F1)
+313:313 GOLD BRIDGE Furguson & Hurley (313K1)
+314:KAMLOOPS 1257 Dalhousie Drive (314A1, 314B1, 314B2, 314k)
+315: 315 KAMLOOPS 239 Clapperton Road (315A1, 315B1 (CCT), 315F1, 315K1)
+316:316 BIG WHITE (Seasonal) Mtn Med Services Bldg Lower Snow Pines Road (316K1)
+317:317 KEREMEOS 716 6th Street (317F1, 317K1)
+318:318 LILLOOET 308 Park Drive (318F1, 318K1)
+319:319 LOGAN LAKE 5A Beryl Drive (319K1)
+320:320 LUMBY 1785 Miller Street (320K1)
+320cp1: Lumby community paramedicine
+321:321 LYTTON 575 Main Street (321K1)
+324:324 MERRITT 3451 Voght Street (324E1, 324F1, 324K1)
+326:326 OLIVER 34886 93 Street (326E1, 326F1, 326K1)
+327:327 100 MILE HOUSE 555 Cedar Avenue (327E1, 327F1, 327K1)
+328:328 OSOYOOS #14 Eagle Cres (328E1, 328F1, 328K1)
+329:329 PENTICTON 90 - 1475 Fairview Road (329A1, 329B1, 329K1)
+330:330 PRINCETON 98 Ridgewood Drive (330E1, 330F1, 330K1)
+332:332 SALMON ARM 3290 10th Avenue NE (332B1, 332F1, 332K1, 332K1)
+333:333 SICAMOUS 1129 Paradise Avenue (333F1)
+334:334 SUMMERLAND 14202 Rosedale Avenue (334E1, 334F1, 334K1)
+335:335 CLEARWATER 640 Park Drive (335F1, 335K1)
+336:336 REVELSTOKE 744 A Highway 23 S (336E1, 336F1, 336K1)
+337:337 VERNON 3011 . 35th Avenue (337A1, 337B1, 337F1, 337K1)
+338:338 BLUE RIVER 833 Cedar Street (338K1)
+339:339 WEST KELOWNA 2577 Lower Glenrosa Road (339B1, 339F1, 339K1, 339Z)
+340:340 KELOWNA 259 Lawrence Avenue (340A1, 340A2)
+341:341 KELOWNA 101 . 190 Mills Road (341A1 (ALS), 341O1, 341F1)
+342:342 PEACHLAND 4479 3rd Street (342F1)
+343:343 WINFIELD 10410 Bottom Wood Lake Road (343E1, 343F1, 343K1)
+348:348 WILLIAMS LAKE 300 North Broadway (348A1, 348K1, 348K2)
+353:353 ALEXIS CREEK 7613 McAuley Road (353K1)
+364:364 SPECIAL OPERATIONS
+370:Kamloops Medevac Base YKA (370b C-FVEP)
+380:380 KELOWNA (Medevac) Hangar 3 . 6095 Airport Way (380B1, 380B2)
+3a:Minor medical (1 or 2 people)
+3b:Major medical (3 or more people)
+4 ALM:4 Alarm Fire
+402:CASTLEGAR 2151 6th Ave S (402K)
+403:403 CRANBROOK 1312 2nd St N (403B1, 403F1, 403K1, 403K2)
+404:404 CRESTON 138 10th Ave N (404B1, 404F1, 404K1)
+405:405 ELKFORD 212 Alpine Way (405K1)
+406:406 FERNIE 1301 6th Ave (406E1, 406F1, 406K1)
+407:407 EDGEWOOD 417 Monashee Ave (407K1)
+408:408 GRAND FORKS 7649-A 22nd St (408k)
+409:409 FIELD 208 1st Ave (409K1)
+410:410 GREENWOOD 201 Government (410K1)
+411:411 INVERMERE 1116 10th St (411F1, 411K1)
+412:412 KASLO 407 Cross St (412K1)
+413:413 GOLDEN 700 8th Ave (413F1, 413K1, 413K2)
+414:414 KIMBERLEY 455 Ross St (414E1, 414F1, 414K1)
+415:415 MIDWAY 661 8th Ave (415K1)
+417:417 FRUITVALE 50 Main St (471K1)
+419:419 NAKUSP 7th Ave & Broadway (419K1, 419K2)
+421:421 NELSON 820 Nelson Ave (421A1, 421K1)
+422:422 NEW DENVER 401 Galena St (422K1)
+423:423 RIONDEL 1409 Ainsworth Ave (423K1)
+424:424 ROSSLAND 1961 Georgia St (424K1)
+426:426 SALMO 414 Baker St (426K1)
+427:427 WINLAW 5741 Hwy #6 (427K1)
+428:428 SPARWOOD 603 Pine Ave (428K1, 428K2)
+43:RCMP OCC E-Comm
+431:431 TRAIL 1300 Hospital Rd (431A1, 431B1, 431K1)
+432: 432 TRAIL (CCT) 1200 Hospital Bench (432A1(CCT)) - OOS for good
+5+ ALM:5+ Alarm Fire
+501:Nanaimo Regional General Hospital
+503:BEAR LAKE (503K1)
+506:Coast Guard 506 - Discovery Island
+507:Coast Guard 507 - Cortes
+508:BCAS - Campbell River Hospital or Coast Guard RHIB 508 - Telegraph Cove 
+509:Coast Guard 509 - West Coast Island
+51:RCMP OCC Kelowna
+525:MCBRIDE (525K1, 525F)
+531:PRINCE GEORGE 1488 Edmonton St (531A1, 531A2)
+532:MACKENZIE (532k1)
+533:533 VALEMOUNT (533K1, 533K2)
+535:PRINCE GEORGE Hart Hwy. (535B, 535F)
+538:QUESNEL (538A, 538K)
+550:550 WELLS (550K)
+564:564 SPECIAL OPERATIONS
+580:580 PRINCE GEORGE (Airevac) (580B)
+623:623 KITIMAT
+643:643 STEWART (643K1)
+645:645 TERRACE (645B1, 645F1, 645K1, 645K2)
+651:651 PORT CLEMENTS
+661:661 NEW AIYANSH
+674:674 KITWANGA
+679:679 HAZELTON
+681:681 SANDSPIT (681K1)
+684: PRINCE RUPERT (684A1, 684K1, 684I Medevac C-GIHJ)
+687:687 QUEEN CHARLOTTE ISLANDS
+69: See Ambrose
+690:690 MASSET
+751:751 ATLIN
+753:753 BURNS LAKE (753E1, 753F1, 753K1)
+757:757 DEASE LAKE
+759:759 FORT FRASER
+761:761 FORT ST. JAMES (761K1, 761E, 761F)
+763:763 FRASER LAKE (763K1, 763K2)
+765:765 GRANISLE (765K1)
+767:767 HOUSTON
+769:769 SMITHERS (769K1)
+771:771 VANDERHOOF (771F1)
+773:773 SOUTHSIDE (773K1)
+852:852 CHETWYND (852F1, 852K1)
+856:856 DAWSON CREEK (856F1, 856K1)
+858:858 FORT NELSON (858E1, 858F1, 858K1)
+860:860 FORT ST. JOHN (860B)
+862:862 HUDSON'S HOPE
+868:868 TUMBLER RIDGE (868K1)
+911:The number to find HarveyB
+964:964 (Formerly 164/264) SPECIAL OPERATIONS 8100 Nordel Way (64A=Boss, 64C=Comms, 64M#=Mobile 64S=Super, 64E#=Ambulance, 64Gator#=Gator, 64UTV1=New Gator, 64Squad#=Bikes)
+a:Vancouver General
+a7:Halted VOBC Usually accompied by another error code i.e. A7 with a code of 2 CHARLIE
+aa:Automatic Number Identification (ANI) and Automatic Location Identification (ALI)
+AARU:Automatic Assured Receptivity Unit
+ab:abbotsford
+abb:Abbotsford
+abizzalsx:https://i.imgur.com/2uEIoeZ.jpg
+ac:Assistant Chief
+acars:Aircraft Communication Addressing and Reporting System 
+ACDOWN:Aircraft Down
+acem:Aircraft Emergency
+aci:Accident Investigation
+aciis:Automated Criminal Intelligence Information System
+acp:Advanced Care Paramedic
+act:Assertive Community Treatment (VPD)
+actt: Auto Crime Target Team
+addword:useage ?addword word:description
+adlk:Adams Lake
+aes:A symmetric 128-bit block cipher that has been adopted by the US Federal Government as its symmetric data encryption standard in October 2000, replacing the DES encryption it used. The National Institute of Standards and Technology (NIST) of the US Department of Commerce selected the algorithm, called Rijndael (pronounced Rhine Dahl or Rain Doll). The algorithm must be used with key sizes of 128 bits, 192 bits, or 256 bits depending on the applicatio
+afc:Automatic frequency control. Used in FM receivers to prevent drift.   
+afis:Automated Fingerprint Identification System
+afo:Area Firearms Office
+afsk:Audio frequency shift keying (as opposed to frequency shift keying, FSK)   
+agsz:Agassiz
+ah:Anahim Lake
+ahis:Athlone Island
+ahl:Address History Lookup
+ahs:Alberta Health Services
+aiq:Available in Quarters
+air 1:RCMP Eurocopter EC-120B C-GMPT - Vancouver
+air 2: RCMP Eurocopter EC-120B C-FMPQ - Lower Mainland
+air 3:  RCMP Aerospatiale AS350 B3 C-GMPK - Kelowna
+air 4:  RCMP Aerospatiale AS350 B3 C-GMPN - Kamloops
+air 5:RCMP Aerospatiale AS 350B3 Ecureuil C-FMPG (Crashed Jan 17th 2012 near Cultus Lake)
+air 7: C-FMPA - Pilatus PC-12/47E - ICAO: C02137
+air 8:RCMP Aerospatiale AS-350B-3 Ecureuil C-GMPF - Comox
+air 9:Cessna 206
+akv:Akulivik, QC (AKV)
+al:Alert Bay
+alar:Alice Arm
+alba:alert bay
+albr:Albreda
+alc:Automatic level control. A feedback voltage in the transmitter's output amplifier used to prevent amplifier overload. Also used as feedback from a linear amplifier back to the exciter to prevent overdriving. 
+alck:Alexis Creek
+ALERT:Airport Alert
+alex:Alexandria
+allk:Aleza Lake
+alouette:ALOUETTE 425 SQN BAGOTVILLE
+alpha affirmative:casara positive identification that the object sighted is the search subject
+alpha tag:Option that allows the radio user to associate an amount of text with channels, frequencies, etc.
+ALPHA:Police
+alpr:Automatic Licence Plate Reader
+alr:Agricultural Land Reserve
+alrt:Automated Light Rail Transit (SkyTrain)
+ALS: Advanced Life Support - EHS car with paramedics onboard who are trained and certified to provide ICU-level care in concert with critical care transport advisors
+ama:Against Medical Advice
+ambe:Advanced Multi-Band Excitation (Vocoder)
+amber alert:Missing Child High Risk
+AMBER:Amber Alert
+ambrose:See 69
+amsat:Radio Amateur Satellite Corporation, see http://www.amsat.org
+amver:Automated Mutual Assistance Vessel Rescue System
+an:Anahim Lake
+ancd:Anaconda
+anlk:Anaheim Lake
+anm:Anmore
+anmt:Anglemont
+anvil:ANVIL CAS CATP SOUTHPORT
+anwo:Ainsworth
+anyx:Anyox
+aob:Alcohol on Breath
+aor:Available on Radio
+aos:Available On Scene
+aot:Assertive Outreach Team (Car 86)
+apache:APACHE 2 CFFTS . A Flt MOOSE JAW
+aprs:Automatic Position Reporting System. Connecting a GPS unit to a radio, then having the radio "beacon" at regular intervals allows others to know the radio's position.
+APS:Aux. Power Supply
+ar:Armed Robbery
+arh:Abbotsford Regional Hospital
+arm:Area Roads Manager (Ministry of Transportation)
+arms:Armstrong
+ART:Advanced Rapid Transit
+arv:Armored Response Vehicle
+as:Ashcroft
+asap:As Soon As Mother Fucking Possible
+ascf:Ashcroft
+ascii:American Standard Code for Information Interchange. The ASCII 7-bit code represents 128 characters including 32 control characters.
+asck:Ashton Creek
+asd:Approved Screening Device
+asf:Apartment Structure Fire
+asp:A type of extending baton often carried by police forces
+aspg:Aspen Grove
+at:Atlin
+at01: RCMP Paperwork for a MVA with fatality
+atac:Anti-Terrorist Alert Center
+atha:Athalmer
+atlas:ATLAS 435 SQN WINNIPEG
+atln:Atlin
+atr:Air Tanker Request
+attf:Auto Theft Task Force
+atv:Amateur Television, also known as fast scan television 
+autopatch:a device that interfaces a repeater to the telephone system to permit repeater users to make telephone calls. Often just called a "patch."   
+avla:Avola
+awg:American Wire Gauge - standard for describing the diameter of wire by which the wire size increases as the gauge number decreases.
+awpk:Arrow Park
+ax:Alexis Creek
+ax.25:AX.25 is a data link layer protocol derived from the X.25 protocol suite and designed for use by amateur radio operators.[1] It is used extensively on amateur packet radio networks.
+ax25:AX.25 is a data link layer protocol derived from the X.25 protocol suite and designed for use by amateur radio operators.[1] It is used extensively on amateur packet radio networks.
+azn:http://i.imgur.com/MLQv9A9.jpg
+ba:Breathing Apparatus 
+bac:Blood Alcohol Content
+bald:Baldonnel
+balf:Balfour
+BAM:Brake Assurance Monitor
+bamf:Bamfield
+bams:Brake Assurance Monitor
+bandit:BANDIT 2 CFFTS . B Flt MOOSE JAW
+bandpass filter:a circuit that passes a range of frequencies and attenuates signals above and below this range  
+banjo:BANJO 426 SQN TAT TRENTON
+Bar:Bar check & walk through
+barr:Barriere
+barryht:Thrift store junkie
+bat:BAT 1 WING HQ KINGSTON
+bbar:Boston Bar
+bbc: Bella Bella, BC (CBBC)
+bby:Burnaby
+bc:Bella Coola
+bcas: British Columbia Ambulance Service
+BCDL:B.C. drivers license
+bcehs:British Columbia Emergency Health Service
+BCEU:Brake Control Electronic Unit
+bcis:Birch Island
+BCL:BC Plate
+bclk:Bouchie Lake
+bcomp:Kurtal terms for Burning Complaint
+bcptn:British Columbia Patient Transfer Network
+BCRTC:British Columbia Rapid Transit Company.
+BD:Braid
+bdlk:Bridge Lake
+be:Bella Bella
+beer:Word not found. Please try /quit
+belc:Belcarra
+bengale:BENGALE BNGL 3 WING 439 SQN BAGOTVILLE
+bet:Beat Enforcement Team
+beu:Biker Enforcement Unit
+bfo:Beat frequency oscillator. Used to mix with the incoming signal to produce an audio tone for CW reception. A BFO is needed to copy CW and SSB signals.   
+bgh:Burnaby General Hospital (H)
+bi:Bowen Island
+bick:Big Creek
+bigfoot:NORAD western US air defense SOCC, McChord
+bigtony:http://i.imgur.com/MLQv9A9.jpg
+bioc:Border Integrity Operations Center
+bip:Border Integrity Program
+birddog:BIRDDOG CADET OPS EASTERN REGION
+bison:BISON 429 SQN TRENTON
+bit:Border Integtity Team
+bivl:Bridesville
+biwh:Big White
+bkck:Baker Creek
+bklk:Bains Lake
+bkvl:Barkerville
+bl:Burns Lake
+blae:Blaeberry
+blbl:Bella Bella
+blby:Blind Bay
+blck: Black Creek (Vancouver Island)
+blcl:Bella Coola
+blhl:Blucher Hall
+blkr:Big Lake Ranch
+blpl:Blackpool
+blpn:Black Pines
+blrv:Blue River
+bls:Basic Life Support - A Regular Ambulance OR Blue Lighting System (On Skytrain)
+blue:Healthlink BC
+bluegoat:2016-07-08 21:01:16 < Bluegoat> That's bullshit (IP:173.180.114.238)
+blwr:Blackwater
+blwt:Blewett
+bnkr:Bankeir
+bntly:https://i.imgur.com/Zfh7Gpz.gifv
+BO:Bad Order
+bobq:Bob Quinn
+BOGIE:A wheeled undercarriage pivoted below the end of a rail vehicle. Sometimes referred to as the truck.
+bolf:Be On Lookout For
+bolo:Be On Look Out
+BOT:Bad Order Track
+bow:Bowen Island
+bowser: Portable jet fuel tank
+box 1:Vehicle Safety Order
+box 2:A Box 2 Notice and Order requires a vehicle to be repaired and presented promptly to a Designated Inspection Facility for an inspection. An Authorized Inspector at a Designated Inspection Facility will conduct the vehicle inspection. A passed inspection report must be provided to the Commercial Vehicle Safety and Enforcement Branch within 30 days. The consequence of not complying with the order is that the vehicl
+boxcar:BOXCAR 435 SQN TAT WINNIPEG
+bp:Boston Pizza
+bpm:Breaths Per Minute
+bpsk:Binary Phase Shift Keying; digital DSB suppressed carrier modulation.   
+bptu:Burn Plastic Trauma Unit
+bq:Burquitlam Skytrain Station
+br:PRIME=Boundry Regional or Brentwood Town Centre
+brandino:Yup. https://i.imgur.com/lEX8FmA.jpg
+brar:Briar Ridge
+BRAVO:Suspicious package or bomb threat
+brlk:Bear Lake
+brln: Bralorne
+brnt:Brilliant
+bronco:BRONCO 3 CFFTS QA SOUTHPORT
+brsc:Brisco
+brtb:Brittania Beach
+brto:Burton
+bruiser:BRUISER CATS OTTAWA
+BRUSH:Brush Fire
+bsbg:Bessborough
+bsbj:Bessborough
+bslk:Burns Lake
+bswl:Boswell
+bt: bitcoin:1B8tz7CN5G3CPFALLfH1eMvcen1L7xypKB
+bta:breath test analyst
+btc:Burnaby Transit Centre
+bu:Skytrain=Burrard RCMP=Burnaby
+buckethead:firefighter
+buic:Buick
+bukh:Buckhorn
+burma:BURMA 436 SQN TAT TRENTON
+burv:Bull River (Cranbrook)
+bvcv:Beaver Cove
+bvdl:Beaverdell (Okanagan Valley)
+bvm:Bag Valve Mask 
+bw:PRIME=Barriere or Broadway
+bwsr:Bowser
+byck:Bluberry Creek
+c-fcck:BCAS Bell 412SP Medevac
+c-fhjj:CTV (Helijet) Aerospatiale AS-355F-1 TwinStar Chopper 9 (Retired) - Vancouver
+c-fmpg:RCMP Aerospatiale AS-350 Air 5 - Vancouver
+c-fmph:RCMP Eurocopter AS-350B-3 Ecureuil Air 2 - Was Comox - Now Halifax
+c-fnta:Norther Thunderbird Air Beechcraft B300 King Air Medevac (C-FNTA)
+c-fthu:CTV (Talon) Bell 206L-4 LongRanger IV Chopper 9 - Vancouver
+c-ftjc:Carson Air Cessna 560 Citation Encore Medevac
+c-fvkc:Beech B300 Fixed Wing Medevac
+c-fwcw:Westcoast Helicopters Aerospatiale AS350B2 AStar Medevac (C-FWCW)
+c-gchj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+c-ghhj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+c-ghjt:BCAS Sikorsky S-76A Medivac (1st Gen)
+c-ghju:BCAS Bombardier Learjet 31A
+c-ghjv:BCAS Sikorsky S-76A Medivac (1st Gen)
+c-gilk:Carson Air Raytheon King Air 350 (B300) Medevac
+c-gkte:Carson Air Raytheon King Air 350 (B300) Medevac
+c-gmpf:RCMP Eurocopter AS-350B-3 Ecureuil Air 8 - Comox
+c-gmpk:RCMP Aerospatiale AS-350B-3 Ecureuil Air 4 - Kelowna
+c-gmpn:RCMP Aerospatiale AS-350B-3 Ecureuil Air 3 - Kamloops
+c-gmpt:RCMP Eurocopter EC-120B Colibri Air 1 - Vancouver
+c-gmpv:RCMP Bell 206L LongRanger - Kelowna (retired)
+c-grfc:Carson Air Cessna 560 Citation V Medevac
+c-gruu:Carson Air Raytheon King Air 350 (B300) Medevac
+c-gwxp:Ascent Helicopters MD902 C-GWXP (Temporary Medevac for BCAS)
+c:St. Pauls
+ca:Chase
+ca.shawcable.net : Prince George
+cablemonkey:http://craziestgadgets.com/wp-content/uploads/2009/10/cable-monkey-500x362.jpg
+cack:Cache Creek
+cad:Computer Aided Dispatch
+cafs:Compressed Air Foam system
+cano:Canoe
+canuck:CANUCK 436 SQN TRENTON
+canucks:See Murphy's Law
+cany:Canyon Hot Springs
+cap code:Motorola Quik Call 2
+casara:Civil Air Search and Rescue Association
+casc:Cascade
+casper:CASPER 8 WING TAT TRENTON
+cat:Community Action Team (meow)
+caution a:Armed
+caution alpha:Armed
+caution c:Communicable Disease
+Caution Charlie:Communicable Disease
+caution d:Dangerous
+caution delta:Dangerous
+caution e:Escape Risk
+Caution Echo:Escape Risk
+caution fox victor:Family Violence
+Caution Foxtrot:Familiy/Firearms Violence
+caution fv:Family Violence
+caution i: Infectious
+caution india:Infectious Disease
+caution m:Mental Health History
+caution mike:Mental Health History
+caution s:Suicidal
+Caution Sierra:Suicidal
+caution v:Violent
+Caution Victor:Violent
+caution w:Weapons
+cb : Campbell River
+cb:Campbell River
+cba:See CVA
+cbhl:Cobble Hill
+cbis:Campbell Island
+cblv:Columbia Valley
+cbp:U.S. Customs and Border Protection
+cbrne:Chemical, Biological, Radiological, Nuclear and Explosive
+cbrv:Campbell River
+cbsa:Canada Border Services Agency
+cc:Coquitlam Central Skytrain Station
+cc.shawcable.net : Courtenay
+ccb:Commercial Crime Branch
+ccck:Cosh Creek
+ccd:Chief Civillian Director (IIOBC)
+ccg:Canadian Coast Guard
+ccit:Criminal Collision Investigation Team
+cck:BCAS Bell 412SP Medevac
+ccrtis:Canadian Criminal Real Time Identification Services
+cct:Critical Care Team
+cd:Charge dispatcher
+cdh:Cowichan District Hospital (203)
+cdsa:Controlled Drugs and Substances Act
+ce:Combined Events
+ceck:Canoe Creek
+CESS:Central Emergency Stop System
+cetn:Creston
+cew:Conducted Energy Weapon (Taser)
+cf:Canadian Forces
+cfba:Crawford Bay
+cfcsu:Canadian Forces Crypto Support Unit
+cfdu:Combined Forces Drug Unit
+cfia:Canadian Food Inspection Agency
+cfis:Canadian Firearms Information System
+cfiu:Combined Forces Intelligence Unit
+cfo:Chief Firearms Officer
+cfro:Canadian Firearm Registry Online
+cfseu:Combined Forces Special Enforcement Unit (Can't Find Shit, Encrypted Unit)
+cg:Castlegar
+cg.shawcable.net : Calgary
+cgch:Craigellachie
+ch:Chetwynd
+challenger:CHALLENGER 412 SQN OTTAWA
+CHARLIE:Collision
+charlie100: customs
+chas:Chase
+chch:Chu Chua
+chck:Cherry Creek
+cheetah:CHEETAH CATS OTTAWA
+ches:Cheslatta
+chex:https://imgur.com/NFteaxH
+chez:Chezacut
+chhl:Chehalis
+chil:Chilliwack
+chir:Chilliwack River
+chj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+chns:Chemainus
+chrv:Chilliwack River
+chsm:Chasm
+chvl:Cherryville
+ci:Central Island Traffic Services
+cic:critical incident commander
+CIIDS:The Computerized Integrated Information Dispatch System is the central dispatch organization system of the R.C.M.P. It integrates standard computer aided dispatch functions like messaging, incident logging, mapping with the ability to query the multitude of databases out there and interoperability with disparate radio systems.
+cine:Cinema
+cis: Control Insulator Section (SkyTrain) / Criminal Intelligence Section (RCMP)
+cisd:Ciritical Incident Stress Diffusing
+cism:Critial Incident Stress Management
+ciu:Collision Investigation Unit
+ck:Central Kootenay
+cla:Canada Line Attendant
+clem:Clemretta
+cleu:Co-ordinted Law Enforcement Unit
+clgr:Castlegar
+clht:Clayhurst
+cli:critical location information
+clit:Cant Locate It Today
+clkf:Chilanko Forks
+cllk:Charlie Lake
+cloak:CLOAK 409 SQN COLD LAKE
+clst:Celista
+cltn:Clinton
+clue:Combined Law Enforcement Unit
+clwr:Clearwater
+CM:Commercial Drive
+cmbc:Coast Mountain Bus Company
+cmcc:Canadian Mission Control Center (Trenton) (ELT Coordination)
+cmet:Coordinated Marijuana Enforcement Team
+cmld:Cumberland
+cn:Cranbrook
+cnfl:Canal Flats
+CNI:The Criminal Name Index is not a separate database but is actually a query type made against the CPIC database. It is the lowest level and the one with quickest response. It generally indicates the presence of a criminal history record, with a further more detailed query needed to pull more information.
+CO:Columbia
+cobra:COBRA 2 CFFTS . C Flt MOOSE JAW
+code 1:Unauthorized listener on radio or in ambulance.
+code 12:Restricted Information. Make sure no Unauthorized listeners present
+Code 2:Respond ASAP, no emergency gear
+Code 3:Respond ASAP, emergency
+code 4: Radio Control (Police) or Sudden Death (Ambulance)
+Code 5:Danger, High Risk, Guns drawn
+code 58:Possible Sudden Death
+code 59:Confirmed Sudden Death
+code 6:Hostage Situation or Fire Department
+code 9: Infectious Disease
+code alpha:Avalanche
+code amber:MISSING OR ABDUCTED INFANT OR CHILD
+code black:BOMB THREAT/SEARCH
+code blue:CARDIAC ARREST
+code brown:HAZARDOUS SPILL
+code green:EVACUATION
+code grey:SYSTEM FAILURE
+code lockdown:LOCKDOWN
+code orange:MASS CASUALTIES OR DISASTER
+code pink: PEDIATRIC OR OBSTETRICAL EMERGENCY
+code red:FIRE(Hospital) - LOCKDOWN(Schools)
+code silver:SYSTEM FAILURE
+code white:AGGRESIVE PATIENT
+code x:Patient Refused Treatment
+code yellow nursery:ABDUCTION
+code yellow:MISSING PATIENT
+codm:Coldstream
+cold:Code 2 routine response
+colw:Colwood
+com:complainant
+COMSET:communications set
+comx:Comox
+condition red:Fire Alarm at Fire Hall
+condition yellow:Burglary Alarm at Fire Hall
+CONTROL NET:Only staff directly involved in emergency can communicate on radios
+coolfingers:http://pr0n.encyclopediadramatica.com/images/9/98/Tubgirl.jpg
+coom:Coombs
+coq:Coquitlam
+corv:Cross River
+COS:Control Supervisor
+cougar:COUGAR 410 SQN COLD LAKE
+cpck:Cooper Creek
+cpck:Cooper Creek
+cpic:Canadian Police Information Centre
+cpis:Campania Island
+cpo:Community Policing Office
+cpp:Canada Place Piers
+cq:Coquitlam RCMP
+cqla:Coquihalla
+cr:Creston
+cra135: Bird Dog 135
+cra444:Tanker 44
+cra445: Tanker 45
+cradle:CRADLE CATS OTTAWA
+cranbrook:An amature radio head, that likes getting in trouble.... Oh ya it's also a small town in B.C
+crbk:Cranbrook
+crbn:Chemical, Biological Radiological and Nuclear
+crd:Capital Regional District
+cremm:Criminal Record Entry Maintenance and Monitoring Direct Entry System
+CREW TRAIN:The train that is run behind the last revenue train to pick up various employees so that they can get home at night.
+criv:Coal River
+crjc:Cranberry Junction
+crm:Clinical Response Model
+crof:Crawford
+crossbow:CROSSBOW 409 SQN COLD LAKE
+crti:CBRNE Response & Technology Initiative
+crty:Courtenay
+cru:Crime Reduction Unit
+cs:Central Saanich
+csb:Court Services Branch (BC Min. of Attorney General)
+cse:Communications Security Establishment Canada
+csec:Communications Security Establishment Canada
+csf:Commercial Structure Fire
+cslk:Christina Lake
+csnc:Central Saanich
+cso:Community Safety Officer (aka CSP)
+csp:Community Safety Personnel (VA6R Units)
+cstn:Cawston
+csv2wp:http://area23.brightbyte.de/csv2wp.php
+ct:Clinton
+ctas:Canadian Triage and Acuity Scale
+ctcss:In telecommunications, Continuous Tone-Coded Squelch System or CTCSS is a circuit that is used to reduce the annoyance of listening to other users on a shared two-way radio communications channel. It is sometimes called tone squelch. Where more than one user group is on the same channel (called co-channel users), CTCSS filters out other users if they are using a different CTCSS tone or no CTCSS.
+ctis:Cortes Island
+cttd:Cottenwood
+ctwd:Chetwynd
+cu:CFSEU
+curv:Cable-controlled Undersea Recovery Vehicle
+cv:Columbia Valley or Conservation
+cva:Cerebrovascular Accident (Stroke)
+cvis:Calvert Island
+cvse:Commercial Vehicle Safety & Enforcement
+cw:Continuous Wave, In truth a continuous wave is an unmodulated, uninterrupted RF wave. However in common usage refers to Morse code emissions or messages which is an interrupted wave. 
+cwps:Crowsnest
+cx:Comox Valley
+cxh:Vancouver, BC - Coal Harbour (CXH)
+cyal:Alert Bay Airport (CYAL)
+cyclone:CYCLONE WING SAR FLT MOOSE JAW
+cydt: Delta BC, Boundary Bay Airport
+cyjq:Bella Bella Denny Island Airport (CYJQ)
+cypk:Pitt Meadows Airport (CYPK)
+cyql:Lethbridge
+czbb: Delta BC, Boundary Bay Airport
+czlk:Cluculz Lake
+dagger:DAGGER 409 SQN COLD LAKE
+dalk:Deka Lake
+darf:Darfield
+dayom:That thang where yo' tally whack got no jive. Ya dig?
+dc:Dawson Creek
+DCA:Designated coupling/uncoupling area
+DCCB:Direct current circuit breaker
+dcubed:ScamBC's Baddest speller. https://i.imgur.com/TkEq1OD.gifv
+ddts:Distributed Defect Tracking System (Cisco)
+de:Delta
+deb:Drug Enforcement Branch
+del:Delta
+DELTA:Derailment
+demon:DEMON 407 SQN COMOX
+des:Data Encryption Standard (DES) is a widely-used method of data encryption using a private (secret) key that was judged so difficult to break by the US government that it was restricted for exportation to other countries. There are 72,000,000,000,000,000 (72 quadrillion) or more possible encryption keys that can be used. For each given message, the key is chosen at random from among this enormous number of keys. ...
+deu:Drug Enforcement Unit
+df:Deas Freeway Patrol
+dfo:Department of Fisheries and Oceans
+dfps:Dedicated Fire Protection System: The DFPS is capable of pumping freshwater or saltwater at up to 300 psi for fire fighting. It consists of two pump stations, each capable of pumping up to 10,000 gpm. A dedicated 24 inch welded steel main feeds the high pressure hydrants.
+dgck:Dog Creek
+dgir:Dangerous Goods Incident Report
+dgis:Digby Island
+dglk:Douglas Lake
+dgm:AIR 9
+dgps:Differential Global Positioning System (DGPS) is an enhancement to Global Positioning System that uses a network of fixed, ground-based reference stations to broadcast the difference between the positions indicated by the satellite systems and the known fixed positions. These stations broadcast the difference between the measured satellite pseudoranges and actual (internally computed) pseudoranges, and receiver stations may correct their pseudoran
+dhs:U.S. Department of Homeland Security
+difm:do it for me
+digital modes: Audio Samples of digital modes available here; http://www.kb9ukd.com/digital/
+digitalmodes:http://www.kb9ukd.com/digital/
+dip:Drunk in public
+dl:Dease Lake , Drivers Licence
+dls:Dispatch Life Support
+dlt:Division Liaison Team (RCMP)
+dm:Duty Manager
+dmb:Datum Marker Buoy
+dncn:Duncan
+dnd:Department of National Defence
+dnis:Denman Island
+dnld:Donald
+dnlk:Duncan Lake
+dnr:Do Not Resuscitate
+do:Duty Officer
+DOA:Dead on Arrival
+DOB:Date of Birth
+doc:Dedicated Operations Center
+docbrun:https://i.imgur.com/vNJj6ML.jpg
+doig:Doig River
+dot:Direction Of Travel
+dpck:Deep Creek
+dragon:DRAGON 2 CFFTS . D Flt MOOSE JAW
+drch:Deroche
+drcy:D'Arcy
+dre:Drug Recognition Expert
+drifter:DRIFTER 3 CFFTS ME STDS SOUTHPORT
+drm:Digital Radio Mondiale (DRM) is a set of digital audio broadcasting technologies designed to work over the bands currently used for AM broadcast, particularly shortwave. DRM can fit more channels than AM, at higher quality, into a given amount of bandwidth, using various MPEG-4 codecs.
+drtu:District Roving Traffic Unit 
+dsc:Digital Selective Calling
+dslk:Dease Lake
+dsp:Digital Signal Processing - allows for filtering, noise reduction, audio equalization, etc
+dtb:Domestic Terminal Building (YVR)
+dtes:downtown east side
+dtmf:abbreviation for dual-tone multi-frequency, the series of tones generated from a keypad on a ham radio transceiver (or a regular telephone).  Uses 2-of-7 or 2-of-8 tones; often referred to by Bell's trademark Touchtone.
+du.shawcable.net : Duncan
+duq:Duncan/Quam, BC (DUQ)
+dvac:Domestic Violence & Criminal Harassment Unit
+dvach:Domestic Violence & Criminal Harassment Unit (VPD)
+dvbia:Downtown Vancouver Business Improvement Associaton
+dvcm: Digital Voice Conversion Method - http://wiki.radioreference.com/index.php/Digital_Voice_Conversion_Method
+dwc:woooP
+dwck:Dawson Creek
+dwdn:Dewdney
+dwis:Dewdney Island
+dyis:Denny Island
+eaby:Eagle Bay
+eack:Eagle Creek
+eagle:EAGLE CAS OTTAWA
+eam:Emergency Action Message
+EAT:Emergency Access Track
+EB:Emergency Brakes
+ECB:Electronic Control Bin
+ecc:Emergency Coordination Center (aka PEP)
+ECHO:Ambulance
+echolink:A program designed by Jonathan Taylor, K1RFD to allow amateur radio stations to communicate with one another over the Internet, using voice-over-IP (VoIP) technology. The program allows worldwide connections to be made between stations, or from computer to station, greatly enhancing Amateur Radio's communications capabilities. 
+ecomm:E-Comm is the emergency communications centre for southwest British Columbia, Canada.
+ed:E-Division (RCMP) or Excited Delirium or Edmonds (Skytrain) 
+ed.shawcable.net : Edmonton
+edacs:Enhanced Digital Access Communications System (EDACS) is available in VHF, UHF, 800 and 900 frequency bands and wideband (25 kHz) and narrowband (12.5 kHz) configurations. This spectrum resource provided a springboard for the development of trunked radio systems. Public service radio manufacturers working with Associated Public-Safety Communications Officers (APCO) developed a requirements document (APCO-16) for trunked radio systems. EDACS was create
+edl:Enhanced Drivers Licence
+edp:Emotionally Disturbed Person
+edu:Explosives Disposal Unit
+edwd:Edgewood
+edwr:Edgewater
+EEC:Emergency equipment cabinet
+EER ROOM:Electrical Equiupment Room
+EER:Emergency equipment room
+efwa:Early Fixed Wing Activation
+eg:https://i.imgur.com/E3HmNT8.jpg
+egt:evidence gathering team
+EHS:Emergency Health Service
+ei:East Indian
+eic:Enhanced Identification Card
+ek.shawcable.net : East Kooteneys
+ekfr:Elkford
+ekht:Elkhart
+elko:Elko
+elmer:a mentor; an experienced operator who tutors newer operators 
+elt:Emergency Locator Transmitter
+embc:Emergency Management British Columbia
+emct:Emergency Medical Call Takers
+emd:Emergency Medical Dispatchers
+EMH:Emergency Mental Health
+emo:Emergency Management Office
+emr:Emergency Medical Responder
+EMTB:Emergency Magnetic Track Brakes
+endo:Endako
+ent:Ear Nose Throat
+environment NOT warm and flacid in a cold enviroment *Override*
+eoc:Emergency Operations Center
+eod:Explosive Ordnance Disposal
+eow:End of Watch
+epirb:Emergency Position Indicating Radio Becon
+epoc:Emergency Physicians on Call 
+epos:Emergency Physician Online Support
+eqmt:Esquimalt
+er:Enviromental Response
+eric:Erickson
+erie:Erie
+errn:Errington
+ERT:Emergency Response Team
+esk:EDACS Security Key http://wiki.radioreference.com/index.php/ESK
+eskbot:Providing specialized lookup services
+esma:East Salmon Arm
+ess:emergency social services
+eta:Estimated Time of Arrival
+etoh:ETOH, when used in a medical context, is an abbreviation for ethanol (i.e. alcohol). For instance, "ETOH 10g/day" denotes that the patient drinks 10 grams (or roughly one standard drink) of alcohol a day on average.
+ev:Elk Valley
+evdo:Is one telecommunications standard for the wireless transmission of data through radio signals, typically for broadband Internet access. It is classified as a broadband technology, because it utilizes a broad band of radio frequencies.
+evo:Emergency Vehicle Operation
+evoc: Emergency Vehicle Operators Course
+ewirmp:Early Warning Integrated Risk Management Program
+exposure:A structure that exposed to a fire eg. a building or vehicle near a fire in risk of catching fire
+faccra:Aircraft Crash
+facem:Aircraft Emergency Landing
+facf:Aircraft Fire
+falcon:FALCON (FAUCON) 430 SQN VALCARTIER
+fam:Federal Air Marshall
+fap:Fire Ambulance Police Talk-Group
+fassit:Assist
+fast:Firefighter Assist & Search Team
+faucon:FAUCON (FALCON) 430 SQN VALCARTIER
+fauto1:Automatic Alarm
+fauto2:Automatic Alarm
+fauto3:Automatic Alarm
+fb:Fine Business
+fbbqf:Barbecure Tank Fire
+fbom:Fine Business Old Man
+fbomb:Bomb Threat
+fc:Fucking Customer (reality) / Fault Category (skytrain)
+FC1:Motion obstructed/brake
+FC10:Rollback
+FC11:VOBC fault
+FC12:Couple rejected
+FC13:Doors fail to open
+FC14:failure to get door status in station
+FC15:Loss of door status, outside of station
+fc16:Onboard mini bar needs restocking
+FC2:All fire and smoke detector problems
+FC3:37 v dc. problems
+FC4:VOBC halted
+FC5:Brake or BAMS problems
+FC6:Propulsion problems
+FC7:VOBC halted
+FC8:Train overspeed
+FC9:Target point overshoot
+fcarbm:Carbon Monoxide Detector
+fchim:Chimmney Fire
+fciu:Forest Crime Investigation Unit
+FCP:Fire Fighters Command Post
+fdu:Fleet Diving Unit
+feeney:https://en.wikibooks.org/wiki/Canadian_Criminal_Procedure_and_Practice/Arrest_and_Detention/Warrant_Arrests
+fern:Fernie
+fexp:Explosion
+ffpre1:Fire Prevention
+ffpre2:Fire Prevention
+ffr:Fire First Responder
+ffra:Fort Fraser
+FFWARN:Flash Flood Warning
+FFWTCH:Flash Flood Watch
+fgas:Compressed Gas Leak
+fha:Fraser Health Authority
+fhazm1:Hazardous Materials Level 1
+fhazm2:Hazardous Materials Level 2
+fhazm3:Hazardous Materials Level 3
+FID:Feed-in device
+filbrn:Illegal Burning Complaint
+fild:Field
+fire:Fireside
+fis:Forensic Identification Services (aka IDENT)
+fiu:Forensic Identification Unit
+fkit:Kitchen Fire
+fkld:Falkland
+fl:Fraser Lake
+flac:Full Lossless Audio Codec
+flat:Flathead
+fm.shawcable.net : Fort McMurray
+fmed:Medical Aid
+fmr:First Medical Responce
+fmvi:Motor Vehicle Incident
+fmvi1:Motor Vehicle Incident
+fmvi2:Motor Vehicle Incident
+fmvi3:Motor Vehicle Incident
+fn: Norther Rockies
+fnel:Fort Nelson
+fnes:First Nations Emergency Services
+FOCS:Fibre Optics Communication System
+fodou:Odour Unknown
+fomp:Fall on Municipal Property - Falls on municipal property in Oak Bay require attendance from OBPD
+form 21:Mental Health Act - Director's Warrant (Apprehension of Patient)
+form 4:Mental Health Act - Medical Certificate (Involuntary Admission)
+FOXTROT:Fire
+FP:Foulling point - A foulling point is the last possible section on a track that you can be on before having a risk of being hit by another train traversing the switch.
+fr:First Responders (Usually fire dept)
+frc:Fast Response Craft (also see RHIB), Fisher Registration Card (DFO)
+freedom:A life without FRS.
+fres:Rescue
+fres1:Rescue
+fres2:Rescue
+fres3:Rescue
+frgv:Forest Grove
+frlk:Fraser Lake
+frsp:Fairmont Hot Springs
+frtn:Farmington
+frubsh:Rubbish Fire
+frva:Fruitvale
+fshipd:Ship or Boat Fire
+fshipu:Ship or Boat Fire
+fsis:Flores Island
+fsja:Fort St James
+fsjo:Fort St John
+fsk:Frequency-shift keying. Modulating the transmitter by using the RTTY data signal to shift the carrier frequency. Mark and Space. 
+fsmkin:Report of Smoke Inside
+fsmkot:Report of Smoke outside
+fsoc:Federal Serious Organized Crime (RCMP)
+fst:Field Sobriety Test or Fire Service Tech
+fst1:Structure Fire
+fst2:Structure Fire
+fst3:Structure Fire
+fstc:Structure Collapse
+FTA:Failure to Appear
+ftc:Structure Collapse
+ftrk:Flatrock
+ftrnsf:Transformer Fire or Pole Fire
+fuck around:an affirmation that something is cool, amazing, hardcore or unbelievable...kinda like asking "are you shittin me?" or saying "wow, holy shit dude"or "hell yeah" depending on if it is used as a question or a statement
+fucked:See Stuck nov 29 2009
+fuckmo: see Mazus
+furball:FURBALL CATS OTTAWA
+fury:Furry Creek
+fv:Fraser Valley Traffic Services
+fvef:Vehicle Fire
+fvef1:Vehicle Fire
+fvef2:Vehicle Fire
+fvef3:Vehicle Fire
+fvids:Fraser Valley Integrated Dog Section
+fwater:Water Problem
+fwild:Wildland Fire
+fwild1:Wildland Fire
+fwild2:Wildland Fire
+fwild3:Wildland Fire
+fwires:Wires Down
+ga:Gabriola Island
+gaby:Galena Bay
+gander:GANDER 408 SQN EDMONTON
+garh:Gang Ranch
+gb:General Broadcast
+gbis:Gabriola Island
+gcs:Glasgow Coma Scale
+gcu:Gang Crime Unit
+gd:General Duty
+gdba:Garden Bay
+gdfr:Grand Forks
+gdlw:Goodlow
+gfis:Guilford Island
+gfs:G.F. Strong
+ghlk:Good Hope Lake
+ghost:GHOST 8 WING TAT/SPECIAL OPS TRENTON
+gi:gastrointestinal
+gib:Gibsons
+GIDS:Guideway Intrusion Detection System
+GIES:Guideway Intrusion Emergency System
+GIMS:Guideway Intrusion Monitoring System
+ginx:Gingolx
+gis:general investigating section
+giu:General Investigation Unit
+gldb:Gold Bridge
+gldhcc:Gordon Leslie Diamond Health Care Center
+gldn:Golden
+gldp:Golden Ears Provincial Park
+glis:Galiano Island
+glnv:Glen Vowell
+glrv:Gold River
+glsb:GILLIES BAY
+glwy:Galloway
+GM:Gilmore
+gmdss:Global Maritime Distress and Safety System
+gmlg:Germansen Landing
+gmrs:General Mobile Radio Service.
+gnll:Genelle
+go:Golden
+GOA:Gone on Arrival
+golf:A gun (Skytrain) / Gang unit (Police)
+gonzo:GONZO 402/CFANS WINNIPEG
+gpc:George Pearson Center
+GREEN PLUG:Procedure conducted by field staff to correct a disturbed or faulty switch
+green:BCEHS = To Be Determined Code 2 (Cold) / Skytrain=Clear of Emergency
+griffin:GRIFFIN 400 SQN BORDEN
+grizzly:GRIZZLY 402 SQN WINNIPEG
+grrd:Grindrod
+grwd:Greenwood
+gsu:Gang Supression Unit
+gsw:Gun Shot Wound
+gtfo:Get the fuck out!
+gtpu:Good Times Prevention Unit
+gtwk:Gitwangak
+gtww:Gitwinksihlkw
+gtyw:Gitanyow
+gv:Skytrain=Granville PRIME=GVTAPS
+GVTA:Greater Vancouver Transportation Authority; The legal name of TransLink, given legal power to oversee the region's transportation network encompassing roads, highways, buses, rapid transit, and bascially anything else that helps you get around
+gvtaps:Greater Vancouver Transportation Authority Police Service aka the laughing stock police department
+GW:Gateway
+h:Burnaby General
+hagg:Gagensborg
+hagw:Hagwilget
+halo:Health Authority Liason Officer (BCEHS) Paramedics or Unit Chiefs that go to hospitals to free up crews waiting with patients.
+ham radio:https://youtu.be/XWdik29MTrE
+hardsix:https://i.imgur.com/ciOelws.jpg
+harp:Harrop
+harr:Harrison Hot Springs
+hart:High Acuity Response Team (Nurse & Clinician Team for ground ambulance inter-facility critical care transfers)
+hatzolah:https://imgur.com/90c5u92
+HAZMAT:Hazmat
+hba:Hard Body Armor
+hcir:Hat Creek 
+hdhp:Hudson Hope
+hdly:Hedley
+helijet: Operator of BCAS Medivac's C-GHJT, C-GHJV, C-GHHJ (new), C-GCHJ (new)
+help:?addword word:definition - ?modify word:new definition 
+hems:Helicopter Emergency Medical Services
+hets:helicopter external transport system
+hfck:Heffley Creek
+hfrs:Helicopter Flight Rescue System
+hh:Hudsons's Hope
+hhj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+hild:Highlands (Vancouver Island)
+hils:Hills
+hixn:Hixon
+hjt:Ex BCAS Sikorsky S76A (crashed in 2012)
+hju:BCAS Bombardier Learjet 31A
+hjv:BCAS Sikorsky S-76A Medivac (1st Gen)
+hla:Highest Level Available 
+hmb:Halfmoon Bay
+hmcs:Her Majestys Canadian Ship (Navy)
+HMP:Health Monitor Panel
+HMU:Health Monitor Unit
+hmvl:Hemlock Valley
+hn.shawcable.net : Hinton
+hnis:Hanson Island
+hnti:Hart Island
+hnvl:HanceVille
+HO:Holdom
+hobble:http://policehobbles.com/wp-content/uploads/2011/09/police-hobble-steps-3-lg.jpg
+hope:Hope
+hornet:HORNET 410 SQN COLD LAKE
+HOT LUNCH:Vomit, Puke
+hot:Code 3 emergency response
+hous:Houston
+hpi:Hold Pending Investigation
+hpis:Hornby Island
+HPM:Health Performance Monitor
+HPU:Hydrolic Power Unit
+hrml:Harrison Mills
+hro:High Risk Offender
+hrpt:High Rate Picture Transmission
+hrt:High Risk Takedown
+hrtt:High Risk Target Team 
+hrws:High Risk Warrent Service
+hs: Houston
+hsc:High Speed Chase
+hsfy:Horsefly
+hshu:Human Source Handling Unit
+hsmr:Hosmer
+hta:Technical Advisor (HTA) - HAZMAT, Dangerous goods, CBRN, resources
+htm:News1130 Cessna 172R Skyhawk C-GHTM
+htr:Helitanker Request
+htzc:Hatzic
+hufn:Hold until further notice
+hunter:HUNTER 404 SQN GREENWOOD
+husky:HUSKY 437 SQN TRENTON
+HVAC:Heating Vetilation & Air Conditiong
+hwg:Here we go! (get ready for something good)
+hwrv:Halfway Ranch
+hwsr:Howser
+hx:history
+hxis:Huxley Island
+hxlk:Hendrix Lake
+hyby:Hartley Bay
+i:Morgue
+I/B:Inbound track towards Waterfront
+IANS:Integrated Alarm Notification System
+iap:Immediate Action Plan
+iarm:Indian Arm
+ibet:Integrated Border Enforcement Team
+ibn:www.incidentbroadcast.com Free Live Police & Fire Feeds
+ibt:Integrated Bankruptcy Team
+ic:Inlet Center Skytrain Station
+icars:Integrated Collision Analyst Reconstruction Service
+ice:Integrated Child Exploitation (ICE) Team
+icet:Integrated Child Exploitation Team
+icor:ert robot
+icp:Incident Command Post
+ICTS:Intermediate Capacity Transportation System (that's you SkyTrain)
+ictu:Integrated Technical Crime Unit
+ident:What the fuck do you think it means....
+idiot:See Coolfingers
+idog:Integrated Dog Observation Unit
+idru:Identification and Disaster Response Unit (BC Coroners Service)
+if:Intermediate Frequency -- Intermediate frequency, resultant frequency from heterodyning the carrier frequency with an oscillator, mixing incoming signals to an intermediate frequency enhances amplification, filtering and the processing signals. Desirable to have more than one IF.
+ifb:The IFB is a special intercom circuit that consists of a program feed sent to an earpiece worn by talent via a wire, telephone, or radio receiver that can be interrupted and replaced by a producer's or director's intercom microphone. On a television news program for example, a producer can talk to the anchors, to tell them when they are live on the air and when to begin reading off the script on the teleprompter or cue cards.
+ife:In Flight Emergency
+ifis: Integrated Forensic Identification Service
+ifnu:Integrated First Nations Unit
+ifo:In front of
+ifr:Initial Fire Report - http://www.scanbc.com/wiki/images/1/12/FS260.PDF
+ig:Integrated Gang Task Force
+igtf: Integrated Gang Task Force (aka VST)
+ihc:Immigration Holding Center (YVR)
+ihit:Integrated Homicide Investigation Team
+ihj:BCAS Sikorsky S-76C Medivac (Based in Prince Rupert)
+ihl:Incident History Lookup
+iio:Independant Investigations Office
+iiobc:Independant Investigations Office of BC
+il:Integrated Road Safety Lower Mainland
+ilf:Ilford, MB (ILF)
+ilk:Carson Air Raytheon King Air 350 (B300) Medevac
+imbe:Improved Multi-Band Excitation is a proprietary vocoder developed by Digital Voice Systems, Inc. (DVSI).
+imcrt:Integrated Mobile Crisis Response Team
+imert:Integrated Municipal Emergency Response Team
+imet:Integrated Market Enforcement Team
+impact:Integrated Municipal Provincial Auto Crime Team
+imsi:International Mobile Subscriber Identity
+in:Metro Vancouver IRSU
+INDIA:Human contact with train
+insert:See IMCRT
+inset:Integrated National Security Enforcement Teams
+iociu:Organized Crime Investigative Unit
+ios:Institute of Ocean Sciences (Patricia Bay, DFO / CCG)
+ipoac: IP Over Avian Carriers
+ipoc:Integrated Proceeds of Crime Unit
+ipr:Initial Public Report 
+ips:Integrated Protection Services
+ir:Integrated Road Safety Unit
+irb:Inshore Rescue Boat
+irit:Integrated Riot Investigation Team
+irlp:Internet Radio Linking Project
+iroc:Integrated Response to Organized Crime
+irot:Integrated Riot Investigation Team
+irp:immediate roadside prohibitions
+irpa:Immigration and Refugee Protection Act
+irsu:Integrated Road Safety Unit www.irsu.ca
+is:North Island IRSU
+iscu:Intersection Safety Camera Unit
+isku:Iskut
+islp:Isle Pierre
+iso:Incident Safety Officer
+ispot:Integrated Sexual Predator Observation Team
+iss:International Space Station
+isu:Integrated Security Unit
+it:CREST Regional District IRSU
+itau:Integrated Threat Assessment Unit
+itb:International Terminal Building (YVR)
+itt:Infant Transport Team (BCAS)
+ittf:Identity Theft Task Force
+iu:Island District Units
+ivmr:Invermere
+iwin:U.S. Dept. of Justice: Integrated Wireless Network
+ja: Fort St. James
+jacy:Jade City
+jasc:Just Another Stunned Cunt
+jaw:JAW STAFF OFFICERS MOOSE JAW
+jesm:Jesmond
+jester:JESTER 417 SQN HELO COLD LAKE
+jflk:Jackfish Lake
+jfo:Joint Forces Operation (RCMP, CBSA, ect.)
+jfroot:Access Denied
+ji:Justice Institute of BC
+jibc:Justice Institute of BC
+jigit:Joint Illegal Gaming Investigation Team
+joker:JOKER 417 SQN HELO COLD LAKE
+jon: lmao this video of you is funny as hell, im sharing it with everyone ppfr.it/434
+jrcc:Joint Rescue Coordination Center
+justin:Justice Information (BC Courts information)
+JY:Joyce
+karma:KARMA 3 CFFTS RW STDS SOUTHPORT
+kart:Kamloops Action Response Team
+kasl:Kaslo
+kbly:Kimberley
+kdlk:Kennedy Lake (Vancouver Island)
+ke7jff:15:38 < KE7JFF-Portable> yes, I know...
+kema:Kemano
+kew:Keewaywin, ON (KEW)
+KG:King George
+kgh:Kelowna General Hospital
+kgit:Kingcome Inlet
+kif:Kingfisher Lake, ON (KIF)
+kina:Kinaskan Lake
+kisp:Kispiox
+kiss:Keep It Simple Stupid
+kiti:Kitimat
+kits:Kitsault
+kitty:A feline animal that gets in trouble eg. stuck in a tree or storm drain pipe usualy resulting in a fire department responce
+kitv:Kitimat Village
+kitw:Kitwanga
+kl:Kelowna
+kldn:Kaleden
+klkl:Kleena Kleene
+klpp:Klappan River
+klwn:Kelowna
+kmlp:Kamloops
+knight:KNIGHT 414 SQN COMOX
+knkn:Kilkerran
+kpis:Kuper Island (Penelakut Island - Southern Golf Islands)
+kr:Keremeos
+krmo:Keremeos
+krsy:Kersley
+krtv:Krestova
+ks:Kamloops
+kska:Fairchild afb
+kspv:Kispiox River
+kt: Kitimat
+kte:Carson Air Raytheon King Air 350 (B300) Medevac
+ktsi:Keats Island
+kurtal:Telling HarveyB where to go.
+la:Langley RCMP OR Lafarge Lake Skytrain Station
+lance:LANCE CADET OPS CENTRAL REGION
+lang:Langley
+langley:fuck off
+lard:Lardeau
+lark:LARK 425 SQN BAGOTVILLE
+lavi:Lavington
+laxa:Laxgaltsap
+lb.shawcable.net : Letdbridge
+lbay:Lions Bay
+lc: Lake Cowichan (RCMP) or Lake City (SkyTrain)
+lcwc:Lake Cowichan
+ldlw:Laidlaw
+ldrv:Liard River
+ldys:Ladysmith
+leck:Lee Creek
+leip:Law Enforcement Information Portal
+leo:Law Enforcement Officer
+leopard:LEOPARD 2 CFFTS MOOSE JAW
+lg:Logan Lake
+lgfd:Langford
+lgh:Lions Gate Hospital (W)
+lgis:Langara Island
+lglk:Leighton Lake
+LH:Lougheed Town Centre
+lid:a poor operator, one who does not follow proper procedures or sends sloppy morse code.
+lill:Lillooet
+lim:Linear Induction Motor
+linux:Slackware .
+lion:LION 427 SQN PETAWAWA
+lkcy:Lake Country
+lker:Lake Errock
+lkly:Likely
+lkp:Last Known Position
+llhc:Lac La Hache
+lljn:Lac Le Jeune
+lm:Lower Mainland units
+lm.shawcable.net : Lloydminister
+lmby:Lumby
+lmh:Langley Memorial Hospital
+ln:Lincoln Skytrain Station
+lnbh:Lindell Beach
+lnbt:Lone Butte
+lng:Liquefied natural gas
+lngd:Langdale
+lnic:Lower Nicola
+lnvl:Lantzville
+loc:Level of Consciousness
+locution:Robobitch
+lodd:Line of Duty Death
+los: Line of sight
+lpo:Loss Pervention Officer
+lpr:Licence Plate Reader
+lrad:Long Range Acoustic Device
+ls:Ladysmith
+lsck:Louis Creek
+lsmft:Lucky Strike Means Fine Tobacco
+lso:Line Stretched & Operating 
+lstr:Lister
+ltft:Little Fort
+lwo:Looooooooooooooooooooooooooong Winded Operator
+lwpt:Lower Post
+lxkw:Lax Kw'alaams
+ly:Lytton
+lytn:Lytton
+lz:Landing Zone
+m:Mt. St. Joseph
+mac_write:Mac_Wrong
+makw:Malakwa
+marg:Marguerite
+Mark I; The first generation of SkyTrain vehicle
+Mark II; The second generation of SkyTrain vehicle
+mart:Marine Aerial Reconnaissance Team
+mass:Masset
+matrix:MATRIX CFS/ICP FLT WINNIPEG
+maxim:MAXIM 410 SQN COLD LAKE
+mazus:he is a major fuckmo
+mb:McBride
+mbrd:Mcbride
+MBTC:Moving Block Train Control - developed by Alcatel it allows for continuous real-time control and tracking of trains.
+mc:Moody Center Skytrain Station
+mci:Mass Casualty Incident
+mcis:Mccauley Island
+mckn:Mackenzie
+mclr:Mclure
+mcs:Major Crime Section (VPD?)
+mcts:Marine Communication and Traffic Services. (Victoria, Comox, Tofino, Prince Rupert)
+mcu:Major Crimes Unit
+mdfl:Mahood Falls
+mdpk:Madeira Park
+mdrv:Mud River (PG)
+mdt:Mobile Data Terminal
+mdwy:Midway
+melv:Merville (North Island)
+merlin:MERLIN 406 SQN SHEARWATER
+mesa:Medical Emergency Service Assist (usually a medical call)
+metc:Metchosin
+mgby:Magna Bay (Shuswap Lake)
+mha:Mental Health Act (aka Ham Radio Operators)
+mhis:Murchison Island
+mhlk:Muncho Lake
+mi:Mission RCMP
+micp:Mobile Incident Command Post
+midu:Mobile Impaired Driving Unit
+miert:Municipal Integrated Emergency Response Team
+milk:Mirror Lake
+MISING:Missing Person
+miss:Mission
+mit:North Shore Rescue Member in Training
+mj.shawcable.net : Moose Jaw
+MJBRSH:Major Brush
+mk:Mackenzie
+mkmn:Monkman
+mlht:Malahat
+mllk:McLeese Lake
+mmsi:Maritime Mobile Service Identity
+mmu:Mobile Medical Unit
+MN:Main Street/Science World
+mnck:Manson Creek
+mni:Master Name Index
+mnpk:Manning Park
+mo:Medical Observation
+mocom1-work:Keeping us safe!
+moggy:MOGGY CATS OTTAWA
+moj: Ministry of Justice
+molk:Moberly Lake, BC
+moo:The sound made by a bovine
+moose:MOOSE 419 SQN COLD LAKE
+moronification:What happens to you when you get into Politics
+moto:Motorola
+mototrbo:Audio recording of a undedocded mototrbo transmission; http://hamradio-dv.org/mototrbo/mototrbo-undecoded.wav
+mou:Memorandum of Understanding
+MOW:Maintenance-Of-Way (track)
+mp:Military Police
+mpa:RCMP Pilatus PC12 (C-FMPA)
+mpds:Medical Priority Dispatch System
+mpf:RCMP Aerospatiale AS-350B-3 (C-GMPF) Air 8
+mpq:RCMP Eurocopter EC-120B (C-FMPQ) Air 2
+mpt:RCMP Eurocopter EC-120B (C-GMPT) Air 1
+mpw:AIR 7
+mr:Merritt
+mrdg:Maple Ridge
+mrpp:Mount Robson Provincial Park
+mrsa:Methicillin-resistant Staphylococcus aureus (MRSA) is a bacterial infection that is highly resistant to some antibiotics.
+mrsc:Maritime Rescue Sub Center
+mrtn:Moricetown
+mrtt:Merritt
+mru:Medical Response Unit
+msa:Muskrat Dam, ON (MSA)
+msho:willow point
+msj:Mount St. Joseph (M)
+msld:Masons Landing (Cortes Island)
+msu:Medical Support Unit (BCEHS EMO)
+MT:Metrotown
+mtac:Multiple Threat Alert Center
+mtb:Mountain Bike
+mtc:Mobile Treatment Center
+mtck:Monte Creek
+mtcr:Mount Curry
+mtrn:Mount Robson
+mtrs:Montrose
+mtwn:Mount Washington
+mum:Move Up Module
+must:Muskwa
+mustang:MUSTANG 3 CFFTS ME SCHOOL SOUTHPORT
+mv104:Motor Vehicle Traffic Accident Police Investigation Report (Replacement of MV6020)
+MVA:Major Accident
+MVA:Motor Vehicle Act or Accident
+MVI:Motor Vehicle Incident
+mvtp:Metro Vancouver Transit Police
+mwara: http://www.liveatc.net/HFAERO.jpg
+myis:Mayne Island
+myok:Mayook
+mzdn:Mesiadin Junction
+NA:Naniamo
+naafp:National Association for the Advance of Fat People
+nabob:NABOB WING FLT SAFETY MOOSE JAW
+nasp:National Aerial Surveillance Program
+nbon:North Bonaparte
+nbsa:Nanoose Bay
+nc:North Cowichan (PRIME), No Change (Surveillance Ops)
+ncck:Narcosli Creek
+ncdb:National Criminal Data Bank
+ncic:The National Crime Information Center (NCIC) is the United States's central database for tracking crime-related information, including wanted persons, missing persons, certain firearms, stolen property, and criminal histories. Operated by the FBI, it receives input from government agencies and all fifty state governments.
+ncis:Naval Criminal Investigative Service
+nclk:Nicola Lake
+nco:Non-Commissioned Officer. In the RCMP that means a corporal, sergeant, staff sergeant, staff sergeant major, sergeant major and corps sergeant major. An NCO is usually a supervisor or manager.
+nd: North District
+ndvr:New Denver
+neat:Neighbourhood Emergency Assistance Team (Vancouver)
+neds:Needles
+newg:New Gate
+neww:New Westminster
+nfa:No Fixed Address
+nfpa:National Fire Protection Association
+nhzn:New Hazelton
+ni:North Island Traffic Services
+nightmare:NIGHTMARE 409 SQN COLD LAKE
+nip:No Information Patient
+nis:National Investigative Service (Canadian Forces)
+niveous:Hitchhiked to Merritt and got stranded.
+nk:Nootka Sound
+nksp:Naksup
+nlsn:Nelson
+nlu:neighborhood liason unit (RCMP)
+nmar:Mara Lake
+nmc:No Management Center
+nmlk:Nimpo Lake
+nnim:Nanaimo
+no:Northern BC
+no.shawcable.net : Nanaimo
+nohl:Notch Hill
+nok:Next Of Kin
+nomad:NOMAD 444 SQN GOOSE BAY
+notam:Notice to Air Men
+np:Nelson PD
+npis:North Pender Island
+nq:North Okanagan
+nrgh:Nanaimo Regional General Hospital
+nrmt:Naramata
+nsaa:North Saanich
+nsba:Nanoose Bay
+nsceu:North Section Crime Enforcement Unit
+nscp:Nass Camp
+nsis:National Security Investigations Sections
+nslk:Ness Lake
+nsor:National Sex Offender Registry
+nta:Norther Thunderbird Air Beechcraft B300 King Air Medevac (C-FNTA)
+ntir:North Thompson
+ntmh:90 Mile House
+nv:North Van RCMP
+nvan:North Vancouver
+NW:New West
+nwah:New Aiyansh
+nwes:North Westbank
+ny:Nass Valley
+nzvy:nazko valley
+o:St. Marys
+O/B:Outbound track away from waterfront
+ob:Oak Bay
+oc:Oceanside, Oleoresin Capsicum (Pepper spray)
+ocas:Obstacle Collision Avoidance System
+occ:Operations Control Center
+ocfl:Ocean Falls
+ocs:Organized Crime Section
+OD:Overdose
+odm:Off Duty Member
+ofc:Office of the Fire Commissioner
+OFFAST:Officer Assist
+OFFDWN:Officer Down
+ofmh:114 Mile House
+ofom:141 Mile House
+ohem:111 Mile House
+oher:108 Mile Ranch
+ohfm:105 Mile House
+ohmh:100 Mile House
+ohtm:110 Mile House
+oic:Officer in Charge
+oiler:OILER 435 SQN WINNIPEG
+ois:Officer Involved Shooting
+ok.shawcable.net : Okanagan
+okby:Oak Bay
+oknf:Okanagan Falls
+old jew whacker:see stuck
+olla:Olalla
+olvr:Oliver
+om:100 Mile House
+OMC:Operations and Maintenance Center
+omg:Outlaw Motorcycle Gangs
+oop:Out of Province
+oos:Out Of Service 
+OP:Occupancy permit
+opcc:Office of the Police Complaint Commissioner
+opensky:OpenSky is M/A-COM's implementation of AMBE digital modulation over a TDMA channel format. AMBE is another vocoder developed by DVSI Inc. Operation is very similar to Nextel TDMA digital voice systems. OpenSky systems do not use a control channel. Like ProVoice Open Sky cannot be monitored by any scanner, past or future.
+Operation:Road block or speed trap
+orange:PCP/EMR Code 3 (Hot)
+osc:On Scene Commander
+osir:Okanagan Similkameen Indian Band
+osis:Osoyoos
+osyk:Osoyoos Lake
+osyo:Osoyoos
+otch:Ootischenia
+ou:Outer Gulf Islands
+outcast:OUTCAST 103 (SAR) SQN GANDER
+owek:Oweekeno
+p25:Project 25 (P25) or APCO-25 refer to a suite of standards for digital radio communications for use by federal, state/province and local public safety agencies in North America to enable them to communicate with other agencies and mutual aid response teams in emergencies
+p49d1:Urgent transfer CCT
+p49d2:Urgent transfer ITT
+p49e1:Emergent transfer CCT
+p49e2:Emergent transfer ITT
+pa:Patterson or Port Alberni
+pa.shawcable.net : Prince Albert
+PAA:Passenger Assistance Alarm
+paacc:Provincial Air Ambulance Coordination Center (Vancouver)
+pad:predator attack team
+pall:Palling
+pano:Panorama
+papi:Precision approach path indicator
+par:Personnel Accountability Report. The amount of firefighters in a crew (ie. PAR 3 = 3 firefighters)
+pas:Provincial Ambulance Service (But only inbreads on the island call it that)
+pathfinder:PATHFINDER 405 SQN GREENWOOD
+pavl:Parksville
+pc:Police Constable
+pccp:Pouce Coupe
+pcis:Porcher Island
+pcld:Peachland
+pcp:Primary Care Paramedic
+pcs:Possession of a Controlled Substance
+PCU:Power Conversion Unit
+pdet:Prohib Driver Enforcement Team (RCMP IRSU)
+pds:Police Dog Service
+pearl necklace:  
+pemb:Pemberton
+pend:Pender Island
+pens:provincial emergency notification system
+pep:Provincial Emergency Program
+pers:Personal Emergency Response Systems
+pf:Port Mann Traffic Services
+pfa:Police Fire Ambulance
+pfak:http://i.imgur.com/9KrsAwc.gifv
+pfd:Personal Flotation Device
+pg:Prince George (Prime) or Police Garage 
+pgrg:Prince George
+ph:Port Hardy
+phantom:PHANTOM 1 WING NVG ALL AREAS
+phbr:Pender Harbor
+phoenix:PHOENIX GRND TNG SCHOOL MOOSE JAW
+phsa:Provincial Health Services Authority
+pi.shawcable.net : Port Alberni
+PIES:Platform Intrusion Emergency System
+pip:Passenger Intercom Panel (SkyTrain) or Police Information Portal 
+PIRS:The Police Information Retrieval System is an investigative information recording and retrieval system containing detailed information on all events reported to the Royal Canadian Mounted Police and covers the entire organization. The database is commonly searched (By file number, address, name for example) for information on previous R.C.M.P. incidents.
+pita:Pain in the ass, or a flat bread often served with tzatziki
+pitt:Pitt Meadows
+pk.shawcable.net : Parksville
+pkis:Parker Island
+pko:Port Kells Office
+pkum:Popkum
+pl:Port Alice
+plb:Personal Locator Beacon
+PLEDS:Platform (light emitting diode) sign
+pllk:Paul Lake
+pm:Police Male or PRIME=Port McNeil
+pmdy:Port Moody
+pn:Penticton
+pne:Pacific National Exhibition - Codes https://pastebin.com/ur0LSyX4
+pnis:Penelakut Island
+pnlk:Pinantan Lake
+pnmt:Pink Mountain
+pntn:Penticton
+po:Peace Officer or PRIME=Port Moody
+poco:Port Coquitlam
+pogo:POGO PLER COLD LAKE
+poi: Person of Interest/Point of Ignition
+Pointer Vehicle:Vehicle under observation
+pointer:a pointer vehicle is a link from a vehicle used as a placeholder to a person of interest, often a vehicle associated with an individual (not necessarily the owner) in police record systems
+postcard:POSTCARD BASE MAINT TEST PLT SOUTHPORT
+pots:Pot on the Stove
+potus:President of the United States
+pou:Protective Operations Unit (British Columbia Sheriff Service)
+powder jockey: IDENT
+pp.shawcable.net : Portage La Prairie
+ppcprs:Protective Policing Clients & Partnership Retrieval System
+PPCS:Propulsion Power Cut off switch
+ppe:Personal Protective Equipment
+ppt:possession for the puposeses of traficking
+ppv:Positive Pressure Ventilation
+ppw:possess prohibited weapon
+PR:Property Reference
+pr.shawcable.net : Pickering
+prci:Price Island
+prct:Procter
+preoc: Provincial Regional Emergency Operations Centre (Provincial Emergency Program)
+prgh:Powell River General Hospital
+PRIME:The Police Records Information Management Environment is a real-time British Columbia specific real-time database system. It provides online access to law enforcement records, and is accessible by all provincial law enforcement agencies including the R.C.M.P. See http://www.rcmp-grc.gc.ca/pia/prime_bc_e.htm
+priority 1:File will receive immediate attention and be dispatched to available police units. Dispatch will re-assign police units previously assigned to non-priority calls.
+priority 2:File will receive immediate attention and be dispatched to the first available police unit for attendance.
+priority 3:Routine calls for service.
+priority 4:The file will be recorded but police will not be dispatched.
+prnt:Princeton
+proi:Princess Royal Island
+prophet:PROPHET CATC-PFT TESTS SOUTHPORT
+PROS:The Police Reporting and Occurrence System is the replacement system for PIRS. It will integrate the existing databases of the R.C.M.P. with new data sources and puts in place much more advanced capabilities. Search, archiving, and security features have all been enhanced.
+provoice:ProVoice is MA/Com's (formerly Ericsson) implementation of IMBE digital modulation for radio communications. It is not APCO-25 compliant, but does use the same IMBE vocoder developed by DVSI Inc. The technical difference between ProVoice and the APCO Project-25 standard is how error correction and modulation is provided to transmit the data.
+prpn:Pacific Rim National Park
+prru:Prince Rupert
+prrv:Prophet River
+prsn:Parson
+PRSUIT:Veh Pursuit
+prtd:Pritchard
+pru:Paramedic Response Unit (Single responder ALS)
+ps:Paramedic Specialist
+psap:Public Safety Answering Point
+psmr:Passmore
+pso:Public Safety Officer
+psp:Possession of stolen property
+psu:Public Safty Unit
+pt:PRIME=princeton or Patient
+ptac:Port Alice
+ptai:Port Alberni
+ptcc:Patient Transport Coordination Centre (BCAS)
+ptcs:Port Clements
+PTE:Permission to enter
+pted:Port Edward
+pten:Port Essington
+pthy::Port Hardy
+ptis:Pitt Island
+ptme:Port Mellon
+ptml:Port Mcneil
+ptnv:PORT NEVILL 
+ptrf:Port Renfrew
+purple:HLA Code 3 (Hot)
+pussy:The part of the female anatomy that wenko will never get (this decade)
+pvln:Pavilion
+pw:Police Woman
+pwrv:Powell River
+q:Womans & Childrens Hospital
+qbc:Bella Coola, BC (QBC)
+qe:Quesnel
+qkcv:Quathiaski Cove (Quadra Island)
+qlbh:Qualicum Beach
+qle:Quantified Lowered Expectations
+qnba:Queens Bay
+qnch:Queen Charlotte City
+qrg:Will you tell me my exact frequency (or that of ...)?
+qri:How is the tone of my transmission?
+qrk:What is the readability of my signals (or those of ...)?
+qrl:Are you busy?
+qrm:Man-made interference
+qrn:Are you troubled by static?
+qro:Shall I increase power?
+qrp:Shall I decrease power?
+qrq:Shall I send faster?
+qrs:Shall I send slower
+qrt:Quick Response Team (Vancouver Fire) OR Shall I stop sending (Ham Radio)
+qru:Have you anything for me?
+qrv:Are you ready?
+qrx:Will call again "QRX @ 2100 ZULU"
+qrz:Who is calling me?
+qsa:What is the strength of my signals (or those of ... )?
+qsb:Are my signals fading?
+qsd:Is my keying defective?
+qsk:Can you hear me between your signals?
+qsl:Can you acknowledge receipt?
+qsm:Shall I repeat the last telegram (message) which I sent you, or some previous telegram (message)?
+qsn:Did you hear me (or ... (call sign)) on .. kHz (or MHz)?
+qsnl:Quesnel
+qso:Can you communicate with ... direct or by relay?
+qsx:Will you listen to ... (call sign(s) on ... kHz (or MHz))?
+qsy:To Change frequency "Let's QSY up 10 kilohertz"
+qta:Shall I cancel telegram (message) No. ... as if it had not been sent?
+qtc:How many telegrams (messages) have you to send?
+qth:What is your Location?
+qtr:What is the correct time?
+qu:Quadra Island
+QUAKE:Earthquake
+queue:Routine Response that can be held
+quint:A quint, or quintuple combination pumper, is a fire service apparatus that serves the dual purpose of an engine and a ladder truck. The name quint is derived from the Latin prefix quinque-, meaning five, and refers to the five functions that a quint provides: pump, water tank, fire hose, aerial device, and ground ladders.
+r:Richmond General
+r0f:https://i.imgur.com/RmtFNXd.jpg
+rac:Radio Amateurs of Canada
+racer:RACER 429 SQN TAT TRENTON
+radar:Radio Detection And Ranging
+radm:Radium Hot Springs
+ram:RAM 401 ST-HUBERT
+ran:Radio Access Number (NXDN)
+ranger:RANGER 3 CFFTS BHT SOUTHPORT
+rank 1:Smouldering ground or creeping surface fire. This is a smouldering ground fire or a fire that burns in the ground fuel layer. These fires have no open flame and produce white smoke. Firebrands and going fires tend to be virtually self-extinguishing unless high DC and/or BUI values prevail, in which case extensive mop-up is generally required. 
+rank 2:Low vigour surface fire. Rate of spread: less than 1.5m/min. This is a surface fire or a fire that burns in the surface fuel layer, excluding the crowns of trees. These fires produce visible open flame; have little or no spread, which is the speed at which the fire extends; and have an unorganized flame front or a flame front that does not exhibit all the same characteristics. 
+rank 3:Moderately vigorous surface fire. Rate of spread: 1.5 - 3.0 m/min. This is a vigorous surface fire with a moderate rate of spread. They have an organized front and may display "candling", which is when a tree's fuels ignite and flare up, along the perimeter and/or within the fire. 
+rank 4:Highly vigorous surface fire, torching (or passive crown fire). This type of fire produces grey to black smoke, has an organized surface flame front, and has a moderate to fast rate of spread along the ground. Short aerial bursts and short range spotting will occur with these fires. Control efforts at fire's head may fail. 
+rank 5:Extremely vigourous surface fire or active crown fire. Rate of spread: 6.0 - 18.0 m/min.) This type of fire produces black to copper smoke, has an organized crown fire front, moderate to long-range spotting and independent spot fire growth. Very difficult to control. Suppression action must be restricted to fire's flanks. Indirect attack with aerial ignition (i.e., helitorch and/or aid dispenser) may be effective.
+rank 6:Blow-up or conflagration, extreme fire behaviour. Rate of spread in excess of 18.0 m/min. Violent fire behaviour occurs with this type of fire. An organized crown fire front, moderate to long-range spotting and independent spot fire growth are characteristic of this fire type. There may be the presence of fireballs and whirls. Violent physical behaviour probable. Suppression actions should not be attempted until burning conditions ameliorat
+rap:Resource Allocation Plan
+rat:Rapid Assessment Team
+RAV:Richmond/Airport/Vancouver. The psudo-name for a proposed north-south rapid transit line that would go from downtown to Richmond via Cambie with a spur to YVR. See http://www.ravprapidtransit.com/
+raven:RAVEN CFS WINNIPEG
+rbsn:Robson West (Castlegar)
+rcc:Report to Crown Counsel (Police) - Rescue Coordination Centre (SAR)
+rcck:Rock Creek
+rch:Royal Columbian Hospital (S)
+rciu:Remote Control Interface Unit
+rcmp a:A Watch - Patrol / General Duty
+rcmp b:B Watch - Patrol / General Duty
+rcmp c:C Watch - Partol / General Duty
+rcmp d:D Watch - Patrol / General Duty
+rcmp e:E Watch - Patrol / General Duty
+rcmp f:Street Crimes
+rcmp k:PDS (Dog Man)
+rcmp m:Marine Services
+rcmp o:Overtime/Special Projects(Counter Attack,etc..)
+rcmp q:Civilian Staff(Radio Techs,etc)
+rcmp r:Reserves/Auxiliaries
+rcmp s:School Liason(Unconfirmed)
+rcmp t:Traffic Services
+rcmp z:Emergency Response Team (ERT)
+rcmp:Royal Canadian Mounted Police
+rcmsar 1:RCMSAR 01 - West Vancouver (Horseshoe Bay)
+rcmsar 12:RCMSAR 12 - Halfmoon Bay
+rcmsar 14:RCMSAR 14 - Gibsons
+rcmsar 2:RCMSAR 02 - North Vancouver (Lynnwood Marina)
+rcmsar 20:RCMSAR 20 - Pender Island (Port Browning Harbor)
+rcmsar 25:RCMSAR 25 - Salt Spring Island (Vesuvius Harbor)
+rcmsar 27:RCMSAR 27 - Nanaimo 
+rcmsar 29:RCMSAR 29 - Ladysmith
+rcmsar 31:RCMSAR 31 - Saanich (Brentwood Bay)
+rcmsar 33:RCMSAR 33 - Oak Bay
+rcmsar 34:RCMSAR 34 - Mill Bay (Brentwood Collage Dock)
+rcmsar 35:RCMSAR 35 - Victoria
+rcmsar 36:RCMSAR 36 - Saanich (Canoe Cove Marina)
+rcmsar 37:RCMSAR 37 - Sooke 
+rcmsar 38:RCMSAR 38 - Ucluelet
+rcmsar 39:RCMSAR 39 - Port Alberni
+rcmsar 4:RCMSAR 04 - Squamish (Squamish Yacht Club)
+rcmsar 43:RCMSAR 43 - Port Alice
+rcmsar 45:RCMSAR 45 - Masset
+rcmsar 5:RCMSAR 05 - Surrey (Crescent Beach)
+rcmsar 50:RCMSAR 50 - Port McNeill
+rcmsar 59:RCMSAR 59 - Deep Bay
+rcmsar 6:RCMSAR 06 - Richmond (Middle Arm)
+rcmsar 60:RCMSAR 60 - Comox 
+rcmsar 61:RCMSAR 61 - Pender Harbor
+rcmsar 63:RCMSAR 63 - Kitimat
+rcmsar 64:RCMSAR 64 - Prince Rupert
+rcmsar 65:RCMSAR 65 - Port Simpson
+rcmsar 68:RCMSAR 68 - Ocean Falls
+rcmsar 7:RCMSAR 07 - Richmond (Steveston Harbor)
+rcmsar 74:RCMSAR 74 - Gitxalla
+rcmsar 75:RCMSAR 75 - Kincolith
+rcmsar 8:RCMSAR 08 - Delta (Point Roberts Marina)
+rcmsar:Royal Canadian Marine Search and Rescue (Coast Guard Aux)
+rd.shawcable.net : Red Deer
+rdo:regional duty officer RCMP
+RE-ENTRY PONT:If a train has 'timed out' (is lost by the ATC system), then someone must drive the train over the re-entry point at a steady velocity for the system to pick it up again.
+RE-ENTRY:If a train has 'timed out' (is lost by the ATC system), then someone must drive the train over the re-entry point at a steady velocity for the system to pick it up again.
+RE:Renfrew
+rebel:REBEL 435 SQN AAR WINNIPEG
+Red Zone:Restricted Area or Aboriginal Reserve.
+red:BCEHS = HLA Code 3 (Hot) / Skytrain=Confirmed Emergency
+Reference:Property Reference
+reject rod:Wenko
+relk:Roe Lake
+RESCUE:Technical Rescue
+retriever:RETRIEVER 444 SQN GOOSE BAY
+rfbot:Do you even lift bro?
+rfc 1149:See IPoAC
+rfc:Carson Air Cessna 560 Citation V Medevac
+rfr:Richmond Fire Rescue
+rgh:The Richmond Hospital (R)
+rgps:Rogers Pass
+rhib:Rigid Hull Inflatable Boat
+ri:Richmond
+rib:Radio Interface Box
+ribbed:for her pleasure...
+rid:Radio Identification
+rih:Royal Inland Hospital
+rilk:Ried Lake
+rims:Road Inventory Management System (Ministry of Transport)
+rit:Rapid Intervetion Team. Also known as FAST.
+ritual:14:25:54 < ritual> Yeah I know all that
+rjh:Royal Jubilee Hospital
+rm:Ridge Meadows RCMP
+rmd:Richmond
+rms: Records Management System
+rndl:Riondel
+ro:Royal Oak or Registered Owner
+ro:Royal Oak or Registered Owner
+ROADS:The Remote Office and Dispatch System is simply the mobile version of CIIDS. It allows remote access to many of the same application functions as a full CIIDS console. Amongst the most important data based queries, messaging, and mapping. Most access is via cellular networks via 1X,EVDO,etc.
+ROBERY:Armed Robbery
+roc:Regional Operations Center (Coast Guard)
+roe:Rules of Engagement
+roll:Rolla
+ross:RCMP Office Support System
+Routine:No lights or sirens
+roys:Royston
+rrtm:Rope Rescue Team Member 
+rsby:Rosebery
+rsck:Riske Creek
+RSD:Roadside Screening Device
+rsf:Residential Structure Fire
+rsld:Rossland
+rslk:Rose Lake
+rspr:Rose Prairie
+rsu:Rehab Support Unit
+rswd:Rosswood
+rtc:Rail Traffic Controller
+rtcc:Report To Crown Counsel
+rtf:Rescue Task Force
+rtic:Real Time Intelligence Center
+rtlsdr: New Installation Instructions - http://rtlsdr.org/softwarewindows
+rtmc:Regional Transportation Management Center
+RTO:Return to Office
+rtt:request to transmit
+rtu:Roving Traffic Unit 
+RU:Rupert
+rut:RUT 419 SQN COLD LAKE
+ruu:Carson Air Raytheon King Air 350 (B300) Medevac
+rv:Revelstoke
+rvst:Revelstoke
+rwrs:Restricted Weapons Registration System
+S-DEV:Suspicious Device
+S-SUB:Suspicious Substance
+s:Royal Columbian
+s10:BCAS West Vancouver Post Supervisor
+s11:BCAS East Vancouver Post Supervisor
+sa: Saanich or Sexual Assault (RCMP)
+sabre:SABRE 1 Cdn Air Div/CANR WINNIPEG/SETS
+sad:Special Activities Division
+saguenay:SAGUENAY 433 SQN BAGOTVILLE
+salm:Salmo
+sams:Security Accreditation Management System
+sanc:Sanca
+sap:Stop Assess Plan
+sar 1:RCMSAR 01 - West Vancouver (Horseshoe Bay)
+sar 12:RCMSAR 12 - Halfmoon Bay
+sar 14:RCMSAR 14 - Gibsons
+sar 2:RCMSAR 02 - North Vancouver (Lynnwood Marina)
+sar 20:RCMSAR 20 - Pender Island (Port Browning Harbor)
+sar 25:RCMSAR 25 - Salt Spring Island (Vesuvius Harbor)
+sar 27:RCMSAR 27 - Nanaimo 
+sar 29:RCMSAR 29 - Ladysmith
+sar 31:RCMSAR 31 - Saanich (Brentwood Bay)
+sar 33:RCMSAR 33 - Oak Bay
+sar 34:RCMSAR 34 - Mill Bay (Brentwood Collage Dock)
+sar 35:RCMSAR 35 - Victoria
+sar 36:RCMSAR 36 - Saanich (Canoe Cove Marina)
+sar 37:RCMSAR 37 - Sooke 
+sar 38:RCMSAR 38 - Ucluelet
+sar 39:RCMSAR 39 - Port Alberni
+sar 4:RCMSAR 04 - Squamish (Squamish Yacht Club)
+sar 43:RCMSAR 43 - Port Alice
+sar 45:RCMSAR 45 - Masset
+sar 5:RCMSAR 05 - Surrey (Crescent Beach)
+sar 50:RCMSAR 50 - Port McNeill
+sar 59:RCMSAR 59 - Deep Bay
+sar 6:RCMSAR 06 - Richmond (Middle Arm)
+sar 60:RCMSAR 60 - Comox 
+sar 61:RCMSAR 61 - Pender Harbor
+sar 63:RCMSAR 63 - Kitimat
+sar 64:RCMSAR 64 - Prince Rupert
+sar 65:RCMSAR 65 - Port Simpson
+sar 68:RCMSAR 68 - Ocean Falls
+sar 7:RCMSAR 07 - Richmond (Steveston Harbor)
+sar 74:RCMSAR 74 - Gitxalla
+sar 75:RCMSAR 75 - Kincolith
+sar 8:RCMSAR 08 - Delta (Point Roberts Marina)
+SAR:Search & Rescue
+sar:Search and Rescue
+sar1:RCMSAR 01 - West Vancouver (Horseshoe Bay)
+sar12:RCMSAR 12 - Halfmoon Bay
+sar14:RCMSAR 14 - Gibsons
+sar2:RCMSAR 02 - North Vancouver (Lynnwood Marina)
+sar20:RCMSAR 20 - Pender Island (Port Browning Harbor)
+sar25:RCMSAR 25 - Salt Spring Island (Vesuvius Harbor)
+sar27:RCMSAR 27 - Nanaimo 
+sar29:RCMSAR 29 - Ladysmith
+sar31:RCMSAR 31 - Saanich (Brentwood Bay)
+sar33:RCMSAR 33 - Oak Bay
+sar34:RCMSAR 34 - Mill Bay (Brentwood Collage Dock)
+sar35:RCMSAR 35 - Victoria
+sar36:RCMSAR 36 - Saanich (Canoe Cove Marina)
+sar37:RCMSAR 37 - Sooke 
+sar38:RCMSAR 38 - Ucluelet
+sar39:RCMSAR 39 - Port Alberni
+sar4:RCMSAR 04 - Squamish (Squamish Yacht Club)
+sar43:RCMSAR 43 - Port Alice
+sar45:RCMSAR 45 - Masset
+sar5:RCMSAR 05 - Surrey (Crescent Beach)
+sar50:RCMSAR 50 - Port McNeill
+sar59:RCMSAR 59 - Deep Bay
+sar6:RCMSAR 06 - Richmond (Middle Arm)
+sar60:RCMSAR 60 - Comox 
+sar61:RCMSAR 61 - Pender Harbor
+sar63:RCMSAR 63 - Kitimat
+sar64:RCMSAR 64 - Prince Rupert
+sar65:RCMSAR 65 - Port Simpson
+sar68:RCMSAR 68 - Ocean Falls
+sar7:RCMSAR 07 - Richmond (Steveston Harbor)
+sar74:RCMSAR 74 - Gitxalla
+sar75:RCMSAR 75 - Kincolith
+sar8:RCMSAR 08 - Delta (Point Roberts Marina)
+sarm:Seymour Arm
+sart:Search and Rescue Transponder
+savn:Savona
+sbnk:Southbank
+sc:Skytrain=Surrey Central PRIME=Sunshine Coast
+sc.shawcable.net : Swift Current
+SCADA:Supervisory Control and Data Acquisition (used to control power on Skytrain)
+scanbc:ScanBC utilizes a network of cognitive mind reading devices strategically placed throughout the province.
+scanbclive:http://24.84.170.61/scanbclive.html
+scbctaps:South Coast British Columbia Transportation Authority Police Service (again.. still the laughing stock police department)
+scck:SC Creek
+scis:Secure Criminal Information System
+scms:Sicamous
+scout:SCOUT CADET OPS PRAIRIE REGION
+SCS:Switch control system
+scu:Switch Control Unit(Skytrain) or Sex Crimes Unit(VPD)
+sd:Sudden Death
+sdaw:South Dawson Creek
+sdck:Soda Creek
+sdny:Sidney
+sdr:Software Defined Radios http://www.flex-radio.com/
+se:South East District (Including traffic services)
+seahawks:best ever
+SEARCH:Perp Search/Chase
+sec:Sechelt
+Section 23.5/24:Mental Health Act background
+seis:Swindle Island
+Servicing:Filling up with gas
+ses:Special Entry Specialist
+SESP:Station Emergency Stop Processor
+sess:Station Emergency Stop System
+seu:Street Enforcement Unit
+sewa:Sewall
+sex:Something you wouldnt know about....:)
+sfd:Single Family Dwelling
+sfst:standard field sobriety technician
+sfu: Simon Fraser University
+sgh:Squamish General Hospital
+sh:Shawnigan Lake
+shac:Shoreacres
+shark:SHARK HOTEF SHEARWATER
+shaz:South Hazelton
+ship search: http://www.itu.int/cgi-bin/htsh/mars/ship_search.sh
+shis:Sarah Island
+shlk:Shawnigan Lake
+SHTSTB:Shooting/Stabbing
+shvl:Sunshine Valley
+sidecar:SIDECAR Canforce NORAD station
+sierra delta:Sudden Death
+signal 1: minor first aid
+silver alert:Missing high risk senior
+sip:Special Interest to Police
+siu:Special Investigations Unit
+sk:Sooke
+skdg:Skidegate
+skmk:Skookumchuck
+skna:Skeena
+skni:Sikanni
+sl:Summerland
+slam:Salmon Arm
+slby:Sullivan Bay-NE of Port Hardy
+slcn:Slocan
+SLEEPER:someone sleeping on the train
+sleepy:Tow Bot
+slingshot:SLINGSHOT CADET OPS ATLANTIC REGION
+slo:School Liaison Officer
+slqa:Solsqua
+sltn:Silverton
+slvy:Salmon Valley
+sm:Stl'atl'imx Tribal Police
+SMC:System Management Center
+smh:Surrey Memorial Hospital (Y)
+smhs:70 Mile House
+smld:Summerland
+smp:Saanich Municipal Police
+smtp:Summit Pass
+smts:Smithers
+sn:Sidney
+snake:SNAKE 442 SQN COMOX
+snapper:SNAPPER 2 CFFTS . Stand Flt MOOSE JAW
+snch:Saanich
+snds:Sandspit
+sniper:SNIPER 410 FTR WPNS INST CS COLD LAKE
+snis:Saturna Island
+snowbird:SNOWBIRD 431 SQN MOOSE JAW
+snpk:Slocan Park
+sntl:Sointula (Malcolm Island)
+sob:Short of Breath
+SOC: Subject of Complaint
+soco:Scene of Crime Officer
+soke:Sooke
+sop:Standard operating procedure
+SP:Sperling/Burnaby Lake
+spal:Spallumcheen
+spanner:SPANNER BMTF SHEARWATER
+spc:Special Provincial Constable
+SPCL:Special
+spds:Specialty Police Dog Service
+spellchecker:Somthing dcubed fails at
+spelling:Something Mikes doesn't know about.
+sph:St Pauls Hospital (C)
+sphs:Springhouse
+spinner:SPINNER CFMETR PACIFIC REGION
+spis:South Pender Island
+splk:Spokin Lake
+spros:Secure Police Reporting and Occurrence System
+spsb:Spences Bridge
+sptz:Spatsizi
+spwd:Sparwood
+spzm:Spuzzem
+sq:Squamish RCMP
+squ:buckethead
+squa:Squamish
+squaltop: Kenmore whore
+squlaptop: Kenmore whore just like squaltop
+sr:Scott Road or Salmon Arm
+srnt:Sorrento
+srr:Staff Relations Represenative
+sry:Surrey
+ss:Salt Spring
+ss.shawcable.net : Saskatoon
+ssi:Salt Spring Island
+ssicam:http://stream.vistawebcams.com:1935/live/vcbc003.stream/playlist.m3u8
+ssis:Salt Spring Island
+sslc:South Slocan
+st:RCMP PRIME: Smithers or Skytrain: Stadium
+STA:SkyTrain Attendant
+stats:http://ircstats.scanbc.com/
+stew:Stewart
+stfu:SHUT THE FUCK UP!
+stinger:STINGER 443 SQN ESQUIMALT
+stir:Stone Lake Indian Reservation SW of Williams Lake
+stiv:St. Ives
+stnp:Seton Portage
+stuck:https://i.redd.it/8i35q7jznxk11.jpg
+stwd:Sayward
+su:Surrey
+su.shawcable.net : Sudbury
+sulk:Summit Lake
+sundance:SUNDANCE CATC SOUTHPORT
+sunray:GVERT boss
+supk:Sun Peaks
+sur:Summer Beaver, ON (SUR)
+susi:Susan Island
+svis:Savary Island
+SWAT:SWAT/ERT
+swavdino:http://meatspin.fr/ (NSFW!)
+swave:http://globalnews.ca/video/2017130/low-budget-backyard-wrestling
+swave08:http://i.imgur.com/cnMEt.png
+swin:Sewell Inlet
+swtr:Shearwater
+sx:Stl'atl'imx Tribal Police
+sy:Sayward
+sz:South Island Traffic Services
+T&C:Testing & Commissioning
+ta:Technical Advisor
+tach:Tachie
+tafl:Technical and Administrative Frequency Lists
+talon:TALON 423 SQN SHEARWATER
+TANGO:Unauthorized entry into guideway
+tapp:Tappen
+taps:Greater Vancouver Transportation Authority Police Service
+taser:An intended non leathal use of force used by police a security forces
+tats:Tats Lake
+tav:Tactical Armoured Vehicles
+tawoc:Take Without Consent
+tayl:Taylor
+tb.shawcable.net : Thunder Bay
+tch:Trans Canada Highway
+tclk:Tchesinkut Lake
+tcms:Transport Canada Marine Security
+tcomm:Transit Communications (Coast Mountain Bus Company)
+tcp:Trans-Canada Pocket
+tdma:Time Division Multiple Access (TDMA) is a generic name for digital transmission formats that subdivide a channel into a fixed number of time slots during which digital data (usually encoded voice) is transmitted.
+tdrv:Toad River
+teamspeak:TeamSpeak is proprietary Voice over IP software that allows users to speak on a chat channel with other users, much like a telephone conference call. A TeamSpeak user will often wear a headset with an integrated microphone. Users use the TeamSpeak client software to connect to a TeamSpeak server of their choice, from there they can join chat channels.
+teck:Telegraph Creek
+telus: http://www.hackcanada.com/telco/images/e-slut.jpg
+tempest:Tiny ElectroMagnetic Particles Emitting Secret Things
+tems:Tactical Emergency Medical Support
+terr:Terrace
+tesl:Teslin Lake
+test: test 123
+test1:test123
+test123:test123321
+testing:test123123
+tfa:Theft From Auto
+tfno:Tofino
+tfo:Tactical Flight Officer
+tgid:Talk Group ID
+th:If you dont know your not allowed to come.
+theothermike123: BC Ferries Blows Goat Balls
+thnh:Thornhill
+thss:Tahsis
+thu:Talon Helicopters - Bell 206L Longranger (Chopper 9)
+thum:Thrums
+thunder:THUNDER 426 SQN TRENTON
+thvy:Three Valley
+thy:Talon Helicopters Aerospatiale AS350 B-2 C-FTHY
+thz:Talon Helicopters 1990 Aerospatiale AS-350 B2 C-FTHZ
+tic:Thermal Imaging  Camera
+TIDES:An early version of the GIES in use exclusively at Stadium outbound. It makes use of a laser to detect an unauthorized entry into the track.
+tiger:TIGER 424 SQN TRENTON
+TIME OUT:Train loses communication with VCC
+tims:Tunnel Intrusion Monitoring System (Evergreen Line)
+tjc:Carson Air Cessna 560 Citation Encore Medevac
+tjch:Tete Jaune Cache
+tk:Tsay Key
+tklk:Takatoot Lake
+tlc::Talon Helicopters Aerospatiale AS355 Twinstar C-GTLC
+tllk:Tatla Lake hwy 20 100 KM W of Williams Lake
+tlmn:Tulameen
+TLTS:TransLink Transit Security
+tlwa:Telkwa
+tmrg:Tumbler Ridge
+TN:29th Avenue
+tne:Norway House, MB (YNE)
+tntg:Tintagel E of Burns Lake
+to:Tofino
+tol:Township of Langley
+tolk:Toms Lake
+TOOLBOX:Safety meeting for staff
+Top:Temporary Operating Permit
+TORWCH:Tornado Watch
+TORWRN:Tornado Warning
+TP:Transit Police
+tr:Trail
+tracer:TRACER 12 Wing, WFSO SHEARWATER
+TRACK SECTION:A unique, numbered section of track that is approximately 5 meters in length. Track sections are how the ATC system keeps track of where each train is. Don't read the numbers upside down!
+TRAFIC:Traffic Advisory
+TRAIN LINE RESET:Resetting all VOBC's
+TRAIN:Train Derailment
+tral:Trail
+TRANSLINK:They take your money, and eat it whole.
+trapper:TRAPPER 436 SQN TAT TRENTON
+trauma 99:Patient is fucked up.
+TRAUMA:Trauma Alert
+trh:The Richmond Hospital (R)
+trials:TRIALS MPEU GREENWOOD
+TRIMS:Train Radio Information System
+trlk:Trout Lake
+troden:Who the fuck is TRoden.
+trsa:Terminal Radar Service Area
+trt:Telecommunications Response Team (VPD)
+trtv:Turtle Valley
+trucker:TRUCKER 426 SQN TAT TRENTON
+trunking:A system that integrates multiple channel pairs into a single system. When a user wants to transmit a message, the trunked system automatically selects a currently unused channel pair and assigns it to the user, decreasing the probability of having to wait for a free channel for a given channel loading. 
+trut:Trutch
+TS:22nd Street
+tsa:Tsawwassen
+tsap:To Serve and Protect
+tsay:Tsay Keh Dene
+tsis:Thetis Island
+TSWARN:Thunder Storm Warning
+TSWTCH:Thunder Storm Watch
+ttck:Ta Ta Creek
+ttrv:Tetsa River
+tu:Tumbler Ridge
+tug:TUG CADET OPS PACIFIC REGION
+tupr:Tupper
+tusker:TUSKER 413 SQN GREENWOOD
+TVM:Ticket Vending Machine
+TVS:Tunnel Ventilation System
+tvt:Tactical Vehicle Takedown
+twom:Two Mile
+twpp:Tweedsmuir Provincial Park
+ty:Tsay Keh
+tykl:Tatlayoko Lake
+TZ:Transition Zone (track)
+u:UBC
+UA:Unattended
+ual:Unlawfully At Large
+ubch:University of BC Hospital (U)
+uc:Ucluelet
+ucc:Utility Control Center
+uclt:Ucluelet
+ucm:Universal Crypto Module
+uel:University Endowment Lands
+uf:Upper Fraser Valley Regional RCMP
+ufn:until further notice..
+ug:Underground
+ugtf:Uniformed Gang Task Force
+ulu:ULU CFS WINNIPEG
+un:University RCMP
+unf:In my pants
+uno:https://paste.ee/r/EJX5j
+urt:Underwater Recovery Team (RCMP Dive Team)
+usaf:http://members.optushome.com.au/extremescan/usaf%20callsigns/uscallsigns.html
+usar:Urban Search and Rescue
+uscg:United States Coast Guard
+usd:Unapproved Screening Device
+UTDC:Urban Transportation Development Corporation
+utm: http://leware.net/geo/utmgoogleapp.htm
+va:Vancouver
+vac:Comox MCTS
+vae:Tofino MCTS
+vaj:Prince Rupert MCTS
+vak:Victoria MCTS
+vampire:VAMPIRE 440 SQN YELLOWKNIFE
+van:Vancouver
+vc: VCC-Clark
+vc.shawcable.net : Greater Vancouver
+vcb:Visual Contact Broken
+vcc:Vehicle Control Centre - The VCC consists of linked minicomputers. They regulate speed, safe distances, and track switches. The VCC is divided into four interconected zones, each with its own set of three minicomputers to control train operation. Two zones are for the Expoline (VCC 1 WF to RO, VCC 2 RO to KG), one for the Millenium Line (VCC 4), and one zone for the maintenance yard (VCC 3).
+vcc1:Waterfront to Royal Oak
+vcc2:Royal Oak to King George
+vcc3:Yard
+vcc4:VCC-Clark to Lougheed
+vcc5:Evergreen Line
+vcc6:Coquitlam Storage Yard
+vcha:Vancouver Coastal Health Authority
+VCIF:Vehicle Cleaning & Inspection Facility
+vcj:Vancouver City Jail
+VCRIME:Violent Crime
+vcta:Victoria
+vdr:Voyage Data Recorder
+ve7scc:Coquitlam Amateur Radio Club
+vep:BCAS Medevac Bell 412EP C-FVEP
+vern:Vernon
+vess:Vehicle Emergency Stop System
+vf.shawcable.net : Maple Ridge
+vfr:Visual Flight Rules
+vgh:Vancouver General Hospital (A)
+vh:Vanderhoof
+vhf:Very High Frequency
+vi-118:https://imgur.com/a/zNB2vTC
+vi:Victoria
+vica0:http://i.imgur.com/PFDvXnN.jpg
+viclas:Violent Incident Classification Linkage & Analysis System
+viha:Vancouver Island Health Authority
+viking:VIKING FIS MOOSE JAW
+vins:Vinsulla (North of Kamloops)
+VIP:Visually Impaired Person / Special Needs Person
+viper:VIPER 444 SQN GOOSE BAY
+vircc:Vancouver Island Regional Correctional Centre (Wilkinson Rd Jail)
+vlis:Valdes Island
+vlmt:Valemont
+vm:Valemount
+vn.shawcable.net : North Vancouver
+vnby:Vavenby
+vnda:Van Anda
+vnhf:Vanderhoof
+VOBC:Vehicle On Board Computer
+vp.shawcable.net : Chilliwack
+VPD:Vancouver Police Department
+vr:Vehical Repeater
+vroy:View Royal
+VRS:Vehicle Radio System
+vs:Victim Services
+vs.shawcable.net : Walley
+vselp:Vector Sum Excited Linear Prediction (VSELP) is a speech coding method used in the IS-54 standard. This codec was used in early TDMA cell phones in the United States. It was also used in the first version of RealAudio for audio over the Internet. The IS-54 VSELP standard was published by the Telecommunications Industry Association in 1989.
+vst:Violence Suppression Team (aka IGTF)
+vt:Violation Ticket
+VVAU:Vehicle Voice Annoucement Unit (Big Mouth)
+vw.shawcable.net : Sunnyside
+w:Lions Gate
+wae:Whistler, BC (CWAE)
+wara:Westcoast Amateur Radio Association
+wars:Wide Area Radio System
+wasa:Wasa
+wb:Westbound
+wc:West Coast Marine
+wcl:Clinton, BC (CWCL)
+wcms:West Coast Marine Services
+wcw:Westcoast Helicopters Aerospatiale AS350B2 AStar Medevac (C-FWCW)
+wdnr:Wardner
+welk:White Lake
+well:Wells
+wenko:https://i.imgur.com/sHfcbeU.gifv
+WF:Waterfront
+wfcf:WYCLIFFE
+wgp:Pemberton, BC (CWGP)
+wgw:Sparwood BC, (CWGW)
+whc:Whistler Health Clinic
+whcn:Walhachin
+WHISKEY GOLF:Weapon, Gun
+WHISKEY KILO:Weapon, Knife
+WHISKEY:Weapon
+white:Front Side
+whtr:White Rock
+wildcat:WILDCAT 438 SQN ST-HUBERT
+wiredboy:21:38 <@wb> I'm wb, I talk to computers
+wist:Whitesail Lake
+wjr:Creston, BC (CWJR)
+wk.shawcable.net : West Kooteneys
+wkln:West Kelowna
+wl:Williams Lake
+wlgp:Wells Gray Park
+wllk:Williams Lake
+wltn:Waletown, Cortez Isl
+wly:Lytton, BC (CWLY)
+wmdl:Wynndel
+wndr:Windermere
+wnhr:Winter Habor
+wnlw:Winlaw
+wnm:Nelson, BC (CWNM)
+wnn:Wunnummin Lake, ON (WNN)
+wnp:Nakusp, BC (CWNP)
+WNTWCH:Winter WX Advisory
+WNTWRN:Winter WX Warning
+wolf:WOLF 403 SQN GAGETOWN
+wono:Wonowon
+wp:Whistler/Pemberton RCMP
+wp.shawcable.net : Winnipeg
+wpz:Burns Lake, BC (CWPZ)
+wqc:Port Alberni, BC (CWQC)
+wr:White Rock
+wrfd:Warfield
+ws:Westshore
+wsi:Why Should I
+wsk:Squamish, BC (CWSK)
+wsl:Salmon Arm, BC (CWSL)
+wslk:Woss Lake (Vancouver Island)
+wsw:Elkwood BC, (CWSW)
+WT:Wash track
+wtbr:Westbridge
+wtlk:Watch Lake
+wtwd:Westwold
+wv:West Van PD
+wvan:West Vancouver
+wxp:Ascent Helicopters MD902 C-GWXP (Temporary Medevac for BCAS)
+wycf:Wycliffe
+wyj:Victoria University (CWYJ)
+xad:Churchill, MB - Rail service (XAD)
+xaw:Capreol, ON - Rail service (XAW)
+xax:Montreal, QC - Dorval Rail service (XAX)
+xaz:Campbellton, NB - Rail service (XAZ)
+xbe:Bearskin Lake, ON (XBE)
+xbr:Brockville, ON (XBR)
+xci:Chambord, QC - Rail service (XCI)
+xcm:Chatham, ON (XCM)
+xdd:Gaspe, QC - Rail service (XDD)
+xdg:Halifax, NS - Rail service (XDG)
+xdh:Jasper, AB - Rail service (XDH)
+xdl:Chandler, QC - Rail service (XDL)
+xdm:Drummondville, QC - Rail service (XDM)
+xdp:Moncton, NB - Rail service (XDP)
+xdq:London, ON - Rail service (XDQ)
+xds:Ottawa, ON - Rail service (XDS)
+xdu:Hervey, QC - Rail service (XDU)
+xdv:Prince George, BC - Rail service (XDV)
+xdw:Prince Rupert, BC - Rail service (XDW)
+xdx:Sarnia, ON - Rail service (XDX)
+xdy:Sudbury, ON - Rail service (XDY)
+xdz:The Pas, MB - Rail service (XDZ)
+xea:Vancouver, BC - Rail service (XEA)
+xec:Windsor, ON - Rail service (XEC)
+xee:Lac Edouard, QC - Rail service (XEE)
+xef:Winnipeg, MB - Rail service (XEF)
+xeg:Kingston, ON - Rail service (XEG)
+xeh:Ladysmith, BC - Rail service (XEH)
+xej:Langford, BC - Rail service (XEJ)
+xek:Melville, SK - Rail service (XEK)
+xel:New Carlisle, QC - Rail service (XEL)
+xem:New Richmond, QC - Rail service (XEM)
+xey:Miramichi, NB - Rail service (XEY)
+xfc:Fredericton Junction, NB - Rail service (XFC)
+xfe:Parent, QC - Rail service (XFE)
+xfg:Perce, QC - Rail service (XFG)
+xfk:Senneterre, QC - Rail service (XFK)
+xfl:Shawinigan, QC - Rail service (XFL)
+xfm:Shawnigan, BC - Rail service (XFM)
+xfq:Weymont, QC - Rail service (XFQ)
+xfs:Alexandria,ON - Rail service (XFS)
+xfv:Brantford, ON - Rail service (XFV)
+xfy:Quebec, QC - Sainte-Foy Rail service (XFY)
+xgj:Cobourg, ON - Rail service (XGJ)
+xgk:Coteau, QC - Rail service (XGK)
+xgr:Kangiqsualujjuaq, QC (XGR)
+xgy:Grimsby, ON (XGY)
+xhm:Georgetown, ON - Rail service (XHM)
+xhs:Chemainus, BC - Rail service (XHS)
+xia:Guelph, ON - Rail service (XIA)
+xib:Ingersoll, ON - Rail service (XIB)
+xid:Maxville, ON - Rail service (XID)
+xif:Napanee, ON - Rail service (XIF)
+xii:Prescott, ON - Rail service (XII)
+xim:Saint Hyacinthe, QC - Rail service (XIM)
+xio:St Marys, ON - Rail service (XIO)
+xip:Woodstock, ON - Rail service (XIP)
+xjl:Joliette, QC - Rail service (XJL)
+xjq:Jonquiere, QC - Rail service (XJQ)
+xks:Kasabonika, ON (XKS)
+xkv:Sackville, NB - Rail service (XKV)
+xlb:Lac Brochet, MB (XLB)
+xlj:Quebec, QC - Quebec Station Rail service (XLJ)
+xlk:Quebec, QC - Levis Rail service (XLK)
+xlm:Montreal, QC - St Lambert Rail service (XLM)
+xlq:Toronto, ON - Guildwood Rail service (XLQ)
+xlv:Niagara Falls, ON - Rail service (XLV)
+xly:Aldershot, ON - Rail service (XLY)
+xlz:Truro, NS - Rail service (XLZ)
+xpb:Parksville, BC - Rail service (XPB)
+xpk:Pukatawagan, MB - (XPK)
+xpn:Brampton, ON - Rail service (XPN)
+xpx:Pointe-aux-Trembles, QC - Rail service (XPX)
+xqu:Qualicum, BC (XQU)
+xrp:Riviere-a-Pierre, QC - Rail service (XRP)
+xsi:South Indian Lake, MB (XSI)
+xtl:Tadoule Lake, MB (XTL)
+xty:Strathroy, ON - Rail service (XTY)
+xvv:Belleville, ON - Rail service (XVV)
+xwa:Watford, ON - Rail service (XWA)
+xwy:Wyoming, ON - Rail service (XWY)
+xzb:Casselman, ON - Rail service (XZB)
+xzc:Glencoe, ON - Rail service (XZC)
+xzl:Edmonton, AB - Rail service (XZL)
+y:Surrey Memorial
+yaa:Anahim Lake, BC (YAA)
+yab:Arctic Bay, NU (YAB)
+yac:Cat Lake, ON (YAC)
+yag:Fort Frances, ON (YAG)
+yal:Alert Bay Airport (CYAL)
+yale:Yale
+yam:Sault Ste-Marie, ON (YAM)
+yas:Tofino, BC, (YAZ)
+yat:Attawapiskat, ON (YAT)
+yax:Angling Lake, ON (YAX)
+yay:St Anthony, NL (YAY)
+yaz:Tofino, BC, (CYAZ)
+ybb:Kugaaruk, NU (YBB)
+ybc:Baie Comeau, QC (YBC)
+ybd:Bella Coola, BC (CYBD)
+ybe:Uranium City, SK (YBE)
+ybg:Bagotville, QC (YBG)
+ybi:Black Tickle, NL (YBI)
+ybk:Baker Lake, NU (YBK)
+ybl:Campbell River, BC (CYBL)
+ybr:Brandon, MB (YBR)
+ybs:Opapamiska Lake, ON (YBS)
+ybt:Brochet, MB (YBT)
+ybv:Berens River, MB (YBV)
+ybx:Blanc Sablon, QC (YBX)
+ybz:Toronto, ON - Downtown Rail service (YBZ)
+yca:Courtenay, BC (YCA)
+ycb:Cambridge Bay, NU (YCB)
+ycc:Cornwall, ON (YCC)
+ycd:Nanaimo, BC (CYCD)
+ycg:Castlegar, BC (CYCG)
+yck:Colville Lake, NT (YCK)
+ycm:St Catharines, ON (YCM)
+yco:Kugluktuk/Coppermine, NU (YCO)
+ycp:Blue River, BC (CYCP)
+ycq:Chetwynd, BC (CYCQ)
+ycr:Cross Lake, MB (YCR)
+ycs:Chesterfield Inlet, NU (YCS)
+ycw:Chilliwack Airport
+ycy:Clyde River, NU (YCY)
+yda:Dawson City, YT (YDA)
+ydc:Princeton, BC (CYDC)
+ydf:Deer Lake, NL (YDF)
+ydi:Davis Inlet, NL (YDI)
+ydl:Dease Lake, BC (CYDL)
+ydn:Dauphin, MB (YDN)
+ydp:Nain, NL (YDP)
+ydq:Dawson Creek, BC (CYDQ)
+ydt: Delta BC, Boundary Bay Airport
+yeg:Edmonton, AB (YEG)
+yek:Arviat, NU (YEK)
+yellow:BCEHS = PCP/EMR Code 2 (Cold) / Skytrain=Unconfirmed Emergency
+yer:Fort Severn, ON (YER)
+yev:Inuvik, NT (YEV)
+yfa:Fort Albany, ON (YFA)
+yfb:Iqaluit, NU (YFB)
+yfc:Fredericton, NB (YFC)
+yfh:Fort Hope, ON (YFH)
+yfj:Snare Lake, NT (YFJ)
+yfo:Flin Flon, MB (YFO)
+yfs:Fort Simpson, NT (YFS)
+yfx:Fox Harbour/St Lewis, NL (YFX)
+yfz:Quebec, QC - Charny Rail service (YFZ)
+ygb:Gillies Bay, BC (YGB)
+yge:Golden BC, (CYGE)
+ygh:Fort Good Hope, NT (YGH)
+ygk:Kingston, ON (YGK)
+ygl:La Grande, QC (YGL)
+ygo:Gods Narrows, MB (YGO)
+ygp:Gaspe, QC (YGP)
+ygr:Iles De La Madeleine, QC (YGR)
+ygt:Igloolik, NU (YGT)
+ygv:Havre St Pierre, QC (YGV)
+ygw:Kuujjuarapik, QC (YGW)
+ygx:Gillam, MB (YGX)
+ygz:Grise Fiord, NU (YGZ)
+yha:Port Hope Simpson, NL (YHA)
+yhb:Hudson Bay, SK (YHB)
+yhd:Dryden, ON (YHD)
+yhe:Hope, BC (CYHE)
+yhg:Charlottetown, NL (YHG)
+yhi:Holman, NT (YHI)
+yhk:Gjoa Haven, NU (YHK)
+yhm:Hamilton, ON (YHM)
+yho:Hopedale, NL (YHO)
+yhp:Poplar Hill, ON (YHP)
+yhr:Chevery, QC (YHR)
+yhy:Hay River, NT (YHY)
+yhz:Halifax, NS (YHZ)
+yif:Pakuashipi, QC (YIF)
+yik:Ivujivik, QC (YIK)
+yio:Pond Inlet, NU (YIO)
+yiv:Island Lake/Garden Hill (YIV)
+yjq:Bella Bella Denny Island Airport (CYJQ)
+yjt:Stephenville, NL (YJT)
+yka:Kamloops, BC (CYKA)
+ykf:Kitchener, ON (YKF)
+ykg:Kangirsuk, QC (YKG)
+ykl:Schefferville, QC (YKL)
+ykq:Waskaganish, QC (YKQ)
+ykt:Klemtu, BC (YKT)
+yku:Chisasibi, QC (YKU)
+ylc:Kimmirut/Lake Harbour NU (YLC)
+yld:Chapleau, ON (YLD)
+yle:Wha Ti/Lac La Martre, NT (YLE)
+ylh:Lansdowne House, ON (YLH)
+yll:Lloydminister, AB (YLL)
+ylr:Leaf Rapids, MB (YLR)
+ylw:Kelowna, BC (CYLW)
+ymh:Mary's Harbour, NL (YMH)
+ymir:Ymir
+yml:108 Mile Ranch, BC (ZML)
+ymm:Fort Mcmurray, AB (YMM)
+ymo:Moosonee, ON (YMO)
+ymq:Montreal, QC -all airports (YMQ)
+ymt:Chibougamau, QC (YMT)
+ymx:Montreal, QC -Mirabel (YMX)
+ymy:Montreal, QC - Downtown Rail service (YMY)
+yna:Natashquan, QC (YNA)
+ync:Wemindji, QC (YNC)
+ynl:Points North Landing, SK (YNL)
+yno:North Spirit Lake, ON (YNO)
+yns:Nemiscau, QC (YNS)
+yo:Young Offender
+yoc:Old Crow, YT (YOC)
+yog:Ogoki, ON (YOG)
+yogi:YOGI 414 SQN COMOX
+yoh:Oxford House, MB (YOH)
+yoj:High Level, AB (YOJ)
+yoo:Oshawa, ON (YOO)
+yop:Rainbow Lake, AB (YOP)
+yow:Ottawa, ON (YOW)
+ypa:Prince Albert, SK (YPA)
+ypb:Port Alberni, BC (YPB)
+ypc:Paulatuk, NT (YPC)
+ype:Peace River, AB (YPE)
+ypf:Esquimalt, BC (YPF)
+yph:Inukjuak, QC (YPH)
+ypj:Aupaluk, QC (YPJ)
+ypk:Pitt Meadows Airport (CYPK)
+ypl:Pickle Lake, ON (YPL)
+ypm:Pikangikum, ON (YPM)
+ypn:Port Meiner, QC (YPN)
+ypo:Peawanuck, ON (YPO)
+ypr:Prince Rupert, BC (CYPR)
+ypw:Powell River, BC (CYPW)
+ypx:Povungnituk, QC (YPX)
+ypy:Fort Chipewyan, AB (YPY)
+ypz:Burns Lake, BC (YPZ)
+yqb:Quebec City, QC (YQB)
+yqc:Quaqtaq, QC (YQC)
+yqd:The Pas, MB (YQD)
+yqg:Windsor, ON (YQG)
+yqi:Yarmouth, NS (YQI)
+yqk:Kenora, ON (YQK)
+yql:Lethbridge, AB (YQL)
+yqm:Moncton, NB (YQM)
+yqn:Nakina, ON (YQN)
+yqq:Comox, BC (CYQQ)
+yqr:Regina, SK (YQR)
+yqt:Thunder Bay, ON (YQT)
+yqu:Grande Prairie, AB (YQU)
+yqx:Gander, NF (YQX)
+yqy:Sydney, NS (YQY)
+yqz:Quesnel, BC (CYQZ)
+YRA:Yard run arround
+yrb:Resolute, NU (YRB)
+yrf:Cartwright, NL (YRF)
+yrg:Rigolet, NL (YRG)
+yrj:Roberval, QC (YRJ)
+yrl:Red Lake, ON (YRL)
+yrs:Red Sucker Lake, MB (YRS)
+yrt:Rankin Inlet, NU (YRT)
+yrv:Revelstoke, BC (CYRV)
+ysb:Sudbury, ON (YSB)
+ysf:Stony Rapids, SK (YSF)
+ysg:Lutselke/Snowdrift, NT (YSG)
+ysh:Smith Falls, ON (YSH)
+ysj:Saint John, NB (YSJ)
+ysk:Sanikiluaq, NU (YSK)
+ysl:Saint Leonard, NB (YSL)
+ysm:Fort Smith, NT (YSM)
+yso:Postville, NL (YSO)
+ysq:Atlin, BC (CYSQ)
+ysr:Nanisivik, NU (YSR)
+yst:Ste Therese Point, MB (YST)
+ysy:Sachs Harbour, NT (YSY)
+yta:Pembroke, ON (YTA)
+ytd:Thicket Portage, MB (YTD)
+yte:Cape Dorset, NU (YTE)
+ytf:Alma, QC (YTF)
+yth:Thompson, MB (YTH)
+ytl:Big Trout, ON (YTL)
+ytq:Tasiujuaq, QC (YTQ)
+yts:Timmins, ON (YTS)
+ytz:Toronto, ON - Toronto Island Airport (YTZ)
+yub:Tuktoyaktuk, NT (YUB)
+yud:Umiujag, QC (YUD)
+yul:Montreal, QC -Dorval (YUL)
+yut:Repulse Bay, NU (YUT)
+yux:Hall Beach, NU (YUX)
+yuy:Noranda/Rouyn, QC (YUY)
+yvb:Bonaventure, QC (YVB)
+yvc:La Ronge, SK (YVC)
+yvm:Qikiqtarjuaq, NU (YVM)
+yvo:Val-d'Or, QC (YVO)
+yvp:Kuujjuaq, QC (YVP)
+yvq:Norman Wells, NT (YVQ)
+yvr:Richmond, BC (CYVR) Vancouver Intl
+yvz:Deer Lake, ON (YVZ)
+ywb:Kangiqsujuaq, QC (YWB)
+ywc:West Coast Helicopters Aerospatiale AS350B 
+ywg:Winnipeg, MB (YWG)
+ywh:Victoria, BC - Inner Harbor (YWH)
+ywj:Deline, NT (YWJ)
+ywk:Wabush, NL (YWK)
+ywl:Williams Lake, BC (CYWL)
+ywm:Williams Harbour, NL (YWM)
+ywp:Webequie, ON (YWP)
+ywr:White River, ON (YWR)
+yxc:Cranbrook, BC (CYXC)
+yxe:Saskatoon, SK (YXE)
+yxh:Medicine Hat, AB (YXH)
+yxj:Fort St John, BC (CYXJ)
+yxk:Rimouski, QC (YXK)
+yxl:Sioux Lookout, ON (YXL)
+yxn:Whale Cove, NU (YXN)
+yxp:Pangnirtung, NU (YXP)
+yxs:Prince George, BC (CYXS)
+yxt:Terrace, BC (CYXT)
+yxu:London, ON (YXU)
+yxx:Abbotsford, BC (CYXX)
+yxy:Whitehorse, YT (YXY)
+yyb:North Bay, ON (YYB)
+yyc:Calgary, AB (YYC)
+yyd:Smithers, BC (CYYD)
+yye:Fort Nelson, BC (CYYE)
+yyf:Penticton, BC (CYYF)
+yyg:Charlottetown, PE (YYG)
+yyh:Taloyoak, NU (YYH)
+yyj:Saanich, BC (CYYJ) Victoria Intl
+yyq:Churchill, MB (YYQ)
+yyr:Goose Bay, NF (YYR)
+yyt:Saint Johns, NF (YYT)
+yyu:Kapuskasing, ON (YYU)
+yyw: Robinson R44 (C-GYYW) <--- Brads Helicopter
+yyy:Mont Joli, QC (YYY)
+yyz:Toronto, ON (YYZ)
+yzf:Yellowknife, NT (YZF)
+yzg:Salluit, QC (YZG)
+yzp:Sandspit, BC (CYZP)
+yzr:Sarnia, ON (YZR)
+yzs:Coral Harbour, NU (YZS)
+yzt:Port Hardy, BC (CYZT)
+yzv:Sept-Iles, QC (YZV)
+yzy:MacKenzie, BC (CYZY)
+yzz:Trail Regional Airport
+z :EHS MCI ,PD ERT
+zac:York Landing, MB (ZAC)
+zbb: Delta BC, Boundary Bay Airport
+zbf:Bathhurst, NB (ZBF)
+zbls:Zeballos
+zel:Bella Bella, BC (ZEL)
+zem:East Main, QC (ZEM)
+zfd:Fond du Lac, SK (ZFD)
+zfn:Tulita/Fort Norman, NT (ZFN)
+zgi:Gods River, MB (ZGI)
+zgs:Gethsemani, QC (ZGS)
+zho:Houston, BC - Bus station (ZHO)
+zjn:Swan River, MB (ZJN)
+zke:Kaschechewan, ON (ZKE)
+zkg:Kegaska, QC (ZKG)
+zlt:La Tabatiere, QC (ZLT)
+zmt:Masset, BC (CZMT)
+zna:Nanaimo, BC - Harbour Airport (ZNA)
+znl:Nelson, BC (ZNL)
+zpb:Sachigo Lake, ON (ZPB)
+zrj:Round Lake, ON (ZRJ)
+zsj:Sandy Lake, ON (ZSJ)
+zst:Stewart, BC (CZST)
+ztb:Tete-a-La Baleine, QC (ZTB)
+ztm:Shamattawa, MB (ZTM)
+ZULU:Bathroom break
+zum:Churchill Falls, NL (ZUM)
+zwl:Wollaston Lake, SK (ZWL)

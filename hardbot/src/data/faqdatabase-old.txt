@@ -1,0 +1,4028 @@
+provoice:ProVoice is MA/Com's (formerly Ericsson) implementation of IMBE digital modulation for radio communications. It is not APCO-25 compliant, but does use the same IMBE vocoder developed by DVSI Inc. The technical difference between ProVoice and the APCO Project-25 standard is how error correction and modulation is provided to transmit the data.
+trunking:A system that integrates multiple channel pairs into a single system. When a user wants to transmit a message, the trunked system automatically selects a currently unused channel pair and assigns it to the user, decreasing the probability of having to wait for a free channel for a given channel loading. 
+!Skytrain!
+AARU:Automatic Assured Receptivity Unit
+APS:Aux. Power Supply
+ART:Advanced Rapid Transit
+BAM:Brake Assurance Monitor
+BCEU:Brake Control Electronic Unit
+BCRTC:British Columbia Rapid Transit Company.
+bls:Basic Life Support - A Regular Ambulance OR Blue Lighting System (On Skytrain)
+BO:Bad Order
+BOGIE:A wheeled undercarriage pivoted below the end of a rail vehicle. Sometimes referred to as the truck.
+BOT:Bad Order Track
+cb:Campbell River
+CESS:Central Emergency Stop System
+cis: Control Insulator Section (SkyTrain) / Criminal Intelligence Section (RCMP)
+COMSET:communications set
+COS:Control Supervisor
+CREW TRAIN:The train that is run behind the last revenue train to pick up various employees so that they can get home at night.
+cs:Central Saanich
+DCA:Designated coupling/uncoupling area
+DCCB:Direct current circuit breaker
+dc:Dawson Creek
+EAT:Emergency Access Track
+EB:Emergency Brakes
+ECB:Electronic Control Bin
+EEC:Emergency equipment cabinet
+EER:Emergency equipment room
+EER ROOM:Electrical Equiupment Room
+emo:Emergency Management Office
+EMTB:Emergency Magnetic Track Brakes
+fc:Fucking Customer (reality) / Fault Category (skytrain)
+FCP:Fire Fighters Command Post
+FID:Feed-in device
+FOCS:Fibre Optics Communication System
+FP:Foulling point - A foulling point is the last possible section on a track that you can be on before having a risk of being hit by another train traversing the switch.
+GIDS:Guideway Intrusion Detection System
+GIES:Guideway Intrusion Emergency System
+GIMS:Guideway Intrusion Monitoring System
+GREEN PLUG:Procedure conducted by field staff to correct a disturbed or faulty switch
+GVTA:Greater Vancouver Transportation Authority; The legal name of TransLink, given legal power to oversee the region's transportation network encompassing roads, highways, buses, rapid transit, and bascially anything else that helps you get around
+gvtaps:Greater Vancouver Transportation Authority Police Service aka the laughing stock police department
+HMP:Health Monitor Panel
+HMU:Health Monitor Unit
+HOT LUNCH:Vomit, Puke
+HPM:Health Performance Monitor
+HPU:Hydrolic Power Unit
+HVAC:Heating Vetilation & Air Conditiong
+IANS:Integrated Alarm Notification System
+I/B:Inbound track towards Waterfront
+ICTS:Intermediate Capacity Transportation System (that's you SkyTrain)
+lim:Linear Induction Motor
+Mark II; The second generation of SkyTrain vehicle
+Mark I; The first generation of SkyTrain vehicle
+MBTC:Moving Block Train Control - developed by Alcatel it allows for continuous real-time control and tracking of trains.
+mha:Mental Health Act (aka Ham Radio Operators)
+MOW:Maintenance-Of-Way (track)
+O/B:Outbound track away from waterfront
+OMC:Operations and Maintenance Center
+OP:Occupancy permit
+PAA:Passenger Assistance Alarm
+pa:Patterson or Port Alberni
+PCU:Power Conversion Unit
+PIES:Platform Intrusion Emergency System
+pip:Passenger Intercom Panel (SkyTrain) or Police Information Portal 
+PLEDS:Platform (light emitting diode) sign
+PPCS:Propulsion Power Cut off switch
+PTE:Permission to enter
+RAV:Richmond/Airport/Vancouver. The psudo-name for a proposed north-south rapid transit line that would go from downtown to Richmond via Cambie with a spur to YVR. See http://www.ravprapidtransit.com/
+rch:Royal Columbian Hospital (S)
+RE-ENTRY:If a train has 'timed out' (is lost by the ATC system), then someone must drive the train over the re-entry point at a steady velocity for the system to pick it up again.
+RE-ENTRY PONT:If a train has 'timed out' (is lost by the ATC system), then someone must drive the train over the re-entry point at a steady velocity for the system to pick it up again.
+SCADA:Supervisory Control and Data Acquisition (used to control power on Skytrain)
+SCS:Switch control system
+scu:Switch Control Unit(Skytrain) or Sex Crimes Unit(VPD)
+SESP:Station Emergency Stop Processor
+sess:Station Emergency Stop System
+SLEEPER:someone sleeping on the train
+SMC:System Management Center
+STA:SkyTrain Attendant
+T&C:Testing & Commissioning
+TIDES:An early version of the GIES in use exclusively at Stadium outbound. It makes use of a laser to detect an unauthorized entry into the track.
+TIME OUT:Train loses communication with VCC
+TLTS:TransLink Transit Security
+TOOLBOX:Safety meeting for staff
+TP:Transit Police
+TRACK SECTION:A unique, numbered section of track that is approximately 5 meters in length. Track sections are how the ATC system keeps track of where each train is. Don't read the numbers upside down!
+TRAIN LINE RESET:Resetting all VOBC's
+TRANSLINK:They take your money, and eat it whole.
+TRIMS:Train Radio Information System
+TVM:Ticket Vending Machine
+TVS:Tunnel Ventilation System
+TZ:Transition Zone (track)
+UA:Unattended
+UTDC:Urban Transportation Development Corporation
+VCIF:Vehicle Cleaning & Inspection Facility
+VIP:Visually Impaired Person / Special Needs Person
+VOBC:Vehicle On Board Computer
+VPD:Vancouver Police Department
+VRS:Vehicle Radio System
+VVAU:Vehicle Voice Annoucement Unit (Big Mouth)
+WT:Wash track
+YRA:Yard run arround
+ZULU:Bathroom break
+FC1:Motion obstructed/brake
+FC2:All fire and smoke detector problems
+FC3:37 v dc. problems
+FC4:VOBC halted
+FC5:Brake or BAMS problems
+FC6:Propulsion problems
+FC7:VOBC halted
+FC8:Train overspeed
+FC9:Target point overshoot
+FC10:Rollback
+FC11:VOBC fault
+FC12:Couple rejected
+FC13:Doors fail to open
+FC14:failure to get door status in station
+FC15:Loss of door status, outside of station
+ALPHA:Police
+BRAVO:Suspicious package or bomb threat
+CHARLIE:Collision
+DELTA:Derailment
+ECHO:Ambulance
+FOXTROT:Fire
+INDIA:Human contact with train
+TANGO:Unauthorized entry into guideway
+WHISKEY:Weapon
+WHISKEY GOLF:Weapon, Gun
+WHISKEY KILO:Weapon, Knife
+CONTROL NET:Only staff directly involved in emergency can communicate on radios
+red:BCEHS = HLA Code 3 (Hot) / Skytrain=Confirmed Emergency
+yellow:BCEHS = PCP/EMR Code 2 (Cold) / Skytrain=Unconfirmed Emergency
+green:BCEHS = To Be Determined Code 2 (Cold) / Skytrain=Clear of Emergency
+fc16:Onboard mini bar needs restocking
+WF:Waterfront
+bu:Skytrain=Burrard RCMP=Burnaby
+gv:Skytrain=Granville PRIME=GVTAPS
+st:RCMP PRIME: Smithers or Skytrain: Stadium
+MN:Main Street/Science World
+bw:PRIME=Barriere or Broadway
+NA:Naniamo
+TN:29th Avenue
+JY:Joyce
+MT:Metrotown
+ro:Royal Oak or Registered Owner
+ed:E-Division (RCMP) or Excited Delirium or Edmonds (Skytrain) 
+TS:22nd Street
+NW:New West
+CO:Columbia
+sr:Scott Road or Salmon Arm
+GW:Gateway
+sc:Skytrain=Surrey Central PRIME=Sunshine Coast
+KG:King George
+CM:Commercial Drive
+RE:Renfrew
+RU:Rupert
+GM:Gilmore
+br:PRIME=Boundry Regional or Brentwood Town Centre
+HO:Holdom
+SP:Sperling/Burnaby Lake
+lc: Lake Cowichan (RCMP) or Lake City (SkyTrain)
+LH:Lougheed Town Centre
+BD:Braid
+sa: Saanich or Sexual Assault (RCMP)
+CNI:The Criminal Name Index is not a separate database but is actually a query type made against the CPIC database. It is the lowest level and the one with quickest response. It generally indicates the presence of a criminal history record, with a further more detailed query needed to pull more information.
+CIIDS:The Computerized Integrated Information Dispatch System is the central dispatch organization system of the R.C.M.P. It integrates standard computer aided dispatch functions like messaging, incident logging, mapping with the ability to query the multitude of databases out there and interoperability with disparate radio systems.
+ROADS:The Remote Office and Dispatch System is simply the mobile version of CIIDS. It allows remote access to many of the same application functions as a full CIIDS console. Amongst the most important data based queries, messaging, and mapping. Most access is via cellular networks via 1X,EVDO,etc.
+PIRS:The Police Information Retrieval System is an investigative information recording and retrieval system containing detailed information on all events reported to the Royal Canadian Mounted Police and covers the entire organization. The database is commonly searched (By file number, address, name for example) for information on previous R.C.M.P. incidents.
+PROS:The Police Reporting and Occurrence System is the replacement system for PIRS. It will integrate the existing databases of the R.C.M.P. with new data sources and puts in place much more advanced capabilities. Search, archiving, and security features have all been enhanced.
+PRIME:The Police Records Information Management Environment is a real-time British Columbia specific real-time database system. It provides online access to law enforcement records, and is accessible by all provincial law enforcement agencies including the R.C.M.P. See http://www.rcmp-grc.gc.ca/pia/prime_bc_e.htm
+ALS: Advanced Life Support - EHS car with paramedics onboard who are trained and certified to provide ICU-level care in concert with critical care transport advisors
+Bar:Bar check & walk through
+BCDL:B.C. drivers license
+BCL:BC Plate
+bta:breath test analyst
+Caution Charlie:Communicable Disease
+Caution Echo:Escape Risk
+caution mike:Mental Health History
+Caution Sierra:Suicidal
+Caution Victor:Violent
+Caution Foxtrot:Familiy/Firearms Violence
+code 1:Unauthorized listener on radio or in ambulance.
+Code 2:Respond ASAP, no emergency gear
+Code 3:Respond ASAP, emergency
+code 4: Radio Control (Police) or Sudden Death (Ambulance)
+Code 5:Danger, High Risk, Guns drawn
+code 6:Hostage Situation or Fire Department
+dl:Dease Lake , Drivers Licence
+DOA:Dead on Arrival
+DOB:Date of Birth
+EHS:Emergency Health Service
+EMH:Emergency Mental Health
+ERT:Emergency Response Team
+FTA:Failure to Appear
+GOA:Gone on Arrival
+MVA:Motor Vehicle Act or Accident
+MVI:Motor Vehicle Incident
+OD:Overdose
+Operation:Road block or speed trap
+Pointer Vehicle:Vehicle under observation
+po:Peace Officer or PRIME=Port Moody
+PR:Property Reference
+Red Zone:Restricted Area or Aboriginal Reserve.
+Reference:Property Reference
+ro:Royal Oak or Registered Owner
+Routine:No lights or sirens
+RSD:Roadside Screening Device
+RTO:Return to Office
+Section 23.5/24:Mental Health Act background
+SOC: Subject of Complaint
+Servicing:Filling up with gas
+Top:Temporary Operating Permit
+cranbrook:An amature radio head, that likes getting in trouble.... Oh ya it's also a small town in B.C
+idiot:See Coolfingers
+abizzalsx:https://i.imgur.com/2uEIoeZ.jpg
+ecomm:E-Comm is the emergency communications centre for southwest British Columbia, Canada.
+10-0:Radio Check
+10-1:Signal Check
+10-2:Signal Good
+10-3:Stop Transmitting
+10-4:Affirmative
+10-5:Relay (To)
+10-6:Busy
+10-7:Out of Service
+sex:Something you wouldnt know about....:)
+10-8:In Service
+10-9:Say Again
+10-10:Negative
+10-11:Roadside Check
+10-12:Stand by (Stop)
+10-13:Existing Conditions
+10-14:Prepare to Copy
+10-15:Message Delivered
+10-16:Reply-To-Message
+10-17:Enroute
+10-18:Urgent
+10-19:(In) Contact
+10-20:Location
+10-21:Call by landline
+10-22:Disregard
+10-23:Arrived at Scene
+10-24:Assignment Completed
+10-25:Report to...
+10-26:ETA
+10-27:Drivers License Info Needed
+10-28:Vehicle Registration Info
+10-29:Records Check
+10-30:Danger/Caution
+10-31:Pickup
+10-32:Units Needed (Number of Units needed at location)
+10-33:Officer in Trouble
+10-34:Time Check
+10-35:Off Duty
+10-36:On Duty
+10-37:Returning to Office
+10-38:Sorry no information for this 10 code
+10-39:Sorry no information for this 10 code
+10-40:Possible computer hit on subject/serial/plate/warrant Info
+10-41:Warrant/Info Confirmed
+10-42:Person in Parole Cat.
+10-43:Person in Charged Cat.
+10-44:Person in Elope Cat
+code 12:Restricted Information. Make sure no Unauthorized listeners present
+10-50: M.V.A (RCMP) | Accident Scene [aircraft or otherwise] (BCFS)
+10-58:Drug Overdose
+10-59:Suicide/Homicide
+10-60:Danger/Alarm
+10-61:Coffee Break (Need more doughnuts quick!)
+10-62:Meal Break
+10-64:Ambulance
+10-65:Escorting Prisoner
+10-66:Prisoner Escort Required
+10-67:Unauthorized Listener
+10-68:Impaired Driver
+10-69:Check Vehicle/Person
+10-70:Request Supervisor at Scene
+10-71:Sending to ROADS
+10-72:Alarm/Serious Crime
+10-73:Advise Situation Status
+ambrose:See 69
+10-74:False Alarm
+10-75:Change Frequencies
+69: See Ambrose
+wenko:https://i.imgur.com/sHfcbeU.gifv
+10-76:On Portable
+10-77: Bait Car Activation / At Residence
+10-78:At Office
+10-79:Slow Computer Response (Needs an Upgrade!)
+10-80:Record of Violence
+10-81:Record of Robbery
+10-82:Record of Weapons
+10-83:Record of B&E
+dwc:woooP
+10-84:Record of Theft
+10-85:Record of Drugs
+rfbot:Do you even lift bro?
+10-86:Record of Sexual Offence
+10-87: Record of Other Offence (Sexual Assault)
+10-96:Report of Homicide
+10-97:Report of Sudden Death
+10-98:Request Routine Cover
+10-99:Unit on Call
+spelling:Something Mikes doesn't know about.
+code black:BOMB THREAT/SEARCH
+code green:EVACUATION
+ncic:The National Crime Information Center (NCIC) is the United States's central database for tracking crime-related information, including wanted persons, missing persons, certain firearms, stolen property, and criminal histories. Operated by the FBI, it receives input from government agencies and all fifty state governments.
+10-100:Unleashing the snake!
+par:Personnel Accountability Report. The amount of firefighters in a crew (ie. PAR 3 = 3 firefighters)
+evo:Emergency Vehicle Operation
+a7:Halted VOBC Usually accompied by another error code i.e. A7 with a code of 2 CHARLIE
+aor:Available on Radio
+aiq:Available in Quarters
+rit:Rapid Intervetion Team. Also known as FAST.
+fast:Firefighter Assist & Search Team
+rtt:request to transmit
+des:Data Encryption Standard (DES) is a widely-used method of data encryption using a private (secret) key that was judged so difficult to break by the US government that it was restricted for exportation to other countries. There are 72,000,000,000,000,000 (72 quadrillion) or more possible encryption keys that can be used. For each given message, the key is chosen at random from among this enormous number of keys. ...
+aes:A symmetric 128-bit block cipher that has been adopted by the US Federal Government as its symmetric data encryption standard in October 2000, replacing the DES encryption it used. The National Institute of Standards and Technology (NIST) of the US Department of Commerce selected the algorithm, called Rijndael (pronounced Rhine Dahl or Rain Doll). The algorithm must be used with key sizes of 128 bits, 192 bits, or 256 bits depending on the applicatio
+stuck:https://i.redd.it/8i35q7jznxk11.jpg
+coolfingers:http://pr0n.encyclopediadramatica.com/images/9/98/Tubgirl.jpg
+edp:Emotionally Disturbed Person
+10-300:Igloo on Fire
+sar:Search and Rescue
+cpic:Canadian Police Information Centre
+test123:test123321
+aprs:Automatic Position Reporting System. Connecting a GPS unit to a radio, then having the radio "beacon" at regular intervals allows others to know the radio's position.
+drm:Digital Radio Mondiale (DRM) is a set of digital audio broadcasting technologies designed to work over the bands currently used for AM broadcast, particularly shortwave. DRM can fit more channels than AM, at higher quality, into a given amount of bandwidth, using various MPEG-4 codecs.
+qsy:To Change frequency "Let's QSY up 10 kilohertz"
+qrx:Will call again "QRX @ 2100 ZULU"
+qrm:Man-made interference
+ifb:The IFB is a special intercom circuit that consists of a program feed sent to an earpiece worn by talent via a wire, telephone, or radio receiver that can be interrupted and replaced by a producer's or director's intercom microphone. On a television news program for example, a producer can talk to the anchors, to tell them when they are live on the air and when to begin reading off the script on the teleprompter or cue cards.
+qth:What is your Location?
+lid:a poor operator, one who does not follow proper procedures or sends sloppy morse code.
+afc:Automatic frequency control. Used in FM receivers to prevent drift.   
+afsk:Audio frequency shift keying (as opposed to frequency shift keying, FSK)   
+alc:Automatic level control. A feedback voltage in the transmitter's output amplifier used to prevent amplifier overload. Also used as feedback from a linear amplifier back to the exciter to prevent overdriving. 
+amsat:Radio Amateur Satellite Corporation, see http://www.amsat.org
+ascii:American Standard Code for Information Interchange. The ASCII 7-bit code represents 128 characters including 32 control characters.
+atv:Amateur Television, also known as fast scan television 
+autopatch:a device that interfaces a repeater to the telephone system to permit repeater users to make telephone calls. Often just called a "patch."   
+awg:American Wire Gauge - standard for describing the diameter of wire by which the wire size increases as the gauge number decreases.
+bandpass filter:a circuit that passes a range of frequencies and attenuates signals above and below this range  
+bfo:Beat frequency oscillator. Used to mix with the incoming signal to produce an audio tone for CW reception. A BFO is needed to copy CW and SSB signals.   
+bpsk:Binary Phase Shift Keying; digital DSB suppressed carrier modulation.   
+cw:Continuous Wave, In truth a continuous wave is an unmodulated, uninterrupted RF wave. However in common usage refers to Morse code emissions or messages which is an interrupted wave. 
+dtmf:abbreviation for dual-tone multi-frequency, the series of tones generated from a keypad on a ham radio transceiver (or a regular telephone).  Uses 2-of-7 or 2-of-8 tones; often referred to by Bell's trademark Touchtone.
+dsp:Digital Signal Processing - allows for filtering, noise reduction, audio equalization, etc
+elmer:a mentor; an experienced operator who tutors newer operators 
+fsk:Frequency-shift keying. Modulating the transmitter by using the RTTY data signal to shift the carrier frequency. Mark and Space. 
+ fstv:Fast-Scan TV. Same as commercial broadcast TV. aka "ATV"
+gmrs:General Mobile Radio Service.
+ ht:Handi-Talkie - a small hand held radio  
+if:Intermediate Frequency -- Intermediate frequency, resultant frequency from heterodyning the carrier frequency with an oscillator, mixing incoming signals to an intermediate frequency enhances amplification, filtering and the processing signals. Desirable to have more than one IF.
+irlp:Internet Radio Linking Project
+echolink:A program designed by Jonathan Taylor, K1RFD to allow amateur radio stations to communicate with one another over the Internet, using voice-over-IP (VoIP) technology. The program allows worldwide connections to be made between stations, or from computer to station, greatly enhancing Amateur Radio's communications capabilities. 
+ itu:International Telecommunications Union, the body which specifies worldwide guidelines concerning the use of the electromagnetic spectrum for communications purposes.
+ship search: http://www.itu.int/cgi-bin/htsh/mars/ship_search.sh
+digital modes: Audio Samples of digital modes available here; http://www.kb9ukd.com/digital/
+mesa:Medical Emergency Service Assist (usually a medical call)
+alpha tag:Option that allows the radio user to associate an amount of text with channels, frequencies, etc.
+sfu: Simon Fraser University
+los: Line of sight
+bcas: British Columbia Ambulance Service
+mdt:Mobile Data Terminal
+tcomm:Transit Communications (Coast Mountain Bus Company)
+code 9: Infectious Disease
+ACDOWN:Aircraft Down
+ALERT:Airport Alert
+1 ALM:1 Alarm Fire
+2 ALM:2 Alarm Fire
+3 ALM:3 Alarm Fire
+4 ALM:4 Alarm Fire
+5+ ALM:5+ Alarm Fire
+BRUSH:Brush Fire
+HAZMAT:Hazmat
+MVA:Major Accident
+MJBRSH:Major Brush
+mci:Mass Casualty Incident
+SAR:Search & Rescue
+RESCUE:Technical Rescue
+TRAIN:Train Derailment
+TRAUMA:Trauma Alert
+QUAKE:Earthquake
+SPCL:Special
+S-DEV:Suspicious Device
+S-SUB:Suspicious Substance
+TRAFIC:Traffic Advisory
+AMBER:Amber Alert
+ROBERY:Armed Robbery
+MISING:Missing Person
+OFFAST:Officer Assist
+OFFDWN:Officer Down
+SEARCH:Perp Search/Chase
+SHTSTB:Shooting/Stabbing
+SWAT:SWAT/ERT
+PRSUIT:Veh Pursuit
+VCRIME:Violent Crime
+FFWARN:Flash Flood Warning
+FFWTCH:Flash Flood Watch
+TSWARN:Thunder Storm Warning
+TSWTCH:Thunder Storm Watch
+TORWRN:Tornado Warning
+TORWCH:Tornado Watch
+WNTWCH:Winter WX Advisory
+WNTWRN:Winter WX Warning
+tfa:Theft From Auto
+dayom:That thang where yo' tally whack got no jive. Ya dig?
+pearl necklace:  
+dvbia:Downtown Vancouver Business Improvement Associaton
+hfrs:Helicopter Flight Rescue System
+dnr:Do Not Resuscitate
+evdo:Is one telecommunications standard for the wireless transmission of data through radio signals, typically for broadband Internet access. It is classified as a broadband technology, because it utilizes a broad band of radio frequencies.
+mo:Medical Observation
+aob:Alcohol on Breath
+aos:Available On Scene
+cva:Cerebrovascular Accident (Stroke)
+eoc:Emergency Operations Center
+edu:Explosives Disposal Unit
+aci:Accident Investigation
+ciu:Collision Investigation Unit
+miert:Municipal Integrated Emergency Response Team
+er:Enviromental Response
+jfroot:Access Denied
+rcmp:Royal Canadian Mounted Police
+lso:Line Stretched & Operating 
+ifo:In front of
+pc:Police Constable
+sfd:Single Family Dwelling
+hrws:High Risk Warrent Service
+pm:Police Male or PRIME=Port McNeil
+pw:Police Woman
+vcb:Visual Contact Broken
+pointer:a pointer vehicle is a link from a vehicle used as a placeholder to a person of interest, often a vehicle associated with an individual (not necessarily the owner) in police record systems
+dip:Drunk in public
+sip:Special Interest to Police
+cleu:Co-ordinted Law Enforcement Unit
+kurtal:Telling HarveyB where to go.
+dcubed:ScamBC's Baddest speller. https://i.imgur.com/TkEq1OD.gifv
+acars:Aircraft Communication Addressing and Reporting System 
+nok:Next Of Kin
+cmbc:Coast Mountain Bus Company
+teamspeak:TeamSpeak is proprietary Voice over IP software that allows users to speak on a chat channel with other users, much like a telephone conference call. A TeamSpeak user will often wear a headset with an integrated microphone. Users use the TeamSpeak client software to connect to a TeamSpeak server of their choice, from there they can join chat channels.
+testing:test123123
+quint:A quint, or quintuple combination pumper, is a fire service apparatus that serves the dual purpose of an engine and a ladder truck. The name quint is derived from the Latin prefix quinque-, meaning five, and refers to the five functions that a quint provides: pump, water tank, fire hose, aerial device, and ground ladders.
+taser:An intended non leathal use of force used by police a security forces
+exposure:A structure that exposed to a fire eg. a building or vehicle near a fire in risk of catching fire
+kitty:A feline animal that gets in trouble eg. stuck in a tree or storm drain pipe usualy resulting in a fire department responce
+spellchecker:Somthing dcubed fails at
+gis:general investigating section
+igtf: Integrated Gang Task Force (aka VST)
+ess:emergency social services
+preoc: Provincial Regional Emergency Operations Centre (Provincial Emergency Program)
+test1:test123
+irsu:Integrated Road Safety Unit www.irsu.ca
+ecc:Emergency Coordination Center (aka PEP)
+dfps:Dedicated Fire Protection System: The DFPS is capable of pumping freshwater or saltwater at up to 300 psi for fire fighting. It consists of two pump stations, each capable of pumping up to 10,000 gpm. A dedicated 24 inch welded steel main feeds the high pressure hydrants.
+rfr:Richmond Fire Rescue
+golf:A gun (Skytrain) / Gang unit (Police)
+moo:The sound made by a bovine
+beer:Word not found. Please try /quit
+vst:Violence Suppression Team (aka IGTF)
+vcc:Vehicle Control Centre - The VCC consists of linked minicomputers. They regulate speed, safe distances, and track switches. The VCC is divided into four interconected zones, each with its own set of three minicomputers to control train operation. Two zones are for the Expoline (VCC 1 WF to RO, VCC 2 RO to KG), one for the Millenium Line (VCC 4), and one zone for the maintenance yard (VCC 3).
+edacs:Enhanced Digital Access Communications System (EDACS) is available in VHF, UHF, 800 and 900 frequency bands and wideband (25 kHz) and narrowband (12.5 kHz) configurations. This spectrum resource provided a springboard for the development of trunked radio systems. Public service radio manufacturers working with Associated Public-Safety Communications Officers (APCO) developed a requirements document (APCO-16) for trunked radio systems. EDACS was create
+stats:http://ircstats.scanbc.com/
+dtes:downtown east side
+ydc:Princeton, BC (CYDC)
+ar:Armed Robbery
+asd:Approved Screening Device
+usd:Unapproved Screening Device
+ppw:possess prohibited weapon
+dre:Drug Recognition Expert
+vt:Violation Ticket
+pots:Pot on the Stove
+alr:Agricultural Land Reserve
+215 :  215 MISSION 7366 Hurd St (215A, 215F, 215J)
+a:Vancouver General
+c:St. Pauls
+h:Burnaby General
+i:Morgue
+m:Mt. St. Joseph
+r:Richmond General
+s:Royal Columbian
+u:UBC
+w:Lions Gate
+y:Surrey Memorial
+hla:Highest Level Available 
+mazus:he is a major fuckmo
+fuckmo: see Mazus
+air 1:RCMP Eurocopter EC-120B C-GMPT - Vancouver
+air 8:RCMP Aerospatiale AS-350B-3 Ecureuil C-GMPF - Comox
+air 5:RCMP Aerospatiale AS 350B3 Ecureuil C-FMPG (Crashed Jan 17th 2012 near Cultus Lake)
+ibn:www.incidentbroadcast.com Free Live Police & Fire Feeds
+stfu:SHUT THE FUCK UP!
+cbrne:Chemical, Biological, Radiological, Nuclear and Explosive
+ibet:Integrated Border Enforcement Team
+cbp:U.S. Customs and Border Protection
+dhs:U.S. Department of Homeland Security
+pita:Pain in the ass, or a flat bread often served with tzatziki
+o:St. Marys
+q:Womans & Childrens Hospital
+32d1:UNKNOWN PROBLEM (MAN DOWN) Life Status Questionable
+32b3:UNKNOWN PROBLEM (MAN DOWN) Unknown status/Other codes not applicable
+32b2:UNKNOWN PROBLEM (MAN DOWN) Standing, sitting, moving, or talking
+32b1:UNKNOWN PROBLEM (MAN DOWN) Standing, sitting up, moving, talking
+31e1:UNCONSCIOUS/FAINTING (NEAR) Inedffective Breathing
+31d3:UNCONSCIOUS/FAINTING (Near) Not alert HLA
+31d2:UNCONSCIOUS/FAINTING (NEAR) Unconscious - Effective breathing
+31d1:UNCONSCIOUS/FAINTING (NEAR) Unconscious - Agonal/Ineffective Breathing
+31c5:UNCONSCIOUS/FAINTING (Near) Female 12  50 yrs, abdominal pain BLS
+31c4:UNCONSCIOUS/FAINTING (Near) Single or near faint - alert (> 35 yrs)
+31c3:UNCONSCIOUS/FAINTING (NEAR) Females 12-50 with abdominal pain
+31c2:UNCONSCIOUS/FAINTING (NEAR) Fainting episode(s) and alert => 35 (with cardiac history)
+31c1:UNCONSCIOUS/FAINTING (NEAR) Alert with abnormal breathing
+31a1:UNCONSCIOUS/FAINTING (NEAR) Fainting episode(s) and alert => 35 (without cardiac history)
+addword:useage ?addword word:description
+digitalmodes:http://www.kb9ukd.com/digital/
+mwara: http://www.liveatc.net/HFAERO.jpg
+02e1:ALLERGIES/HIVES/STINGS Ineffective breathing
+pds:Police Dog Service
+cc:Coquitlam Central Skytrain Station
+ictu:Integrated Technical Crime Unit
+imet:Integrated Market Enforcement Team
+inset:Integrated National Security Enforcement Teams
+ispot:Integrated Sexual Predator Observation Team
+icet:Integrated Child Exploitation Team
+wcms:West Coast Marine Services
+cru:Crime Reduction Unit
+deb:Drug Enforcement Branch
+cfseu:Combined Forces Special Enforcement Unit (Can't Find Shit, Encrypted Unit)
+ittf:Identity Theft Task Force
+csf:Commercial Structure Fire
+barryht:Thrift store junkie
+mocom1-work:Keeping us safe!
+beu:Biker Enforcement Unit
+iociu:Organized Crime Investigative Unit
+iroc:Integrated Response to Organized Crime
+ipoc:Integrated Proceeds of Crime Unit
+afo:Area Firearms Office
+attf:Auto Theft Task Force
+bip:Border Integrity Program
+cbsa:Canada Border Services Agency
+ccb:Commercial Crime Branch
+cfdu:Combined Forces Drug Unit
+cfiu:Combined Forces Intelligence Unit
+cdsa:Controlled Drugs and Substances Act
+cafs:Compressed Air Foam system
+hwg:Here we go! (get ready for something good)
+cli:critical location information
+clit:Cant Locate It Today
+50a1:OTHER Off Load Delay
+01o1:Abdominal pain Male <15
+01o2:Abdominal pain Female <12
+01a1:Abdominal pain
+01c1:Abdominal pain SUSPECTED aortic aneurysm (tearing/ripping pain) >50
+01c2:Abdominal pain Known aortic aneurysm
+01c3:Abdominal pain Fainting or near fainting => 50
+01c4:Abdominal pain Females with fainting or near fainting 12-50
+01d1:Abdominal pain Not alert
+02o1:ALLERGIES/HIVES/STINGS No difficulty breathing or swallowing with symptoms present for => 1 hr (rash, hives, or itching may be present)
+02a1:ALLERGIES/HIVES/STINGS No difficulty breathing or swallowing with symptoms present for <1 hr (rash, hives, or itching may be present)
+02a2:ALLERGIES/HIVES/STINGS Spider bite (previous reaction history)
+02b1:ALLERGIES/HIVES/STINGS Unknown status/Other codes not applicable
+02c1:ALLERGIES/HIVES/STINGS Difficulty breathing or swallowing
+02c2:ALLERGIES/HIVES/STINGS History of severe allergic reaction
+02d1:ALLERGIES/HIVES/STINGS Not alert
+02d2:ALLERGIES/HIVES/STINGS Difficulty speaking between breaths
+02d3:ALLERGIES/HIVES/STINGS Swarming ATTACK (bee, wasp, hornet)
+02d4:ALLERGIES/HIVES/STINGS Snakebite
+02d5:ALLERGIES/HIVES/STINGS Snake bite
+03o1:ANIMAL BITES Not dangerous distal body area
+03o2:ANIMAL BITES Non-recent injuries (> 6 hours)
+03o3:ANIMAL BITES Superficial bites
+03a1:ANIMAL BITES Not dangerous proximal body area
+03a2:ANIMAL BITES Non-recent injuries (>=6hrs)
+03a3:ANIMAL BITES Superficial bites
+03b1:ANIMAL BITES Possibly dangerous body area
+03b2:ANIMAL BITES Serious haemorrhage
+03b3:ANIMAL BITES Unknown status - 3rd party caller
+03d1:ANIMAL BITES Unconscious or arrest
+03d2:ANIMAL BITES Not alert
+03d3:ANIMAL BITES Chest or Neck injury (with difficulty breathing)
+03d4:ANIMAL BITES Dangerous body area
+03d5:ANIMAL BITES Large Animal
+03d6:ANIMAL BITES Exotic Animal
+04o1:ASSAULT Not dangerous distal body area
+04o1a:ASSAULT Not dangerous distal body area
+04o2:ASSAULT Not recent injuries (> 6 hrs) to distal body area
+04o2a:ASSAULT Not recent injuries (> 6 hrs) to distal body area
+04a1:ASSAULT Not dangerous body area
+04a2:ASSAULT Not recent injuries (> 6 hrs)
+04b1:ASSAULT Possibly dangerous body area
+04b2:ASSAULT Serious haemorrhage
+04d1:ASSAULT Unconscious or arrest
+04d2:ASSAULT Not alert
+04d3:ASSAULT Chest or Neck injury (with difficulty breathing)
+04d4:ASSAULT Multiple Victims
+04b3:ASSAULT Unknown status (3rd party caller)
+04d5:ASSAULT Multiple victims
+05a1:BACK PAIN (NON TRAUMA) Non traumatic back pain
+05a2:BACK PAIN (NON TRAUMA) Non-recent traumatic back pain (> 6 hrs)
+05c1:BACK PAIN Suspected aortic aneurysm (tearing/ripping pain) => 50
+05d1:BACK PAIN (NON TRAUMA) Not alert
+06c1:BREATHING PROBLEM Abnormal breathing
+06c2:BREATHING PROBLEM Cardiac history
+06d1:BREATHING PROBLEM Not Alert
+06d2:BREATHING PROBLEM Difficulty speaking between breaths
+06d3:BREATHING PROBLEM Changing Color
+06e1:BREATHING PROBLEM Ineffective breathing
+07o1:BURNS(Scalds)/EXPLOSION Sunburn or minor burns( < = hand size)
+07a1:BURNS(Scalds)/EXPLOSION Burns <18% body area
+07a2:BURNS(Scalds)/EXPLOSION Fire alarm (unknown situation)
+07a3:BURNS(Scalds)/EXPLOSION Sunburn or Minor burns (<=hand size)
+07b1:BURNS(Scalds)/EXPLOSION Blast injuries (without priority symptoms)
+07c1:BURNS(Scalds)/EXPLOSION Building fire - persons reported inside
+07c2:BURNS(Scalds)/EXPLOSION Difficulty breathing
+07c3:BURNS(Scalds)/EXPLOSION Large burns ( > 18% body area)
+07d1:BURNS(Scalds)/EXPLOSION Multiple victims
+07d2:BURNS(Scalds)/EXPLOSION Unconscious or arrest
+07d3:BURNS(Scalds)/EXPLOSION Not Alert
+07d4:BURNS(Scalds)/EXPLOSION Severe respiratory distress
+08o1:CARBON MONOX./INHALATION/HAZMAT C.O. detector alarm (no priority symptoms)
+08b1:Carbon Monoxide/Inhalation/HAZMAT/CBRN Alert without difficulty breathing
+08c1:Carbon Monoxide/Inhalation/HAZMAT/CBRN Alert with difficulty breathing
+08d1:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unconscious or Arrest
+08d2:Carbon Monoxide/Inhalation/HAZMAT/CBRN Not alert
+08d3:Carbon Monoxide/Inhalation/HAZMAT/CBRN DIFFICULTY SPEAKING BETWEEN BREATHS
+08d4:Carbon Monoxide/Inhalation/HAZMAT/CBRN Multiple victims
+08d5:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown status - 3rd Party caller
+08d6:CARBON MONOX./INHALATION/HAZMAT Unknown status - 3rd Party caller
+09o1:Cardiac/Respiratory Arrest/Death EXPECTED DEATH unquestionable
+09b1:Cardiac/Respiratory Arrest/Death OBVIOUS DEATH unquestionable
+09d1:Cardiac/Respiratory Arrest/Death INEFFECTIVE BREATHING
+09e1:Cardiac/Respiratory Arrest/Death Not breathing at all
+09e2:Cardiac/Respiratory Arrest/Death Breathing uncertain (agonal)
+09e3:Cardiac/Respiratory Arrest/Death Hanging
+09e4:Cardiac/Respiratory Arrest/Death Strangulation
+09e5:Cardiac/Respiratory Arrest/Death Suffocation
+09e6:Cardiac/Respiratory Arrest/Death Underwater
+10o1:CHEST PAIN (Non-Traumatic) Normal breathing (age < 12) no drugs or medication
+10a1:CHEST PAIN (Non-Traumatic) Normal breathing
+10a2:CHEST PAIN (Non-Traumatic) Normal breathing (age<12) medications taken
+10c1:CHEST PAIN (Non-Traumatic) Abnormal breathing
+10d2: CHEST PAIN (Non-Traumatic) DIFFICULTY SPEAKING BETWEEN BREATHS - HLA
+10d3:CHEST PAIN (Non-Traumatic) Changing Color
+11o1:CHOKING Not choking now (can talk/cry, alert)
+11a1:CHOKING Not choking now (can talk/cry, alert)
+11d1:CHOKING Abnormal breathing (PARTIAL obstruction)
+11d2:CHOKING Not alert
+12a1:Convulsions/Seizures Not fitting now and breathing effectively (verified)
+12b1:Convulsions/Seizures Effective breathing not verified < 35
+12c1:Convulsions/Seizures FOCAL fit (not alert)
+12c2:Convulsions/Seizures Pregnancy
+12c3:Convulsions/Seizures Diabetic
+12d1:Convulsions/Seizures Not breathing (after Key Questioning)
+12d2:Convulsions/Seizures CONTINUOUS or MULTIPLE fitting
+12d3:Convulsions/Seizures AGONAL/INEFFECTIVE BREATHING
+12d4:Convulsions/Seizures Effective breathing not verified => 35
+13o1:Diabetic Problems Alert and behaving normally with 1st party verification
+13a1:Diabetic Problems Alert and behaving normally without 1st party verification
+13c1:Diabetic Problems Not alert
+13c2:Diabetic Problems Abnormal behavior
+13c3:Diabetic Problems Abnormal breathing
+13d1:Diabetic Problems Unconscious
+14o1:DROWNING/DIVING ACCIDENT Alert and breathing normally (No injuries and out of water)
+14a1:DROWNING/DIVING ACCIDENT Alert and breathing normally (No injuries and out of water)
+14b1:DROWNING/DIVING ACCIDENT Alert and breathing normally (injuries or in water)
+14b2:DROWNING/DIVING ACCIDENT Unknown status - 3rd Party caller
+14c1:DROWNING/DIVING ACCIDENT Alert with abnormal breathing
+14d1:DROWNING/DIVING ACCIDENT Unconscious
+14d2:DROWNING/DIVING ACCIDENT Not alert
+14d3:DROWNING/DIVING ACCIDENT Diving, or suspected neck injury
+14d4:DROWNING/DIVING ACCIDENT SCUBA accident
+15c1:Electrocution/Lightning Alert and breathing normally
+15d1:Electrocution/Lightning Unconscious
+15d2:Electrocution/Lightning Not disconnected from power
+15d3:Electrocution/Lightning Power not off or hazard present
+15d4:Electrocution/Lightning EXTREME FALL (=> 30ft/10m)
+15d5:Electrocution/Lightning LONG FALL
+15d6:Electrocution/Lightning Not alert
+15d7:Electrocution/Lightning Abnormal breathing
+150:COURTENAY 1890 Cliffe Ave (150A, 150E, 150K)
+16o1:EYE PROBLEM/INJURIES Minor eye injuries
+16o2:EYE PROBLEM/INJURIES Medical eye problems
+16a1:EYE PROBLEM/INJURIES Moderate eye injuries
+16a2:EYE PROBLEM/INJURIES Minor eye injuries
+16a3:EYE PROBLEM/INJURIES Medical eye problems
+16b1:EYE PROBLEM/INJURIES Severe eye injuries
+16d1:EYE PROBLEM/INJURIES Not alert
+17o1:FALL NOT DANGEROUS DISTAL body area
+17o2:FALL NON-RECENT (=> 6hrs) injuries to DISTAL body area (without priority symptoms)
+17o3:FALL Non-recent injuries (> 6 hours), Distal body area
+17a1:FALL NOT DANGEROUS PROXIMAL body area
+17a2:FALL NON-RECENT (=> 6hrs) injuries except DISTAL body area (without priority symptoms)
+17b1:FALL POSSIBLY DANGEROUS body area
+17b2:FALL SERIOUS Hemorrhage
+17b3:FALL Unknown status/Other codes not applicable
+17d1:FALL EXTREME FALL (=> 30ft/10m)
+17d2:FALL Unconscious or Arrest
+17d3:FALL Not alert
+17d4:FALL Chest or Neck injury (with difficulty breathing)
+18o1:HEADACHE Breathing normally (1st party) no priority symptoms
+18a1:HEADACHE Breathing normally without 1st party verification (without priority symptoms)
+18b1:HEADACHE Unknown status - 3rd party caller
+18c1:HEADACHE Not alert
+18c2:HEADACHE Abnormal breathing
+18c3:HEADACHE Speech problems
+18c4:HEADACHE Sudden onset of severe pain
+18c5:HEADACHE Numbness
+18c6:HEADACHE Paralysis
+18c7:HEADACHE Change in behaviour (<3 hrs)
+19a1:HEART PROBLEMS Heart rate >50 and <130, no priority symptoms
+19a2:HEART PROBLEMS Chest pain < 35 (NO priority symptoms)
+19b1:HEART PROBLEMS Unknown status - 3rd Party caller
+19c1:HEART PROBLEMS Firing of AICD
+19c2:HEART PROBLEMS Abnormal Breathing
+19c3:HEART PROBLEMS Chest Pain > 35yrs
+19c4:HEART PROBLEMS Cardiac history
+19c5:HEART PROBLEMS Cocaine
+19c6:HEART PROBLEMS Heart rate <50, >130, no priority symptoms
+19d1:HEART PROBLEMS Not alert
+19d2:HEART PROBLEMS DIFFICULTY SPEAKING BETWEEN BREATHS
+19d3:HEART PROBLEMS CHANGING COLOR
+20o1:Heat / Cold Exposure Alert with 1st party verification (without priority symptoms)
+20a1:Heat / Cold Exposure Alert without 1st party verification (without priority symptoms)
+20b1:HEAT/COLD EXPOSURE Change in skin colour
+20c1:Heat / Cold Exposure Heart attack or angina history
+20d1:Heat / Cold Exposure Not alert
+20d2:Heat / Cold Exposure Multiple victims (with priority symptoms)
+21o1:Hemorrhage/Lacerations MINOR Hemorrhage
+21a1:Hemorrhage/Lacerations NOT DANGEROUS Hemorrhage
+21a2:Hemorrhage/Lacerations Nosebleed (=> 35 or < 35 with SERIOUS Hemorrhage)
+21o2:Hemorrhage/Lacerations Nosebleed (<35)
+21b1:Hemorrhage/Lacerations POSSIBLY DANGEROUS Hemorrhage
+21b2:Hemorrhage/Lacerations SERIOUS hemorrhage
+21b3:Hemorrhage/Lacerations Bleeding disorder
+21c1:Hemorrhage/Lacerations Hemorrhage through TUBES
+21d1:Hemorrhage/Lacerations Unconscious or Arrest
+21d2:Hemorrhage/Lacerations Not alert
+21d3:Hemorrhage/Lacerations DANGEROUS Hemorrhage
+22a1:Inaccessible Incident/Other Entrapment No longer trapped (no injuries)
+22b1:Inaccessible Incident/Other Entrapment No longer trapped (unknown injuries)
+22b2:Inaccessible Incident/Other Entrapment PERIPHERAL ENTRAPMENT only
+22b3:Inaccessible Incident/Other Entrapment Unknown status (investigation)/Other codes not applicable
+22d1:Inaccessible Incident/Other Entrapment Mechanical/Machinery ENTRAPMENT
+22d2:Inaccessible Incident/Other Entrapment Trench collapse
+22d3:Inaccessible Incident/Other Entrapment Structure collapse
+22d4:Inaccessible Incident/Other Entrapment Confined space ENTRAPMENT
+22d5:Inaccessible Incident/Other Entrapment Inaccessible terrain situation
+22d6:Inaccessible Incident/Other Entrapment Mudslide/Avalanche
+23o1:Overdose/Poisoning (Ingestion) POISONING (without priority symptoms)
+23b1:Overdose/Poisoning (Ingestion) OVERDOSE (without priority symptoms)
+23c1:Overdose/Poisoning (Ingestion) Not alert
+23c2:Overdose/Poisoning (Ingestion) Abnormal breathing
+23c3:Overdose/Poisoning (Ingestion) Antidepressants (tricyclic)
+23c4:Overdose/Poisoning (Ingestion) Cocaine methamphetamine (or derivatives)
+23c5:Overdose/Poisoning (Ingestion) Narcotics (heroin)
+23c6:Overdose/Poisoning (Ingestion) Acid or alkali (lye)
+23c7:Overdose/Poisoning (Ingestion) Unknown status/Other codes not applicable
+23c8:Overdose/Poisoning (Ingestion) Poison Control request for response
+23c9:OVERDOSE/INGESTION/POISONING Poison Control request
+23d1:Overdose/Poisoning (Ingestion) Unconscious
+23d2:Overdose/Poisoning (Ingestion) CHANGING COLOR
+24o1:PREGNANCY/CHILDBIRTH/MISCARRIAGE Water's broken (no contractions)
+24o2:PREGNANCY/CHILDBIRTH/MISCARRIAGE 1st trimester haemorrhage or miscarriage - 1rst party
+24a1:PREGNANCY/CHILDBIRTH/MISCARRIAGE 1st trimester haemorrhage or miscarriage not 1rst party
+24b1:PREGNANCY/CHILDBIRTH/MISCARRIAGE Labour - 2nd or 3rd trimester (delivery not imminent)
+24b2:PREGNANCY/CHILDBIRTH/MISCARRIAGE Unknown status - 3rd Party caller
+24c1:PREGNANCY/CHILDBIRTH/MISCARRIAGE 2nd trimester haemorrhage or miscarriage
+24c2:PREGNANCY/CHILDBIRTH/MISCARRIAGE 1st trimester serious haemorrhage
+24d1:PREGNANCY/CHILDBIRTH/MISCARRIAGE Breech or cord
+24d2:PREGNANCY/CHILDBIRTH/MISCARRIAGE Head visible / out
+24d3:PREGNANCY/CHILDBIRTH/MISCARRIAGE Imminent delivery (3rd trimester)
+24d4:PREGNANCY/CHILDBIRTH/MISCARRIAGE 3rd trimester bleeding
+24d5:PREGNANCY/CHILDBIRTH/MISCARRIAGE High risk complications
+24d6:PREGNANCY/CHILDBIRTH/MISCARRIAGE Baby born (ALS/ITT if problem w/ baby)
+25o1:Psychiatric/Abnormal Behavior/Suicide Attempt Non-suicidal with 1st party verification (alert and awake)
+25o2:Psychiatric/Abnormal Behavior/Suicide Attempt Suicidal (not threatening) with 1st party verification (alert and awake)
+25a1:Psychiatric/Abnormal Behavior/Suicide Attempt Non-suicidal without 1st party verification (alert and awake)
+25a2:Psychiatric/Abnormal Behavior/Suicide Attempt Suicidal (not threatening) without 1st party verification (alert and awake)
+25b1:Psychiatric/Abnormal Behavior/Suicide Attempt SERIOUS hemorrhage
+25b2:Psychiatric/Abnormal Behavior/Suicide Attempt Non-SERIOUS or MINOR Hemorrhage
+25b3:Psychiatric/Abnormal Behavior/Suicide Attempt THREATENING SUICIDE
+25b4:Psychiatric/Abnormal Behavior/Suicide Attempt Jumper (threatening)
+25b5:Psychiatric/Abnormal Behavior/Suicide Attempt Near hanging strangulation or suffocation (alert)
+25b6:Psychiatric/Abnormal Behavior/Suicide Attempt Unknown status/Other codes not applicable
+25d1:Psychiatric/Abnormal Behavior/Suicide Attempt Not alert
+25d2:Psychiatric/Abnormal Behavior/Suicide Attempt DANGEROUS hemorrhage
+26o1:SICK PERSON No priority symptoms - not 3rd party no complaint identified
+26o2:SICK PERSON Non priority symptoms - boils
+26o3:SICK PERSON Non priority symptoms - bumps (non-traumatic)
+26o4:SICK PERSON Non priority symptoms - can't sleep
+26o5:SICK PERSON Non priority symptoms - can't urinate (w/out abd pain)
+26o6:SICK PERSON Non priority symptoms - catheter (in/out w/out haemorrhaging)
+26o7:SICK PERSON Non priority symptoms - constipation
+26o8:SICK PERSON Cramps/spasms/joint pain (in extremities non traumatic)
+26o9:SICK PERSON Non priority symptoms - cut off ring request
+26o10:SICK PERSON Non priority symptoms - deafness
+26o11:SICK PERSON Non priority symptoms - defecation / diarrhoea
+26o12:SICK PERSON Non priority symptoms - earache
+26o13:SICK PERSON Non priority symptoms - enema
+26o14:SICK PERSON Non priority symptoms - gout
+26o15:SICK PERSON Non priority symptoms - haemorrhoids/piles
+26o16:SICK PERSON Non priority symptoms - hepatitis
+26o17:SICK PERSON Non priority symptoms - hiccups
+26o18:SICK PERSON Non priority symptoms - Itching
+26o19:SICK PERSON Non priority symptoms - nervous
+26o20:SICK PERSON Non priority symptoms - object stuck (nose,ear,etc.)
+26o21:SICK PERSON Non priority symptoms - object swallowed (w/out choking or SOB
+26o22:SICK PERSON Non priority symptoms - Painful Urination
+26o23:SICK PERSON Non priority symptoms - Penis Problem
+26o24:SICK PERSON Non priority symptoms - Rash/Skin Disorder (Without Difficulty breathing or swallowing)
+26o25:SICK PERSON Non priority symptoms - Sexually Transmitted Disease (STD)
+26o26:SICK PERSON Non priority symptoms - Sore Throat (without difficulty breathing or swallowing)
+26o27:SICK PERSON Non priority symptoms - Toothache (Without jaw pain)
+26o28:SICK PERSON Non priority symptoms - wound infected (focal or surface)
+26a1:SICK PERSON No priority symptoms - 3rd party no complaint identified
+26a2:SICK PERSON Non priority symptoms - Blood pressure abnormality (asymtomatic)
+26a3:SICK PERSON Non priority symptoms - Dizziness / Vertigo
+26a4:SICK PERSON Non priority symptoms - Fever / Chills
+26a5:SICK PERSON Non priority symptoms - General Weakness
+26a6:SICK PERSON Non priority symptoms - Nausea
+26a7:SICK PERSON Non priority symptoms - New onset of immobility
+26a8:SICK PERSON Non priority symptoms - Other pain
+26a9:SICK PERSON Non priority symptoms - Transportation Only
+26a10:SICK PERSON Non priority symptoms - Unwell / Ill
+26a11:SICK PERSON Non priority symptoms - Vomiting
+26b1:SICK PERSON Unknown status - 3rd Party caller
+26c1:SICK PERSON Altered level of consciousness
+26c2:SICK PERSON Abnormal Breathing
+26d1:SICK PERSON Not alert
+27a1:Stab/Gunshot/Penetrating Trauma NON-RECENT (= 6hrs) PERIPHERAL wounds (without priority symptoms)
+27b1:Stab/Gunshot/Penetrating Trauma NON-RECENT (=> 6 hrs) single CENTRAL wound
+27b2:Stab/Gunshot/Penetrating Trauma Known single PERIPHERAL wound
+27b3:Stab/Gunshot/Penetrating Trauma SERIOUS hemorrhage
+27b4:Stab/Gunshot/Penetrating Trauma Unknown status/Other codes not applicable
+27b5:Stab/Gunshot/Penetrating Trauma OBVIOUS DEATH
+27d1:Stab/Gunshot/Penetrating Trauma Unconscious or Arrest
+27d2:Stab/Gunshot/Penetrating Trauma Not alert
+27d3:Stab/Gunshot/Penetrating Trauma CENTRAL wounds
+27d4:Stab/Gunshot/Penetrating Trauma Multiple wounds
+27d5:Stab/Gunshot/Penetrating Trauma Multiple victims
+28a1:STROKE/CVA Normal breathing (age < 35)
+28b1:STROKE/CVA Unknown status - 3rd Party caller
+28c1:STROKE/CVA Not alert
+28c2:STROKE/CVA Abnormal breathing
+28c3:STROKE/CVA Speech or movement problems
+28c4:STROKE/CVA Numbness or tingling
+28c5:STROKE/CVA Vision problems
+28c6:STROKE/CVA Sudden onset of severe headache
+28c7:STROKE/CVA Stroke History
+28c8:STROKE/CVA Breathing normally >35
+29o1:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries (confirmed)
+29o2:TRAFFIC/TRANSPORTATION ACCIDENTS 1st party caller, injury to not dangerous distal area
+29a1:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to NOT DANGEROUS PROXIMAL area
+29b1:TRAFFIC/TRANSPORTATION ACCIDENTS Injuries
+29b2:TRAFFIC/TRANSPORTATION ACCIDENTS Serious hemorrhage
+29b3:TRAFFIC/TRANSPORTATION ACCIDENTS Other hazards
+29b4:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status/Other codes not applicable
+29b5:TRAFFIC/TRANSPORTATION ACCIDENTS Other Hazards
+29b6:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status (3rd party caller)
+29d1:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident
+29d2:TRAFFIC/TRANSPORTATION ACCIDENTS High mechanism
+29d3:TRAFFIC/TRANSPORTATION ACCIDENTS High Velocity impact
+29d4:TRAFFIC/TRANSPORTATION ACCIDENTS Hazmat
+29d5:TRAFFIC/TRANSPORTATION ACCIDENTS Pinned (trapped) victim
+30o1:TRAUMATIC INJURIES (Specific) Not dangerous distal body area
+30o2:TRAUMATIC INJURIES (Specific) Non-recent injuries( >6 hrs) except distal body area (without priority symptoms)
+30o3:TRAUMATIC INJURIES (Specific) Splinters (< 2.5 cm)
+30a1:TRAUMATIC INJURIES (Specific) Not dangerous proximal body area
+30a2:TRAUMATIC INJURIES (Specific) Non-recent injuries( >6 hrs) except distal body area (without priority symptoms)
+30b1:TRAUMATIC INJURIES (Specific) Possibly dangerous body area
+30b2:TRAUMATIC INJURIES (Specific) Serious haemorrhage
+30d1:TRAUMATIC INJURIES Unconscious or Arrest
+30d2:TRAUMATIC INJURIES (Specific) Not Alert
+30d3:TRAUMATIC INJURIES Chest or Neck injury (with difficulty breathing)
+32a1:UNKNOWN PROBLEM (Man Down) Standing, sitting up, moving, talking
+33a1:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity I ( no priority symptoms)
+33a2:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity II ( no priority symptoms) scheduled
+33a3:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity III (no priority symptoms)
+33c1:TRANSFER/INTERFACILITY/PALLIATIVE CARE Not Alert (acute changes)
+33c2:TRANSFER/INTERFACILITY/PALLIATIVE CARE Abnormal breathing (acute onset)
+33c3:TRANSFER/INTERFACILITY/PALLIATIVE CARE Significant haemorrhage or shock
+33c4:TRANSFER/INTERFACILITY/PALLIATIVE CARE Possible acute heart problems or MI (heart attack)
+33c5:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acute severe pain
+33c6:TRANSFER/INTERFACILITY/PALLIATIVE CARE Emergency response requested
+33d1:TRANSFER/INTERFACILITY/PALLIATIVE CARE Suspected cardiac or respiratory arrest
+hot:Code 3 emergency response
+cold:Code 2 routine response
+queue:Routine Response that can be held
+hta:Technical Advisor (HTA) - HAZMAT, Dangerous goods, CBRN, resources
+50a2:OTHER Unit Initiated Event
+50a3:OTHER Standby Special Events
+50a4:OTHER Standby Other
+50a5:OTHER Standby Police
+50a6:OTHER Standby Fire
+va:Vancouver
+ah:Anahim Lake
+at:Atlin
+ax:Alexis Creek
+bc:Bella Coola
+be:Bella Bella
+bl:Burns Lake
+cg:Castlegar
+ch:Chetwynd
+ci:Central Island Traffic Services
+cn:Cranbrook
+cq:Coquitlam RCMP
+cr:Creston
+cv:Columbia Valley or Conservation
+cx:Comox Valley
+ev:Elk Valley
+fl:Fraser Lake
+fn: Norther Rockies
+fv:Fraser Valley Traffic Services
+go:Golden
+hh:Hudsons's Hope
+ig:Integrated Gang Task Force
+il:Integrated Road Safety Lower Mainland
+la:Langley RCMP OR Lafarge Lake Skytrain Station
+lm:Lower Mainland units
+ls:Ladysmith
+mb:McBride
+mi:Mission RCMP
+mp:Military Police
+mr:Merritt
+nc:North Cowichan (PRIME), No Change (Surveillance Ops)
+nd: North District
+ni:North Island Traffic Services
+nk:Nootka Sound
+no:Northern BC
+np:Nelson PD
+nv:North Van RCMP
+ob:Oak Bay
+oc:Oceanside, Oleoresin Capsicum (Pepper spray)
+om:100 Mile House
+ou:Outer Gulf Islands
+pf:Port Mann Traffic Services
+pg:Prince George (Prime) or Police Garage 
+ph:Port Hardy
+pn:Penticton
+qe:Quesnel
+rm:Ridge Meadows RCMP
+rv:Revelstoke
+se:South East District (Including traffic services)
+sk:Sooke
+sn:Sidney
+sq:Squamish RCMP
+ss:Salt Spring
+sy:Sayward
+sz:South Island Traffic Services
+tk:Tsay Key
+to:Tofino
+tr:Trail
+tu:Tumbler Ridge
+uf:Upper Fraser Valley Regional RCMP
+un:University RCMP
+vh:Vanderhoof
+vi:Victoria
+wc:West Coast Marine
+wl:Williams Lake
+wp:Whistler/Pemberton RCMP
+wr:White Rock
+ws:Westshore
+wv:West Van PD
+kl:Kelowna
+ks:Kamloops
+de:Delta
+01a0:ABDOMINAL PAIN *Override*
+01c0: ABDOMINAL PAIN *Override*
+01d0:ABDOMINAL PAIN *Override*
+02a0:ALLERGIES/HIVES/STINGS *Override*
+02b0:ALLERGIES/HIVES/STINGS *Override*
+02c0:ALLERGIES/HIVES/STINGS *Override*
+02d0:ALLERGIES/HIVES/STINGS *Override*
+03a0:ANIMAL BITES *Override*
+03b0:ANIMAL BITES *Override*
+03d0:ANIMAL BITES *Override*
+04a0:ASSAULT *Override*
+04b0:ASSAULT *Override*
+04d0:ASSAULT *Override*
+05c0:BACK PAIN (NON TRAUMA) *Override*
+05d0:BACK PAIN (NON TRAUMA) *Override*
+06d0:BREATHING PROBLEM *Override*
+06e0:BREATHING PROBLEM *Override*
+07a0:BURNS(Scalds)/EXPLOSION *Override*
+07b0:BURNS(Scalds)/EXPLOSION *Override*
+07c0:BURNS(Scalds)/EXPLOSION *Override*
+07d0:BURNS(Scalds)/EXPLOSION *Override*
+08b0:Carbon Monoxide/Inhalation/HAZMAT/CBRN Override
+08c0:Carbon Monoxide/Inhalation/HAZMAT/CBRN Override
+08d0:Carbon Monoxide/Inhalation/HAZMAT/CBRN Override
+09b0:Cardiac/Respiratory Arrest/Death *Override*
+09d0:Cardiac/Respiratory Arrest/Death *Override*
+09e0:Cardiac/Respiratory Arrest/Death *Override*
+10a0:CHEST PAIN (Non-Traumatic) *Override*
+10c0:CHEST PAIN (Non-Traumatic) *Override*
+10d0:CHEST PAIN (Non-Traumatic) *Override*
+11a0:CHOKING *Override*
+11d0:CHOKING *Override*
+11e0:CHOKING *Override*
+12b0:Convulsions/Seizures *Override*
+12c0:Convulsions/Seizures *Override*
+12e0:CONVULSION/SEIZURE *Override*
+13a0:Diabetic Problems *Override*
+13c0:Diabetic Problems *Override*
+13d0:Diabetic Problems *Override*
+14b0:DROWNING/DIVING ACCIDENT *Override*
+14c0:DROWNING/DIVING ACCIDENT *Override*
+14d0:DROWNING/DIVING ACCIDENT *Override*
+15d0:Electrocution/Lightning *Override*
+15e0:Electrocution/Lightning *Override*
+16a0:EYE PROBLEM/INJURIES *Override*
+16b0:EYE PROBLEM/INJURIES *Override*
+16d0:EYE PROBLEM/INJURIES *Override*
+17a0:FALL *Override*
+17b0:FALL *Override*
+17d0:FALL *Override*
+18a0:HEADACHE *Override*
+18b0:HEADACHE *Override*
+18c0:HEADACHE *Override*
+19b0:HEART PROBLEMS *Override*
+19c0:HEART PROBLEMS *Override*
+19d0:HEART PROBLEMS *Override*
+20a0:Heat / Cold Exposure *Override*
+20b0:Heat / Cold Exposure *Override*
+20c0:Heat / Cold Exposure *Override*
+20d0:Heat / Cold Exposure *Override*
+21a0:Hemorrhage/Lacerations *Override*
+21b0:Hemorrhage/Lacerations *Override*
+21c0:Hemorrhage/Lacerations *Override*
+21d0:Hemorrhage/Lacerations *Override*
+22b0:Inaccessible Incident/Other Entrapment *Override*
+22d0:Inaccessible Incident/Other Entrapment *Override*
+23b0:Overdose/Poisoning (Ingestion)
+23c0:Overdose/Poisoning (Ingestion) *Override*
+23d0:Overdose/Poisoning (Ingestion) *Override*
+24a0:PREGNANCY/CHILDBIRTH/MISCARRIAGE *Override*
+24b0:PREGNANCY/CHILDBIRTH/MISCARRIAGE *Override*
+24c0:PREGNANCY/CHILDBIRTH/MISCARRIAGE *Override*
+24d0:PREGNANCY/CHILDBIRTH/MISCARRIAGE *Override*
+25a0:Psychiatric/Abnormal Behavior/Suicide Attempt *Override*
+25b0:Psychiatric/Abnormal Behavior/Suicide Attempt *Override*
+25c0:PSYCHIATRIC/ABNORMAL BEHAVIOUR/SUICIDE *Override*
+26a0:SICK PERSON (Specific Diagnosis) *Override*
+26b0:SICK PERSON (Specific Diagnosis) *Override*
+26d0:SICK PERSON (Specific Diagnosis) *Override*
+27b0:Stab/Gunshot/Penetrating Trauma **Override**
+27d0:Stab/Gunshot/Penetrating Trauma **Override**
+28b0:STROKE/CVA *Override*
+28c0:STROKE/CVA *Override*
+29a0:TRAFFIC/TRANSPORTATION ACCIDENTS *Override*
+29b0:TRAFFIC/TRANSPORTATION ACCIDENTS *Override*
+29d0:TRAFFIC/TRANSPORTATION ACCIDENTS *Override*
+30a0:TRAUMATIC INJURIES (Specific) *Override*
+30b0:TRAUMATIC INJURIES (Specific) *Override*
+30d0:TRAUMATIC INJURIES (Specific) *Override*
+31c0:UNCONSCIOUS/FAINTING (Near) *Override*
+31d0:UNCONSCIOUS/FAINTING (Near) *Override*
+31e0:UNCONSCIOUS/FAINTING (Near) *Override*
+32d0:UNKNOWN PROBLEM (MAN DOWN) *Override*
+33c0:TRANSFER/INTERFACILITY/PALLIATIVE CARE *Override*
+33d0:TRANSFER/INTERFACILITY/PALLIATIVE CARE *Override*
+test: test 123
+qrg:Will you tell me my exact frequency (or that of ...)?
+qri:How is the tone of my transmission?
+qrk:What is the readability of my signals (or those of ...)?
+qrl:Are you busy?
+qrn:Are you troubled by static?
+qro:Shall I increase power?
+qrp:Shall I decrease power?
+qrq:Shall I send faster?
+qrs:Shall I send slower
+qrt:Quick Response Team (Vancouver Fire) OR Shall I stop sending (Ham Radio)
+qru:Have you anything for me?
+qrv:Are you ready?
+qrz:Who is calling me?
+qsa:What is the strength of my signals (or those of ... )?
+qsb:Are my signals fading?
+qsd:Is my keying defective?
+qsk:Can you hear me between your signals?
+qsl:Can you acknowledge receipt?
+qsm:Shall I repeat the last telegram (message) which I sent you, or some previous telegram (message)?
+qsn:Did you hear me (or ... (call sign)) on .. kHz (or MHz)?
+qso:Can you communicate with ... direct or by relay?
+qsx:Will you listen to ... (call sign(s) on ... kHz (or MHz))?
+qta:Shall I cancel telegram (message) No. ... as if it had not been sent?
+qtc:How many telegrams (messages) have you to send?
+qtr:What is the correct time?
+esk:EDACS Security Key http://wiki.radioreference.com/index.php/ESK
+bams:Brake Assurance Monitor
+th:If you dont know your not allowed to come.
+sleepy:Tow Bot
+eg:https://i.imgur.com/E3HmNT8.jpg
+crbn:Chemical, Biological Radiological and Nuclear
+49a3:APPT RETURN
+vfr:Visual Flight Rules
+ifr:Initial Fire Report - http://www.scanbc.com/wiki/images/1/12/FS260.PDF
+ihl:Incident History Lookup
+c-fhjj:CTV (Helijet) Aerospatiale AS-355F-1 TwinStar Chopper 9 (Retired) - Vancouver
+c-fthu:CTV (Talon) Bell 206L-4 LongRanger IV Chopper 9 - Vancouver
+c-fmpg:RCMP Aerospatiale AS-350 Air 5 - Vancouver
+c-gmpv:RCMP Bell 206L LongRanger - Kelowna (retired)
+c-fmph:RCMP Eurocopter AS-350B-3 Ecureuil Air 2 - Was Comox - Now Halifax
+c-gmpn:RCMP Aerospatiale AS-350B-3 Ecureuil Air 3 - Kamloops
+c-gmpt:RCMP Eurocopter EC-120B Colibri Air 1 - Vancouver
+c-gmpk:RCMP Aerospatiale AS-350B-3 Ecureuil Air 4 - Kelowna
+c-ghjv:BCAS Sikorsky S-76A Medivac (1st Gen)
+c-ghjt:BCAS Sikorsky S-76A Medivac (1st Gen)
+c-ghhj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+c-gchj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+c-gmpf:RCMP Eurocopter AS-350B-3 Ecureuil Air 8 - Comox
+49a1:EMERG WARD Emergency Ward Discharge Transfer
+49d1:URGENT CRIT Urgent Critical Transfer
+49c3:OPS CONSTRA
+vr:Vehical Repeater
+s11:BCAS East Vancouver Post Supervisor
+s10:BCAS West Vancouver Post Supervisor
+notam:Notice to Air Men
+ybg:Bagotville, QC (YBG)
+yyc:Calgary, AB (YYC)
+ybl:Campbell River, BC (CYBL)
+yyg:Charlottetown, PE (YYG)
+yyq:Churchill, MB (YYQ)
+ycc:Cornwall, ON (YCC)
+yhd:Dryden, ON (YHD)
+yeg:Edmonton, AB (YEG)
+yag:Fort Frances, ON (YAG)
+yfc:Fredericton, NB (YFC)
+yqx:Gander, NF (YQX)
+yyr:Goose Bay, NF (YYR)
+yhz:Halifax, NS (YHZ)
+yev:Inuvik, NT (YEV)
+yoj:High Level, AB (YOJ)
+ylw:Kelowna, BC (CYLW)
+ygk:Kingston, ON (YGK)
+ykf:Kitchener, ON (YKF)
+yxu:London, ON (YXU)
+yqm:Moncton, NB (YQM)
+ymq:Montreal, QC -all airports (YMQ)
+ymx:Montreal, QC -Mirabel (YMX)
+yul:Montreal, QC -Dorval (YUL)
+ycd:Nanaimo, BC (CYCD)
+yuy:Noranda/Rouyn, QC (YUY)
+ybs:Opapamiska Lake, ON (YBS)
+yow:Ottawa, ON (YOW)
+ypx:Povungnituk, QC (YPX)
+yxs:Prince George, BC (CYXS)
+ypr:Prince Rupert, BC (CYPR)
+yqb:Quebec City, QC (YQB)
+yqr:Regina, SK (YQR)
+ysj:Saint John, NB (YSJ)
+yyt:Saint Johns, NF (YYT)
+ysl:Saint Leonard, NB (YSL)
+yzr:Sarnia, ON (YZR)
+yxe:Saskatoon, SK (YXE)
+yam:Sault Ste-Marie, ON (YAM)
+yzv:Sept-Iles, QC (YZV)
+ysb:Sudbury, ON (YSB)
+yqy:Sydney, NS (YQY)
+yqd:The Pas, MB (YQD)
+yqt:Thunder Bay, ON (YQT)
+yts:Timmins, ON (YTS)
+yas:Tofino, BC, (YAZ)
+yyz:Toronto, ON (YYZ)
+yvo:Val-d'Or, QC (YVO)
+yvr:Richmond, BC (CYVR) Vancouver Intl
+yyj:Saanich, BC (CYYJ) Victoria Intl
+yxy:Whitehorse, YT (YXY)
+yqg:Windsor, ON (YQG)
+ywg:Winnipeg, MB (YWG)
+yzf:Yellowknife, NT (YZF)
+yxx:Abbotsford, BC (CYXX)
+akv:Akulivik, QC (AKV)
+xly:Aldershot, ON - Rail service (XLY)
+xfs:Alexandria,ON - Rail service (XFS)
+ytf:Alma, QC (YTF)
+yaa:Anahim Lake, BC (YAA)
+yax:Angling Lake, ON (YAX)
+yab:Arctic Bay, NU (YAB)
+yek:Arviat, NU (YEK)
+yat:Attawapiskat, ON (YAT)
+ypj:Aupaluk, QC (YPJ)
+ybc:Baie Comeau, QC (YBC)
+ybk:Baker Lake, NU (YBK)
+zbf:Bathhurst, NB (ZBF)
+xbe:Bearskin Lake, ON (XBE)
+zel:Bella Bella, BC (ZEL)
+qbc:Bella Coola, BC (QBC)
+xvv:Belleville, ON - Rail service (XVV)
+ybv:Berens River, MB (YBV)
+ytl:Big Trout, ON (YTL)
+ybi:Black Tickle, NL (YBI)
+ybx:Blanc Sablon, QC (YBX)
+yvb:Bonaventure, QC (YVB)
+xpn:Brampton, ON - Rail service (XPN)
+ybr:Brandon, MB (YBR)
+xfv:Brantford, ON - Rail service (XFV)
+ybt:Brochet, MB (YBT)
+xbr:Brockville, ON (XBR)
+ypz:Burns Lake, BC (YPZ)
+ycb:Cambridge Bay, NU (YCB)
+xaz:Campbellton, NB - Rail service (XAZ)
+yte:Cape Dorset, NU (YTE)
+xaw:Capreol, ON - Rail service (XAW)
+yrf:Cartwright, NL (YRF)
+xzb:Casselman, ON - Rail service (XZB)
+ycg:Castlegar, BC (CYCG)
+yac:Cat Lake, ON (YAC)
+xci:Chambord, QC - Rail service (XCI)
+xdl:Chandler, QC - Rail service (XDL)
+yld:Chapleau, ON (YLD)
+yhg:Charlottetown, NL (YHG)
+xcm:Chatham, ON (XCM)
+xhs:Chemainus, BC - Rail service (XHS)
+ycs:Chesterfield Inlet, NU (YCS)
+yhr:Chevery, QC (YHR)
+ymt:Chibougamau, QC (YMT)
+yku:Chisasibi, QC (YKU)
+zum:Churchill Falls, NL (ZUM)
+xad:Churchill, MB - Rail service (XAD)
+ycy:Clyde River, NU (YCY)
+xgj:Cobourg, ON - Rail service (XGJ)
+yck:Colville Lake, NT (YCK)
+yqq:Comox, BC (CYQQ)
+yzs:Coral Harbour, NU (YZS)
+xgk:Coteau, QC - Rail service (XGK)
+yca:Courtenay, BC (YCA)
+yxc:Cranbrook, BC (CYXC)
+ycr:Cross Lake, MB (YCR)
+ydn:Dauphin, MB (YDN)
+ydi:Davis Inlet, NL (YDI)
+yda:Dawson City, YT (YDA)
+ydq:Dawson Creek, BC (CYDQ)
+ydf:Deer Lake, NL (YDF)
+yvz:Deer Lake, ON (YVZ)
+ywj:Deline, NT (YWJ)
+xdm:Drummondville, QC - Rail service (XDM)
+duq:Duncan/Quam, BC (DUQ)
+zem:East Main, QC (ZEM)
+xzl:Edmonton, AB - Rail service (XZL)
+ypf:Esquimalt, BC (YPF)
+yfo:Flin Flon, MB (YFO)
+zfd:Fond du Lac, SK (ZFD)
+yfa:Fort Albany, ON (YFA)
+ypy:Fort Chipewyan, AB (YPY)
+ygh:Fort Good Hope, NT (YGH)
+yfh:Fort Hope, ON (YFH)
+ymm:Fort Mcmurray, AB (YMM)
+yye:Fort Nelson, BC (CYYE)
+yer:Fort Severn, ON (YER)
+yfs:Fort Simpson, NT (YFS)
+ysm:Fort Smith, NT (YSM)
+yxj:Fort St John, BC (CYXJ)
+yfx:Fox Harbour/St Lewis, NL (YFX)
+xfc:Fredericton Junction, NB - Rail service (XFC)
+xdd:Gaspe, QC - Rail service (XDD)
+ygp:Gaspe, QC (YGP)
+xhm:Georgetown, ON - Rail service (XHM)
+zgs:Gethsemani, QC (ZGS)
+ygx:Gillam, MB (YGX)
+ygb:Gillies Bay, BC (YGB)
+yhk:Gjoa Haven, NU (YHK)
+xzc:Glencoe, ON - Rail service (XZC)
+ygo:Gods Narrows, MB (YGO)
+zgi:Gods River, MB (ZGI)
+yqu:Grande Prairie, AB (YQU)
+xgy:Grimsby, ON (XGY)
+ygz:Grise Fiord, NU (YGZ)
+xia:Guelph, ON - Rail service (XIA)
+xdg:Halifax, NS - Rail service (XDG)
+yux:Hall Beach, NU (YUX)
+yhm:Hamilton, ON (YHM)
+ygv:Havre St Pierre, QC (YGV)
+yhy:Hay River, NT (YHY)
+xdu:Hervey, QC - Rail service (XDU)
+yhi:Holman, NT (YHI)
+yho:Hopedale, NL (YHO)
+zho:Houston, BC - Bus station (ZHO)
+yhb:Hudson Bay, SK (YHB)
+ygt:Igloolik, NU (YGT)
+ygr:Iles De La Madeleine, QC (YGR)
+ilf:Ilford, MB (ILF)
+xib:Ingersoll, ON - Rail service (XIB)
+yph:Inukjuak, QC (YPH)
+yfb:Iqaluit, NU (YFB)
+yiv:Island Lake/Garden Hill (YIV)
+yik:Ivujivik, QC (YIK)
+xdh:Jasper, AB - Rail service (XDH)
+xjl:Joliette, QC - Rail service (XJL)
+xjq:Jonquiere, QC - Rail service (XJQ)
+yka:Kamloops, BC (CYKA)
+xgr:Kangiqsualujjuaq, QC (XGR)
+ywb:Kangiqsujuaq, QC (YWB)
+ykg:Kangirsuk, QC (YKG)
+yyu:Kapuskasing, ON (YYU)
+xks:Kasabonika, ON (XKS)
+zke:Kaschechewan, ON (ZKE)
+kew:Keewaywin, ON (KEW)
+zkg:Kegaska, QC (ZKG)
+yqk:Kenora, ON (YQK)
+ylc:Kimmirut/Lake Harbour NU (YLC)
+kif:Kingfisher Lake, ON (KIF)
+xeg:Kingston, ON - Rail service (XEG)
+ykt:Klemtu, BC (YKT)
+ybb:Kugaaruk, NU (YBB)
+yco:Kugluktuk/Coppermine, NU (YCO)
+yvp:Kuujjuaq, QC (YVP)
+ygw:Kuujjuarapik, QC (YGW)
+ygl:La Grande, QC (YGL)
+yvc:La Ronge, SK (YVC)
+zlt:La Tabatiere, QC (ZLT)
+xlb:Lac Brochet, MB (XLB)
+xee:Lac Edouard, QC - Rail service (XEE)
+xeh:Ladysmith, BC - Rail service (XEH)
+xej:Langford, BC - Rail service (XEJ)
+ylh:Lansdowne House, ON (YLH)
+ylr:Leaf Rapids, MB (YLR)
+yql:Lethbridge, AB (YQL)
+yll:Lloydminister, AB (YLL)
+xdq:London, ON - Rail service (XDQ)
+ysg:Lutselke/Snowdrift, NT (YSG)
+ymh:Mary's Harbour, NL (YMH)
+xid:Maxville, ON - Rail service (XID)
+yxh:Medicine Hat, AB (YXH)
+xek:Melville, SK - Rail service (XEK)
+xey:Miramichi, NB - Rail service (XEY)
+xdp:Moncton, NB - Rail service (XDP)
+yyy:Mont Joli, QC (YYY)
+xax:Montreal, QC - Dorval Rail service (XAX)
+ymy:Montreal, QC - Downtown Rail service (YMY)
+xlm:Montreal, QC - St Lambert Rail service (XLM)
+ymo:Moosonee, ON (YMO)
+msa:Muskrat Dam, ON (MSA)
+ydp:Nain, NL (YDP)
+yqn:Nakina, ON (YQN)
+zna:Nanaimo, BC - Harbour Airport (ZNA)
+ysr:Nanisivik, NU (YSR)
+xif:Napanee, ON - Rail service (XIF)
+yna:Natashquan, QC (YNA)
+yns:Nemiscau, QC (YNS)
+xel:New Carlisle, QC - Rail service (XEL)
+xem:New Richmond, QC - Rail service (XEM)
+xlv:Niagara Falls, ON - Rail service (XLV)
+yvq:Norman Wells, NT (YVQ)
+yyb:North Bay, ON (YYB)
+yno:North Spirit Lake, ON (YNO)
+tne:Norway House, MB (YNE)
+yog:Ogoki, ON (YOG)
+yoc:Old Crow, YT (YOC)
+yoo:Oshawa, ON (YOO)
+xds:Ottawa, ON - Rail service (XDS)
+yoh:Oxford House, MB (YOH)
+yif:Pakuashipi, QC (YIF)
+yxp:Pangnirtung, NU (YXP)
+xfe:Parent, QC - Rail service (XFE)
+xpb:Parksville, BC - Rail service (XPB)
+ypc:Paulatuk, NT (YPC)
+ype:Peace River, AB (YPE)
+ypo:Peawanuck, ON (YPO)
+yta:Pembroke, ON (YTA)
+yyf:Penticton, BC (CYYF)
+xfg:Perce, QC - Rail service (XFG)
+ypl:Pickle Lake, ON (YPL)
+ypm:Pikangikum, ON (YPM)
+xpx:Pointe-aux-Trembles, QC - Rail service (XPX)
+ynl:Points North Landing, SK (YNL)
+yio:Pond Inlet, NU (YIO)
+yhp:Poplar Hill, ON (YHP)
+ypb:Port Alberni, BC (YPB)
+yzt:Port Hardy, BC (CYZT)
+yha:Port Hope Simpson, NL (YHA)
+ypn:Port Meiner, QC (YPN)
+yso:Postville, NL (YSO)
+ypw:Powell River, BC (CYPW)
+xii:Prescott, ON - Rail service (XII)
+ypa:Prince Albert, SK (YPA)
+xdv:Prince George, BC - Rail service (XDV)
+xdw:Prince Rupert, BC - Rail service (XDW)
+xpk:Pukatawagan, MB - (XPK)
+yvm:Qikiqtarjuaq, NU (YVM)
+xqu:Qualicum, BC (XQU)
+yqc:Quaqtaq, QC (YQC)
+yfz:Quebec, QC - Charny Rail service (YFZ)
+xlk:Quebec, QC - Levis Rail service (XLK)
+xlj:Quebec, QC - Quebec Station Rail service (XLJ)
+xfy:Quebec, QC - Sainte-Foy Rail service (XFY)
+yqz:Quesnel, BC (CYQZ)
+yop:Rainbow Lake, AB (YOP)
+yrt:Rankin Inlet, NU (YRT)
+yrl:Red Lake, ON (YRL)
+yrs:Red Sucker Lake, MB (YRS)
+yut:Repulse Bay, NU (YUT)
+yrb:Resolute, NU (YRB)
+yrg:Rigolet, NL (YRG)
+yxk:Rimouski, QC (YXK)
+xrp:Riviere-a-Pierre, QC - Rail service (XRP)
+yrj:Roberval, QC (YRJ)
+zrj:Round Lake, ON (ZRJ)
+zpb:Sachigo Lake, ON (ZPB)
+ysy:Sachs Harbour, NT (YSY)
+xkv:Sackville, NB - Rail service (XKV)
+xim:Saint Hyacinthe, QC - Rail service (XIM)
+yzg:Salluit, QC (YZG)
+zsj:Sandy Lake, ON (ZSJ)
+ysk:Sanikiluaq, NU (YSK)
+xdx:Sarnia, ON - Rail service (XDX)
+ykl:Schefferville, QC (YKL)
+xfk:Senneterre, QC - Rail service (XFK)
+ztm:Shamattawa, MB (ZTM)
+xfl:Shawinigan, QC - Rail service (XFL)
+xfm:Shawnigan, BC - Rail service (XFM)
+yxl:Sioux Lookout, ON (YXL)
+ysh:Smith Falls, ON (YSH)
+yyd:Smithers, BC (CYYD)
+yfj:Snare Lake, NT (YFJ)
+xsi:South Indian Lake, MB (XSI)
+yay:St Anthony, NL (YAY)
+ycm:St Catharines, ON (YCM)
+xio:St Marys, ON - Rail service (XIO)
+yst:Ste Therese Point, MB (YST)
+yjt:Stephenville, NL (YJT)
+ysf:Stony Rapids, SK (YSF)
+xty:Strathroy, ON - Rail service (XTY)
+xdy:Sudbury, ON - Rail service (XDY)
+sur:Summer Beaver, ON (SUR)
+zjn:Swan River, MB (ZJN)
+xtl:Tadoule Lake, MB (XTL)
+yyh:Taloyoak, NU (YYH)
+ytq:Tasiujuaq, QC (YTQ)
+yxt:Terrace, BC (CYXT)
+ztb:Tete-a-La Baleine, QC (ZTB)
+xdz:The Pas, MB - Rail service (XDZ)
+ytd:Thicket Portage, MB (YTD)
+yth:Thompson, MB (YTH)
+yaz:Tofino, BC, (CYAZ)
+ybz:Toronto, ON - Downtown Rail service (YBZ)
+xlq:Toronto, ON - Guildwood Rail service (XLQ)
+ytz:Toronto, ON - Toronto Island Airport (YTZ)
+xlz:Truro, NS - Rail service (XLZ)
+yub:Tuktoyaktuk, NT (YUB)
+zfn:Tulita/Fort Norman, NT (ZFN)
+yud:Umiujag, QC (YUD)
+ybe:Uranium City, SK (YBE)
+cxh:Vancouver, BC - Coal Harbour (CXH)
+xea:Vancouver, BC - Rail service (XEA)
+ywh:Victoria, BC - Inner Harbor (YWH)
+ywk:Wabush, NL (YWK)
+ykq:Waskaganish, QC (YKQ)
+xwa:Watford, ON - Rail service (XWA)
+ywp:Webequie, ON (YWP)
+ync:Wemindji, QC (YNC)
+xfq:Weymont, QC - Rail service (XFQ)
+yle:Wha Ti/Lac La Martre, NT (YLE)
+yxn:Whale Cove, NU (YXN)
+ywr:White River, ON (YWR)
+ywm:Williams Harbour, NL (YWM)
+ywl:Williams Lake, BC (CYWL)
+xec:Windsor, ON - Rail service (XEC)
+xef:Winnipeg, MB - Rail service (XEF)
+zwl:Wollaston Lake, SK (ZWL)
+xip:Woodstock, ON - Rail service (XIP)
+wnn:Wunnummin Lake, ON (WNN)
+xwy:Wyoming, ON - Rail service (XWY)
+yqi:Yarmouth, NS (YQI)
+zac:York Landing, MB (ZAC)
+znl:Nelson, BC (ZNL)
+yml:108 Mile Ranch, BC (ZML)
+ysq:Atlin, BC (CYSQ)
+bet:Beat Enforcement Team
+linux:Slackware .
+scanbclive:http://24.84.170.61/scanbclive.html
+sdr:Software Defined Radios http://www.flex-radio.com/
+ve7scc:Coquitlam Amateur Radio Club
+btc:Burnaby Transit Centre
+mum:Move Up Module
+10-63:RTO - Returing to office
+reject rod:Wenko
+wara:Westcoast Amateur Radio Association
+opensky:OpenSky is M/A-COM's implementation of AMBE digital modulation over a TDMA channel format. AMBE is another vocoder developed by DVSI Inc. Operation is very similar to Nextel TDMA digital voice systems. OpenSky systems do not use a control channel. Like ProVoice Open Sky cannot be monitored by any scanner, past or future.
+tdma:Time Division Multiple Access (TDMA) is a generic name for digital transmission formats that subdivide a channel into a fixed number of time slots during which digital data (usually encoded voice) is transmitted.
+ambe:Advanced Multi-Band Excitation (Vocoder)
+rdo:regional duty officer RCMP
+p25:Project 25 (P25) or APCO-25 refer to a suite of standards for digital radio communications for use by federal, state/province and local public safety agencies in North America to enable them to communicate with other agencies and mutual aid response teams in emergencies
+ice:Integrated Child Exploitation (ICE) Team
+dot:Direction Of Travel
+vgh:Vancouver General Hospital (A)
+bgh:Burnaby General Hospital (H)
+smh:Surrey Memorial Hospital (Y)
+sgh:Squamish General Hospital
+buckethead:firefighter
+cfro:Canadian Firearm Registry Online
+dfo:Department of Fisheries and Oceans
+49e1:Transfer: EMERGENT OPS
+telus: http://www.hackcanada.com/telco/images/e-slut.jpg
+rap:Resource Allocation Plan
+emct:Emergency Medical Call Takers
+emd:Emergency Medical Dispatchers
+01c5:Abdominal pain Males with pain above navel => 35
+01c6:Abdominal pain Females with pain above navel => 45
+02o1i:ALLERGIES/HIVES/STINGS No difficulty breathing or swallowing with symptoms present for => 1 hr (rash, hives, or itching may be present) Injection administered or advised
+02o1m:ALLERGIES/HIVES/STINGS No difficulty breathing or swallowing with symptoms present for => 1 hr (rash, hives, or itching may be present) Medication administered or advised
+02o2:ALLERGIES/HIVES/STINGS Spider bite (no previous reaction history)
+02o2i:ALLERGIES/HIVES/STINGS Spider bite (no previous reaction history) Injection administered or advised
+02o2m:ALLERGIES/HIVES/STINGS Spider bite (no previous reaction history) Medication administered or advised
+02a0i:ALLERGIES/HIVES/STINGS *Override* Injection administered or advised
+02a0m:ALLERGIES/HIVES/STINGS *Override* Medication administered or advised
+02a1i:ALLERGIES/HIVES/STINGS No difficulty breathing or swallowing with symptoms present for <1 hr (rash, hives, or itching may be present) Injection administered or advised
+02a1m:ALLERGIES/HIVES/STINGS No difficulty breathing or swallowing with symptoms present for <1 hr (rash, hives, or itching may be present) Medication administered or advised
+02a2i:ALLERGIES/HIVES/STINGS Spider bite (previous reaction history) Injection administered or advised
+02a2m:ALLERGIES/HIVES/STINGS Spider bite (previous reaction history) Medication administered or advised
+02b0i: ALLERGIES/HIVES/STINGS *Override* Injection administered or advised
+02b0m: ALLERGIES/HIVES/STINGS *Override* Medication administered or advised
+33d2t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Just resuscitated and/or defibrillated (external) Transfer / Interfacility
+33d2p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Just resuscitated and/or defibrillated (external) Palliative care
+02b1i:ALLERGIES/HIVES/STINGS Unknown status/Other codes not applicable Injection administered or advised
+33d1t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Suspected cardiac or respiratory arrest Transfer / Interfacility
+02b1m:ALLERGIES/HIVES/STINGS Unknown status/Other codes not applicable Medication administered or advised
+33d1p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Suspected cardiac or respiratory arrest Palliative care
+33d0p:TRANSFER/INTERFACILITY/PALLIATIVE CARE *Override* Palliative care
+33d0t:TRANSFER/INTERFACILITY/PALLIATIVE CARE *Override* Transfer / Interfacility
+02c0m:ALLERGIES/HIVES/STINGS *Override* Medication administered or advised
+33c6t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Emergency response requested Transfer / Interfacility
+02c0i:ALLERGIES/HIVES/STINGS *Override* Injection administered or advised
+33c6p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Emergency response requested Palliative care
+33c5p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acute severe pain Palliative care
+33c5t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acute severe pain Transfer / Interfacility
+33c4p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Possible acute heart problems or MI (heart attack) Palliative care
+33c4t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Possible acute heart problems or MI (heart attack) Transfer / Interfacility
+33c3t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Significant Hemorrhage or shock Transfer / Interfacility
+33c3p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Significant Hemorrhage or shock Palliative care
+33c2p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Abnormal breathing (acute onset) Palliative care
+33c2t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Abnormal breathing (acute onset) Transfer / Interfacility
+33c1t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Not alert (acute change) Transfer / Interfacility
+33c1p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Not alert (acute change) Palliative care
+33c0p:TRANSFER/INTERFACILITY/PALLIATIVE CARE *Override* Palliative care
+33c0t:TRANSFER/INTERFACILITY/PALLIATIVE CARE *Override* Transfer / Interfacility
+02c1i:ALLERGIES/HIVES/STINGS Difficulty breathing or swallowing Injection administered or advised
+02c1m:ALLERGIES/HIVES/STINGS Difficulty breathing or swallowing Medication administered or advised
+33a3t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity III (no priority symptoms) Transfer / Interfacility
+33a3p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity III (no priority symptoms) Palliative care
+02c2i:ALLERGIES/HIVES/STINGS History of severe allergic reaction Injection administered or advised
+02c2m:ALLERGIES/HIVES/STINGS History of severe allergic reaction Medication administered or advised
+33a2p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity II (no priority symptoms) Palliative care
+33a2t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity II (no priority symptoms) Transfer / Interfacility
+02d0i:ALLERGIES/HIVES/STINGS *Override* Injection administered or advised
+02d0m:ALLERGIES/HIVES/STINGS *Override* Medication administered or advised
+33a1t:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity I (no priority symptoms) Transfer / Interfacility
+33a1p:TRANSFER/INTERFACILITY/PALLIATIVE CARE Acuity I (no priority symptoms) Palliative care
+33:TRANSFER/INTERFACILITY/PALLIATIVE CARE
+32b4:UNKNOWN PROBLEM (MAN DOWN) Caller's language not understood (no interpreter in centre)
+32:UNKNOWN PROBLEM (MAN DOWN)
+31d4:UNCONSCIOUS/FAINTING (NEAR) Changing Colour
+31a3:UNCONSCIOUS/FAINTING (NEAR) Fainting episode(s) and alert < 35 (without cardiac history)
+31a2:UNCONSCIOUS/FAINTING (NEAR) Fainting episode(s) and alert < 35 (with cardiac history)
+02d1m:ALLERGIES/HIVES/STINGS Not alert Medication administered or advised
+02d1i:ALLERGIES/HIVES/STINGS Not alert Injection administered or advised
+02d2i:ALLERGIES/HIVES/STINGS Difficulty speaking between breaths Injection administered or advised
+02d2m:ALLERGIES/HIVES/STINGS Difficulty speaking between breaths Medication administered or advised
+30:TRAUMATIC INJURIES (Specific)
+29d5x:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert Unknown Patients Additional Resources Required
+02d3m:ALLERGIES/HIVES/STINGS Swarming ATTACK (bee, wasp, hornet) Medication administered or advised
+29d5v:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert Multiple Patients
+02d3i:ALLERGIES/HIVES/STINGS Swarming ATTACK (bee, wasp, hornet) Injection administered or advised
+29d5u:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert Unknown Number of Patients
+29d5t:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert Multiple patients
+29d4x:TRAFFIC/TRANSPORTATION ACCIDENTS Trapped Victim Unknown Patients Additional Resources Required
+29d4v:TRAFFIC/TRANSPORTATION ACCIDENTS Trapped Victim Multiple Patients
+29d4u:TRAFFIC/TRANSPORTATION ACCIDENTS Trapped Victim Unknown Number of Patients
+29d4t:TRAFFIC/TRANSPORTATION ACCIDENTS Trapped Victim Multiple patients
+29d3x:TRAFFIC/TRANSPORTATION ACCIDENTS HAZMAT Unknown Patients Additional Resources Required
+29d3v:TRAFFIC/TRANSPORTATION ACCIDENTS HAZMAT Multiple Patients
+29d3u:TRAFFIC/TRANSPORTATION ACCIDENTS HAZMAT Unknown Number of Patients
+29d3t:TRAFFIC/TRANSPORTATION ACCIDENTS HAZMAT Multiple patients
+02d4i:ALLERGIES/HIVES/STINGS Snakebite Injection administered or advised
+02d4m:ALLERGIES/HIVES/STINGS Snakebite Medication administered or advised
+29d2x:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Unknown number of patients and additional resources required
+29d2v:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Multiple patients
+29d2u:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Unknown number of patients
+29d2t:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Multiple patients
+29d2s:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Sinking vehicle
+29d2r:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Possible death at scene
+29d2q:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Vehicle off bridge / height
+29d2p:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Rollovers
+29d2o:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Personal watercraft
+29d2n:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Ejection
+29d2m:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Auto -v- pedestrian
+29d2l:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Auto-bicycle/motorcycle
+29d2k:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism All terrain snowmobile
+02e0m:ALLERGIES/HIVES/STINGS *Override* Medication administered or advised
+29d1x:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Unknown number of patients and additional resources required
+02e0i:ALLERGIES/HIVES/STINGS *Override* Injection administered or advised
+29d1v:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Multiple patients
+29d1u:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Unknown number of patients
+29d1t:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Multiple patients
+29d1f:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Multi vehicle (>10) pile up
+29d1e:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Watercraft
+29d1d:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Train
+29d1c:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Subway / Metro
+02e1i:ALLERGIES/HIVES/STINGS Ineffective breathing Injection administered or advised
+29d1b:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Bus
+02e1m:ALLERGIES/HIVES/STINGS Ineffective breathing Medication administered or advised
+29d1a:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Aircraft
+29d0x:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Unknown Patients Additional Resources Required
+29d0v:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple Patients
+29d0u:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Unknown Number of Patients
+29d0t:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple patients
+03d7:ANIMAL BITES Attack or Multiple Animals
+29b4x:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status Unknown Patients Additional Resources Required
+29b4v:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status Multiple Patients
+29b4u:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status Unknown Number of Patients
+29b4t:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status/Other codes not applicable Multiple patients
+29b3x:TRAFFIC/TRANSPORTATION ACCIDENTS Other hazards Unknown Patients Additional Resources Required
+29b3v:TRAFFIC/TRANSPORTATION ACCIDENTS Other hazards Multiple Patients
+29b3u:TRAFFIC/TRANSPORTATION ACCIDENTS Other hazards Unknown Number of Patients
+29b3t:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status/Other codes not applicable Multiple patients
+29b2x:TRAFFIC/TRANSPORTATION ACCIDENTS Serious hemorrhage Unknown Patients Additional Resources Required
+29b2v:TRAFFIC/TRANSPORTATION ACCIDENTS Serious hemorrhage Multiple Patients
+29b2u:TRAFFIC/TRANSPORTATION ACCIDENTS Serious hemorrhage Unknown Number of Patients
+29b2t:TRAFFIC/TRANSPORTATION ACCIDENTS Serious hemorrhage Multiple patients
+29b1x:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown Patients Additional Resources Required
+29b1v:TRAFFIC/TRANSPORTATION ACCIDENTS Injuries Multiple Patients
+29b1u:TRAFFIC/TRANSPORTATION ACCIDENTS Injuries Unknown Number of Patients
+29b1t:TRAFFIC/TRANSPORTATION ACCIDENTS Injuries Multiple patients
+29b0x:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Unknown Patients Additional Resources Required
+29b0v:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple Patients
+29b0u:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Unknown Number of Patients
+29b0t:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple patients
+29a1x:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to NOT DANGEROUS PROXIMAL area Unknown Patients Additional Resources Required
+29a1v:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to NOT DANGEROUS PROXIMAL area Multiple Patients
+29a1u:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to NOT DANGEROUS PROXIMAL area Unknown Number of Patients
+29a1t:TRAFFIC/TRANSPORTATION ACCIDENTS 1st party caller, not dangerous injuries to proximal area Multiple patients
+29a0x:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Unknown number of patients and additional resources required
+29a0v:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple patients
+29a0u:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Unknown number of patients
+29a0t:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple patients
+29o2x:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to Not Dangerous Proximal Area Unknown Patients Additional Resources Required
+29o2v:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to Not Dangerous Proximal Area Multiple Patients
+29o2u:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to Not Dangerous Proximal Area Unknown Number of Patients
+29o2t:TRAFFIC/TRANSPORTATION ACCIDENTS 1st party caller, injury to not dangerous distal area Multiple patients
+29o1x:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries Unknown Patients Additional Resources Required
+29o1v:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries Multiple Patients
+29o1u:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries Unknown Number of Patients
+29o1t:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries (confirmed) Multiple patients
+04o1s: ASSAULT Not dangerous distal body area
+04o2s: ASSAULT Not recent injuries (> 6 hrs) to distal body area
+04a0a: ASSAULT *Override*
+04a0s: SEX ASSAULT *Override*
+04a1a:ASSAULT Not dangerous body area
+04a1s:SEX ASSAULT Not dangerous body area
+04a2a:ASSAULT Not recent injuries (> 6 hrs)
+04a2s:SEX ASSAULT Not recent injuries (> 6 hrs)
+04b0a:ASSAULT *Override*
+04b0s:SEX ASSAULT *Override*
+04b1a:ASSAULT Possibly dangerous body area
+04b1s:SEX ASSAULT Possibly dangerous body area
+04b2a:ASSAULT Serious haemorrhage
+04b2s:SEX ASSAULT Serious haemorrhage
+04b3a:ASSAULT Unknown status (3rd party caller)
+04b3s:SEX ASSAULT Unknown status (3rd party caller)
+04d0a:ASSAULT *Override*
+04d0s:SEX ASSAULT *Override*
+04d1a:ASSAULT Unconscious or arrest
+04d1s:SEX ASSAULT Unconscious or arrest
+04d2a:ASSAULT Not alert
+04d2s:ASSAULT Not alert
+04d3a:ASSAULT Chest or Neck injury (with difficulty breathing)
+04d3s:SEX ASSAULT Chest or Neck injury (with difficulty breathing)
+04d4a:ASSAULT Multiple Victims
+04d4s:SEX ASSAULT Multiple Victims
+05c2:BACK PAIN Known aortic aneurysm
+05c3:BACK PAIN Fainting or near fainting => 50
+06c1a:BREATHING PROBLEM Abnormal breathing Asthma
+06d1a:BREATHING PROBLEM Not Alert Asthma
+06d0a:BREATHING PROBLEM *Override* Asthma
+06d2a:BREATHING PROBLEM Difficulty speaking between breaths Asthma
+06d3a:BREATHING PROBLEM Changing Color Asthma
+06d4:BREATHING PROBLEM Clammy
+06d4a:BREATHING PROBLEM Clammy Asthma
+06e0a:BREATHING PROBLEM *Override* Asthma
+06e1a:BREATHING PROBLEM Ineffective breathing Asthma
+07o1e:BURNS(Scalds)/EXPLOSION Sunburn or minor burns( < = hand size) Explosion
+07o1f:BURNS(Scalds)/EXPLOSION Sunburn or minor burns( < = hand size) Fire Present
+07a0e:BURNS(Scalds)/EXPLOSION *Override* Explosion
+07a0f:BURNS(Scalds)/EXPLOSION *Override* Fire Present
+07a1e:BURNS(Scalds)/EXPLOSION Burns <18% body area Explosion
+07a1f:BURNS(Scalds)/EXPLOSION Burns <18% body area Fire Present
+07a2e:BURNS(Scalds)/EXPLOSION Fire alarm (unknown situation) Explosion
+07a2f:BURNS(Scalds)/EXPLOSION Fire alarm (unknown situation) Fire Present
+07a3e:BURNS(Scalds)/EXPLOSION Sunburn or Minor burns (<=hand size) Explosion
+07a3f:BURNS(Scalds)/EXPLOSION Sunburn or Minor burns (<=hand size) Fire Present
+07b0e:BURNS(Scalds)/EXPLOSION *Override* Explosion
+07b0f:BURNS(Scalds)/EXPLOSION *Override* Fire Present
+07b1e:BURNS(Scalds)/EXPLOSION Blast injuries (without priority symptoms) Explosion
+07b1f:BURNS(Scalds)/EXPLOSION Blast injuries (without priority symptoms) Fire Present
+07b2e:BURNS(Scalds)/EXPLOSION Unknown status - 3rd Party caller Explosion
+07b2f:BURNS(Scalds)/EXPLOSION Unknown status - 3rd Party caller Fire Present
+squ:buckethead
+gsw:Gun Shot Wound
+imert:Integrated Municipal Emergency Response Team
+10d1:Chest Pain Not Alert
+rsf:Residential Structure Fire
+gtpu:Good Times Prevention Unit
+asf:Apartment Structure Fire
+07b2:BURNS(Scalds)/EXPLOSION Unknown status/Other codes not applicable
+07c0e:BURNS(Scalds)/EXPLOSION *Override* Explosion
+07c0f:BURNS(Scalds)/EXPLOSION *Override* Fire Present
+07c1f:BURNS(Scalds)/EXPLOSION Building fire - persons reported inside
+07c1e:BURNS(Scalds)/EXPLOSION Building fire - persons reported inside Explosion
+07c2f:BURNS(Scalds)/EXPLOSION Difficulty breathing Fire Present
+07c2e:BURNS(Scalds)/EXPLOSION Difficulty breathing Explosion
+07c3e:BURNS(Scalds)/EXPLOSION Large burns ( > 18% body area)
+07c3f:BURNS(Scalds)/EXPLOSION Large burns ( > 18% body area)
+07c4:BURNS(Scalds)/EXPLOSION Significant Facial Burns
+07c4e:BURNS(Scalds)/EXPLOSION Significant Facial Burns
+07c4f:BURNS(Scalds)/EXPLOSION Significant Facial Burns
+07d0e:BURNS(Scalds)/EXPLOSION *Override* Explosion
+07d0f:BURNS(Scalds)/EXPLOSION *Override* Fire Present
+07d1e:BURNS(Scalds)/EXPLOSION Multiple victims
+07d1f:BURNS(Scalds)/EXPLOSION Multiple victims
+07d2e:BURNS(Scalds)/EXPLOSION Unconscious or arrest
+07d2f:BURNS(Scalds)/EXPLOSION Unconscious or arrest
+07d3e:BURNS(Scalds)/EXPLOSION Not Alert
+07d3f:BURNS(Scalds)/EXPLOSION Not Alert
+07d4e:BURNS(Scalds)/EXPLOSION Severe respiratory distress
+07d4f:BURNS(Scalds)/EXPLOSION Severe respiratory distress
+ucc:Utility Control Center
+lwo:Looooooooooooooooooooooooooong Winded Operator
+aa:Automatic Number Identification (ANI) and Automatic Location Identification (ALI)
+ax25:AX.25 is a data link layer protocol derived from the X.25 protocol suite and designed for use by amateur radio operators.[1] It is used extensively on amateur packet radio networks.
+ax.25:AX.25 is a data link layer protocol derived from the X.25 protocol suite and designed for use by amateur radio operators.[1] It is used extensively on amateur packet radio networks.
+pt:PRIME=princeton or Patient
+lng:Liquefied natural gas
+tfo:Tactical Flight Officer
+27d1x:Stab/Gunshot/Penetrating Trauma Unconscious or Arrest Self Inflicted Gunshot
+cla:Canada Line Attendant
+ribbed:for her pleasure...
+rib:Radio Interface Box
+canucks:See Murphy's Law
+08b0c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Override
+08b0b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Override
+08b0r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Override
+08b0n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Override
+08b0g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Override
+08b0m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Override
+08b0s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Override
+08b0u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Override
+08b1c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Alert without difficulty breathing
+08b1b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Alert without difficulty breathing
+08b1r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Alert without difficulty breathing
+08b1n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Alert without difficulty breathing
+08b1g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Alert without difficulty breathing
+08b1m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Alert without difficulty breathing
+08b1s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Alert without difficulty breathing
+08b1u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Alert without difficulty breathing
+08c0c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Override
+08c0b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Override
+08c0r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Override
+08c0n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Override
+08c0g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Override
+08c0m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Override
+08c0s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Override
+08c0u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Override
+08c1c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Alert with difficulty breathing
+08c1b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Alert with difficulty breathing
+08c1r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Alert with difficulty breathing
+08c1n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Alert with difficulty breathing
+08c1g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Alert with difficulty breathing
+08c1m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Alert with difficulty breathing
+08c1s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Alert with difficulty breathing
+08c1u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Alert with difficulty breathing
+08d0c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Override
+08d0b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Override
+08d0r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Override
+08d0n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Override
+08d0g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Override
+08d0m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Override
+08d0s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Override
+08d0u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Override
+08d1c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Unconscious or Arrest
+08d1b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Unconscious or Arrest
+08d1r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Unconscious or Arrest
+08d1n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Unconscious or Arrest
+08d1g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Unconscious or Arrest
+08d1m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Unconscious or Arrest
+08d1s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Unconscious or Arrest
+08d1u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Unconscious or Arrest
+08d2c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Not alert
+08d2b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Not alert
+08d2r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Not alert
+08d2n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Not alert
+08d2g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Not alert
+08d2m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Not alert
+08d2s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Not alert
+08d2u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Not alert
+08d3c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) DIFFICULTY SPEAKING BETWEEN BREATHS
+08d3u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown DIFFICULTY SPEAKING BETWEEN BREATHS
+08d4c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Multiple victims
+08d4b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Multiple victims
+08d4r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Multiple victims
+08d4n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Multiple victims
+08d4g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Multiple victims
+08d4m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Multiple victims
+08d4s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Multiple victims
+08d4u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown Multiple victims
+08d5c:Carbon Monoxide/Inhalation/HAZMAT/CBRN Chemical Unknown status - 3rd Party caller
+08d5b:Carbon Monoxide/Inhalation/HAZMAT/CBRN Biological Unknown status - 3rd Party caller
+08d5r:Carbon Monoxide/Inhalation/HAZMAT/CBRN Radiological Unknown status - 3rd Party caller
+08d5n:Carbon Monoxide/Inhalation/HAZMAT/CBRN Nuclear Unknown status - 3rd Party caller
+08d5g:Carbon Monoxide/Inhalation/HAZMAT/CBRN Smell of gas/fumes Unknown status - 3rd Party caller
+08d5m:Carbon Monoxide/Inhalation/HAZMAT/CBRN Carbon monoxide Unknown status - 3rd Party caller
+08d5s:Carbon Monoxide/Inhalation/HAZMAT/CBRN Suicide attempt (carbon monoxide) Unknown status - 3rd Party caller
+08d5u:Carbon Monoxide/Inhalation/HAZMAT/CBRN Unknown status - 3rd Party caller
+09o1x:Cardiac/Respiratory Arrest/Death EXPECTED DEATH unquestionable Terminal illness
+09o1y:Cardiac/Respiratory Arrest/Death EXPECTED DEATH unquestionable DNR (Do Not Resuscitate) Order
+09o1z:Cardiac/Respiratory Arrest/Death EXPECTED DEATH unquestionable Bracelet or form (NO CPR)
+09b0a:Cardiac/Respiratory Arrest/Death Cold and stiff in a warm 
+environment NOT warm and flacid in a cold enviroment *Override*
+09b0b:Cardiac/Respiratory Arrest/Death Decapitation *Override*
+09b0c:Cardiac/Respiratory Arrest/Death Decomposition *Override*
+09b0d:Cardiac/Respiratory Arrest/Death Incineration *Override*
+09b0e:Cardiac/Respiratory Arrest/Death NON-RECENT death confirmed *Override*
+09b0f:Cardiac/Respiratory Arrest/Death Severe injuries obviously incompatible with life *Override*
+09b0g:Cardiac/Respiratory Arrest/Death Submersion (>6hrs) *Override*
+09b0h:Cardiac/Respiratory Arrest/Death Transection *Override*
+09b0i:Cardiac/Respiratory Arrest/Death Open head injury (white/grey matter exposed) *Override*
+09b1a:Cardiac/Respiratory Arrest/Death Cold and stiff in a warm environment OBVIOUS DEATH unquestionable
+09b1b:Cardiac/Respiratory Arrest/Death Decapitation OBVIOUS DEATH unquestionable
+09b1c:Cardiac/Respiratory Arrest/Death Decomposition OBVIOUS DEATH unquestionable
+09b1d:Cardiac/Respiratory Arrest/Death Incineration OBVIOUS DEATH unquestionable
+09b1e:Cardiac/Respiratory Arrest/Death NON-RECENT death confirmed OBVIOUS DEATH unquestionable
+09b1f:Cardiac/Respiratory Arrest/Death Severe injuries obviously incompatible with life OBVIOUS DEATH unquestionable
+09b1g:Cardiac/Respiratory Arrest/Death Submersion (>6hrs) OBVIOUS DEATH unquestionable
+09b1h:Cardiac/Respiratory Arrest/Death Transection OBVIOUS DEATH unquestionable
+09b1i:Cardiac/Respiratory Arrest/Death Open head injury (white/grey matter exposed) OBVIOUS DEATH unquestionable
+09d2:Cardiac/Respiratory Arrest/Death OBVIOUS or EXPECTED DEATH questionable
+10c3:Chest Pain (Non Traumatic) Cocaine
+10c4:Chest Pain (Non Traumatic) Breathing normally
+12c2e:Convulsions/Seizures Epileptic or previous history of seizures Pregnancy
+12c3e:Convulsions/Seizures Epileptic or previous history of seizures Diabetic
+12d0e:Convulsions/Seizures Epileptic or previous history of seizures *Override*
+12d1e:Convulsions/Seizures Epileptic or previous history of seizures Not breathing (after Key Questioning)
+12d2e:Convulsions/Seizures Epileptic or previous history of seizures CONTINUOUS or MULTIPLE fitting
+12d3e:Convulsions/Seizures Epileptic or previous history of seizures AGONAL/INEFFECTIVE BREATHING
+12d4e:Convulsions/Seizures Epileptic or previous history of seizures Effective breathing not verified => 35
+12a1e:Convulsions/Seizures Epileptic or previous history of seizures Not fitting now and breathing effectively (verified)
+12a2e:Convulsions/Seizures Epileptic or previous history of seizures FOCAL fit (alert)
+12a3e:Convulsions/Seizures Epileptic or previous history of seizures Impending fit (aura)
+12b0e:Convulsions/Seizures *Override* History of Seizures
+12b1e:Convulsions/Seizures Epileptic or previous history of seizures Effective breathing not verified < 35
+12c0e:Convulsions/Seizures Epileptic or previous history of seizures *Override*
+12c1e:Convulsions/Seizures Epileptic or previous history of seizures FOCAL fit (not alert)
+12d0:Convulsions/Seizures *Override*
+12a2:Convulsions/Seizures Epileptic or previous history of seizures Unknown cause of Seizures
+12a3:Convulsions/Seizures Epileptic or previous history of seizures No Seizure Disorder
+13o1c:Diabetic Problems Combative or aggressive Alert and behaving normally with 1st party verification
+13a0c:Diabetic Problems Combative or aggressive *Override*
+13a1c:Diabetic Problems Combative or aggressive Alert and behaving normally without 1st party verification
+13c0c:Diabetic Problems Combative or aggressive *Override*
+13c1c:Diabetic Problems Combative or aggressive Not alert
+13c2c:Diabetic Problems Combative or aggressive Abnormal behavior
+13d0c:Diabetic Problems Combative or aggressive *Override*
+13d1c:Diabetic Problems Combative or aggressive Unconscious
+15c1e:Electrocution/Lightning Electrocution Alert and breathing normally
+15c1l: Electrocution/Lightning Lightning Alert and breathing normally
+15d0e:Electrocution/Lightning Electrocution *Override*
+15d0l: Electrocution/Lightning Lightning *Override*
+15d1e:Electrocution/Lightning Electrocution Unconscious
+15d1l: Electrocution/Lightning Lightning Unconscious
+15d2e:Electrocution/Lightning Electrocution Not disconnected from power
+15d2l: Electrocution/Lightning Lightning Not disconnected from power
+15d3e:Electrocution/Lightning Electrocution Power not off or hazard present
+15d3l: Electrocution/Lightning Lightning Power not off or hazard present
+1d4e:Electrocution/Lightning Electrocution EXTREME FALL (=> 30ft/10m)
+15d4e:Electrocution/Lightning Electrocution EXTREME FALL (=> 30ft/10m)
+15d4l: Electrocution/LightningLightningEXTREME FALL (=> 30ft/10m)
+15d5e:Electrocution/Lightning Electrocution LONG FALL
+15d5l: Electrocution/Lightning Lightning LONG FALL
+15d6e:Electrocution/Lightning Electrocution Not alert
+15d6l: Electrocution/Lightning LightningNot alert
+15d7e:Electrocution/Lightning Electrocution Abnormal breathing
+15d7l: Electrocution/Lightning Lightning Abnormal breathing
+15d8e:Electrocution/Lightning Electrocution Unknown status/Other codes not applicable
+15d8l: Electrocution/Lightning Lightning Unknown status/Other codes not applicable
+15e0e:Electrocution/Lightning Electrocution *Override*
+15e0l: Electrocution/Lightning Lightning *Override*
+15e1e:Electrocution/Lightning Electrocution NOT BREATHING/INEFFECTIVE BREATHING
+15e1l:Electrocution/Lightning Lightening NOT BREATHING/INEFFECTIVE BREATHING
+17o1j:FALL Jumper (suicide attempt) NOT DANGEROUS DISTAL body area
+17o1g:FALL On the ground or floor NOT DANGEROUS DISTAL body area
+17o2j:FALL Jumper (suicide attempt) NON-RECENT (=> 6hrs) injuries to DISTAL body area (without priority symptoms)
+17o2g:FALL On the ground or floor NON-RECENT (=> 6hrs) injuries to DISTAL body area (without priority symptoms)
+17a0j:FALL Jumper (suicide attempt) *Override*
+17a0g:FALL On the ground or floor *Override*
+17a1j:FALL Jumper (suicide attempt) NOT DANGEROUS PROXIMAL body area
+17a1g:FALL On the ground or floor NOT DANGEROUS PROXIMAL body area
+17a2j:FALL Jumper (suicide attempt) NON-RECENT (=> 6hrs) injuries except DISTAL body area (without priority symptoms)
+17a2g:FALL On the ground or floor NON-RECENT (=> 6hrs) injuries except DISTAL body area (without priority symptoms)
+17a3j:FALL Jumper (suicide attempt) PUBLIC ASSISTANCE (no injuries and no priority symptoms)
+17a3g:FALL On the ground or floor PUBLIC ASSISTANCE (no injuries and no priority symptoms)
+17b0j:FALL Jumper (suicide attempt) *Override*
+17b0g:FALL On the ground or floor *Override*
+17b1j:FALL Jumper (suicide attempt) POSSIBLY DANGEROUS body area
+17b1g:FALL On the ground or floor POSSIBLY DANGEROUS body area
+17b2j:FALL Jumper (suicide attempt) SERIOUS Hemorrhage
+17b2g:FALL On the ground or floor SERIOUS Hemorrhage
+17b3j:FALL Jumper (suicide attempt) Unknown status/Other codes not applicable
+17b3g:FALL On the ground or floor Unknown status/Other codes not applicable
+17d0j:FALL Jumper (suicide attempt) *Override*
+17d0g:FALL On the ground or floor *Override*
+17d1j:FALL Jumper (suicide attempt) EXTREME FALL (=> 30ft/10m)
+17d1g:FALL On the ground or floor EXTREME FALL (=> 30ft/10m)
+17d2j:FALL Jumper (suicide attempt) Unconscious or Arrest
+17d2g:FALL On the ground or floor Unconscious or Arrest
+17d3j:FALL Jumper (suicide attempt) Not alert
+17d3g:FALL On the ground or floor Not alert
+17d4j:FALL Jumper (suicide attempt) Chest or Neck injury (with difficulty breathing)
+17d4g:FALL On the ground or floor Chest or Neck injury (with difficulty breathing)
+fst:Field Sobriety Test or Fire Service Tech
+17d5:FALL LONG FALL
+ly:Lytton
+17d5j:FALL Jumper (suicide attempt) LONG FALL
+17d5g:FALL On the ground or floor LONG FALL
+17a3:FALL PUBLIC ASSISTANCE (no injuries and no priority symptoms)
+19c7:HEART PROBLEMS Unknown status/Other codes not applicable
+19d4:HEARTPROBLEMS Clammy
+19d5:HEARTPROBLEMS Just resuscitated and/or defibrillated (external)
+20d0h:Heat exposure *Override*
+20d0c:Cold exposure *Override*
+20d1h:Heat exposure Not alert
+20d1c:Cold exposure Not alert
+20d2h:Heat exposure Multiple victims (with priority symptoms)
+20d2c:Cold exposure Multiple victims (with priority symptoms)
+20c0h:Heat exposure *Override*
+20c0c:Cold exposure *Override*
+20c1h:Heat exposure Heart attack or angina history
+20c1c:Cold exposure Heart attack or angina history
+20o1h:Heat exposure Alert with 1st party verification (without priority symptoms)
+20o1c:Cold exposure Alert with 1st party verification (without priority symptoms)
+20a0h:Heat exposure *Override*
+20a0c:Cold exposure *Override*
+20a1h:Heat exposure Alert without 1st party verification (without priority symptoms)
+20a1c:Cold exposure Alert without 1st party verification (without priority symptoms)
+20b0h:Heat exposure *Override*
+20b0c:Cold exposure *Override*
+ucm:Universal Crypto Module
+21b4:Hemorrhage/Lacerations Blood thinners
+21c2:Hemorrhage/Lacerations Hemorrhage of dialysis fistula
+21d4:Hemorrhage/Lacerations Abnormal breathing
+21o3:Hemorrhage/Lacerations Non-bleeding laceration (situation)
+22a1a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) No longer trapped (no injuries)
+22a1m:Inaccessible Incident/Other Entrapment Multiple victims No longer trapped (no injuries)
+22a1b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) No longer trapped (no injuries)
+22a1x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims No longer trapped (no injuries)
+22a1y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims No longer trapped (no injuries)
+22d0a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) *Override*
+22d0m:Inaccessible Incident/Other Entrapment Multiple victims *Override*
+22d0b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) *Override*
+22d0x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims *Override*
+22d0y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims *Override*
+22b0a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) *Override*
+22b0m:Inaccessible Incident/Other Entrapment Multiple victims *Override*
+22b0b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) *Override*
+22b0x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims *Override*
+22b0y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims *Override*
+22b1a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) No longer trapped (unknown injuries)
+22b1m:Inaccessible Incident/Other Entrapment Multiple victims No longer trapped (unknown injuries)
+22b1b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) No longer trapped (unknown injuries)
+22b1x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims No longer trapped (unknown injuries)
+22b1y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims No longer trapped (unknown injuries)
+22b2a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) PERIPHERAL ENTRAPMENT only
+22b2m:Inaccessible Incident/Other Entrapment Multiple victims PERIPHERAL ENTRAPMENT only
+22b2b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) PERIPHERAL ENTRAPMENT only
+22b2x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims PERIPHERAL ENTRAPMENT only
+22b2y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims PERIPHERAL ENTRAPMENT only
+22b3a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Unknown status (investigation)/Other codes not applicable
+22b3m:Inaccessible Incident/Other Entrapment Multiple victims Unknown status (investigation)/Other codes not applicable
+22b3b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Unknown status (investigation)/Other codes not applicable
+22b3x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Unknown status (investigation)/Other codes not applicable
+22b3y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Unknown status (investigation)/Other codes not applicable
+22d1a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Mechanical/Machinery ENTRAPMENT
+22d1m:Inaccessible Incident/Other Entrapment Multiple victims Mechanical/Machinery ENTRAPMENT
+22d1b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Mechanical/Machinery ENTRAPMENT
+22d1x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Mechanical/Machinery ENTRAPMENT
+22d1y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Mechanical/Machinery ENTRAPMENT
+22d2a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Trench collapse
+22d2m:Inaccessible Incident/Other Entrapment Multiple victims Trench collapse
+22d2b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Trench collapse
+22d2x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Trench collapse
+22d2y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Trench collapse
+22d3a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Structure collapse
+22d3m:Inaccessible Incident/Other Entrapment Multiple victims Structure collapse
+22d3b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Structure collapse
+22d3x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Structure collapse
+22d3y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Structure collapse
+22d4a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Confined space ENTRAPMENT
+22d4m:Inaccessible Incident/Other Entrapment Multiple victims Confined space ENTRAPMENT
+22d4b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Confined space ENTRAPMENT
+22d4x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Confined space ENTRAPMENT
+22d4y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Confined space ENTRAPMENT
+22d5a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Inaccessible terrain situation
+22d5m:Inaccessible Incident/Other Entrapment Multiple victims Inaccessible terrain situation
+22d5b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Inaccessible terrain situation
+22d5x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Inaccessible terrain situation
+22d5y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Inaccessible terrain situation
+22d6a:Inaccessible Incident/Other Entrapment Above ground (>6ft / 2m) Mudslide/Avalanche
+22d6m:Inaccessible Incident/Other Entrapment Multiple victims Mudslide/Avalanche
+22d6b:Inaccessible Incident/Other Entrapment Below ground (>6ft / 2m) Mudslide/Avalanche
+22d6x:Inaccessible Incident/Other Entrapment Both above ground and multiple victims Mudslide/Avalanche
+22d6y:Inaccessible Incident/Other Entrapment Both below ground and multiple victims Mudslide/Avalanche
+23o1a:Overdose/Poisoning (Ingestion) Accidental POISONING (without priority symptoms)
+23o1i:Overdose/Poisoning (Ingestion) Intentional POISONING (without priority symptoms)
+23o1v:Overdose/Poisoning (Ingestion) Violent or combative POISONING (without priority symptoms)
+23b0a:Overdose/Poisoning (Ingestion) Accidental *Override*
+23b0i:Overdose/Poisoning (Ingestion) Intentional *Override*
+23b0v:Overdose/Poisoning (Ingestion) Violent or combative *Override*
+23b1a:Overdose/Poisoning (Ingestion) Accidental OVERDOSE (without priority symptoms)
+23b1i:Overdose/Poisoning (Ingestion) Intentional OVERDOSE (without priority symptoms)
+23b1v:Overdose/Poisoning (Ingestion) Violent or combative OVERDOSE (without priority symptoms)
+23c0a:Overdose/Poisoning (Ingestion) Accidental *Override*
+23c0i:Overdose/Poisoning (Ingestion) Intentional *Override*
+23c0v:Overdose/Poisoning (Ingestion) Violent or combative *Override*
+23c1a:Overdose/Poisoning (Ingestion) Accidental Not alert
+23c1i:Overdose/Poisoning (Ingestion) Intentional Not alert
+23c1v:Overdose/Poisoning (Ingestion) Violent or combative Not alert
+23c2a:Overdose/Poisoning (Ingestion) Accidental Abnormal breathing
+23c2i:Overdose/Poisoning (Ingestion) Intentional Abnormal breathing
+23c2v:Overdose/Poisoning (Ingestion) Violent or combative Abnormal breathing
+23c3a:Overdose/Poisoning (Ingestion) Accidental Antidepressants (tricyclic)
+23c3i:Overdose/Poisoning (Ingestion) Intentional Antidepressants (tricyclic)
+23c3v:Overdose/Poisoning (Ingestion) Violent or combative Antidepressants (tricyclic)
+23c4a:Overdose/Poisoning (Ingestion) Accidental Cocaine methamphetamine (or derivatives)
+23c4i:Overdose/Poisoning (Ingestion) Intentional Cocaine methamphetamine (or derivatives)
+23c4v:Overdose/Poisoning (Ingestion) Violent or combative Cocaine methamphetamine (or derivatives)
+23c5a:Overdose/Poisoning (Ingestion) Accidental Narcotics (heroin)
+23c5i:Overdose/Poisoning (Ingestion) Intentional Narcotics (heroin)
+23c5v:Overdose/Poisoning (Ingestion) Violent or combative Narcotics (heroin)
+23d0a:Overdose/Poisoning (Ingestion) Accidental *Override*
+23d0i:Overdose/Poisoning (Ingestion) Intentional *Override*
+23d0v:Overdose/Poisoning (Ingestion) Violent or combative *Override*
+23d1a:Overdose/Poisoning (Ingestion) Accidental Unconscious
+23d1i:Overdose/Poisoning (Ingestion) Intentional Unconscious
+23d1v:Overdose/Poisoning (Ingestion) Violent or combative Unconscious
+23d2a:Overdose/Poisoning (Ingestion) Accidental CHANGING COLOR
+23d2i:Overdose/Poisoning (Ingestion) Intentional CHANGING COLOR
+23d2v:Overdose/Poisoning (Ingestion) Violent or combative CHANGING COLOR
+23c6a:Overdose/Poisoning (Ingestion) Accidental Acid or alkali (lye)
+23c6i:Overdose/Poisoning (Ingestion) Intentional Acid or alkali (lye)
+23c6v:Overdose/Poisoning (Ingestion) Violent or combative Acid or alkali (lye)
+23c7a:Overdose/Poisoning (Ingestion) Accidental Unknown status/Other codes not applicable
+23c7i:Overdose/Poisoning (Ingestion) Intentional Unknown status/Other codes not applicable
+23c7v:Overdose/Poisoning (Ingestion) Violent or combative Unknown status/Other codes not applicable
+23c8a:Overdose/Poisoning (Ingestion) Accidental Poison Control request for response
+23c8i:Overdose/Poisoning (Ingestion) Intentional Poison Control request for response
+23c8v:Overdose/Poisoning (Ingestion) Violent or combative Poison Control request for response
+24c3:PREGNANCY/CHILDBIRTH/MISCARRIAGE Baby born (no complications)
+24d7:PREGNANCY/CHILDBIRTH/MISCARRIAGE Baby born (complications with mother)
+25d1v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Not alert
+25d1w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Not alert
+25d1b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Not alert
+25d2v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent DANGEROUS hemorrhage
+25d2w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons DANGEROUS hemorrhage
+25d2b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons DANGEROUS hemorrhage
+25b6v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Unknown status/Other codes not applicable
+25b6w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Unknown status/Other codes not applicable
+25b6b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Unknown status/Other codes not applicable
+25d0v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent *Override*
+25d0w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons *Override*
+25d0b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons *Override*
+25b4v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Jumper (threatening)
+25b4w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Jumper (threatening)
+25b4b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Jumper (threatening)
+25b5v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Near hanging strangulation or suffocation (alert)
+25b5w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Near hanging strangulation or suffocation (alert)
+25b5b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Near hanging strangulation or suffocation (alert)
+25d0:Psychiatric/Abnormal Behavior/Suicide Attempt *Override*
+25b2v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Non-SERIOUS or MINOR Hemorrhage
+25b2w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Non-SERIOUS or MINOR Hemorrhage
+25b2b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Non-SERIOUS or MINOR Hemorrhage
+25b3v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent THREATENING SUICIDE
+25b3w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons THREATENING SUICIDE
+25b3b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons THREATENING SUICIDE
+25a2v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Suicidal (not threatening) without 1st party verification (alert and awake)
+25a2w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Suicidal (not threatening) without 1st party verification (alert and awake)
+25a2b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Suicidal (not threatening) without 1st party verification (alert and awake)
+25b0v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent *Override*
+25b0w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons *Override*
+25b0b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons *Override*
+25b1v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent SERIOUS hemorrhage
+25b1w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons SERIOUS hemorrhage
+25b1b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons SERIOUS hemorrhage
+25o1v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Non-suicidal with 1st party verification (alert and awake)
+25o1w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Non-suicidal with 1st party verification (alert and awake)
+25o1b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Non-suicidal with 1st party verification (alert and awake)
+25o2v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Suicidal (not threatening) with 1st party verification (alert and awake)
+25o2w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Suicidal (not threatening) with 1st party verification (alert and awake)
+25o2b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Suicidal (not threatening) with 1st party verification (alert and awake)
+25a0v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent *Override*
+25a0w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons *Override*
+25a0b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons *Override*
+25a1v:Psychiatric/Abnormal Behavior/Suicide Attempt Violent Non-suicidal without 1st party verification (alert and awake)
+25a1w:Psychiatric/Abnormal Behavior/Suicide Attempt Weapons Non-suicidal without 1st party verification (alert and awake)
+25a1b:Psychiatric/Abnormal Behavior/Suicide Attempt Both violent and weapons Non-suicidal without 1st party verification (alert and awake)
+imbe:Improved Multi-Band Excitation is a proprietary vocoder developed by Digital Voice Systems, Inc. (DVSI).
+at01: RCMP Paperwork for a MVA with fatality
+mpds:Medical Priority Dispatch System
+dvcm: Digital Voice Conversion Method - http://wiki.radioreference.com/index.php/Digital_Voice_Conversion_Method
+10-45:Confirmed Fatality (BCFS)
+icars:Integrated Collision Analyst Reconstruction Service
+psp:Possession of stolen property
+fb:Fine Business
+fbom:Fine Business Old Man
+box 1:Vehicle Safety Order
+leip:Law Enforcement Information Portal
+edl:Enhanced Drivers Licence
+eic:Enhanced Identification Card
+sd:Sudden Death
+giu:General Investigation Unit
+27a1s:Stab/Gunshot/Penetrating Trauma NON-RECENT (= 6hrs) PERIPHERAL wounds Stabbing
+27a1g:Stab/Gunshot/Penetrating Trauma NON-RECENT (= 6hrs) PERIPHERAL wounds Gunshot
+27a1p:Stab/Gunshot/Penetrating Trauma NON-RECENT (= 6hrs) PERIPHERAL wounds Penetrating 
+27a1x:Stab/Gunshot/Penetrating Trauma NON-RECENT (= 6hrs) PERIPHERAL wounds Self Inflicted Gunshot
+27b0s:Stab/Gunshot/Penetrating Trauma **Override** Stabbing
+27b0g:Stab/Gunshot/Penetrating Trauma **Override** Gunshot
+27b0p:Stab/Gunshot/Penetrating Trauma **Override** Penetrating
+27b0x:Stab/Gunshot/Penetrating Trauma **Override** Self Inflicted Gunshot
+27b1s:Stab/Gunshot/Penetrating Trauma NON-RECENT (=> 6 hrs) single CENTRAL wound Stabbing
+27b1g:Stab/Gunshot/Penetrating Trauma NON-RECENT (=> 6 hrs) single CENTRAL wound Gunshot
+27b1p:Stab/Gunshot/Penetrating Trauma NON-RECENT (=> 6 hrs) single CENTRAL wound Penetrating 
+27b1x:Stab/Gunshot/Penetrating Trauma NON-RECENT (=> 6 hrs) single CENTRAL wound Self Inflicted Gunshot
+27b2s:Stab/Gunshot/Penetrating Trauma Known single PERIPHERAL wound Stabbing
+27b2g:Stab/Gunshot/Penetrating Trauma Known single PERIPHERAL wound Gunshot
+27b2p:Stab/Gunshot/Penetrating Trauma Known single PERIPHERAL wound Penetrating
+27b2x:Stab/Gunshot/Penetrating Trauma Known single PERIPHERAL wound Self Inflicted Gunshot
+27b3s:Stab/Gunshot/Penetrating Trauma SELF INFLICTED SERIOUS hemorrhage Stabbing
+27b3g:Stab/Gunshot/Penetrating Trauma SELF INFLICTED SERIOUS hemorrhage Gunshot
+27b3p:Stab/Gunshot/Penetrating Trauma SELF INFLICTED SERIOUS hemorrhage Penetrating
+27b3x:Stab/Gunshot/Penetrating Trauma SELF INFLICTED SERIOUS hemorrhage Self Inflicted Gunshot
+27b4s:Stab/Gunshot/Penetrating Trauma Unknown status/Other codes not applicable Stabbing
+27b4g:Stab/Gunshot/Penetrating Trauma Unknown status/Other codes not applicable Gunshot
+27b4p:Stab/Gunshot/Penetrating Trauma Unknown status/Other codes not applicable Penetrating
+27b4x:Stab/Gunshot/Penetrating Trauma Unknown status/Other codes not applicable Self Inflicted Gunshot
+27b5s:Stab/Gunshot/Penetrating Trauma OBVIOUS DEATH Stabbing
+27b5g:Stab/Gunshot/Penetrating Trauma OBVIOUS DEATH Gunshot
+27b5p:Stab/Gunshot/Penetrating Trauma OBVIOUS DEATH Penetrating
+27b5x:Stab/Gunshot/Penetrating Trauma OBVIOUS DEATH Self Inflicted Gunshot
+27d0s:Stab/Gunshot/Penetrating Trauma **Override** Stabbing
+27d0g:Stab/Gunshot/Penetrating Trauma **Override** Gunshot
+27d0p:Stab/Gunshot/Penetrating Trauma **Override** Penetrating
+27d0x:Stab/Gunshot/Penetrating Trauma **Override** Self Inflicted Gunshot
+27d1s:Stab/Gunshot/Penetrating Trauma Unconscious or Arrest Stabbing
+27d1g:Stab/Gunshot/Penetrating Trauma Unconscious or Arrest Gunshot
+27d1p:Stab/Gunshot/Penetrating Trauma Unconscious or Arrest Penetrating
+27d2s:Stab/Gunshot/Penetrating Trauma Not alert Stabbing
+27d2g:Stab/Gunshot/Penetrating Trauma Not alert Gunshot
+27d2p:Stab/Gunshot/Penetrating Trauma Not alert Penetrating
+27d2x:Stab/Gunshot/Penetrating Trauma Not alert Self Inflicted Gunshot
+27d3s:Stab/Gunshot/Penetrating Trauma CENTRAL wounds Stabbing
+27d3g:Stab/Gunshot/Penetrating Trauma CENTRAL wounds Gunshot
+27d3p:Stab/Gunshot/Penetrating Trauma CENTRAL wounds Penetrating
+27d3x:Stab/Gunshot/Penetrating Trauma CENTRAL wounds Self Inflicted Gunshot
+27d4s:Stab/Gunshot/Penetrating Trauma Multiple wounds Stabbing
+27d4g:Stab/Gunshot/Penetrating Trauma Multiple wounds Gunshot
+27d4p:Stab/Gunshot/Penetrating Trauma Multiple wounds Penetrating
+27d4x:Stab/Gunshot/Penetrating Trauma Multiple wounds Self Inflicted Gunshot
+27d5s:Stab/Gunshot/Penetrating Trauma Multiple victims Stabbing
+27d5g:Stab/Gunshot/Penetrating Trauma Multiple victims Gunshot
+27d5p:Stab/Gunshot/Penetrating Trauma Multiple victims Penetrating
+27d5x:Stab/Gunshot/Penetrating Trauma Multiple victims Self Inflicted Gunshot
+ctcss:In telecommunications, Continuous Tone-Coded Squelch System or CTCSS is a circuit that is used to reduce the annoyance of listening to other users on a shared two-way radio communications channel. It is sometimes called tone squelch. Where more than one user group is on the same channel (called co-channel users), CTCSS filters out other users if they are using a different CTCSS tone or no CTCSS.
+gtfo:Get the fuck out!
+cvse:Commercial Vehicle Safety & Enforcement
+bcomp:Kurtal terms for Burning Complaint
+hets:helicopter external transport system
+fdu:Fleet Diving Unit
+rhib:Rigid Hull Inflatable Boat
+atr:Air Tanker Request
+fuck around:an affirmation that something is cool, amazing, hardcore or unbelievable...kinda like asking "are you shittin me?" or saying "wow, holy shit dude"or "hell yeah" depending on if it is used as a question or a statement
+vselp:Vector Sum Excited Linear Prediction (VSELP) is a speech coding method used in the IS-54 standard. This codec was used in early TDMA cell phones in the United States. It was also used in the first version of RealAudio for audio over the Internet. The IS-54 VSELP standard was published by the Telecommunications Industry Association in 1989.
+hrt:High Risk Takedown
+cba:See CVA
+nmc:No Management Center
+336:336 REVELSTOKE 744 A Highway 23 S (336E1, 336F1, 336K1)
+ifnu:Integrated First Nations Unit
+gd:General Duty
+mototrbo:Audio recording of a undedocded mototrbo transmission; http://hamradio-dv.org/mototrbo/mototrbo-undecoded.wav
+423:423 RIONDEL 1409 Ainsworth Ave (423K1)
+ofc:Office of the Fire Commissioner
+flac:Full Lossless Audio Codec
+air 3:  RCMP Aerospatiale AS350 B3 C-GMPK - Kelowna
+air 2: RCMP Eurocopter EC-120B C-FMPQ - Lower Mainland
+air 4:  RCMP Aerospatiale AS350 B3 C-GMPN - Kamloops
+tempest:Tiny ElectroMagnetic Particles Emitting Secret Things
+229:POWELL RIVER 7057 Duncan St (229a,229K)
+214: 214 HOPE 999 Water Ave (214B, 214F, 214KD)
+poi: Person of Interest/Point of Ignition
+leo:Law Enforcement Officer
+potus:President of the United States
+pussy:The part of the female anatomy that wenko will never get (this decade)
+cism:Critial Incident Stress Management
+itt:Infant Transport Team (BCAS)
+alrt:Automated Light Rail Transit (SkyTrain)
+omg:Outlaw Motorcycle Gangs
+iap:Immediate Action Plan
+fis:Forensic Identification Services (aka IDENT)
+ident:What the fuck do you think it means....
+isu:Integrated Security Unit
+rms: Records Management System
+kiss:Keep It Simple Stupid
+hro:High Risk Offender
+nsceu:North Section Crime Enforcement Unit
+su:Surrey
+ri:Richmond
+bi:Bowen Island
+df:Deas Freeway Patrol
+it:CREST Regional District IRSU
+iu:Island District Units
+iwin:U.S. Dept. of Justice: Integrated Wireless Network
+143.22:is cfseu
+srr:Staff Relations Represenative
+imsi:International Mobile Subscriber Identity
+rid:Radio Identification
+tgid:Talk Group ID
+micp:Mobile Incident Command Post
+eskbot:Providing specialized lookup services
+dgps:Differential Global Positioning System (DGPS) is an enhancement to Global Positioning System that uses a network of fixed, ground-based reference stations to broadcast the difference between the positions indicated by the satellite systems and the known fixed positions. These stations broadcast the difference between the measured satellite pseudoranges and actual (internally computed) pseudoranges, and receiver stations may correct their pseudoran
+ppt:possession for the puposeses of traficking
+rcmp f:Street Crimes
+rcmp o:Overtime/Special Projects(Counter Attack,etc..)
+rcmp a:A Watch - Patrol / General Duty
+rcmp b:B Watch - Patrol / General Duty
+rcmp c:C Watch - Partol / General Duty
+rcmp d:D Watch - Patrol / General Duty
+rcmp e:E Watch - Patrol / General Duty
+rcmp k:PDS (Dog Man)
+rcmp m:Marine Services
+rcmp q:Civilian Staff(Radio Techs,etc)
+rcmp r:Reserves/Auxiliaries
+rcmp s:School Liason(Unconfirmed)
+rcmp t:Traffic Services
+rcmp z:Emergency Response Team (ERT)
+ke7jff:15:38 < KE7JFF-Portable> yes, I know...
+fucked:See Stuck nov 29 2009
+222:222 SQUAMISH 38929 Production Way (222F)
+419:419 NAKUSP 7th Ave & Broadway (419K1, 419K2)
+mtac:Multiple Threat Alert Center
+atac:Anti-Terrorist Alert Center
+eam:Emergency Action Message
+ncis:Naval Criminal Investigative Service
+fam:Federal Air Marshall
+mac_write:Mac_Wrong
+urt:Underwater Recovery Team (RCMP Dive Team)
+eod:Explosive Ordnance Disposal
+246:VANCOUVER 5833 Battison St (246A1 (ALS), 246A2) Future home 6992 Buller Ave
+scbctaps:South Coast British Columbia Transportation Authority Police Service (again.. still the laughing stock police department)
+hrpt:High Rate Picture Transmission
+mtb:Mountain Bike
+cablemonkey:http://craziestgadgets.com/wp-content/uploads/2009/10/cable-monkey-500x362.jpg
+249:249 Surrey 13750 96 Ave (249A1 (ALS), 249A2, 249A3, 249B, 249J1, 249J2)
+244:VANCOUVER 559 W 59th Ave (244A, 244D1, 244X)
+pcs:Possession of a Controlled Substance
+266:266 DELTA NORTH 7893 Scott Rd (266A1, 266A2,266B1)
+252:   252 LANGLEY 22347 48 Ave (252A, 252B, 252D3. 280V (CCT))
+102:102 ALERT BAY 315A Fir St
+103:103 SALT SPRING ISLAND 275 Park Drive (103E, 103F, 103K, 103CP1)
+104:104 MAYNE ISLAND 472 Felix Jack Rd
+105:105 CENTRAL SAANICH 2188 Mt Newton X Road (105E1, 105F1, 105K1)
+106:106 SIDNEY 9824 Third St (106B1, 106F1, 106K1)
+107:107 SOOKE 6742 West Coast Rd (107F1, 107K1, 107K2)
+108:CAMPELL RIVER 348 2nd Ave (108A, 108F, 108K)
+109:109 LANGFORD 2764 Leigh Rd (109A) - Vancouver Island Regional Dispatch
+112:VICTORIA 1440 Hillside Ave (112A1 (ALS), 112B1, 112C1)
+114:114 PENDER ISLAND 5715 Canal Rd (114K, 114CP1)
+115:115 PORT RENFREW 1 Klannanith Rd
+117:GALIANO ISLAND 660 Porlier Pass Rd (117K)
+118:118 VICTORIA (Fairfield) 412 Quebec St (118A1, 118B1)
+119:119 LAKE COWICHAN 3 North Shore Road (119ED, 119FN, 119CP1)
+120:120 NANAIMO SOUTH 231 Prideaux Street (120A, 120B, 120C, 120D)
+121:121 ROYAL OAK 4528 Viewmont Ave (121A1 (ALS), 121A2 (ALS), 121J1)
+122:122 NANAIMO NORTH 4415 Boban Dr (122A1, 122A2, 122A3, 122B, 122D)
+124:124 PORT ALBERNI 4760 Roger St (124A1, 124K1, 124K2)
+125:125 VICTORIA 3987 Shelbourne St (125A1, 125F1)
+126:PORT HARDY 9120 Granville (126E, 126K)
+127:127 ESQUIMALT 924 Ellery St (127A1)
+129:PORT MCNEILL 2415 Catala Place (129E, 129F, 129CP1)
+130:PARKSVILLE 493 Alberni Hwy (130B, 130E, 130F, 130K1)
+131:SAYWARD 630 Kelsey St (131k)
+132:132 SOINTULA 2nd St & 18th Ave
+133:133 TAHSIS 123 Harbourview Rd
+134:134 UCLUELET 2072 Peninsula Rd
+135:135 ZEBALLOS 500 Park Way Rd
+136:136 TOFINO 1009 Pacific Rim Hwy
+137:137 MILL BAY 955 Shawnigan-Mill Bay Rd (137E, 137F)
+138:138 QUALICUM BEACH 787 Jones St (138A)
+149:149 CHEMAINUS 9911 Chemainus Road (149ED, 149FN, 149K, 149CP1)
+151:CUMBERLAND 2757 Dunsmuir Ave (151f)
+152:152 DUNCAN 2582 Lewis St (152A, 152F, 152K)
+153: 153 GABRIOLA ISLAND 725 Church St (153K1)
+155:GOLD RIVER 503 Muchalat Dr (155K)
+159:159 LADYSMITH 117 4th Avenue (159B, 159F, 159K)
+169:169 CORTES ISLAND Beasley Road, Manson's Landing (169K, 169CP1)
+171:171 DENMAN ISLAND 5501 Denman Rd
+172:PORT ALICE 1041 Marine Dr (172K)
+173: 173 Bowser 210 Lions Way (173E, 173F)
+202: 202 ABBOTSFORD 2000 Abbotsford Way (202A1 (ALS), 202A2, 202B, 202D1, 202D3)
+203: 203 AGASSIZ 7260 Pioneer Ave (203B, 203FN, 203K)
+205:205 ABBOTSFORD 2855 Mt Lehman Rd (205A1, 205D1, 205D3, 205E, 205Z)
+206:  CHILLIWACK 8530 Young Rd (206A1 (ALS), 206A2, 206B, 206C, 206F, 206D1)
+208:CULTUS LAKE (Closed)
+219:219 PEMBERTON (219B, 219K)
+204: 204 BOSTON BAR 48030 Larch Road (204K1, 204K2)
+224:224 WHISTLER (224B, 224C, 224K)
+225:225 BOWEN ISLAND (225K)
+226:BELLA BELLA (226k)
+227:227 BELLA COOLA
+228:228 TEXADA ISLAND
+233:233 LIONS BAY 400 Centre Rd (233B, 233K)
+235: 235 SECHELT 5494 Wharf Rd (235B, 235F, 235K, 235M)
+241: Closed. Now known as 261
+242:VANCOUVER 1317 Richards St (CLOSED)
+243:243 VANCOUVER 2940 Arbutus St (243A, 243B, 243C)
+245:VANCOUVER 1538 E King Edward Ave (245A1 (ALS), 245A2, 245B, 245P)
+247:247 NEW WEST 444 Rousseau St (247A1 (ALS), 247A2, 291P2 (PRU))
+248:248 VANCOUVER 731 E Cordova St (248A1 (ALS), 248A2, 248A3, 248A4, 248B, 248C, 248J1, 248J2)
+250:250 RICHMOND 9660 Cambie Rd (250A, 250B, 250C, 250D3, 250Z)
+251:251 DELTA 4641 Clarence Taylor Crescent (251A, 251B,251J)  
+253:253 SURREY 5833 176 St (253A, 253B, 253D3, 253J)
+254: 254 SURREY 2359 156 St (254A1, 254A2, 254D1)
+255:255 WEST VANCOUVER 1542 Fulton Ave (255A)
+256:256 NORTH VAN 1304 St Andrews Ave (256A1 (ALS), 256A2, 256A3, 256B, 256Z (MCI Unit))
+257: 257 MAPLE RIDGE 22320 Selkirk Ave (257A1, 257A2, 257D1)
+258:258 BURNABY NORTH 925 Douglas Rd (258A1, 258A2 258B, 258C, 258D2 Fat Ambulance)
+259: 259 PORT MOODY 2601 Lougheed Hwy Coquitlam (259A, 259B, 259D1)
+261: 181 W 7th Ave (VGH) (261A1 (ALS), 261A2, 261B, 261C)
+262: 262 VANCOUVER 2333 Wesbrook Mall (262A)
+263:263 COQUITLAM 2601 Lougheed Hwy (263A, 263B, 263C, 291P3(PRU))
+264:See 964
+265:265 MADEIRA PARK 4990 Gonzales Rd (265K)
+267: 267 LANGLEY NORTH 20089 92 A Ave (267A1 (ALS), 267A2, 267D1, 267D3)
+268: 268 GIBSONS 746 North Rd (268E, 268F, 268K)
+269:269 RICHMOND SOUTH 3999 Williams Rd (269A1 (ALS), 269A2)
+270: 270 VANCOUVER INT'L AIRPORT 3880 N Service Rd (Terminal Bike Squad) (270A, 270J)
+280:280 RICHMOND (YVR) 4360 Agar Dr (Air Ambulance) (280A, 280B1, 280B2, 280C, 280H(CCT Transfer Car))
+283:283 VANCOUVER Childrens Hospital 4480 Oak St (Infant Transport Team) (283A, 283B, 283C)
+302:302 ARMSTRONG 3800 Patten Drive (302E1, 302F1)
+303:303 ASHCROFT 600 Elm Street (303E1, 303F1, 303K1)
+304:304 SETON PORTAGE Seton Portage Road (304K1)
+306:306 BARRIERE 521 Barriere Town Road (306E1, 306F1)
+307:307 CHASE 833 Thompson Avenue (307E1, 307F1, 307K1)
+308:308 CLINTON 1616 Hwy 97 N (308K1)
+309:309 ANAHIM LAKE Martin Road (309K1)
+311:311 ENDERBY 715 . 3rd Avenue (311E1, 311F1)
+313:313 GOLD BRIDGE Furguson & Hurley (313K1)
+314:KAMLOOPS 1257 Dalhousie Drive (314A1, 314B1, 314B2, 314k)
+315: 315 KAMLOOPS 239 Clapperton Road (315A1, 315B1 (CCT), 315F1, 315K1)
+316:316 BIG WHITE (Seasonal) Mtn Med Services Bldg Lower Snow Pines Road (316K1)
+317:317 KEREMEOS 716 6th Street (317F1, 317K1)
+318:318 LILLOOET 308 Park Drive (318F1, 318K1)
+319:319 LOGAN LAKE 5A Beryl Drive (319K1)
+320:320 LUMBY 1785 Miller Street (320K1)
+321:321 LYTTON 575 Main Street (321K1)
+324:324 MERRITT 3451 Voght Street (324E1, 324F1, 324K1)
+326:326 OLIVER 34886 93 Street (326E1, 326F1, 326K1)
+327:327 100 MILE HOUSE 555 Cedar Avenue (327E1, 327F1, 327K1)
+328:328 OSOYOOS #14 Eagle Cres (328E1, 328F1, 328K1)
+333:333 SICAMOUS 1129 Paradise Avenue (333F1)
+334:334 SUMMERLAND 14202 Rosedale Avenue (334E1, 334F1, 334K1)
+335:335 CLEARWATER 640 Park Drive (335F1, 335K1)
+337:337 VERNON 3011 . 35th Avenue (337A1, 337B1, 337F1, 337K1)
+338:338 BLUE RIVER 833 Cedar Street (338K1)
+339:339 WEST KELOWNA 2577 Lower Glenrosa Road (339B1, 339F1, 339K1, 339Z)
+340:340 KELOWNA 259 Lawrence Avenue (340A1, 340A2)
+341:341 KELOWNA 101 . 190 Mills Road (341A1 (ALS), 341O1, 341F1)
+342:342 PEACHLAND 4479 3rd Street (342F1)
+343:343 WINFIELD 10410 Bottom Wood Lake Road (343E1, 343F1, 343K1)
+348:348 WILLIAMS LAKE 300 North Broadway (348A1, 348K1, 348K2)
+353:353 ALEXIS CREEK 7613 McAuley Road (353K1)
+364:364 SPECIAL OPERATIONS
+380:380 KELOWNA (Medevac) Hangar 3 . 6095 Airport Way (380B1, 380B2)
+329:329 PENTICTON 90 - 1475 Fairview Road (329A1, 329B1, 329K1)
+330:330 PRINCETON 98 Ridgewood Drive (330E1, 330F1, 330K1)
+332:332 SALMON ARM 3290 10th Avenue NE (332B1, 332F1, 332K1, 332K1)
+402:CASTLEGAR 2151 6th Ave S (402K)
+403:403 CRANBROOK 1312 2nd St N (403B1, 403F1, 403K1, 403K2)
+404:404 CRESTON 138 10th Ave N (404B1, 404F1, 404K1)
+405:405 ELKFORD 212 Alpine Way (405K1)
+406:406 FERNIE 1301 6th Ave (406E1, 406F1, 406K1)
+407:407 EDGEWOOD 417 Monashee Ave (407K1)
+408:408 GRAND FORKS 7649-A 22nd St (408k)
+409:409 FIELD 208 1st Ave (409K1)
+410:410 GREENWOOD 201 Government (410K1)
+411:411 INVERMERE 1116 10th St (411F1, 411K1)
+412:412 KASLO 407 Cross St (412K1)
+413:413 GOLDEN 700 8th Ave (413F1, 413K1, 413K2)
+414:414 KIMBERLEY 455 Ross St (414E1, 414F1, 414K1)
+415:415 MIDWAY 661 8th Ave (415K1)
+417:417 FRUITVALE 50 Main St (471K1)
+421:421 NELSON 820 Nelson Ave (421A1, 421K1)
+422:422 NEW DENVER 401 Galena St (422K1)
+424:424 ROSSLAND 1961 Georgia St (424K1)
+426:426 SALMO 414 Baker St (426K1)
+427:427 WINLAW 5741 Hwy #6 (427K1)
+428:428 SPARWOOD 603 Pine Ave (428K1, 428K2)
+431:431 TRAIL 1300 Hospital Rd (431A1, 431B1, 431K1)
+432: 432 TRAIL (CCT) 1200 Hospital Bench (432A1(CCT)) - OOS for good
+503:BEAR LAKE (503K1)
+525:MCBRIDE (525K1, 525F)
+531:PRINCE GEORGE 1488 Edmonton St (531A1, 531A2)
+532:MACKENZIE (532k1)
+533:533 VALEMOUNT (533K1, 533K2)
+535:PRINCE GEORGE Hart Hwy. (535B, 535F)
+538:QUESNEL (538A, 538K)
+550:550 WELLS (550K)
+564:564 SPECIAL OPERATIONS
+580:580 PRINCE GEORGE (Airevac) (580B)
+623:623 KITIMAT
+643:643 STEWART (643K1)
+645:645 TERRACE (645B1, 645F1, 645K1, 645K2)
+651:651 PORT CLEMENTS
+661:661 NEW AIYANSH
+674:674 KITWANGA
+679:679 HAZELTON
+681:681 SANDSPIT (681K1)
+684: PRINCE RUPERT (684A1, 684K1, 684I Medevac C-GIHJ)
+687:687 QUEEN CHARLOTTE ISLANDS
+690:690 MASSET
+751:751 ATLIN
+753:753 BURNS LAKE (753E1, 753F1, 753K1)
+757:757 DEASE LAKE
+759:759 FORT FRASER
+761:761 FORT ST. JAMES (761K1, 761E, 761F)
+763:763 FRASER LAKE (763K1, 763K2)
+765:765 GRANISLE (765K1)
+767:767 HOUSTON
+769:769 SMITHERS (769K1)
+771:771 VANDERHOOF (771F1)
+773:773 SOUTHSIDE (773K1)
+852:852 CHETWYND (852F1, 852K1)
+856:856 DAWSON CREEK (856F1, 856K1)
+858:858 FORT NELSON (858E1, 858F1, 858K1)
+860:860 FORT ST. JOHN (860B)
+862:862 HUDSON'S HOPE
+868:868 TUMBLER RIDGE (868K1)
+ab:abbotsford
+trsa:Terminal Radar Service Area
+cmet:Coordinated Marijuana Enforcement Team
+alouette:ALOUETTE 425 SQN BAGOTVILLE
+anvil:ANVIL CAS CATP SOUTHPORT
+apache:APACHE 2 CFFTS . A Flt MOOSE JAW
+atlas:ATLAS 435 SQN WINNIPEG
+bandit:BANDIT 2 CFFTS . B Flt MOOSE JAW
+banjo:BANJO 426 SQN TAT TRENTON
+bat:BAT 1 WING HQ KINGSTON
+bengale:BENGALE BNGL 3 WING 439 SQN BAGOTVILLE
+birddog:BIRDDOG CADET OPS EASTERN REGION
+bison:BISON 429 SQN TRENTON
+boxcar:BOXCAR 435 SQN TAT WINNIPEG
+bronco:BRONCO 3 CFFTS QA SOUTHPORT
+bruiser:BRUISER CATS OTTAWA
+burma:BURMA 436 SQN TAT TRENTON
+canuck:CANUCK 436 SQN TRENTON
+casper:CASPER 8 WING TAT TRENTON
+challenger:CHALLENGER 412 SQN OTTAWA
+cheetah:CHEETAH CATS OTTAWA
+cloak:CLOAK 409 SQN COLD LAKE
+cobra:COBRA 2 CFFTS . C Flt MOOSE JAW
+cougar:COUGAR 410 SQN COLD LAKE
+cradle:CRADLE CATS OTTAWA
+crossbow:CROSSBOW 409 SQN COLD LAKE
+cyclone:CYCLONE WING SAR FLT MOOSE JAW
+dagger:DAGGER 409 SQN COLD LAKE
+demon:DEMON 407 SQN COMOX
+dragon:DRAGON 2 CFFTS . D Flt MOOSE JAW
+drifter:DRIFTER 3 CFFTS ME STDS SOUTHPORT
+eagle:EAGLE CAS OTTAWA
+falcon:FALCON (FAUCON) 430 SQN VALCARTIER
+faucon:FAUCON (FALCON) 430 SQN VALCARTIER
+furball:FURBALL CATS OTTAWA
+gander:GANDER 408 SQN EDMONTON
+ghost:GHOST 8 WING TAT/SPECIAL OPS TRENTON
+gonzo:GONZO 402/CFANS WINNIPEG
+griffin:GRIFFIN 400 SQN BORDEN
+grizzly:GRIZZLY 402 SQN WINNIPEG
+hornet:HORNET 410 SQN COLD LAKE
+hunter:HUNTER 404 SQN GREENWOOD
+husky:HUSKY 437 SQN TRENTON
+jaw:JAW STAFF OFFICERS MOOSE JAW
+jester:JESTER 417 SQN HELO COLD LAKE
+joker:JOKER 417 SQN HELO COLD LAKE
+karma:KARMA 3 CFFTS RW STDS SOUTHPORT
+knight:KNIGHT 414 SQN COMOX
+lance:LANCE CADET OPS CENTRAL REGION
+lark:LARK 425 SQN BAGOTVILLE
+lion:LION 427 SQN PETAWAWA
+leopard:LEOPARD 2 CFFTS MOOSE JAW
+matrix:MATRIX CFS/ICP FLT WINNIPEG
+maxim:MAXIM 410 SQN COLD LAKE
+merlin:MERLIN 406 SQN SHEARWATER
+moggy:MOGGY CATS OTTAWA
+moose:MOOSE 419 SQN COLD LAKE
+mustang:MUSTANG 3 CFFTS ME SCHOOL SOUTHPORT
+nabob:NABOB WING FLT SAFETY MOOSE JAW
+nightmare:NIGHTMARE 409 SQN COLD LAKE
+nomad:NOMAD 444 SQN GOOSE BAY
+oiler:OILER 435 SQN WINNIPEG
+outcast:OUTCAST 103 (SAR) SQN GANDER
+pathfinder:PATHFINDER 405 SQN GREENWOOD
+phantom:PHANTOM 1 WING NVG ALL AREAS
+phoenix:PHOENIX GRND TNG SCHOOL MOOSE JAW
+pogo:POGO PLER COLD LAKE
+postcard:POSTCARD BASE MAINT TEST PLT SOUTHPORT
+prophet:PROPHET CATC-PFT TESTS SOUTHPORT
+racer:RACER 429 SQN TAT TRENTON
+ram:RAM 401 ST-HUBERT
+ranger:RANGER 3 CFFTS BHT SOUTHPORT
+raven:RAVEN CFS WINNIPEG
+rebel:REBEL 435 SQN AAR WINNIPEG
+retriever:RETRIEVER 444 SQN GOOSE BAY
+rut:RUT 419 SQN COLD LAKE
+sabre:SABRE 1 Cdn Air Div/CANR WINNIPEG/SETS
+saguenay:SAGUENAY 433 SQN BAGOTVILLE
+scout:SCOUT CADET OPS PRAIRIE REGION
+shark:SHARK HOTEF SHEARWATER
+slingshot:SLINGSHOT CADET OPS ATLANTIC REGION
+snake:SNAKE 442 SQN COMOX
+snapper:SNAPPER 2 CFFTS . Stand Flt MOOSE JAW
+sniper:SNIPER 410 FTR WPNS INST CS COLD LAKE
+snowbird:SNOWBIRD 431 SQN MOOSE JAW
+spanner:SPANNER BMTF SHEARWATER
+spinner:SPINNER CFMETR PACIFIC REGION
+stinger:STINGER 443 SQN ESQUIMALT
+sundance:SUNDANCE CATC SOUTHPORT
+talon:TALON 423 SQN SHEARWATER
+thunder:THUNDER 426 SQN TRENTON
+tiger:TIGER 424 SQN TRENTON
+tracer:TRACER 12 Wing, WFSO SHEARWATER
+trapper:TRAPPER 436 SQN TAT TRENTON
+trials:TRIALS MPEU GREENWOOD
+trucker:TRUCKER 426 SQN TAT TRENTON
+tug:TUG CADET OPS PACIFIC REGION
+tusker:TUSKER 413 SQN GREENWOOD
+vampire:VAMPIRE 440 SQN YELLOWKNIFE
+viking:VIKING FIS MOOSE JAW
+viper:VIPER 444 SQN GOOSE BAY
+wildcat:WILDCAT 438 SQN ST-HUBERT
+wolf:WOLF 403 SQN GAGETOWN
+yogi:YOGI 414 SQN COMOX
+ulu:ULU CFS WINNIPEG
+sidecar:SIDECAR Canforce NORAD station
+bigfoot:NORAD western US air defense SOCC, McChord
+charlie100: customs
+squaltop: Kenmore whore
+squlaptop: Kenmore whore just like squaltop
+tav:Tactical Armoured Vehicles
+wiredboy:21:38 <@wb> I'm wb, I talk to computers
+wb:Westbound
+arh:Abbotsford Regional Hospital
+hsc:High Speed Chase
+kr:Keremeos
+cd:Charge dispatcher
+usar:Urban Search and Rescue
+faccra:Aircraft Crash
+facem:Aircraft Emergency Landing
+facf:Aircraft Fire
+fassit:Assist
+fauto1:Automatic Alarm
+fauto2:Automatic Alarm
+fauto3:Automatic Alarm
+fbbqf:Barbecure Tank Fire
+fbomb:Bomb Threat
+fcarbm:Carbon Monoxide Detector
+fchim:Chimmney Fire
+fgas:Compressed Gas Leak
+fexp:Explosion
+ffpre1:Fire Prevention
+ffpre2:Fire Prevention
+fhazm1:Hazardous Materials Level 1
+fhazm2:Hazardous Materials Level 2
+fhazm3:Hazardous Materials Level 3
+filbrn:Illegal Burning Complaint
+fkit:Kitchen Fire
+fmed:Medical Aid
+fmvi:Motor Vehicle Incident
+fmvi1:Motor Vehicle Incident
+fmvi2:Motor Vehicle Incident
+fmvi3:Motor Vehicle Incident
+fodou:Odour Unknown
+fres:Rescue
+fres1:Rescue
+fres2:Rescue
+fres3:Rescue
+frubsh:Rubbish Fire
+fshipd:Ship or Boat Fire
+fshipu:Ship or Boat Fire
+sob:Short of Breath
+fsmkin:Report of Smoke Inside
+fsmkot:Report of Smoke outside
+ftc:Structure Collapse
+fstc:Structure Collapse
+fst1:Structure Fire
+fst2:Structure Fire
+fst3:Structure Fire
+ftrnsf:Transformer Fire or Pole Fire
+fvef:Vehicle Fire
+fvef1:Vehicle Fire
+fvef2:Vehicle Fire
+fvef3:Vehicle Fire
+fwater:Water Problem
+fwild:Wildland Fire
+fwild1:Wildland Fire
+fwild2:Wildland Fire
+fwild3:Wildland Fire
+fwires:Wires Down
+tic:Thermal Imaging  Camera
+occ:Operations Control Center
+pers:Personal Emergency Response Systems
+nfpa:National Fire Protection Association
+vs:Victim Services
+locution:Robobitch
+rat:Rapid Assessment Team
+ca:Chase
+nq:North Okanagan
+qle:Quantified Lowered Expectations
+bowser: Portable jet fuel tank
+hart:High Acuity Response Team (Nurse & Clinician Team for ground ambulance inter-facility critical care transfers)
+htr:Helitanker Request
+evoc: Emergency Vehicle Operators Course
+icp:Incident Command Post
+mv104:Motor Vehicle Traffic Accident Police Investigation Report (Replacement of MV6020)
+jrcc:Joint Rescue Coordination Center
+elt:Emergency Locator Transmitter
+lpr:Licence Plate Reader
+impact:Integrated Municipal Provincial Auto Crime Team
+box 2:A Box 2 Notice and Order requires a vehicle to be repaired and presented promptly to a Designated Inspection Facility for an inspection. An Authorized Inspector at a Designated Inspection Facility will conduct the vehicle inspection. A passed inspection report must be provided to the Commercial Vehicle Safety and Enforcement Branch within 30 days. The consequence of not complying with the order is that the vehicl
+etoh:ETOH, when used in a medical context, is an abbreviation for ethanol (i.e. alcohol). For instance, "ETOH 10g/day" denotes that the patient drinks 10 grams (or roughly one standard drink) of alcohol a day on average.
+irp:immediate roadside prohibitions
+code red:FIRE(Hospital) - LOCKDOWN(Schools)
+code blue:CARDIAC ARREST
+code orange:MASS CASUALTIES OR DISASTER
+code yellow:MISSING PATIENT
+code yellow nursery:ABDUCTION
+code white:AGGRESIVE PATIENT
+code brown:HAZARDOUS SPILL
+code grey:SYSTEM FAILURE
+code pink: PEDIATRIC OR OBSTETRICAL EMERGENCY
+code lockdown:LOCKDOWN
+code silver:SYSTEM FAILURE
+ir:Integrated Road Safety Unit
+cpo:Community Policing Office
+code x:Patient Refused Treatment
+pfa:Police Fire Ambulance
+tol:Township of Langley
+pru:Paramedic Response Unit (Single responder ALS)
+ual:Unlawfully At Large
+ahs:Alberta Health Services
+ugtf:Uniformed Gang Task Force
+p49d1:Urgent transfer CCT
+p49e2:Emergent transfer ITT
+irb:Inshore Rescue Boat
+wars:Wide Area Radio System
+p49d2:Urgent transfer ITT
+p49e1:Emergent transfer CCT
+powder jockey: IDENT
+moronification:What happens to you when you get into Politics
+nnim:Nanaimo
+pgrg:Prince George
+cbrv:Campbell River
+lstr:Lister
+sry:Surrey
+snch:Saanich
+qlbh:Qualicum Beach
+van:Vancouver
+tral:Trail
+nvan:North Vancouver
+rmd:Richmond
+hdly:Hedley
+kmlp:Kamloops
+chil:Chilliwack
+colw:Colwood
+gdfr:Grand Forks
+nsaa:North Saanich
+crty:Courtenay
+pwrv:Powell River
+mrtt:Merritt
+klwn:Kelowna
+pmdy:Port Moody
+blby:Blind Bay
+lkcy:Lake Country
+lang:Langley
+slam:Salmon Arm
+mrdg:Maple Ridge
+wvan:West Vancouver
+abb:Abbotsford
+miss:Mission
+bby:Burnaby
+rvst:Revelstoke
+glnv:Glen Vowell
+coq:Coquitlam
+cetn:Creston
+neww:New Westminster
+del:Delta
+poco:Port Coquitlam
+pitt:Pitt Meadows
+whtr:White Rock
+lbay:Lions Bay
+ldys:Ladysmith
+sdny:Sidney
+ptai:Port Alberni
+spwd:Sparwood
+wfcf:WYCLIFFE
+olvr:Oliver
+qsnl:Quesnel
+supk:Sun Peaks
+prru:Prince Rupert
+wkln:West Kelowna
+blrv:Blue River
+smts:Smithers
+anlk:Anaheim Lake
+chas:Chase
+vcta:Victoria
+comx:Comox
+bp:Boston Pizza
+lgfd:Langford
+ptml:Port Mcneil
+owek:Oweekeno
+blcl:Bella Coola
+c-fvkc:Beech B300 Fixed Wing Medevac
+10-89:Record of Arson
+dwck:Dawson Creek
+ctis:Cortes Island
+terr:Terrace
+eqmt:Esquimalt
+vern:Vernon
+fsjo:Fort St John
+darf:Darfield
+wdnr:Wardner
+sec:Sechelt
+gldn:Golden
+okby:Oak Bay
+dnld:Donald
+hild:Highlands (Vancouver Island)
+tjch:Tete Jaune Cache
+arv:Armored Response Vehicle
+lmby:Lumby
+6d2:DIFFICULTY SPEAKING BETWEEN BREATHS HLA FR
+wllk:Williams Lake
+bptu:Burn Plastic Trauma Unit
+fap:Fire Ambulance Police Talk-Group
+air 7: C-FMPA - Pilatus PC-12/47E - ICAO: C02137
+priority 1:File will receive immediate attention and be dispatched to available police units. Dispatch will re-assign police units previously assigned to non-priority calls.
+priority 2:File will receive immediate attention and be dispatched to the first available police unit for attendance.
+priority 3:Routine calls for service.
+priority 4:The file will be recorded but police will not be dispatched.
+mrsa:Methicillin-resistant Staphylococcus aureus (MRSA) is a bacterial infection that is highly resistant to some antibiotics.
+ga:Gabriola Island
+qu:Quadra Island
+al:Alert Bay
+pl:Port Alice
+wycf:Wycliffe
+iso:Incident Safety Officer
+mnpk:Manning Park
+prnt:Princeton
+bwsr:Bowser
+egt:evidence gathering team
+irit:Integrated Riot Investigation Team
+irot:Integrated Riot Investigation Team
+tsis:Thetis Island
+arms:Armstrong
+pthy::Port Hardy
+chns:Chemainus
+clgr:Castlegar
+pntn:Penticton
+crbk:Cranbrook
+pall:Palling
+codm:Coldstream
+ta:Technical Advisor
+burv:Bull River (Cranbrook)
+glis:Galiano Island
+vnhf:Vanderhoof
+oknf:Okanagan Falls
+hyby:Hartley Bay
+ssis:Salt Spring Island
+radm:Radium Hot Springs
+tclk:Tchesinkut Lake
+ct:Clinton
+gbis:Gabriola Island
+soke:Sooke
+ivmr:Invermere
+cpck:Cooper Creek
+cpck:Cooper Creek
+krtv:Krestova
+acem:Aircraft Emergency
+helijet: Operator of BCAS Medivac's C-GHJT, C-GHJV, C-GHHJ (new), C-GCHJ (new)
+lrad:Long Range Acoustic Device
+coom:Coombs
+dmb:Datum Marker Buoy
+lljn:Lac Le Jeune
+midu:Mobile Impaired Driving Unit
+kiti:Kitimat
+ei:East Indian
+911:The number to find HarveyB
+salm:Salmo
+hwsr:Howser
+rac:Radio Amateurs of Canada
+iss:International Space Station
+thum:Thrums
+psu:Public Safty Unit
+ife:In Flight Emergency
+ama:Against Medical Advice
+hous:Houston
+deu:Drug Enforcement Unit
+gsu:Gang Supression Unit
+scms:Sicamous
+1a:Aircraft crash on airport property
+1b:Aircraft crash off airport property
+1c:Aircraft malfunction in flight
+1d:Aircraft malfunction at airport
+1e:Bomb threat on board aircraft
+1f:Hijacking
+2a:Structure fire at airport
+2b:Bomb threat against airport building
+2c:Structural malfunction
+2d:Fuel spill
+2e:Hazmat spill
+2f:Natural disaster
+3a:Minor medical (1 or 2 people)
+3b:Major medical (3 or more people)
+2z:Security Threat
+tmrg:Tumbler Ridge
+ascf:Ashcroft
+cltn:Clinton
+vroy:View Royal
+pfak:http://i.imgur.com/9KrsAwc.gifv
+krmo:Keremeos
+wsi:Why Should I
+tems:Tactical Emergency Medical Support
+oop:Out of Province
+ocas:Obstacle Collision Avoidance System
+180:Vancouver Island CCT 4415 Boban Dr Nanaimo (180v (CCT))
+49d4: Transfer BLS
+cfia:Canadian Food Inspection Agency
+dnd:Department of National Defence
+embc:Emergency Management British Columbia
+pep:Provincial Emergency Program
+phsa:Provincial Health Services Authority
+vcha:Vancouver Coastal Health Authority
+fha:Fraser Health Authority
+ppe:Personal Protective Equipment
+crti:CBRNE Response & Technology Initiative
+chck:Cherry Creek
+nwah:New Aiyansh
+cqla:Coquihalla
+rtcc:Report To Crown Counsel
+brln: Bralorne
+cu:CFSEU
+an:Anahim Lake
+in:Metro Vancouver IRSU
+unf:In my pants
+leck:Lee Creek
+esma:East Salmon Arm
+sx:Stl'atl'imx Tribal Police
+sm:Stl'atl'imx Tribal Police
+bslk:Burns Lake
+ja: Fort St. James
+hs: Houston
+kt: Kitimat
+is:North Island IRSU
+mni:Master Name Index
+vins:Vinsulla (North of Kamloops)
+cgch:Craigellachie
+alba:alert bay
+mk:Mackenzie
+lg:Logan Lake
+ekfr:Elkford
+27b4y:Stab/Gunshot/Penetrating Trauma Unknown status/Other codes not applicable Self Inflicted Stabbing
+pavl:Parksville
+fury:Furry Creek
+hsmr:Hosmer
+ptcc:Patient Transport Coordination Centre (BCAS)
+efwa:Early Fixed Wing Activation
+roys:Royston
+27d2y:Stab/Gunshot/Penetrating Trauma Not alert Self Inflicted Stabbing
+cyql:Lethbridge
+smld:Summerland
+anm:Anmore
+qnch:Queen Charlotte City
+lxkw:Lax Kw'alaams
+fnel:Fort Nelson
+nwes:North Westbank
+ny:Nass Valley
+ginx:Gingolx
+crjc:Cranberry Junction
+lnbh:Lindell Beach
+ctwd:Chetwynd
+utm: http://leware.net/geo/utmgoogleapp.htm
+fciu:Forest Crime Investigation Unit
+brnt:Brilliant
+krsy:Kersley
+milk:Mirror Lake
+pnmt:Pink Mountain
+kasl:Kaslo
+ohmh:100 Mile House
+brlk:Bear Lake
+rsck:Riske Creek
+tayl:Taylor
+kbly:Kimberley
+osyo:Osoyoos
+byck:Bluberry Creek
+ohfm:105 Mile House
+ohtm:110 Mile House
+oher:108 Mile Ranch
+aspg:Aspen Grove
+brar:Briar Ridge
+sdaw:South Dawson Creek
+ndvr:New Denver
+fern:Fernie
+lill:Lillooet
+mtrs:Montrose
+nksp:Naksup
+nhzn:New Hazelton
+stew:Stewart
+nlsn:Nelson
+olla:Olalla
+blwr:Blackwater
+bkck:Baker Creek
+hdhp:Hudson Hope
+frgv:Forest Grove
+ohem:111 Mile House
+dglk:Douglas Lake
+llhc:Lac La Hache
+tdrv:Toad River
+gtyw:Gitanyow
+kitw:Kitwanga
+gnll:Genelle
+bvdl:Beaverdell (Okanagan Valley)
+pcld:Peachland
+gmlg:Germansen Landing
+alck:Alexis Creek
+vlmt:Valemont
+spsb:Spences Bridge
+ofom:141 Mile House
+mhlk:Muncho Lake
+ofmh:114 Mile House
+hnvl:HanceVille
+bclk:Bouchie Lake
+roll:Rolla
+knkn:Kilkerran
+pccp:Pouce Coupe
+lytn:Lytton
+kina:Kinaskan Lake
+lnbt:Lone Butte
+thvy:Three Valley
+dalk:Deka Lake
+casc:Cascade
+dslk:Dease Lake
+erie:Erie
+fild:Field
+mbrd:Mcbride
+osis:Osoyoos
+prct:Procter
+rsld:Rossland
+ymir:Ymir
+ancd:Anaconda
+atln:Atlin
+frva:Fruitvale
+nrmt:Naramata
+tlmn:Tulameen
+tlwa:Telkwa
+bick:Big Creek
+shaz:South Hazelton
+ltft:Little Fort
+splk:Spokin Lake
+well:Wells
+nbon:North Bonaparte
+bdlk:Bridge Lake
+blkr:Big Lake Ranch
+mdfl:Mahood Falls
+eric:Erickson
+tklk:Takatoot Lake
+bkvl:Barkerville
+fsja:Fort St James
+grrd:Grindrod
+pllk:Paul Lake
+savn:Savona
+alpr:Automatic Licence Plate Reader
+ty:Tsay Keh
+skdg:Skidegate
+endo:Endako
+kldn:Kaleden
+ocfl:Ocean Falls
+sltn:Silverton
+chsm:Chasm
+jesm:Jesmond
+relk:Roe Lake
+smhs:70 Mile House
+dgck:Dog Creek
+ffra:Fort Fraser
+lard:Lardeau
+twom:Two Mile
+rsby:Rosebery
+isku:Iskut
+tapp:Tappen
+cano:Canoe
+blwt:Blewett
+gtwk:Gitwangak
+hagw:Hagwilget
+whcn:Walhachin
+gldb:Gold Bridge
+blpl:Blackpool
+eack:Eagle Creek
+cack:Cache Creek
+clkf:Chilanko Forks
+fkld:Falkland
+edwr:Edgewater
+hxlk:Hendrix Lake
+hsfy:Horsefly
+cttd:Cottenwood
+tolk:Toms Lake
+ntmh:90 Mile House
+eaby:Eagle Bay
+ftrk:Flatrock
+kema:Kemano
+czlk:Cluculz Lake
+otch:Ootischenia
+sslc:South Slocan
+anmt:Anglemont
+myok:Mayook
+rswd:Rosswood
+lnic:Lower Nicola
+sarm:Seymour Arm
+wmdl:Wynndel
+ekht:Elkhart
+srnt:Sorrento
+skna:Skeena
+lavi:Lavington
+sptz:Spatsizi
+klpp:Klappan River
+elko:Elko
+tsay:Tsay Keh Dene
+trlk:Trout Lake
+seis:Swindle Island
+susi:Susan Island
+newg:New Gate
+skmk:Skookumchuck
+nzvy:nazko valley
+pcis:Porcher Island
+barr:Barriere
+clht:Clayhurst
+gtww:Gitwinksihlkw
+lglk:Leighton Lake
+lkly:Likely
+mllk:McLeese Lake
+mrtn:Moricetown
+ntir:North Thompson
+pano:Panorama
+rcck:Rock Creek
+scck:SC Creek
+sdck:Soda Creek
+wtlk:Watch Lake
+trut:Trutch
+brto:Burton
+tesl:Teslin Lake
+adlk:Adams Lake
+sbnk:Southbank
+cbis:Campbell Island
+hnti:Hart Island
+mnck:Manson Creek
+prsn:Parson
+mzdn:Mesiadin Junction
+proi:Princess Royal Island
+cvis:Calvert Island
+dwis:Dewdney Island
+vnby:Vavenby
+blhl:Blucher Hall
+ptcs:Port Clements
+pted:Port Edward
+pten:Port Essington
+sulk:Summit Lake
+ttck:Ta Ta Creek
+balf:Balfour
+mdwy:Midway
+wtwd:Westwold
+jflk:Jackfish Lake
+dnlk:Duncan Lake
+mclr:Mclure
+atha:Athalmer
+ahis:Athlone Island
+tykl:Tatlayoko Lake
+anwo:Ainsworth
+blae:Blaeberry
+bklk:Bains Lake
+rcc:Report to Crown Counsel (Police) - Rescue Coordination Centre (SAR)
+lcwc:Lake Cowichan
+cisd:Ciritical Incident Stress Diffusing
+nohl:Notch Hill
+ifis: Integrated Forensic Identification Service
+blpn:Black Pines
+prrv:Prophet River
+awpk:Arrow Park
+doig:Doig River
+shis:Sarah Island
+jacy:Jade City
+biwh:Big White
+kspv:Kispiox River
+cstn:Cawston
+lsck:Louis Creek
+clem:Clemretta
+mhis:Murchison Island
+snds:Sandspit
+cllk:Charlie Lake
+klkl:Kleena Kleene
+bnkr:Bankeir
+kisp:Kispiox
+ghlk:Good Hope Lake
+cine:Cinema
+rslk:Rose Lake
+sewa:Sewall
+harp:Harrop
+tcms:Transport Canada Marine Security
+idru:Identification and Disaster Response Unit (BC Coroners Service)
+lodd:Line of Duty Death
+eow:End of Watch
+20b2h:HEAT/COLD EXPOSURE Unknown Status 3rd Party Caller Heat Exposure
+20b2c:HEAT/COLD EXPOSURE Unknown Status 3rd Party Caller Cold Exposure
+csnc:Central Saanich
+vdr:Voyage Data Recorder
+help:?addword word:definition - ?modify word:new definition 
+thss:Tahsis
+belc:Belcarra
+lnvl:Lantzville
+ibt:Integrated Bankruptcy Team
+gib:Gibsons
+dm:Duty Manager
+rtlsdr: New Installation Instructions - http://rtlsdr.org/softwarewindows
+ddts:Distributed Defect Tracking System (Cisco)
+dncn:Duncan
+gldp:Golden Ears Provincial Park
+hope:Hope
+wrfd:Warfield
+hwrv:Halfway Ranch
+rndl:Riondel
+hixn:Hixon
+nslk:Ness Lake
+rilk:Ried Lake
+bald:Baldonnel
+dgis:Digby Island
+hagg:Gagensborg
+mckn:Mackenzie
+nscp:Nass Camp
+psmr:Passmore
+sanc:Sanca
+anyx:Anyox
+buic:Buick
+wono:Wonowon
+flat:Flathead
+chch:Chu Chua
+brsc:Brisco
+wndr:Windermere
+bswl:Boswell
+nmlk:Nimpo Lake
+ptis:Pitt Island
+swtr:Shearwater
+mcis:Mccauley Island
+smtp:Summit Pass
+ttrv:Tetsa River
+bsbg:Bessborough
+ccck:Cosh Creek
+criv:Coal River
+fire:Fireside
+frtn:Farmington
+ldrv:Liard River
+lwpt:Lower Post
+must:Muskwa
+skni:Sikanni
+ches:Cheslatta
+twpp:Tweedsmuir Provincial Park
+cany:Canyon Hot Springs
+gaby:Galena Bay
+bobq:Bob Quinn
+corv:Cross River
+ceck:Canoe Creek
+albr:Albreda
+tupr:Tupper
+mkmn:Monkman
+gdlw:Goodlow
+bivl:Bridesville
+cnfl:Canal Flats
+laxa:Laxgaltsap
+thnh:Thornhill
+mass:Masset
+wasa:Wasa
+hxis:Huxley Island
+prci:Price Island
+dyis:Denny Island
+lgis:Langara Island
+cwps:Crowsnest
+cpis:Campania Island
+bcis:Birch Island
+dpck:Deep Creek
+marg:Marguerite
+ncck:Narcosli Creek
+alex:Alexandria
+chez:Chezacut
+shac:Shoreacres
+allk:Aleza Lake
+frlk:Fraser Lake
+swin:Sewell Inlet
+alar:Alice Arm
+slcn:Slocan
+kits:Kitsault
+sphs:Springhouse
+teck:Telegraph Creek
+garh:Gang Ranch
+tats:Tats Lake
+clst:Celista
+wist:Whitesail Lake
+bow:Bowen Island
+iio:Independant Investigations Office
+iiobc:Independant Investigations Office of BC
+seu:Street Enforcement Unit
+prtd:Pritchard
+squa:Squamish
+crof:Crawford
+avla:Avola
+pens:provincial emergency notification system
+tsa:Tsawwassen
+hmb:Halfmoon Bay
+slo:School Liaison Officer
+10-46 : prohibition
+10-46:prohibition
+nbsa:Nanoose Bay
+caution india:Infectious Disease
+asp:A type of extending baton often carried by police forces
+ptme:Port Mellon
+cblv:Columbia Valley
+code alpha:Avalanche
+hrtt:High Risk Target Team 
+pend:Pender Island
+kska:Fairchild afb
+nlu:neighborhood liason unit (RCMP)
+91d1: Critical Transer (Red)
+lngd:Langdale
+mcts:Marine Communication and Traffic Services. (Victoria, Comox, Tofino, Prince Rupert)
+pkum:Popkum
+drch:Deroche
+dwdn:Dewdney
+hrml:Harrison Mills
+chhl:Chehalis
+hmvl:Hemlock Valley
+htzc:Hatzic
+ldlw:Laidlaw
+lker:Lake Errock
+pkis:Parker Island
+shvl:Sunshine Valley
+lkp:Last Known Position
+mtcr:Mount Curry
+370:Kamloops Medevac Base YKA (370b C-FVEP)
+usaf:http://members.optushome.com.au/extremescan/usaf%20callsigns/uscallsigns.html
+101:198 Morison Ave PARKSVILLE (101D1, 101S1, 101S2, 101S3, 101S4) 
+amver:Automated Mutual Assistance Vessel Rescue System
+casara:Civil Air Search and Rescue Association
+ccg:Canadian Coast Guard
+cmcc:Canadian Mission Control Center (Trenton) (ELT Coordination)
+epirb:Emergency Position Indicating Radio Becon
+frc:Fast Response Craft (also see RHIB), Fisher Registration Card (DFO)
+hmcs:Her Majestys Canadian Ship (Navy)
+uscg:United States Coast Guard
+vac:Comox MCTS
+vae:Tofino MCTS
+vak:Victoria MCTS
+vaj:Prince Rupert MCTS
+cra444:Tanker 44
+cra445: Tanker 45
+cra135: Bird Dog 135
+cct:Critical Care Team
+mtrn:Mount Robson
+code 58:Possible Sudden Death
+code 59:Confirmed Sudden Death
+506:Coast Guard 506 - Discovery Island
+507:Coast Guard 507 - Cortes
+508:BCAS - Campbell River Hospital or Coast Guard RHIB 508 - Telegraph Cove 
+509:Coast Guard 509 - West Coast Island
+loc:Level of Consciousness
+air 9:Cessna 206
+mdpk:Madeira Park
+condition yellow:Burglary Alarm at Fire Hall
+condition red:Fire Alarm at Fire Hall
+roe:Rules of Engagement
+caution alpha:Armed
+caution delta:Dangerous
+gdba:Garden Bay
+cb : Campbell River
+iarm:Indian Arm
+fiu:Forensic Identification Unit
+trt:Telecommunications Response Team (VPD)
+bamf:Bamfield
+npis:North Pender Island
+cew:Conducted Energy Weapon (Taser)
+spal:Spallumcheen
+snis:Saturna Island
+grwd:Greenwood
+csp:Community Safety Personnel (VA6R Units)
+nsba:Nanoose Bay
+cso:Community Safety Officer (aka CSP)
+agsz:Agassiz
+fsoc:Federal Serious Organized Crime (RCMP)
+tafl:Technical and Administrative Frequency Lists
+hpis:Hornby Island
+rank 1:Smouldering ground or creeping surface fire. This is a smouldering ground fire or a fire that burns in the ground fuel layer. These fires have no open flame and produce white smoke. Firebrands and going fires tend to be virtually self-extinguishing unless high DC and/or BUI values prevail, in which case extensive mop-up is generally required. 
+rank 2:Low vigour surface fire. Rate of spread: less than 1.5m/min. This is a surface fire or a fire that burns in the surface fuel layer, excluding the crowns of trees. These fires produce visible open flame; have little or no spread, which is the speed at which the fire extends; and have an unorganized flame front or a flame front that does not exhibit all the same characteristics. 
+rank 3:Moderately vigorous surface fire. Rate of spread: 1.5 - 3.0 m/min. This is a vigorous surface fire with a moderate rate of spread. They have an organized front and may display "candling", which is when a tree's fuels ignite and flare up, along the perimeter and/or within the fire. 
+rank 4:Highly vigorous surface fire, torching (or passive crown fire). This type of fire produces grey to black smoke, has an organized surface flame front, and has a moderate to fast rate of spread along the ground. Short aerial bursts and short range spotting will occur with these fires. Control efforts at fire's head may fail. 
+rank 5:Extremely vigourous surface fire or active crown fire. Rate of spread: 6.0 - 18.0 m/min.) This type of fire produces black to copper smoke, has an organized crown fire front, moderate to long-range spotting and independent spot fire growth. Very difficult to control. Suppression action must be restricted to fire's flanks. Indirect attack with aerial ignition (i.e., helitorch and/or aid dispenser) may be effective.
+rank 6:Blow-up or conflagration, extreme fire behaviour. Rate of spread in excess of 18.0 m/min. Violent fire behaviour occurs with this type of fire. An organized crown fire front, moderate to long-range spotting and independent spot fire growth are characteristic of this fire type. There may be the presence of fireballs and whirls. Violent physical behaviour probable. Suppression actions should not be attempted until burning conditions ameliorat
+myis:Mayne Island
+blck: Black Creek (Vancouver Island)
+stiv:St. Ives
+dgir:Dangerous Goods Incident Report
+cse:Communications Security Establishment Canada
+csec:Communications Security Establishment Canada
+csv2wp:http://area23.brightbyte.de/csv2wp.php
+fsis:Flores Island
+gb:General Broadcast
+bvcv:Beaver Cove
+lpo:Loss Pervention Officer
+emr:Emergency Medical Responder
+pcp:Primary Care Paramedic
+glrv:Gold River
+brtb:Brittania Beach
+dtb:Domestic Terminal Building (YVR)
+itb:International Terminal Building (YVR)
+vcj:Vancouver City Jail
+cslk:Christina Lake
+hobble:http://policehobbles.com/wp-content/uploads/2011/09/police-hobble-steps-3-lg.jpg
+43:RCMP OCC E-Comm
+51:RCMP OCC Kelowna
+ptac:Port Alice
+lgh:Lions Gate Hospital (W)
+sph:St Pauls Hospital (C)
+msj:Mount St. Joseph (M)
+trh:The Richmond Hospital (R)
+rgh:The Richmond Hospital (R)
+ubch:University of BC Hospital (U)
+rih:Royal Inland Hospital
+gldhcc:Gordon Leslie Diamond Health Care Center
+whc:Whistler Health Clinic
+nrgh:Nanaimo Regional General Hospital
+rjh:Royal Jubilee Hospital
+gpc:George Pearson Center
+gfs:G.F. Strong
+kgh:Kelowna General Hospital
+prgh:Powell River General Hospital
+viha:Vancouver Island Health Authority
+lmh:Langley Memorial Hospital
+rgps:Rogers Pass
+ck:Central Kootenay
+uclt:Ucluelet
+kart:Kamloops Action Response Team
+140:VICTORIA 3300 Douglas St (140A1, 140A2, 140A3, 140A4, 140A5, 140A6, 140B1, 140B2, 140C1, 140C2, 140E1, 140E2, 140E3, 140E4, 140E5)
+gcu:Gang Crime Unit
+snpk:Slocan Park
+26c0:SICK PERSON *Override*
+26c3:SICK PERSON Sickle Cell Crisis/Thalassemia
+dvach:Domestic Violence & Criminal Harassment Unit (VPD)
+shlk:Shawnigan Lake
+tawoc:Take Without Consent
+act:Assertive Community Treatment (VPD)
+chrv:Chilliwack River
+vnda:Van Anda
+yale:Yale
+mcu:Major Crimes Unit
+mrpp:Mount Robson Provincial Park
+ahl:Address History Lookup
+molk:Moberly Lake, BC
+soco:Scene of Crime Officer
+bsbj:Bessborough
+jfo:Joint Forces Operation (RCMP, CBSA, ect.)
+13c3c:Diabetic Problems Abnormal breathing - Agressive
+29b1y:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Patients Additional Resources Required
+29b2y:TRAFFIC/TRANSPORTATION ACCIDENTS Serious hemorrhage Multiple Patients Additional Resources Required
+29b3y:TRAFFIC/TRANSPORTATION ACCIDENTS Other hazards Multiple Patients Additional Resources Required
+29b4y:TRAFFIC/TRANSPORTATION ACCIDENTS Unknown status Multiple Patients Additional Resources Required
+29d2y:TRAFFIC/TRANSPORTATION ACCIDENTS High Mechanism Multiple patients and additional resource required
+29d1y:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Multiple patients and additional resource required
+29d3y:TRAFFIC/TRANSPORTATION ACCIDENTS HAZMAT Multiple Patients Additional Resources Required
+29d4y:TRAFFIC/TRANSPORTATION ACCIDENTS Trapped Victim Multiple Patients Additional Resources Required
+29d5y:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert Multiple Patients Additional Resources Required
+paacc:Provincial Air Ambulance Coordination Center (Vancouver)
+rcmsar:Royal Canadian Marine Search and Rescue (Coast Guard Aux)
+cdh:Cowichan District Hospital (203)
+metc:Metchosin
+arm:Area Roads Manager (Ministry of Transportation)
+ctas:Canadian Triage and Acuity Scale
+makw:Malakwa
+yzz:Trail Regional Airport
+vlis:Valdes Island
+ycw:Chilliwack Airport
+blbl:Bella Bella
+svis:Savary Island
+chvl:Cherryville
+brandino:Yup. https://i.imgur.com/lEX8FmA.jpg
+swave08:http://i.imgur.com/cnMEt.png
+gi:gastrointestinal
+pemb:Pemberton
+dnis:Denman Island
+kgit:Kingcome Inlet
+clwr:Clearwater
+welk:White Lake
+dvac:Domestic Violence & Criminal Harassment Unit
+164:See 964
+itau:Integrated Threat Assessment Unit
+pou:Protective Operations Unit (British Columbia Sheriff Service)
+hfck:Heffley Creek
+islp:Isle Pierre
+cmld:Cumberland
+ktsi:Keats Island
+mcs:Major Crime Section (VPD?)
+oic:Officer in Charge
+doc:Dedicated Operations Center
+uc:Ucluelet
+wnlw:Winlaw
+bbar:Boston Bar
+wslk:Woss Lake (Vancouver Island)
+tcp:Trans-Canada Pocket
+rtic:Real Time Intelligence Center
+nmar:Mara Lake
+mgby:Magna Bay (Shuswap Lake)
+gfis:Guilford Island
+fmr:First Medical Responce
+27b1y:Stab/Gunshot/Penetrating Trauma NON-RECENT (=> 6 hrs) single CENTRAL wound Self Inflicted Stabbing
+27b2y:Stab/Gunshot/Penetrating Trauma Known single PERIPHERAL wound Self Inflicted Stabbing
+27b3y:Stab/Gunshot/Penetrating Trauma SELF INFLICTED SERIOUS hemorrhage Self Inflicted Stabbing
+27b5y:Stab/Gunshot/Penetrating Trauma OBVIOUS DEATH Self Inflicted Stabbing
+27d1y:Stab/Gunshot/Penetrating Trauma Unconscious or Arrest Self Inflicted Stabbing
+27d3y:Stab/Gunshot/Penetrating Trauma CENTRAL wounds Self Inflicted Stabbing
+27d4y:Stab/Gunshot/Penetrating Trauma Multiple wounds Self Inflicted Stabbing
+27d5y:Stab/Gunshot/Penetrating Trauma Multiple victims Self Inflicted Stabbing
+hufn:Hold until further notice
+sntl:Sointula (Malcolm Island)
+wtbr:Westbridge
+kpis:Kuper Island (Penelakut Island - Southern Golf Islands)
+tsap:To Serve and Protect
+zbls:Zeballos
+prpn:Pacific Rim National Park
+tach:Tachie
+silver alert:Missing high risk senior
+amber alert:Missing Child High Risk
+spis:South Pender Island
+ses:Special Entry Specialist
+rciu:Remote Control Interface Unit
+kdlk:Kennedy Lake (Vancouver Island)
+wltn:Waletown, Cortez Isl
+r0f:https://i.imgur.com/RmtFNXd.jpg
+uno:https://paste.ee/r/EJX5j
+sfst:standard field sobriety technician
+ccit:Criminal Collision Investigation Team
+hcir:Hat Creek 
+qkcv:Quathiaski Cove (Quadra Island)
+melv:Merville (North Island)
+vc: VCC-Clark
+caution a:Armed
+caution c:Communicable Disease
+caution e:Escape Risk
+caution fox victor:Family Violence
+caution fv:Family Violence
+caution v:Violent
+bt: bitcoin:1B8tz7CN5G3CPFALLfH1eMvcen1L7xypKB
+caution m:Mental Health History
+justin:Justice Information (BC Courts information)
+errn:Errington
+freedom:A life without FRS.
+ritual:14:25:54 < ritual> Yeah I know all that
+swavdino:http://meatspin.fr/ (NSFW!)
+osyk:Osoyoos Lake
+ppv:Positive Pressure Ventilation
+curv:Cable-controlled Undersea Recovery Vehicle
+frsp:Fairmont Hot Springs
+ufn:until further notice..
+slvy:Salmon Valley
+spzm:Spuzzem
+hnis:Hanson Island
+tvt:Tactical Vehicle Takedown
+pvln:Pavilion
+crd:Capital Regional District
+bolf:Be On Lookout For
+bolo:Be On Look Out
+vica0:http://i.imgur.com/PFDvXnN.jpg
+ois:Officer Involved Shooting
+wnhr:Winter Habor
+ptrf:Port Renfrew
+nip:No Information Patient
+asck:Ashton Creek
+bbc: Bella Bella, BC (CBBC)
+ybd:Bella Coola, BC (CYBD)
+ycp:Blue River, BC (CYCP)
+wpz:Burns Lake, BC (CWPZ)
+ycq:Chetwynd, BC (CYCQ)
+wcl:Clinton, BC (CWCL)
+wjr:Creston, BC (CWJR)
+ydl:Dease Lake, BC (CYDL)
+yge:Golden BC, (CYGE)
+yhe:Hope, BC (CYHE)
+wly:Lytton, BC (CWLY)
+yzy:MacKenzie, BC (CYZY)
+zmt:Masset, BC (CZMT)
+wnp:Nakusp, BC (CWNP)
+wnm:Nelson, BC (CWNM)
+wgp:Pemberton, BC (CWGP)
+wqc:Port Alberni, BC (CWQC)
+yrv:Revelstoke, BC (CYRV)
+wsl:Salmon Arm, BC (CWSL)
+yzp:Sandspit, BC (CYZP)
+wgw:Sparwood BC, (CWGW)
+wsw:Elkwood BC, (CWSW)
+wsk:Squamish, BC (CWSK)
+zst:Stewart, BC (CZST)
+wyj:Victoria University (CWYJ)
+wae:Whistler, BC (CWAE)
+lsmft:Lucky Strike Means Fine Tobacco
+neds:Needles
+wlgp:Wells Gray Park
+stwd:Sayward
+caution d:Dangerous
+edwd:Edgewood
+ihit:Integrated Homicide Investigation Team
+sh:Shawnigan Lake
+ihc:Immigration Holding Center (YVR)
+irpa:Immigration and Refugee Protection Act
+msld:Masons Landing (Cortes Island)
+stnp:Seton Portage
+jasc:Just Another Stunned Cunt
+pnis:Penelakut Island
+vcc1:Waterfront to Royal Oak
+vcc2:Royal Oak to King George
+vcc3:Yard
+vcc4:VCC-Clark to Lougheed
+vcc5:Evergreen Line
+vcc6:Coquitlam Storage Yard
+cbhl:Cobble Hill
+trtv:Turtle Valley
+tfno:Tofino
+qnba:Queens Bay
+white:Front Side
+rtmc:Regional Transportation Management Center
+chir:Chilliwack River
+papi:Precision approach path indicator
+drcy:D'Arcy
+osir:Okanagan Similkameen Indian Band
+as:Ashcroft
+actt: Auto Crime Target Team
+fnes:First Nations Emergency Services
+c-ghju:BCAS Bombardier Learjet 31A
+hjv:BCAS Sikorsky S-76A Medivac (1st Gen)
+hhj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+chj:BCAS Sikorsky S-76C Medivac (2nd Gen)
+hju:BCAS Bombardier Learjet 31A
+c-fcck:BCAS Bell 412SP Medevac
+cck:BCAS Bell 412SP Medevac
+ilk:Carson Air Raytheon King Air 350 (B300) Medevac
+c-gilk:Carson Air Raytheon King Air 350 (B300) Medevac
+c-gkte:Carson Air Raytheon King Air 350 (B300) Medevac
+kte:Carson Air Raytheon King Air 350 (B300) Medevac
+ruu:Carson Air Raytheon King Air 350 (B300) Medevac
+c-gruu:Carson Air Raytheon King Air 350 (B300) Medevac
+c-ftjc:Carson Air Cessna 560 Citation Encore Medevac
+tjc:Carson Air Cessna 560 Citation Encore Medevac
+rfc:Carson Air Cessna 560 Citation V Medevac
+c-grfc:Carson Air Cessna 560 Citation V Medevac
+mtc:Mobile Treatment Center
+bluegoat:2016-07-08 21:01:16 < Bluegoat> That's bullshit (IP:173.180.114.238)
+troden:Who the fuck is TRoden.
+pnlk:Pinantan Lake
+aot:Assertive Outreach Team (Car 86)
+hardsix:https://i.imgur.com/ciOelws.jpg
+hpi:Hold Pending Investigation
+nclk:Nicola Lake
+idog:Integrated Dog Observation Unit
+tlc::Talon Helicopters Aerospatiale AS355 Twinstar C-GTLC
+thu:Talon Helicopters - Bell 206L Longranger (Chopper 9)
+thy:Talon Helicopters Aerospatiale AS350 B-2 C-FTHY
+bigtony:http://i.imgur.com/MLQv9A9.jpg
+azn:http://i.imgur.com/MLQv9A9.jpg
+ypk:Pitt Meadows Airport (CYPK)
+cypk:Pitt Meadows Airport (CYPK)
+yal:Alert Bay Airport (CYAL)
+cyal:Alert Bay Airport (CYAL)
+yjq:Bella Bella Denny Island Airport (CYJQ)
+cyjq:Bella Bella Denny Island Airport (CYJQ)
+scanbc:ScanBC utilizes a network of cognitive mind reading devices strategically placed throughout the province.
+sierra delta:Sudden Death
+170:QUADRA ISLAND 844 Heriot Bay Rd (170K)
+uel:University Endowment Lands
+dgm:AIR 9
+mpw:AIR 7
+theothermike123: BC Ferries Blows Goat Balls
+nfa:No Fixed Address
+ug:Underground
+10-55:Restricted Information. Make sure no Unauthorized listeners present
+alpha affirmative:casara positive identification that the object sighted is the search subject
+niveous:Hitchhiked to Merritt and got stranded.
+07a0w:BURNS(Scalds)/EXPLOSION *Override* Fireworks
+07a1w:BURNS(Scalds)/EXPLOSION Burns <18% body area Fireworks
+07a2w:BURNS(Scalds)/EXPLOSION Fire alarm (unknown situation) Fireworks
+07a3w:BURNS(Scalds)/EXPLOSION Sunburn or Minor burns (<=hand size) Fireworks
+07b0w:BURNS(Scalds)/EXPLOSION *Override* Fireworks
+07b1w: BURNS(Scalds)/EXPLOSION Blast injuries (without priority symptoms) Fireworks
+07b2w:BURNS(Scalds)/EXPLOSION Unknown status/Other codes not applicable Fireworks
+07c0w:BURNS(Scalds)/EXPLOSION *Override* Fireworks
+07c1w:BURNS(Scalds)/EXPLOSION Building fire - persons reported inside Fireworks
+07c2w:BURNS(Scalds)/EXPLOSION Difficulty breathing Fireworks
+07c3w:BURNS(Scalds)/EXPLOSION Large burns ( > 18% body area) Fireworks
+07c4w:BURNS(Scalds)/EXPLOSION Significant Facial Burns Fireworks
+07d0w:BURNS(Scalds)/EXPLOSION *Override* Fireworks
+07d1w:BURNS(Scalds)/EXPLOSION Multiple victims Fireworks
+07d2w:BURNS(Scalds)/EXPLOSION Unconscious or arrest Fireworks
+07d3w:BURNS(Scalds)/EXPLOSION Not Alert Fireworks
+07d4w:BURNS(Scalds)/EXPLOSION Severe respiratory distress Firework
+07e0:BURNS(Scalds)/EXPLOSION *Override*
+07e0e:BURNS(Scalds)/EXPLOSION *Override* Explosion
+07e0f:BURNS(Scalds)/EXPLOSION *Override* Fire Present
+07e0w:BURNS(Scalds)/EXPLOSION *Override* Fireworks
+07e1:BURNS Person On Fire
+07e1e:BURNS Person On Fire Explosion
+07e1f:BURNS Person On Fire Fire Present
+07e1w:BURNS Person on fire Fireworks
+07o1w:BURNS(Scalds)/EXPLOSION Sunburn or minor burns( < = hand size) Fireworks
+09b0x:Cardiac/Respiratory Arrest/Death *Override* Terminal Illness
+09b0y:Cardiac/Respiratory Arrest/Death *Override* DNR Order
+09b0z:Cardiac/Respiratory Arrest/Death *Override* No CPR Order
+09d0x:Cardiac/Respiratory Arrest/Death *Override* Terminal Illness
+09d0z:Cardiac/Respiratory Arrest/Death *Override* No CPR Order
+09d0y:Cardiac/Respiratory Arrest/Death *Override* DNR Order
+09d2x:Cardiac/Respiratory Arrest/Death OBVIOUS or EXPECTED DEATH questionable Terminal Illness
+09d2y:Cardiac/Respiratory Arrest/Death OBVIOUS or EXPECTED DEATH questionable DNR Order
+09d2z:Cardiac/Respiratory Arrest/Death OBVIOUS or EXPECTED DEATH questionable No CPR Order
+09e0x:Cardiac/Respiratory Arrest/Death *Override* Terminal Illness
+09e0y:Cardiac/Respiratory Arrest/Death *Override* DNR Order
+09e0z:Cardiac/Respiratory Arrest/Death *Override* No CPR Order
+10d4:CHEST PAIN (Non-Traumatic) Clammy
+10c2:Chest Pain (Non Traumatic) Heart Attack or Angina History
+11e1:CHOKING Complete Obstruction / Ineffective Breathing
+hx:history
+12a4:Convulsions/Seizures FOCAL fit (alert)
+12a4e:Convulsions/Seizures FOCAL fit (alert) History of Seizures
+12a5:Convulsions/Seizures Impending fit (aura)
+12a5w history of seizures:Convulsions/Seizures Impending fit (aura)
+12a5e:Convulsions/Seizures Impending fit (aura) History of Seizures
+12c4:Convulsions/Seizures Diabetic Not seizing now / effective breathing / > 6 / no seizure disorder
+12c4e:Convulsions/Seizures Diabetic Not seizing now / effective breathing / > 6 / no seizure disorder No history
+12c5:Convulsions/Seizures Hx of STROKE or brain tumor
+12c5e:Convulsions/Seizures Hx of STROKE or brain tumor No history
+12c6:Convulsions/Seizures OVERDOSE/POISONING (ingestion)
+12c6w:Convulsions/Seizures OVERDOSE/POISONING (ingestion) No history
+12c7:Convulsions/Seizures ATYPICAL seizure
+12c7e:Convulsions/Seizures ATYPICAL seizure No History
+20b2:HEAT/COLD EXPOSURE Unknown Status 3rd Party Caller
+27a1y:Stab/Gunshot/Penetrating Trauma NON-RECENT (= 6hrs) PERIPHERAL wounds Self Inflicted Stabbing
+27b0y:Stab/Gunshot/Penetrating Trauma **Override** Self Inflicted Stabbing
+27d0y:Stab/Gunshot/Penetrating Trauma **Override** Self Inflicted Stabbing
+29b0y:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple Patients Additional Resources Required
+29d0y:TRAFFIC/TRANSPORTATION ACCIDENTS *Override* Multiple Patients Additional Resources Required
+29o1y:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries Multiple Patients Additional Resources Required
+29o2y:TRAFFIC/TRANSPORTATION ACCIDENTS Injury to Not Dangerous Proximal Area Multiple Patients Additional Resources Required
+fr:First Responders (Usually fire dept)
+docbrun:https://i.imgur.com/vNJj6ML.jpg
+wxp:Ascent Helicopters MD902 C-GWXP (Temporary Medevac for BCAS)
+c-gwxp:Ascent Helicopters MD902 C-GWXP (Temporary Medevac for BCAS)
+cad:Computer Aided Dispatch
+rsu:Rehab Support Unit
+nta:Norther Thunderbird Air Beechcraft B300 King Air Medevac (C-FNTA)
+c-fnta:Norther Thunderbird Air Beechcraft B300 King Air Medevac (C-FNTA)
+trauma 99:Patient is fucked up.
+tch:Trans Canada Highway
+eta:Estimated Time of Arrival
+msu:Medical Support Unit (BCEHS EMO)
+bcehs:British Columbia Emergency Health Service
+mru:Medical Response Unit
+bpm:Breaths Per Minute
+tims:Tunnel Intrusion Monitoring System (Evergreen Line)
+chex:https://imgur.com/NFteaxH
+naafp:National Association for the Advance of Fat People
+ham radio:https://youtu.be/XWdik29MTrE
+29d1h:TRAFFIC/TRANSPORTATION ACCIDENTS Multiple Response Incident Structure
+opcc:Office of the Police Complaint Commissioner
+cfcsu:Canadian Forces Crypto Support Unit
+nis:National Investigative Service (Canadian Forces)
+aciis:Automated Criminal Intelligence Information System
+ncdb:National Criminal Data Bank
+viclas:Violent Incident Classification Linkage & Analysis System
+asap:As Soon As Mother Fucking Possible
+scis:Secure Criminal Information System
+spros:Secure Police Reporting and Occurrence System
+ccrtis:Canadian Criminal Real Time Identification Services
+ppcprs:Protective Policing Clients & Partnership Retrieval System
+nsor:National Sex Offender Registry
+afis:Automated Fingerprint Identification System
+cf:Canadian Forces
+cremm:Criminal Record Entry Maintenance and Monitoring Direct Entry System
+cfo:Chief Firearms Officer
+cfis:Canadian Firearms Information System
+ross:RCMP Office Support System
+sams:Security Accreditation Management System
+rwrs:Restricted Weapons Registration System
+ewirmp:Early Warning Integrated Risk Management Program
+gcs:Glasgow Coma Scale
+cic:critical incident commander
+seahawks:best ever
+icor:ert robot
+ent:Ear Nose Throat
+mmu:Mobile Medical Unit
+ccd:Chief Civillian Director (IIOBC)
+mou:Memorandum of Understanding
+spc:Special Provincial Constable
+iscu:Intersection Safety Camera Unit
+moj: Ministry of Justice
+vm:Valemount
+sar 1:RCMSAR 01 - West Vancouver (Horseshoe Bay)
+rcmsar 1:RCMSAR 01 - West Vancouver (Horseshoe Bay)
+sar1:RCMSAR 01 - West Vancouver (Horseshoe Bay)
+sar 2:RCMSAR 02 - North Vancouver (Lynnwood Marina)
+rcmsar 2:RCMSAR 02 - North Vancouver (Lynnwood Marina)
+sar2:RCMSAR 02 - North Vancouver (Lynnwood Marina)
+sar 4:RCMSAR 04 - Squamish (Squamish Yacht Club)
+sar4:RCMSAR 04 - Squamish (Squamish Yacht Club)
+rcmsar 4:RCMSAR 04 - Squamish (Squamish Yacht Club)
+rcmsar 5:RCMSAR 05 - Surrey (Crescent Beach)
+sar 5:RCMSAR 05 - Surrey (Crescent Beach)
+sar5:RCMSAR 05 - Surrey (Crescent Beach)
+sar8:RCMSAR 08 - Delta (Point Roberts Marina)
+sar 8:RCMSAR 08 - Delta (Point Roberts Marina)
+rcmsar 8:RCMSAR 08 - Delta (Point Roberts Marina)
+sar6:RCMSAR 06 - Richmond (Middle Arm)
+sar 6:RCMSAR 06 - Richmond (Middle Arm)
+rcmsar 6:RCMSAR 06 - Richmond (Middle Arm)
+sar7:RCMSAR 07 - Richmond (Steveston Harbor)
+sar 7:RCMSAR 07 - Richmond (Steveston Harbor)
+rcmsar 7:RCMSAR 07 - Richmond (Steveston Harbor)
+sar12:RCMSAR 12 - Halfmoon Bay
+sar 12:RCMSAR 12 - Halfmoon Bay
+rcmsar 12:RCMSAR 12 - Halfmoon Bay
+sar14:RCMSAR 14 - Gibsons
+sar 14:RCMSAR 14 - Gibsons
+rcmsar 14:RCMSAR 14 - Gibsons
+sar61:RCMSAR 61 - Pender Harbor
+sar 61:RCMSAR 61 - Pender Harbor
+rcmsar 61:RCMSAR 61 - Pender Harbor
+sar20:RCMSAR 20 - Pender Island (Port Browning Harbor)
+sar 20:RCMSAR 20 - Pender Island (Port Browning Harbor)
+rcmsar 20:RCMSAR 20 - Pender Island (Port Browning Harbor)
+sar25:RCMSAR 25 - Salt Spring Island (Vesuvius Harbor)
+sar 25:RCMSAR 25 - Salt Spring Island (Vesuvius Harbor)
+rcmsar 25:RCMSAR 25 - Salt Spring Island (Vesuvius Harbor)
+sar27:RCMSAR 27 - Nanaimo 
+sar 27:RCMSAR 27 - Nanaimo 
+rcmsar 27:RCMSAR 27 - Nanaimo 
+sar29:RCMSAR 29 - Ladysmith
+sar 29:RCMSAR 29 - Ladysmith
+rcmsar 29:RCMSAR 29 - Ladysmith
+sar31:RCMSAR 31 - Saanich (Brentwood Bay)
+sar 31:RCMSAR 31 - Saanich (Brentwood Bay)
+rcmsar 31:RCMSAR 31 - Saanich (Brentwood Bay)
+sar33:RCMSAR 33 - Oak Bay
+sar 33:RCMSAR 33 - Oak Bay
+rcmsar 33:RCMSAR 33 - Oak Bay
+sar34:RCMSAR 34 - Mill Bay (Brentwood Collage Dock)
+sar 34:RCMSAR 34 - Mill Bay (Brentwood Collage Dock)
+rcmsar 34:RCMSAR 34 - Mill Bay (Brentwood Collage Dock)
+sar35:RCMSAR 35 - Victoria
+sar 35:RCMSAR 35 - Victoria
+rcmsar 35:RCMSAR 35 - Victoria
+sar36:RCMSAR 36 - Saanich (Canoe Cove Marina)
+sar 36:RCMSAR 36 - Saanich (Canoe Cove Marina)
+rcmsar 36:RCMSAR 36 - Saanich (Canoe Cove Marina)
+sar37:RCMSAR 37 - Sooke 
+sar 37:RCMSAR 37 - Sooke 
+rcmsar 37:RCMSAR 37 - Sooke 
+sar38:RCMSAR 38 - Ucluelet
+sar 38:RCMSAR 38 - Ucluelet
+rcmsar 38:RCMSAR 38 - Ucluelet
+sar39:RCMSAR 39 - Port Alberni
+sar 39:RCMSAR 39 - Port Alberni
+rcmsar 39:RCMSAR 39 - Port Alberni
+sar43:RCMSAR 43 - Port Alice
+sar 43:RCMSAR 43 - Port Alice
+rcmsar 43:RCMSAR 43 - Port Alice
+sar50:RCMSAR 50 - Port McNeill
+sar 50:RCMSAR 50 - Port McNeill
+rcmsar 50:RCMSAR 50 - Port McNeill
+sar59:RCMSAR 59 - Deep Bay
+sar 59:RCMSAR 59 - Deep Bay
+rcmsar 59:RCMSAR 59 - Deep Bay
+sar60:RCMSAR 60 - Comox 
+sar 60:RCMSAR 60 - Comox 
+rcmsar 60:RCMSAR 60 - Comox 
+sar45:RCMSAR 45 - Masset
+sar 45:RCMSAR 45 - Masset
+rcmsar 45:RCMSAR 45 - Masset
+sar63:RCMSAR 63 - Kitimat
+sar 63:RCMSAR 63 - Kitimat
+rcmsar 63:RCMSAR 63 - Kitimat
+sar64:RCMSAR 64 - Prince Rupert
+sar 64:RCMSAR 64 - Prince Rupert
+rcmsar 64:RCMSAR 64 - Prince Rupert
+sar65:RCMSAR 65 - Port Simpson
+sar 65:RCMSAR 65 - Port Simpson
+rcmsar 65:RCMSAR 65 - Port Simpson
+sar68:RCMSAR 68 - Ocean Falls
+sar 68:RCMSAR 68 - Ocean Falls
+rcmsar 68:RCMSAR 68 - Ocean Falls
+sar74:RCMSAR 74 - Gitxalla
+sar 74:RCMSAR 74 - Gitxalla
+rcmsar 74:RCMSAR 74 - Gitxalla
+sar75:RCMSAR 75 - Kincolith
+sar 75:RCMSAR 75 - Kincolith
+rcmsar 75:RCMSAR 75 - Kincolith
+bukh:Buckhorn
+nco:Non-Commissioned Officer. In the RCMP that means a corporal, sergeant, staff sergeant, staff sergeant major, sergeant major and corps sergeant major. An NCO is usually a supervisor or manager.
+rtf:Rescue Task Force
+halo:Health Authority Liason Officer (BCEHS) Paramedics or Unit Chiefs that go to hospitals to free up crews waiting with patients.
+29d6:TRAFFIC/TRANSPORTATION ACCIDENTS Arrest
+29d7:TRAFFIC/TRANSPORTATION ACCIDENTS Unconscious
+29d8:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert with noisy breathing (abnormal)
+29d9:TRAFFIC/TRANSPORTATION ACCIDENTS Not alert with normal breathing 
+29a2:TRAFFIC/TRANSPORTATION ACCIDENTS No injuries reported (unconfirmed or > 5 persons involved)
+bcptn:British Columbia Patient Transfer Network
+lz:Landing Zone
+ce:Combined Events
+ffr:Fire First Responder
+epos:Emergency Physician Online Support
+ji:Justice Institute of BC
+jibc:Justice Institute of BC
+bvm:Bag Valve Mask 
+vep:BCAS Medevac Bell 412EP C-FVEP
+swave:http://globalnews.ca/video/2017130/low-budget-backyard-wrestling
+mdrv:Mud River (PG)
+rbsn:Robson West (Castlegar)
+bioc:Border Integrity Operations Center
+10-88: Record of Fraud
+nasp:National Aerial Surveillance Program
+mart:Marine Aerial Reconnaissance Team
+pfd:Personal Flotation Device
+dsc:Digital Selective Calling
+vhf:Very High Frequency
+fvids:Fraser Valley Integrated Dog Section
+501:Nanaimo Regional General Hospital
+csb:Court Services Branch (BC Min. of Attorney General)
+rspr:Rose Prairie
+difm:do it for me
+thz:Talon Helicopters 1990 Aerospatiale AS-350 B2 C-FTHZ
+htm:News1130 Cessna 172R Skyhawk C-GHTM
+form 21:Mental Health Act - Director's Warrant (Apprehension of Patient)
+mlht:Malahat
+neat:Neighbourhood Emergency Assistance Team (Vancouver)
+ba:Breathing Apparatus 
+gmdss:Global Maritime Distress and Safety System
+sart:Search and Rescue Transponder
+mmsi:Maritime Mobile Service Identity
+sop:Standard operating procedure
+sap:Stop Assess Plan
+ips:Integrated Protection Services
+clue:Combined Law Enforcement Unit
+rtc:Rail Traffic Controller
+bac:Blood Alcohol Content
+plb:Personal Locator Beacon
+cat:Community Action Team (meow)
+form 4:Mental Health Act - Medical Certificate (Involuntary Admission)
+hshu:Human Source Handling Unit
+hils:Hills
+ptnv:PORT NEVILL 
+jigit:Joint Illegal Gaming Investigation Team
+mrsc:Maritime Rescue Sub Center
+osc:On Scene Commander
+glsb:GILLIES BAY
+z :EHS MCI ,PD ERT
+sl:Summerland
+harr:Harrison Hot Springs
+phbr:Pender Harbor
+slby:Sullivan Bay-NE of Port Hardy
+cfba:Crawford Bay
+rrtm:Rope Rescue Team Member 
+taps:Greater Vancouver Transportation Authority Police Service
+czbb: Delta BC, Boundary Bay Airport
+zbb: Delta BC, Boundary Bay Airport
+ydt: Delta BC, Boundary Bay Airport
+cydt: Delta BC, Boundary Bay Airport
+stir:Stone Lake Indian Reservation SW of Williams Lake
+tllk:Tatla Lake hwy 20 100 KM W of Williams Lake
+slqa:Solsqua
+ipr:Initial Public Report 
+mit:North Shore Rescue Member in Training
+mtck:Monte Creek
+ocs:Organized Crime Section
+glwy:Galloway
+hba:Hard Body Armor
+mvtp:Metro Vancouver Transit Police
+sunray:GVERT boss
+tntg:Tintagel E of Burns Lake
+msho:willow point
+ssicam:http://stream.vistawebcams.com:1935/live/vcbc003.stream/playlist.m3u8
+nsis:National Security Investigations Sections
+37o1:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Minor Non Infectious
+37o2:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Already a Zombie Doesnt Count
+37a1:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Possible Bite Not Verified
+37a2:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Red/Bloodshot Eyes or Suspicious Circumstances
+37b1:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Bite Marks or Open Wounds Active Bleeding.
+37b2:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Unknown Status/Other Codes Not Applicable. (3rd Party Caller)
+37c1:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Ashen Grey Skin
+37c2:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Bite Marks or Open Wounds, Bleeding Stopped.
+37c3:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Multiple victims
+37d1:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Unconscious Or Turning Into a Zombie
+37d2:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Active Attack Single Zombie
+37d3:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Active Attack Multiple Zombies
+37d4:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Active Attack Large Zombie
+37d5:ZOMBIE BITE / ATTACK / EPIDEMIC / OUTBREAK Its Too Late We Have All Been Turned.
+yo:Young Offender
+feeney:https://en.wikibooks.org/wiki/Canadian_Criminal_Procedure_and_Practice/Arrest_and_Detention/Warrant_Arrests
+du.shawcable.net : Duncan
+no.shawcable.net : Nanaimo
+pk.shawcable.net : Parksville
+cc.shawcable.net : Courtenay
+pi.shawcable.net : Port Alberni
+vc.shawcable.net : Greater Vancouver
+vn.shawcable.net : North Vancouver
+vf.shawcable.net : Maple Ridge
+vs.shawcable.net : Walley
+vp.shawcable.net : Chilliwack
+ek.shawcable.net : East Kooteneys
+wk.shawcable.net : West Kooteneys
+ok.shawcable.net : Okanagan
+vw.shawcable.net : Sunnyside
+ca.shawcable.net : Prince George
+fm.shawcable.net : Fort McMurray
+hn.shawcable.net : Hinton
+lm.shawcable.net : Lloydminister
+ed.shawcable.net : Edmonton
+rd.shawcable.net : Red Deer
+cg.shawcable.net : Calgary
+lb.shawcable.net : Letdbridge
+ss.shawcable.net : Saskatoon
+pa.shawcable.net : Prince Albert
+mj.shawcable.net : Moose Jaw
+sc.shawcable.net : Swift Current
+wp.shawcable.net : Winnipeg
+pp.shawcable.net : Portage La Prairie
+su.shawcable.net : Sudbury
+pr.shawcable.net : Pickering
+tb.shawcable.net : Thunder Bay
+kitv:Kitimat Village
+psap:Public Safety Answering Point
+radar:Radio Detection And Ranging
+odm:Off Duty Member
+pko:Port Kells Office
+caution i: Infectious
+caution s:Suicidal
+caution w:Weapons
+pdet:Prohib Driver Enforcement Team (RCMP IRSU)
+260:NEW WESTMINSTER 5411 Kingsway St (260A) future home 6992 Buller Ave)
+bntly:https://i.imgur.com/Zfh7Gpz.gifv
+bit:Border Integtity Team
+siu:Special Investigations Unit
+epoc:Emergency Physicians on Call 
+ln:Lincoln Skytrain Station
+ic:Inlet Center Skytrain Station
+mc:Moody Center Skytrain Station
+bq:Burquitlam Skytrain Station
+dlt:Division Liaison Team (RCMP)
+mtwn:Mount Washington
+ran:Radio Access Number (NXDN)
+cap code:Motorola Quik Call 2
+rims:Road Inventory Management System (Ministry of Transport)
+ihj:BCAS Sikorsky S-76C Medivac (Based in Prince Rupert)
+old jew whacker:see stuck
+hatzolah:https://imgur.com/90c5u92
+jon: lmao this video of you is funny as hell, im sharing it with everyone ppfr.it/434
+sad:Special Activities Division
+ios:Institute of Ocean Sciences (Patricia Bay, DFO / CCG)
+langley:fuck off
+c-fwcw:Westcoast Helicopters Aerospatiale AS350B2 AStar Medevac (C-FWCW)
+wcw:Westcoast Helicopters Aerospatiale AS350B2 AStar Medevac (C-FWCW)
+vess:Vehicle Emergency Stop System
+do:Duty Officer
+ac:Assistant Chief
+964:964 (Formerly 164/264) SPECIAL OPERATIONS 8100 Nordel Way (64A=Boss, 64C=Comms, 64M#=Mobile 64S=Super, 64E#=Ambulance, 64Gator#=Gator, 64UTV1=New Gator, 64Squad#=Bikes)
+ywc:West Coast Helicopters Aerospatiale AS350B 
+rtu:Roving Traffic Unit 
+drtu:District Roving Traffic Unit 
+spds:Specialty Police Dog Service
+imcrt:Integrated Mobile Crisis Response Team
+insert:See IMCRT
+smp:Saanich Municipal Police
+pas:Provincial Ambulance Service (But only inbreads on the island call it that)
+oos:Out Of Service 
+dls:Dispatch Life Support
+fomp:Fall on Municipal Property - Falls on municipal property in Oak Bay require attendance from OBPD
+rfc 1149:See IPoAC
+ipoac: IP Over Avian Carriers
+com:complainant
+moto:Motorola
+yyw: Robinson R44 (C-GYYW) <--- Brads Helicopter
+hjt:Ex BCAS Sikorsky S76A (crashed in 2012)
+mpa:RCMP Pilatus PC12 (C-FMPA)
+mpt:RCMP Eurocopter EC-120B (C-GMPT) Air 1
+mpq:RCMP Eurocopter EC-120B (C-FMPQ) Air 2
+mpf:RCMP Aerospatiale AS-350B-3 (C-GMPF) Air 8
+cpp:Canada Place Piers
+pad:predator attack team
+vi-118:https://imgur.com/a/zNB2vTC
+purple:HLA Code 3 (Hot)
+orange:PCP/EMR Code 3 (Hot)
+code amber:MISSING OR ABDUCTED INFANT OR CHILD
+hems:Helicopter Emergency Medical Services
+vircc:Vancouver Island Regional Correctional Centre (Wilkinson Rd Jail)
+ssi:Salt Spring Island
+acp:Advanced Care Paramedic
+roc:Regional Operations Center (Coast Guard)
+signal 1: minor first aid
+pne:Pacific National Exhibition - Codes https://pastebin.com/ur0LSyX4
+185:185 VICTORIA OVERDOSE PREVENTION SPECIALIST (185J) - 941 Pandora Avenue
+320cp1: Lumby community paramedicine
+ps:Paramedic Specialist
+pso:Public Safety Officer
+crm:Clinical Response Model
+blue:Healthlink BC
