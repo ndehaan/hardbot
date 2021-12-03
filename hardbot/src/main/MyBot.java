@@ -186,27 +186,14 @@ public class MyBot extends PircBot {
 	}
 
 	private String getTitle(String videoUrl) throws Exception {
-
-		String result = "I recognize " + videoUrl
-				+ " as a Youtube link, and not another type of link, and am working on understanding it.";
 		String temp = "";
 		if (videoUrl.contains("www.youtube.com/watch?v=")) {
 			temp = videoUrl.split("=")[1];
 		} else if (videoUrl.contains("youtu.be"))
 			temp = videoUrl.split("/")[3];
 
-		temp = temp.split("\\W+")[0];
-
-		System.out.println(result + " ID found: " + temp);
-
-		// https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=bZ9mIDfNbSo
-
-		// Map<String, List<String>> map =
-		// getUrlParameters("http://youtube.com/get_video_info?video_id="+temp);
-		// Map<String, List<String>> map =
-		// getUrlParameters("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
-		// URL url = new
-		// URL("https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v="+temp);
+		//temp = temp.split("\\W+")[0];
+		temp = temp.substring(0,11);
 
 		JSONParser parser = new JSONParser();
 

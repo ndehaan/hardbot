@@ -11,7 +11,7 @@
 	<channels>
 		<channel>#hardsix</channel>
 		<channel>#scanbc-data data!!</channel>
-		<channel>#scanbc-ops xjfblewhisloadinthemain</channel> 
+<!--		<channel>#scanbc-ops xjfblewhisloadinthemain</channel> -->
 	</channels>
 	<logging>false</logging>
 	<verbose>true</verbose>
