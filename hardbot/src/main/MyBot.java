@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.File;
 import java.net.URL;
 import java.net.URLConnection;
 import java.sql.Connection;
@@ -172,6 +173,7 @@ public class MyBot extends PircBot {
 				e.printStackTrace();
 			}
 			this.sendMessage(channel, title);
+			return;
 		}
 
 		if (message.startsWith(getCommandPrefix())) {
@@ -180,8 +182,8 @@ public class MyBot extends PircBot {
 				&& !(sender.equalsIgnoreCase("WifiFred") || sender.equalsIgnoreCase("inhiding"))) {
 			message = message.charAt(0) + "ong";
 			sendMessage(channel, message);
-		} else if (message.startsWith("?")) {
-			doLookup(op, channel, message.substring(1), hostname);
+		} else if (message.startsWith("? ")) {
+			doLookup(op, channel, message.substring(2), hostname);
 		}
 	}
 
@@ -192,8 +194,8 @@ public class MyBot extends PircBot {
 		} else if (videoUrl.contains("youtu.be"))
 			temp = videoUrl.split("/")[3];
 
-		//temp = temp.split("\\W+")[0];
-		temp = temp.substring(0,11);
+		// temp = temp.split("\\W+")[0];
+		temp = temp.substring(0, 11);
 
 		JSONParser parser = new JSONParser();
 
@@ -244,8 +246,10 @@ public class MyBot extends PircBot {
 
 	// method to support knowledge-base lookups
 	private void doLookup(boolean op, String channel, String substring, String hostname) {
-		// TODO Auto-generated method stub
-
+		String result = "";
+		File f = new File(".//data//faqdatabase");
+		System.out.println(f.getAbsolutePath());
+		sendMessage(channel, result);
 	}
 
 	public void onAction(String sender, String login, String hostname, String target, String action) {
