@@ -202,7 +202,6 @@ public class MyBot extends PircBot {
 		} else if (videoUrl.contains("youtu.be"))
 			temp = videoUrl.split("/")[3];
 
-		// temp = temp.split("\\W+")[0];
 		temp = temp.substring(0, 11);
 
 		JSONParser parser = new JSONParser();
@@ -218,14 +217,8 @@ public class MyBot extends PircBot {
 			while ((inputLine = in.readLine()) != null) {
 				System.out.println(inputLine);
 				JSONObject a = (JSONObject) parser.parse(inputLine);
-
 				JSONObject video = a;
-
 				title = (String) video.get("title");
-				System.out.println("Title ID : " + title);
-
-				System.out.println("\n");
-
 			}
 			in.close();
 		} catch (FileNotFoundException e) {
@@ -261,7 +254,6 @@ public class MyBot extends PircBot {
 		BufferedReader br = new BufferedReader(fr);
 		String line = "";
 		while ((line = br.readLine()) != null) {
-			System.out.println(line);
 			line.indexOf(":");
 			String k = line.substring(0,line.indexOf(":"));
 			String v = line.substring(line.indexOf(":")+1);

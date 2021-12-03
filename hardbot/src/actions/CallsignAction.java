@@ -1,6 +1,10 @@
 package actions;
 
+import java.io.BufferedReader;
 import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -48,13 +52,42 @@ public class CallsignAction extends Action {
 						+ "c\" followed by the callsign you're looking for." };
 	}
 
+	private String findITU(String request) {
+
+		File f = new File("data//cqitu");
+		System.out.println(f.getAbsolutePath());
+		FileReader fr;
+		try {
+			fr = new FileReader(f);
+
+			BufferedReader br = new BufferedReader(fr);
+			String line = "";
+			while ((line = br.readLine()) != null) {
+				if (line.toUpperCase().contains(request.toUpperCase()))
+					return line;
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 	@Override
 	public String[] perform(String request, String sender, MyBot myBot) {
 		String searchType = "name";
-		char c = request.charAt(2);
-		if (request.trim().startsWith("V") || request.trim().startsWith("v") && Character.isDigit(c))
-			searchType = "call";
 		ArrayList<String> output = new ArrayList<String>();
+		char c = request.charAt(2);
+		if ((request.trim().startsWith("V") || request.trim().startsWith("v"))
+				&& (Character.toString(request.trim().charAt(1)).equalsIgnoreCase("A")
+						|| Character.toString(request.trim().charAt(1)).equalsIgnoreCase("E"))
+				&& Character.isDigit(c) && (request.trim().length() == 5 || request.trim().length() == 6))
+			searchType = "call";
+		else if (findITU(request) != null) {
+			output.add(findITU(request));
+			searchType = "cqitu";
+		}
+
 		Connection con = getConnection();
 		PreparedStatement ps;
 		try {
@@ -65,8 +98,16 @@ public class CallsignAction extends Action {
 			} else if (searchType.equals("call")) {
 				ps = con.prepareStatement("SELECT * FROM callsigns where callsign = ?");
 				ps.setString(1, request);
-			} else
-				return null;
+			} else {
+				int max = output.size();
+				if (max > 13)
+					max = 12;
+				String[] stringArray = new String[max];
+				for (int i = 0; i < max; i++)
+					stringArray[i] = output.get(i);
+
+				return stringArray;
+			}
 
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) {
@@ -83,11 +124,9 @@ public class CallsignAction extends Action {
 					curr = new Callsign(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4),
 							rs.getString(5), rs.getString(6), rs.getString(7));
 				}
-				if (rs.getString("AdvancedD").equals("D"))
-				{
+				if (rs.getString("AdvancedD").equals("D")) {
 					curr.addQualification("Advanced");
-				}else
-				{
+				} else {
 					if (rs.getString("BasicA").equals("A"))
 						curr.addQualification("Basic");
 					if (rs.getString("HonoursE").equals("E"))
@@ -105,43 +144,42 @@ public class CallsignAction extends Action {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if (output.size()>1)
-		{
+		if (output.size() > 1) {
 			if (output.size() > 12) {
 				ArrayList<String> temp = new ArrayList<String>();
 				temp.add("Output too large for IRC, printing the first 10 lines only.");
-				temp.add("Please refine your search or visit https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup");
+				temp.add(
+						"Please refine your search or visit https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup");
 				for (String s : output)
 					temp.add(s);
 				output = temp;
 			}
-			
+
 			int max = output.size();
 			if (max > 13)
 				max = 12;
 			String[] stringArray = new String[max];
 			for (int i = 0; i < max; i++)
 				stringArray[i] = output.get(i);
-			new Thread()
-			{
-			    public void run() {
-					for (String s: stringArray)
+			new Thread() {
+				public void run() {
+					for (String s : stringArray)
 						myBot.sendMessage(sender, s);
-			    }
+				}
 			}.start();
-			String[] results =  {"Results too large - responding via PM"};
+			String[] results = { "Results too large - responding via PM" };
 			return results;
 		}
 		if (output.isEmpty())
 			output.add("No results found for the search string: " + request);
-		
+
 		int max = output.size();
 		if (max > 13)
 			max = 12;
 		String[] stringArray = new String[max];
 		for (int i = 0; i < max; i++)
 			stringArray[i] = output.get(i);
-	
+
 		return stringArray;
 	}
 

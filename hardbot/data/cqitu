@@ -1,0 +1,547 @@
+     1A   S.M.O.M.               CQ 15 ITU 28 
+     1B   Cyprus-5B              CQ 20 ITU 39 
+     1S   Spratly-Is-1S          CQ 26 ITU 50 
+     2A2 - 2Z2 England-G         CQ 14 ITU 27 
+     2A3 - 2Z3 Scotland-GM       CQ 14 ITU 27 
+     2A4 - 2Z4 Wales-GW          CQ 14 ITU 27 
+     2A5 - 2Z5 No.-Ireland-GI    CQ 14 ITU 27 
+     2A6 - 2Z6 Isle-of-Man-GD    CQ 14 ITU 27 
+     2A7 - 2Z7 Jersey-GJ         CQ 14 ITU 27 
+     2A8 - 2Z8 Guernsey-GU       CQ 14 ITU 27 
+     3A   Monaco                 CQ 14 ITU 27 
+     3B6 - 3B7 Agalega           CQ 39 ITU 53 
+     3B8   Mauritius             CQ 39 ITU 53 
+     3B9   Rodriguez-Is          CQ 39 ITU 53 
+     3C   Equatorial-Guinea      CQ 36 ITU 47 
+     3C0   Annobon               CQ 36 ITU 52 
+     3D2/C Conway-Reef           CQ 32 ITU 56 
+     3D2/F Fiji-Is               CQ 32 ITU 56 
+     3D2/R Rotuma                CQ 32 ITU 56 
+     3DA0, 3D6 Swaziland         CQ 38 ITU 57 
+     3G   Chile                  CQ 12 ITU 14 
+     3V   Tunisia                CQ 33 ITU 37 
+     3W   Vietnam                CQ 26 ITU 49 
+     3X   Guinea                 CQ 35 ITU 46 
+     3Y/B Bouvet-Is-3Y/B         CQ 38 ITU 67 
+     3Y/P Peter-Is-3Y/P          CQ 12 ITU 72 
+     3Z Poland-Warsaw-SP         CQ 15 ITU 28 
+     4A - 4C Mexico-See-XE       CQ 06 ITU 10 
+     4D, 4F, 4I Phillippines-DU  CQ 27 ITU 50 
+     4JA-4KZ Azerbaijan-4J       CQ 21 ITU 29 
+     4J1 Malyj-Vystoskij-4J1     CQ 15 ITU 18 
+     4K0 Russia-Pol-Arct-UA0     CQ 16 ITU 29 
+     4K1 Russia-Antarcti-KC4     CQ 12 ITU 67 
+     4K2 Franz-Jo-Land-UA/FJL    CQ 40 ITU 75 
+     4K3 Russia-Eur-Arcti-UA     CQ 16 ITU 29 
+     4K4 Russian-Arctic-UA9      CQ 8 ITU 23 
+     4K5 Russia-Kuril-Is-UA      CQ 16 ITU 29 
+     4K6 Russia-No-Kuril-Is-U    CQ 16 ITU 29 
+     4K7 Russia-Sakhalin-Is-U    CQ 16 ITU 29 
+     4K7-4K0 Asiatic-Russia-UA9  CQ 18 ITU 32 
+     4LA-4LZ Georgia-4L          CQ 21 ITU 29 
+     4M Venezuela-YV             CQ 09 ITU 12 
+     4N1,4N6 - 4N8,4O1,4O6 - 4O8 Yugoslavia-YU CQ 15 ITU 28 
+     4N4 - 4O4 Bosnia-Heregovina-T9 CQ 15 ITU 28 
+     4N5 - 4O5 Macedonia-Z3      CQ 15 ITU 28 
+     4Q, 4S Sri-Lanka-4S         CQ 22 ITU 41 
+     4T Peru-OA                  CQ 10 ITU 12 
+     4U/I I.T.U.-Geneva-4U/I     CQ 14 ITU 28 
+     4U1U, 4U43, 4U/U U.N.-NY-4U/U CQ 05 ITU 08 
+     4V Haiti-HH                 CQ 08 ITU 11 
+     4W Yemen-7O                 CQ 21 ITU 39 
+     4X, 4Z Israel-4X            CQ 20 ITU 39 
+     5A Libya-5A                 CQ 34 ITU 38 
+     5B Cyprus-5B                CQ 20 ITU 39 
+     5C - 5D Morocco-CN          CQ 33 ITU 37 
+     5H - 5I Tanzania-5H         CQ 37 ITU 53 
+     5J - 5K Columbia-HK         CQ 09 ITU 12 
+     5L Liberia-EL               CQ 35 ITU 46 
+     5N - 5O Nigeria-5N          CQ 35 ITU 46 
+     5R - 5S Malagasy-Rep-5R     CQ 39 ITU 53 
+     5T Mauritania-5T            CQ 35 ITU 46 
+     5U Niger-5U                 CQ 35 ITU 46 
+     5V Togo-5V                  CQ 35 ITU 46 
+     5W Western-Samoa-5W         CQ 32 ITU 62 
+     5X Uganda-5X                CQ 37 ITU 48 
+     5Y - 5Z Kenya-5Z            CQ 37 ITU 48 
+     6D - 6E, 6G, 6I Mexico-XE   CQ 06 ITU 10 
+     6K South-Korea-HL           CQ 25 ITU 44 
+     6O Somali-T5                CQ 37 ITU 48 
+     6T Sudan-ST                 CQ 34 ITU 48 
+     6V - 6W Senegal-6W          CQ 35 ITU 46 
+     6Y Jamaica-6Y               CQ 08 ITU 11 
+     7J - 7N Japan-JA            CQ 25 ITU 45 
+     7O Yemen-People's-7O        CQ 21 ITU 39 
+     7P Lesotho-7P               CQ 38 ITU 57 
+     7Q Malawi-7Q                CQ 37 ITU 53 
+     7S Sweden-SM                CQ 14 ITU 18 
+     7X Algeria-7X               CQ 33 ITU 37 
+     7Z Saudi-Arabia-Dhar-HZ     CQ 21 ITU 39 
+     8A - 8I Indonesia-YB        CQ 28 ITU 51 
+     8J Japan-JA                 CQ 25 ITU 45 
+     8O Botswana-A2              CQ 38 ITU 57 
+     8P Barbados-8P              CQ 08 ITU 11 
+     8Q Maldive-Is-8Q            CQ 22 ITU 41 
+     8R Guyana-8R                CQ 09 ITU 12 
+     8S Sweden-SM                CQ 14 ITU 18 
+     8T - 8W India-See-VU        CQ 22 ITU 41 
+     8T7 - 8W7 Andaman-Is-VU7/A  CQ 26 ITU 49 
+     8T7 - 8W7 Laccadive-Is-VU7/L CQ 22 ITU 41 
+     8Z Saudi-Arabia-Dhar-HZ     CQ 21 ITU 39 
+     9AA-9AZ Croatia-9A          CQ 15 ITU 28 
+     9D Iran-EP                  CQ 21 ITU 40 
+     9E - 9F Ethiopia-Asmara-ET  CQ 37 ITU 48 
+     9G Ghana-9G                 CQ 35 ITU 46 
+     9H Malta-9H                 CQ 15 ITU 28 
+     9I - 9J Zambia-9J           CQ 36 ITU 53 
+     9K Kuwait-9K                CQ 21 ITU 39 
+     9L Sierra-Leone-9L          CQ 35 ITU 46 
+     9M0 Spratly-Is-1S           CQ 26 ITU 50 
+     9M2, 9M4, 9M6, 9M8 West-Malaysia-9M2   CQ 28 ITU 54 
+     9N Nepal-9N                 CQ 22 ITU 42 
+     9Q, 9T Zaire-9Q             CQ 36 ITU 52 
+     9U Burundi-9U               CQ 36 ITU 52 
+     9V Singapore-9V             CQ 28 ITU 54 
+     9X Rwanda-9X                CQ 36 ITU 52 
+     9Y - 9Z Trinidad-9Y         CQ 09 ITU 11 
+     A15 Abu-Ail-J2/A            CQ 21 ITU 39 
+     A2 Botswana-A2              CQ 38 ITU 57 
+     A3 Tonga-A3                 CQ 32 ITU 62 
+     A4 Oman-A4                  CQ 21 ITU 39 
+     A5, A51 Bhutan-A5           CQ 22 ITU 41 
+     A6 United-Arab-Emiri-A6     CQ 21 ITU 39 
+     A7 Qatar-A7                 CQ 21 ITU 39 
+     A8 Liberia-EL               CQ 35 ITU 46 
+     A9 Bahrein-A9               CQ 21 ITU 39 
+     AA - AK United-States-See-W CQ 04 ITU 07 
+     AC6 East-Carolines-KC6/E    CQ 27 ITU 65 
+     AC6 West-Carolines-KC6/W    CQ 27 ITU 64 
+     AH0 Mariana-Is-KH0          CQ 27 ITU 64 
+     AH1 Amer-Phoenix-KH1 CQ 31 ITU 62 
+     AH2 Guam-KH2             CQ 27 ITU 64 
+     AH3 Johnston-Is-KH3 CQ 31 ITU 61 
+     AH4 Midway-Is-KH4 CQ 31 ITU 61 
+     AH5 Palmyra-Is-KH5 CQ 31 ITU 61 
+     AH5K Kingman-Reef-KH5K CQ 31 ITU 61 
+     AH6,7 Hawaii-KH6 CQ 31 ITU 61 
+     AH7K Kure-Is-KH7K CQ 31 ITU 61 
+     AH8 Amer-Samoa-KH8 CQ 32 ITU 62 
+     AH9 Wake-Is-KH9 CQ 31 ITU 65 
+     AL7 Alaska-KL7 CQ 01 ITU 01 
+     AM - AO Spain-EA CQ 14 ITU 37 
+     AM6 - AO6 Balearic-Is-EA6 CQ 14 ITU 37 
+     AM8 - AO8 Canary-Is-EA8 CQ 33 ITU 36 
+     AM9 - AO9 Melilla-EA9 CQ 33 ITU 37 
+     AP - AS Pakistan-AP CQ 21 ITU 41 
+     AT - AW India-See-VU CQ 22 ITU 41 
+     AT7 - AW7 Andaman-Is-VU7/A CQ 26 ITU 49 
+     AT7 - AW7 Laccadive-Is-VU7/L CQ 22 ITU 41 
+     AX Australia-See-VK CQ 30 ITU 55 
+     AY - AZ Argentina-LU CQ 13 ITU 14 
+     BA - BS, BU - BW, BX, BZ China-SEE-BY CQ 23 ITU 33 
+     BT, BY China-BY             CQ 23 ITU 33 
+     BV Taiwan-BV             CQ 24 ITU 44 
+     C2 Nauru-C2             CQ 31 ITU 65 
+     C3 Andorra-C3             CQ 14 ITU 27 
+     C4 Cyprus-5B             CQ 20 ITU 39 
+     C5 Gambia-C5             CQ 35 ITU 46 
+     C6 Bahamas-C6             CQ 08 ITU 11 
+     C8 Mozambique-SEE-C9 CQ 37 ITU 53 
+     C9 Mozambique-C9             CQ 37 ITU 53 
+     CA - CE Chile-CE             CQ 12 ITU 14 
+     CE0A, CE0E - CE0F Easter-Island-CE0A CQ 12 ITU 63 
+     CE0I, CE0Z Juan-Fernandez-CE0Z CQ 12 ITU 14 
+     CE0X, CQ0X San-Felix-CE0X CQ 12 ITU 14 
+     CF - CK, CY - CZ Canada-See-VE CQ 05 ITU 04 
+     CL - CO Cuba-CO             CQ 08 ITU 11 
+     CN Morocco-CN             CQ 33 ITU 37 
+     CP Bolivia-CP             CQ 10 ITU 12 
+     CQ - CT Portugal-CT             CQ 14 ITU 37 
+     CQ3,CQ9,CR3,CR9,CT3,CT9 Madeira-Is-CT3 CQ 33 ITU 36 
+     CT2, CU Azores-Is-CT2             CQ 14 ITU 36 
+     CV - CX Uruguay-CX             CQ 13 ITU 14 
+     CY0 Sable-Is-CY0             CQ 05 ITU 09 
+     CY9 St-Paul-Is-CY9 CQ 05 ITU 09 
+     D2 - D3 Angola-D2 CQ 36 ITU 52 
+     D4 Cape-Verde-D4 CQ 35 ITU 46 
+     D6 Comoros-D6 CQ 39 ITU 53 
+     D7 - D9, DS - DT South-Korea-HL CQ 25 ITU 44 
+     DA - DR Germany-DL CQ 14 ITU 28 
+     DU - DZ Phillippines-DU CQ 27 ITU 50 
+     E2A - E2Z Thailand-HS CQ 26 ITU 49 
+     E3 Eritrea-E3 CQ 37 ITU 48 
+     EA - EH Spain-EA CQ 14 ITU 37 
+     EA6 - EH6 Balearic-Is-EA6 CQ 14 ITU 37 
+     EA8 - EH8 Canary-Is-EA8 CQ 33 ITU 36 
+     EA9 Ceuta-EA9 CQ 33 ITU 37 
+     EA9 - EH9 Melilla-EA9 CQ 33 ITU 37 
+     EI - EJ Ireland-EI CQ 14 ITU 27 
+     EKA - EKZ Armenia-EK CQ 21 ITU 29 
+     EL Liberia-EL CQ 35 ITU 46 
+     EMA - EOZ Ukraine-UR CQ 16 ITU 29 
+     EP - EQ Iran-EP CQ 21 ITU 40 
+     ERA - ERZ Moldova-ER CQ 16 ITU 29 
+     ESA - ESZ Estonia-ES CQ 15 ITU 29 
+     ET Ethiopia-ET CQ 37 ITU 48 
+     EUA - EWZ Belarus-EU CQ 16 ITU 29 
+     EXA - EXZ Kyrgyzstan-EX CQ 17 ITU 31 
+     EYA - EYZ Tajikistan-EY CQ 17 ITU 30 
+     EZA - EZZ Turkmenistan-EZ CQ 17 ITU 30 
+     F,FB FD, FE, FF, FU, FV France-F CQ 14 ITU 27 
+     FC Corsica-TK CQ 15 ITU 28 
+     FG Guadeloupe-FG CQ 08 ITU 11 
+     FH Mayotte-FH CQ 39 ITU 53 
+     FJ, FS St-Martin-FS CQ 08 ITU 11 
+     FK New-Caledonia-FK CQ 32 ITU 56 
+     FM Martinique-FM CQ 08 ITU 11 
+     FO Tahiti-FO CQ 32 ITU 63 
+     FO, FO/C Clipperton-FO/C CQ 07 ITU 10 
+     FP S-Pierre-Miquelon-FP CQ 05 ITU 09 
+     FR Reunion-FR CQ 39 ITU 53 
+     FR/G Glorioso-FR/G CQ 39 ITU 53 
+     FR/J Juan-De-Nova-FR/J CQ 39 ITU 53 
+     FR/T Tromelin-FR/T CQ 39 ITU 53 
+     FT, FT0W, FT2W, FT5W, FT8W Crozet-FT8W CQ 39 ITU 68 
+     FT, FT0X, FT2X, FT5X, FT8X Kerguelen-Is-FT8X CQ 39 ITU 68 
+     FT, FT0Z, FT2Z, FT5Z, FT8Z Amsterdam-Paul-FT8Z CQ 39 ITU 68 
+     FT, FT8Y Antarctica-Dumo-KC4 CQ 12 ITU 67 
+     FW Wallis-Is-FW CQ 32 ITU 62 
+     FY French-Guiana-FY CQ 09 ITU 12 
+     G, GB, GX England-G CQ 14 ITU 27 
+     GC, GW Wales-GW CQ 14 ITU 27 
+     GD, GT Isle-of-Man-GD CQ 14 ITU 27 
+     GH, GJ Jersey-GJ CQ 14 ITU 27 
+     GI Northern-Ireland-GI CQ 14 ITU 27 
+     GM, GS Scotland-GM CQ 14 ITU 27 
+     GN, GP, GU Guernsey-GU CQ 14 ITU 27 
+     H2 Cyprus-5B CQ 20 ITU 39 
+     H4 Solomon-Is-H4 CQ 28 ITU 51 
+     H5 So-Africa-See-ZS CQ 38 ITU 57 
+     H6 - H7, HT Nicaragua-YN CQ 07 ITU 11 
+     HA, HG Hungary-HA CQ 15 ITU 28 
+     HB, HE Switzerland-HB CQ 14 ITU 28 
+     HB0 Lichtenstein-HB0 CQ 14 ITU 28 
+     HC - HD Ecuador-HC CQ 10 ITU 12 
+     HC8, HD8 Galapagos-HC8 CQ 10 ITU 12 
+     HF Poland-SP CQ 15 ITU 28 
+     HF0 So-Shetland-VP8/SH CQ 13 ITU 73 
+     HH Haiti-HH CQ 08 ITU 11 
+     HI Dominican-Rep-HI CQ 08 ITU 11 
+     HJ - HK Colombia-HK CQ 09 ITU 12 
+     HK0, HK0/A San-Andres-Is-HK0/A CQ 07 ITU 11 
+     HK0, HK0/M Malpelo-Is-HK0/M CQ 09 ITU 12 
+     HL South-Korea-HL CQ 25 ITU 44 
+     HM North-Korea-HM CQ 25 ITU 44 
+     HN Iraq-YI CQ 21 ITU 39 
+     HO, HP, H3, H8, H9 Panama-HP CQ 07 ITU 11 
+     HQ - HR Honduras-HR CQ 07 ITU 11 
+     HS Thailand-HS CQ 26 ITU 49 
+     HU El-Salvador-YS CQ 07 ITU 11 
+     HV Vatican-City-HV CQ 15 ITU 28 
+     HW - HY France-F CQ 14 ITU 27 
+     HZ Saudi-Arabia-HZ CQ 21 ITU 39 
+     I, IA - IR, IU - IZ Italy-I CQ 15 ITU 28 
+     IS Sardinia-IS CQ 15 ITU 28 
+     IT Sicily-IT CQ 15 ITU 28 
+     J2 Djibouti-J2 CQ 37 ITU 48 
+     J2/A Abu-Ail-J2/A CQ 21 ITU 39 
+     J3 Grenada-J3 CQ 08 ITU 11 
+     J4 Greece-SV CQ 20 ITU 28 
+     J45 Dodecanese-SV5 CQ 20 ITU 28 
+     J49 Crete-SV9 CQ 20 ITU 28 
+     J5 Guinea-Bissau-J5 CQ 35 ITU 46 
+     J6 St-Lucia-J6 CQ 08 ITU 11 
+     J7 Dominica-J7 CQ 08 ITU 11 
+     J8A - J8Z St-Vincent-J8 CQ 08 ITU 11 
+     JA - JC, JE - JS Japan-JA CQ 25 ITU 45 
+     JD Minami-Torishima-JD CQ 27 ITU 45 
+     JD, JD/O Ogasawara-JD/O CQ 27 ITU 45 
+     JT - JV Mongolia-JT CQ 23 ITU 32 
+     JW Svalbard-Is-JW CQ 40 ITU 18 
+     JX Jan-Mayen-JX CQ 40 ITU 18 
+     JY Jordan-JY CQ 20 ITU 39 
+     K,KA - KK,KM - KW,KY - KZ United-States-See-W CQ 04 ITU 07 
+     KA2CC Japan-JA CQ 25 ITU 45 
+     KC4 Antarctica-KC4 CQ 12 ITU 67 
+     KC6/W Belau-KC6/W CQ 27 ITU 64 
+     KG4 Guantanamo-Bay-KG4 CQ 08 ITU 11 
+     KH0 Mariana-Is-KH0 CQ 27 ITU 64 
+     KH1 Amer-Phoenix-KH1 CQ 31 ITU 62 
+     KH2, KG6 Guam-KH2 CQ 27 ITU 64 
+     KH3 Johnston-Is-KH3 CQ 31 ITU 61 
+     KH4 Midway-Is-KH4 CQ 31 ITU 61 
+     KH5 Palmyra-Is-KH5 CQ 31 ITU 61 
+     KH5K Kingman-Reef-KH5K CQ 31 ITU 61 
+     KH6,7 Hawaii-KH6 CQ 31 ITU 61 
+     KH7K Kure-Is-KH7K CQ 31 ITU 61 
+     KH8 Amer-Samoa-KH8 CQ 32 ITU 62 
+     KH9 Wake-Is-KH9 CQ 31 ITU 65 
+     KL7 Alaska-KL7 CQ 01 ITU 01 
+     KP1 Navassa-Is-KP1 CQ 08 ITU 11 
+     KP2, KV4 Virgin-Is-KP2 CQ 08 ITU 11 
+     KP4 Puerto-Rico-KP4 CQ 08 ITU 11 
+     KP5 Desecheo-Is-KP5 CQ 08 ITU 11 
+     KX Marshall-Is-V73 CQ 31 ITU 65 
+     LA - LN Norway-LA CQ 14 ITU 18 
+     LO - LW, L1 - L9 Argentina-LU CQ 13 ITU 14 
+     LX Luxembourg-LX CQ 14 ITU 27 
+     LYA - LYZ Lithuania-LY CQ 16 ITU 29 
+     LZ Bulgaria-LZ CQ 20 ITU 28 
+     M1 San-Marino-T7 CQ 15 ITU 28 
+     MA2 - MZ2 England-G CQ 14 ITU 27 
+     MA3 - MZ3 Scotland-GM CQ 14 ITU 27 
+     MA4 - MZ4 Wales-GW CQ 14 ITU 27 
+     MA5 - MZ5 Northern-Ireland-GI CQ 14 ITU 27 
+     MA6 - MZ6 Isle-of-Man-GD CQ 14 ITU 27 
+     MA7 - MZ7 Jersey-GJ CQ 14 ITU 27 
+     MA8 - MZ8 Guernsey-GU CQ 14 ITU 27 
+     MRM Eur-Russia-UA CQ 16 ITU 29,30 
+     N,NA - NK,NM - NW,NY - NZ United-States-See-W CQ 04 ITU 07 
+     NC6 East-Carolines-KC6/E CQ 27 ITU 65 
+     NC6 West-Carolines-KC6/W CQ 27 ITU 64 
+     NH0 Mariana-Is-KH0 CQ 27 ITU 64 
+     NH1 Amer-Phoenix-KH1 CQ 31 ITU 62 
+     NH2 Guam-KH2 CQ 27 ITU 64 
+     NH3 Johnston-Is-KH3 CQ 31 ITU 61 
+     NH4 Midway-Is-KH4 CQ 31 ITU 61 
+     NH5 Palmyra-Is-KH5 CQ 31 ITU 61 
+     NH5K Kingman-Reef-KH5K CQ 31 ITU 61 
+     NH6,7 Hawaii-KH6 CQ 31 ITU 61 
+     NH7K Kure-Is-KH7K CQ 31 ITU 61 
+     NH8 Amer-Samoa-KH8 CQ 32 ITU 62 
+     NH9 Wake-Is-KH9 CQ 31 ITU 65 
+     NL7 Alaska-KL7 CQ 01 ITU 01 
+     NP1 Navassa-Is-KP1 CQ 08 ITU 11 
+     NP2 Virgin-Is-KP2 CQ 08 ITU 11 
+     NP4 Puerto-Rico-KP4 CQ 08 ITU 11 
+     NP5 Desecheo-Is-KP5 CQ 08 ITU 11 
+     OA - OC Peru-OA CQ 10 ITU 12 
+     OD Lebanon-OD CQ 20 ITU 39 
+     OE Austria-OE CQ 15 ITU 28 
+     OF - OI Finland-OH CQ 15 ITU 18 
+     OF0 - OH0 Aland-Is-OH0 CQ 15 ITU 18 
+     OJ0, OH0M Market-Reef-OJ0 CQ 15 ITU 18 
+     OKA - OLZ Czech-Republic-OL CQ 15 ITU 28 
+     OMA - OMZ Slovakia-OM CQ 15 ITU 28 
+     ON - OT Belgium-ON CQ 14 ITU 27 
+     OX Greenland-OX CQ 40 ITU 05 
+     OY Faeroe-Is-OY CQ 14 ITU 18 
+     OZ Denmark-OZ CQ 14 ITU 18 
+     P2 Papua-P2 CQ 28 ITU 51 
+     P3, P30, P36 Cyprus-5B CQ 20 ITU 39 
+     P4A - P4Z Aruba-P4 CQ 09 ITU 11 
+     P5 - P9 North-Korea-HM CQ 25 ITU 44 
+     PA - PI Netherlands-PA CQ 14 ITU 27 
+     PJ, PJ1 - PJ4, PJ9, PJ0 Neth-Antilles-PJ2 CQ 09 ITU 11 
+     PJ, PJ5, PJ7 St-Maarten-PJ7 CQ 08 ITU 11 
+     PK - PO Indonesia-YB CQ 28 ITU 51 
+     PP - PU, PY Brazil-Brasilia-PY CQ 11 ITU 13 
+     PQ0F,PU0F,PX0F,PY0,PY0F,PY0/F Fer-De-Noronha-PY0/F CQ 11 ITU 13 
+     PQ0T,PU0T,PX0P,PY0,PY0P,PY0/P Peter-Paul-Rks-PY0/P CQ 11 ITU 13 
+     PQ0T,PU0T,PX0T,PY0,PY0T,PY0/T Trindade-PY0/T CQ 11 ITU 15 
+     PZ Surinam-PZ CQ 09 ITU 12 
+     RAA - RZZ Russian Federation 
+     R0, RA0 - RZ0 Asiatic-Russia-UA9 CQ 18 ITU 32 
+     R1, RA1 - RZ1 Eur-Russia-UA CQ 16 ITU 29 
+     R2, RA2 - RZ2 Kaliningrad-UA2 CQ 15 ITU 29 
+     R3, RA3 - RZ6 Eur-Russia-UA CQ 16 ITU 29 
+     R4, R5, R6 Eur-Russia-UA CQ 16 ITU 30 
+     R7, R8, R9, RA7 - RZ9 Asiatic-Russia-UA9 CQ 18 ITU 32 
+     S0 Western-Sahara-S0 CQ 37 ITU 21 
+     S2 - S3 Bangladesh-S2 CQ 22 ITU 41 
+     S4, S8 So-Africa-See-ZS CQ 38 ITU 57 
+     S5A - S5Z Slovenia-S5 CQ 15 ITU 28 
+     S7 Seychelles-S7 CQ 39 ITU 53 
+     S9 Sao-Tome-S9 CQ 36 ITU 47 
+     SI - SM Sweden-SM CQ 14 ITU 18 
+     SN - SQ Poland-SP CQ 15 ITU 28 
+     ST Sudan-ST CQ 34 ITU 48 
+     ST0 Southern-Sudan-ST0 CQ 34 ITU 48 
+     SU Egypt-SU CQ 34 ITU 38 
+     SV - SX Greece-SV CQ 20 ITU 28 
+     SV/A, SY Mount-Athos-SV/A CQ 20 ITU 28 
+     SV5 - SX5 Dodecanese-SV5 CQ 20 ITU 28 
+     SV9 - SX9 Crete-SV9 CQ 20 ITU 28 
+     T2 Tuvalu-T2 CQ 31 ITU 65 
+     T3, T30 West-Kiribati-T30 CQ 31 ITU 65 
+     T3, T31 Central-Kiribati-T31 CQ 31 ITU 62 
+     T3, T32 East-Kiribati-T32 CQ 31 ITU 61 
+     T3, T33 Banaba-Is-T33 CQ 31 ITU 62 
+     T4 Cuba-CO CQ 08 ITU 11 
+     T5 Somali-T5 CQ 37 ITU 48 
+     T6 Afghanistan-YA CQ 21 ITU 40 
+     T7A - T7Z San-Marino-T7 CQ 15 ITU 28 
+     T8 So-Africa-See-ZS CQ 38 ITU 57 
+     T9A - T9Z Bosnia-Heregovina-T9 CQ 15 ITU 28 
+     TA Turkey-TA CQ 20 ITU 39 
+     TD, TG Guatemala-TG CQ 07 ITU 11 
+     TE, TI Costa-Rica-TI CQ 07 ITU 11 
+     TF Iceland-TF CQ 40 ITU 17 
+     TH, TM, TO, TQ, TV - TX France-F CQ 14 ITU 27 
+     TI9 Cocos-Is-TI9 CQ 07 ITU 11 
+     TJ Cameroon-TJ CQ 36 ITU 47 
+     TK Corsica-TK CQ 15 ITU 28 
+     TL Central-Africa-Rep-T CQ 36 ITU 47 
+     TN Congo-TN CQ 36 ITU 52 
+     TR Gabon-TR CQ 36 ITU 52 
+     TT Chad-TT CQ 36 ITU 47 
+     TU Ivory-Coast-TU CQ 35 ITU 46 
+     TY Benin-TY CQ 35 ITU 46 
+     TZ Mali-TZ CQ 35 ITU 46 
+     U1, U3, UB1 - UI1, UB3 - UI3 Eur-Russia-UA CQ 16 ITU 29 
+     U2, UA2 - UI2 Kaliningrad-UA2 CQ 15 ITU 29 
+     U4-U6,UB4-UI4,UB5-UI5,UB6-UI6 Eur-Russia-UA CQ 16 ITU 30 
+     U7-U0 Asiatic-Russia-UA9 CQ 18 ITU 32 
+     UA Russia-UA CQ 16 ITU 29, 30 
+     UA/FJL Franz-Jo-Land-UA/FJL CQ 40 ITU 75 
+     UA0 Asia-Russia-UA9 CQ 18 ITU 23,33,34 
+     UA9 Asia-Russia-UA9 CQ 18 ITU 32,33 
+     UB7-UI7,UB8-UI8,UB9-UI9,UB0-UI0 Asiatic-Russia-UA9 CQ 18 ITU 32 
+     UJA - UMZ Uzbekistan-UI CQ 17 ITU 30 
+     UNA - UQZ Kazakhstan-UN CQ 17 ITU 30 
+     URA - UZZ Ukraine-EM CQ 16 ITU 29 
+     V2 Antigua-V2 CQ 08 ITU 11 
+     V3 Belize-V3 CQ 07 ITU 11 
+     V4 St-Kitts-V4 CQ 08 ITU 11 
+     V5, V50, V51 Namibia-V5 CQ 38 ITU 57 
+     V6, V63 Fed-Micronesia-KC6/E CQ 27 ITU 64 
+     V7, V73 Marshall-Is-V73 CQ 31 ITU 65 
+     V8A-V8Z, V85 Brunei-V85 CQ 28 ITU 54 
+     VA - VD, VF, VG, VO, VX, VY Canada-See-VE CQ 05 ITU 04 
+     VE Canada CQ 01, 03, 04, 05 ITU 02,03,04,09,75 
+     VE1 New-Brunswick-VE,Nova-Scotia-VE CQ 05 ITU 09 
+     VE2 Quebec-VE CQ 05 ITU 04 
+     VE3 Ontario-VE CQ 04 ITU 04 
+     VE4 Manitoba-VE CQ 04 ITU 03 
+     VE5 Saskatchewan-VE CQ 04 ITU 03 
+     VE6 Alberta-VE CQ 03 ITU 02 
+     VE7 British-Columbia-VE CQ 03 ITU 02 
+     VE8, VY1 Yukon-VE CQ 01 ITU 75 
+     VH - VJ, VL - VN, VZ Australia-See-VK CQ 30 ITU 55 
+     VK Australia-VK1-VK CQ 30 ITU 55,58,59 
+     VK0, VK0/H Heard-Is-VK0/H CQ 39 ITU 68 
+     VK0, VK0/M Macquarie-Is-VK0/M CQ 30 ITU 60 
+     VK1 - VK8 Australia-VK CQ 30 ITU 59 
+     VK9,VK9C,VK9KC,VK9NC,VK9ZC,VK9/Y Cocos-Keeling-VK9/Y CQ 29 ITU 54 
+     VK9,VK9L,VK9KL,VK9NL,VK9ZL,VK9/H Lord-Howe-Is-VK9/H CQ 30 ITU 60 
+     VK9,VK9M,VK9KM,VK9NM,VK9ZM,VK9/Z Mellish-Reef-VK9/Z CQ 30 ITU 56 
+     VK9,VK9N,VK9KN,VK9NN,VK9ZN,VK9/N Norfolk-Is-VK9/N CQ 32 ITU 60 
+     VK9,VK9W,VK9KW,VK9NW,VK9ZW,VK9/W Willis-Is-K9/W CQ 30 ITU 60 
+     VK9,VK9X,VK9KX,VK9NX,VK9ZX,VK9/X Christmas-Is-VK9/X CQ 30 ITU 60 
+     VO1 Newfoundland-VE CQ 05 ITU 09 
+     VO2 Labrador-VE CQ 02 ITU 04 
+     VP2E Anguilla-VP2E CQ 08 ITU 11 
+     VP2M Montserrat-VP2M CQ 08 ITU 11 
+     VP2V Tortola-BVI-VP2V CQ 08 ITU 11 
+     VP5 Turks-Caicos-VP5 CQ 08 ITU 11 
+     VP8/F Falkland-Is-VP8/F CQ 13 ITU 16 
+     VP8/G So-Georgia-VP8/G CQ 13 ITU 73 
+     VP8/O So-Orkney-VP8/O CQ 13 ITU 73 
+     VP8/SA So-Sandwich-VP8/SA CQ 13 ITU 73 
+     VP8/SH So-Shetland-VP8/SH CQ 13 ITU 73 
+     VP9 Bermuda-VP9 CQ 05 ITU 11 
+     VQ9 Chagos-VQ9 CQ 31 ITU 41 
+     VR2, VS6 Hong-Kong-VS6 CQ 24 ITU 44 
+     VR6 Pitcairn-Is-VR6 CQ 32 ITU 63 
+     VT, VV, VW India-See-VU CQ 22 ITU 41 
+     VU India-VU CQ 22 ITU 41 
+     VU7/A Andaman-Is-VU7/A CQ 26 ITU 49 
+     VU7/L Laccadive-Is-VU7/L CQ 22 ITU 41 
+     VY2 Prince-Edward-IS-VE CQ 05 ITU 04 
+     W United-States-W CQ 04 ITU 07 
+     W0 Colorado-W, Iowa-W, Kansas-W, Minnesota-W CQ 04 ITU 07 
+     W0 Missouri,Nebraska,North-Dakota,South-Dakota CQ 04 ITU 07 
+     W1 Connecticut-W, Maine-W, Massachusetts-W CQ 05 ITU 08 
+     W1 New-Hampshire-W,Rhode-Island-W,Vermont-W CQ 05 ITU 08 
+     W2 New-Jersey-W, New-York-W CQ 05 ITU 08 
+     W3 Delaware-W, D.C., Maryland, Pennsylvania CQ 05 ITU 08 
+     W4 Alabama-W, Florida-W, Kentucky-W CQ 04 ITU 08 
+     W4 North-Carolina, South-Carolina, Tennessee CQ 05 ITU 08 
+     W4 Virginia-W, Georgia-W, CQ 05 ITU 08 
+     W5 Arkansas-W, Louisiana-W, Mississippi-W CQ 04 ITU 08 
+     W5 New-Mexico-W, Oklahoma-W, Texas-W CQ 04 ITU 07 
+     W6 California-W CQ 03 ITU 06 
+     W7 Arizona-W, Idaho-W, Montana-W, Nevada-W CQ 03 ITU 06 
+     W7 Oregon-W, Washington-W, Wyoming-W CQ 03 ITU 06 
+     W8 Michigan-W, Ohio-W, West-Virginia-W CQ 04 ITU 08 
+     W9 Illinois-W, Indiana-W, Wisconsin-W CQ 04 ITU 08 
+     WA-WK,WM-WO,WQ-WW,WY,WZ United-States-See-W CQ 04 ITU 07 
+     WC6 East-Carolines-KC6/E CQ 27 ITU 65 
+     WC6 West-Carolines-KC6/W CQ 27 ITU 64 
+     WH0 Mariana-Is-KH0 CQ 27 ITU 64 
+     WH1 Amer-Phoenix-KH1 CQ 31 ITU 62 
+     WH2 Guam-KH2 CQ 27 ITU 64 
+     WH3 Johnston-Is-KH3 CQ 31 ITU 61 
+     WH4 Midway-Is-KH4 CQ 31 ITU 61 
+     WH5 Palmyra-Is-KH5 CQ 31 ITU 61 
+     WH5K Kingman-Reef-KH5K CQ 31 ITU 61 
+     WH6,7 Hawaii-KH6 CQ 31 ITU 61 
+     WH7K Kure-Is-KH7K CQ 31 ITU 61 
+     WH8 Amer-Samoa-KH8 CQ 32 ITU 62 
+     WH9 Wake-Is-KH9 CQ 31 ITU 65 
+     WL7 Alaska-KL7 CQ 01 ITU 01 
+     WP1 Navassa-Is-KP1 CQ 08 ITU 11 
+     WP2 Virgin-Is-KP2 CQ 08 ITU 11 
+     WP4 Puerto-Rico-KP4 CQ 08 ITU 11 
+     WP5 Desecheo-Is-KP5 CQ 08 ITU 11 
+     XA - XD, XF - XI Mexico-See-XE CQ 06 ITU 10 
+     XE, XE1 - XE3 Mexico-XE1-XE CQ 06 ITU 10 
+     XF0, XF4 Revilla-Gigedo-XF4 CQ 06 ITU 10 
+     XJ - XO Canada-See-VE CQ 05 ITU 04 
+     XP Denmark-OZ CQ 14 ITU 18 
+     XQ, XR Chile-CE CQ 12 ITU 14 
+     XS China-SEE-BY CQ 23 ITU 33 
+     XT Bukina-Faso-XT CQ 35 ITU 46 
+     XU Kampuchea-XU CQ 26 ITU 49 
+     XV Vietnam-3W CQ 26 ITU 49 
+     XW Laos-XW CQ 26 ITU 49 
+     XX Macao-XX CQ 24 ITU 44 
+     XY, XZ Burma-XZ CQ 26 ITU 49 
+     Y2 - Y9 Germany-DL CQ 14 ITU 28 
+     Y90 Antarctica-SEE-KC4 CQ 12 ITU 67 
+     YA Afghanistan-YA CQ 21 ITU 40 
+     YB - YH Indonesia-YB CQ 28 ITU 51 
+     YI Iraq-YI CQ 21 ITU 39 
+     YJ Vanuatu-YJ CQ 32 ITU 56 
+     YK Syria-YK CQ 20 ITU 39 
+     YLA-YLZ Latvia-YL CQ 15 ITU 29 
+     YM Turkey-TA CQ 20 ITU 39 
+     YN Nicaragua-YN CQ 07 ITU 11 
+     YO - YR Romania-YO CQ 20 ITU 28 
+     YS El-Salvador-YS CQ 07 ITU 11 
+     YT, YT1, YT6 - YT8 Yugoslavia-YU CQ 15 ITU 28 
+     YU, YU1, YU6 - YU8 Yugoslavia-YU CQ 15 ITU 28 
+     YU4, YT4, YZ4 Bosnia-Heregovina-T9 CQ 15 ITU 28 
+     YU5, YT5, YZ5 Macedonia-Z3 CQ 15 ITU 28 
+     YV - YY Venezuela-YV CQ 09 ITU 12 
+     YV0, YX0 Aves-Is-YV0 CQ 08 ITU 11 
+     YZ, YZ1, YZ6 - YZ8 Yugoslavia-YU CQ 15 ITU 28 
+     Z2A-Z2Z, ZE Zimbabwe-Z2 CQ 38 ITU 53 
+     Z3A-Z3Z Macedonia-Z3 CQ 15 ITU 28 
+     ZA Albania-ZA CQ 15 ITU 28 
+     ZB Gibraltar-ZB CQ 14 ITU 37 
+     ZC4 UK-Soverign-Base-ZC4 CQ 20 ITU 39 
+     ZD7 St-Helena-ZD7 CQ 36 ITU 66 
+     ZD8 Ascension-Is-ZD8 CQ 36 ITU 66 
+     ZD9 Tristan-Da-Cunha-ZD8 CQ 38 ITU 66 
+     ZF Cayman-Is-ZF CQ 08 ITU 11 
+     ZK1/N No-Cook-Is-ZK1/N CQ 32 ITU 62 
+     ZK1/S So-Cook-Is-ZK1/S CQ 32 ITU 62 
+     ZK2 Niue-Is-ZK2 CQ 32 ITU 62 
+     ZK3 Tokelaus-ZK3 CQ 31 ITU 62 
+     ZL, ZL1 - ZL4, ZM New-Zealand-ZL1-ZL CQ 32 ITU 60 
+     ZL0, ZL5 Antarctica-Scott-KC4 CQ 12 ITU 67 
+     ZL7, ZM7 Chatham-Is-ZL7 CQ 32 ITU 60 
+     ZL8, ZM8 Kermadec-Is-ZL8 CQ 32 ITU 60 
+     ZL9, ZM9 Auckland-Campbell-ZL CQ 32 ITU 60 
+     ZP Paraguay-ZP CQ 11 ITU 14 
+     ZS, ZS1, ZS5, ZS6 So-Africa-ZS1-ZS CQ 38 ITU 57 
+     ZS0, ZS/1, ZS1/P, ZS9/1 Penguin-Is-ZS1/P CQ 38 ITU 57 
+     ZS2, ZS8 Marion-Is-ZS8 CQ 38 ITU 57 
+     ZS3 Namibia-V5 CQ 38 ITU 57 
+     ZS9 Walvis-Bay-ZS9 CQ 38 ITU 57 
+     ZU So-Africa-See-ZS CQ 38 ITU 57 
+     ZV - ZZ Brazil-Brasilia-PY CQ 11 ITU 13 
+     ZX0F,ZY0F, ZZ0F Fer-De-Noronha-PY0/F CQ 11 ITU 13 
+     ZX0P,ZY0P, ZZ0P Peter-Paul-Rks-PY0/P CQ 11 ITU 13 
+     ZX0T,ZY0T, ZZ0T Trindade-PY0/T CQ 11 ITU 15
