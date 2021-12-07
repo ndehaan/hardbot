@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.BufferedReader;
 import java.net.URL;
 import java.net.URLConnection;
@@ -191,8 +192,7 @@ public class MyBot extends PircBot {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		} else if (message.toLowerCase().startsWith("?modify "))
-		{
+		} else if (message.toLowerCase().startsWith("?modify ")) {
 			try {
 				doModify(op, channel, message.substring(2), hostname);
 			} catch (Exception e) {
@@ -202,23 +202,48 @@ public class MyBot extends PircBot {
 		}
 	}
 
-	private void doModify(boolean op, String channel, String substring, String hostname) {
-		// TODO Auto-generated method stub
-		
+	private void doModify(boolean op, String channel, String substring, String hostname) throws Exception {
+		String result = "";
+		File f = new File("data//faqdatabase");
+		// System.out.println(f.getAbsolutePath());
+		FileReader fr = new FileReader(f);
+		BufferedReader br = new BufferedReader(fr);
+		StringBuffer buffer = new StringBuffer();
+		String line = "";
+		String k = "";
+		String v = "";
+		while ((line = br.readLine()) != null) {
+			buffer.append(line);
+			line.indexOf(":");
+			k = line.substring(0, line.indexOf(":"));
+			v = line.substring(line.indexOf(":") + 1);
+			if (k.equalsIgnoreCase(substring.split(":")[0])) {
+				result = v;
+			}
+		}
+		fr.close();
+		br.close();
+		String fileContents = buffer.toString();
+		fileContents.replaceAll(result, substring.split(":")[1]);
+		f.delete();
+		FileWriter fw = new FileWriter(f);
+		fw.append(fileContents);
+		fw.flush();
+		fw.close();
 	}
 
 	// method to support knowledge-base lookups
 	private void doLookup(boolean op, String channel, String substring, String hostname) throws Exception {
 		String result = "";
 		File f = new File("data//faqdatabase");
-		System.out.println(f.getAbsolutePath());
+		// System.out.println(f.getAbsolutePath());
 		FileReader fr = new FileReader(f);
 		BufferedReader br = new BufferedReader(fr);
 		String line = "";
 		while ((line = br.readLine()) != null) {
 			line.indexOf(":");
-			String k = line.substring(0,line.indexOf(":"));
-			String v = line.substring(line.indexOf(":")+1);
+			String k = line.substring(0, line.indexOf(":"));
+			String v = line.substring(line.indexOf(":") + 1);
 			if (k.equalsIgnoreCase(substring)) {
 				result = substring + ": " + v;
 				break;
@@ -231,7 +256,7 @@ public class MyBot extends PircBot {
 
 		sendMessage(channel, result);
 	}
-	
+
 	private String getTitle(String videoUrl) throws Exception {
 		String temp = "";
 		if (videoUrl.contains("www.youtube.com/watch?v=")) {
