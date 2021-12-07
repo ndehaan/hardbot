@@ -191,10 +191,47 @@ public class MyBot extends PircBot {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
+		} else if (message.toLowerCase().startsWith("?modify "))
+		{
+			try {
+				doModify(op, channel, message.substring(2), hostname);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 
+	private void doModify(boolean op, String channel, String substring, String hostname) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	// method to support knowledge-base lookups
+	private void doLookup(boolean op, String channel, String substring, String hostname) throws Exception {
+		String result = "";
+		File f = new File("data//faqdatabase");
+		System.out.println(f.getAbsolutePath());
+		FileReader fr = new FileReader(f);
+		BufferedReader br = new BufferedReader(fr);
+		String line = "";
+		while ((line = br.readLine()) != null) {
+			line.indexOf(":");
+			String k = line.substring(0,line.indexOf(":"));
+			String v = line.substring(line.indexOf(":")+1);
+			if (k.equalsIgnoreCase(substring)) {
+				result = substring + ": " + v;
+				break;
+			}
+		}
+		fr.close();
+		br.close();
+		if (result.length() == 0)
+			result = substring + ": not found";
+
+		sendMessage(channel, result);
+	}
+	
 	private String getTitle(String videoUrl) throws Exception {
 		String temp = "";
 		if (videoUrl.contains("www.youtube.com/watch?v=")) {
@@ -243,29 +280,6 @@ public class MyBot extends PircBot {
 		}
 
 		return containedUrls.get(0);
-	}
-
-	// method to support knowledge-base lookups
-	private void doLookup(boolean op, String channel, String substring, String hostname) throws Exception {
-		String result = "";
-		File f = new File("data//faqdatabase");
-		System.out.println(f.getAbsolutePath());
-		FileReader fr = new FileReader(f);
-		BufferedReader br = new BufferedReader(fr);
-		String line = "";
-		while ((line = br.readLine()) != null) {
-			line.indexOf(":");
-			String k = line.substring(0,line.indexOf(":"));
-			String v = line.substring(line.indexOf(":")+1);
-			if (k.equalsIgnoreCase(substring)) {
-				result = substring + ": " + v;
-				break;
-			}
-		}
-		if (result.length() == 0)
-			result = substring + ": not found";
-
-		sendMessage(channel, result);
 	}
 
 	public void onAction(String sender, String login, String hostname, String target, String action) {
